@@ -6,10 +6,10 @@
     <members>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute">
             <summary>
-            Permet de spécifier l'élément de déploiement (fichier ou répertoire) pour un déploiement par test.
-            Peut être spécifié sur une classe de test ou une méthode de test.
-            Peut avoir plusieurs instances de l'attribut pour spécifier plusieurs éléments.
-            Le chemin de l'élément peut être absolu ou relatif. S'il est relatif, il l'est par rapport à RunConfig.RelativePathRoot.
+            Permet de sp中cifier l'中l中ment de d中ploiement (fichier ou r中pertoire) pour un d中ploiement par test.
+            Peut 中tre sp中cifi中 sur une classe de test ou une m中thode de test.
+            Peut avoir plusieurs instances de l'attribut pour sp中cifier plusieurs 中l中ments.
+            Le chemin de l'中l中ment peut 中tre absolu ou relatif. S'il est relatif, il l'est par rapport 中 RunConfig.RelativePathRoot.
             </summary>
             <example>
             [DeploymentItem("file1.xml")]
@@ -26,36 +26,36 @@
             <summary>
             Initialise une nouvelle instance de la classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">Fichier ou répertoire à déployer. Le chemin est relatif au répertoire de sortie de build. L'élément est copié dans le même répertoire que les assemblys de tests déployés.</param>
+            <param name="path">Fichier ou r中pertoire 中 d中ployer. Le chemin est relatif au r中pertoire de sortie de build. L'中l中ment est copi中 dans le m中me r中pertoire que les assemblys de tests d中ploy中s.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
             Initialise une nouvelle instance de la classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
             </summary>
-            <param name="path">Chemin relatif ou absolu du fichier ou du répertoire à déployer. Le chemin est relatif au répertoire de sortie de build. L'élément est copié dans le même répertoire que les assemblys de tests déployés.</param>
-            <param name="outputDirectory">Chemin du répertoire dans lequel les éléments doivent être copiés. Il peut être absolu ou relatif au répertoire de déploiement. Tous les fichiers et répertoires identifiés par <paramref name="path"/> vont être copiés dans ce répertoire.</param>
+            <param name="path">Chemin relatif ou absolu du fichier ou du r中pertoire 中 d中ployer. Le chemin est relatif au r中pertoire de sortie de build. L'中l中ment est copi中 dans le m中me r中pertoire que les assemblys de tests d中ploy中s.</param>
+            <param name="outputDirectory">Chemin du r中pertoire dans lequel les 中l中ments doivent 中tre copi中s. Il peut 中tre absolu ou relatif au r中pertoire de d中ploiement. Tous les fichiers et r中pertoires identifi中s par <paramref name="path"/> vont 中tre copi中s dans ce r中pertoire.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
-            Obtient le chemin du fichier ou dossier source à copier.
+            Obtient le chemin du fichier ou dossier source 中 copier.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.OutputDirectory">
             <summary>
-            Obtient le chemin du répertoire dans lequel l'élément est copié.
+            Obtient le chemin du r中pertoire dans lequel l'中l中ment est copi中.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer.UITestMethodAttribute">
             <summary>
-            Exécutez le code de test dans le thread d'IU (interface utilisateur) pour les applications du Windows Store.
+            Ex中cutez le code de test dans le thread d'IU (interface utilisateur) pour les applications du Windows Store.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer.UITestMethodAttribute.Execute(Microsoft.VisualStudio.TestTools.UnitTesting.ITestMethod)">
             <summary>
-            Exécute la méthode de test sur le thread d'IU (interface utilisateur).
+            Ex中cute la m中thode de test sur le thread d'IU (interface utilisateur).
             </summary>
             <param name="testMethod">
-            Méthode de test.
+            M中thode de test.
             </param>
             <returns>
             Tableau de <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestResult"/> instances.
@@ -65,19 +65,19 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext">
             <summary>
-            Classe TestContext. Cette classe doit être complètement abstraite, et ne doit contenir aucun
-            membre. L'adaptateur va implémenter les membres. Les utilisateurs du framework ne doivent
-            y accéder que via une interface bien définie.
+            Classe TestContext. Cette classe doit 中tre compl中tement abstraite, et ne doit contenir aucun
+            membre. L'adaptateur va impl中menter les membres. Les utilisateurs du framework ne doivent
+            y acc中der que via une interface bien d中finie.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties">
             <summary>
-            Obtient les propriétés de test d'un test.
+            Obtient les propri中t中s de test d'un test.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">
             <summary>
-            Obtient le nom complet de la classe contenant la méthode de test en cours d'exécution
+            Obtient le nom complet de la classe contenant la m中thode de test en cours d'ex中cution
             </summary>
             <remarks>
             This property can be useful in attributes derived from ExpectedExceptionBaseAttribute.
@@ -88,12 +88,12 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestName">
             <summary>
-            Obtient le nom de la méthode de test en cours d'exécution
+            Obtient le nom de la m中thode de test en cours d'ex中cution
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.CurrentTestOutcome">
             <summary>
-            Obtient le résultat de test actuel.
+            Obtient le r中sultat de test actuel.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.WriteLine(System.String)">

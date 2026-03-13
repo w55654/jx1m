@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-	=== Hướng dẫn config randombox ===
-	=== Hướng dẫn config randombox ===
+	=== Huong dan config randombox ===
+	=== Huong dan config randombox ===
 	
-	Khai báo 1 Boxs ID mới thì IDBox cần phải khác nhau không được giống nhau
-	Tổng số lượng RATE phải điền đúng nếu ko sẽ gây lỗi
-	LimitWeek : Tối đa 1 tuần được mở mấy lần  | Nếu để là 0 thì không giới hạn
-	LimitDay : Tối đa 1 ngày được mở mấy lần | Nếu để là 0 thì không giới hạn
-	Lock : 0 Là không khóa | 1 là có khóa
-	Type : Là kiểu tong đó : 0 là vật phẩm | 1 là bạc khóa , 2: là bạc , 3 là đồng khóa , 4 là đồng	| 5
-là Exp
-  Serier : là đồ theo hệ
-  TimeLimit : thời gian đồ có thể dùng
-  ItemID là ID đồ của vật phẩm 
-	Number : Là số lượng tương ứng của mỗi vật phẩm | Nếu type là tiền thì Number là số tiền
+	Khai bao 1 Boxs ID moi thi IDBox can phai khac nhau khong duoc giong nhau
+	Tong so luong RATE phai dien dung neu ko se gay loi
+	LimitWeek : Toi da 1 tuan duoc mo may lan  | Neu de la 0 thi khong gioi han
+	LimitDay : Toi da 1 ngay duoc mo may lan | Neu de la 0 thi khong gioi han
+	Lock : 0 La khong khoa | 1 la co khoa
+	Type : La kieu tong do : 0 la vat pham | 1 la bac khoa , 2: la bac , 3 la dong khoa , 4 la dong	| 5
+la Exp
+  Serier : la do theo he
+  TimeLimit : thoi gian do co the dung
+  ItemID la ID do cua vat pham 
+	Number : La so luong tuong ung cua moi vat pham | Neu type la tien thi Number la so tien
 -->
 <ConfigBox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Boxs IDBox="337" BoxName="Túi Phúc Hoàng Kim" TotalRate="6200" LimitWeek="0" LimitDay="0">
+  <Boxs IDBox="337" BoxName="Tui Phuc Hoang Kim" TotalRate="6200" LimitWeek="0" LimitDay="0">
     <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="25" Rate="2000" Lock="1" />
     <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="2000" Rate="2000" Lock="1" />
     <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="3000" Rate="1000" Lock="1" />
@@ -28,20 +28,20 @@ là Exp
     <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="100" Rate="100" Lock="1" />
     <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="10000" Rate="100" Lock="1" />
   </Boxs>
-  <Boxs IDBox="10196" BoxName="Rương Trang Bị Hồng Ảnh" TotalRate="10000" LimitWeek="0" LimitDay="0">
+  <Boxs IDBox="10196" BoxName="Ruong Trang Bi Hong Anh" TotalRate="10000" LimitWeek="0" LimitDay="0">
     <Items Type="0" ItemID="1593" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1594" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1595" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1596" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
   </Boxs>
-  <Boxs IDBox="10195" BoxName="Rương Trang Bị Động Sát " TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="10195" BoxName="Ruong Trang Bi Dong Sat " TotalRate="10000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="1532" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1533" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1534" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1535" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
   </Boxs>
-  <Boxs IDBox="11241" BoxName="Rương Trang Bị Tinh Linh (Khóa)" TotalRate="20000" LimitWeek="0"
+  <Boxs IDBox="11241" BoxName="Ruong Trang Bi Tinh Linh (Khoa)" TotalRate="20000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="50080" Series="0" TimeLimit="0" Number="1" Rate="1300" Lock="1" />
     <Items Type="0" ItemID="50081" Series="0" TimeLimit="0" Number="1" Rate="400" Lock="1" />
@@ -52,7 +52,7 @@ là Exp
     <Items Type="0" ItemID="50086" Series="0" TimeLimit="0" Number="1" Rate="4000" Lock="1" />
     <Items Type="0" ItemID="50087" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12499" BoxName="Rương Trứng Tinh Linh Sơ Cấp" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="12499" BoxName="Ruong Trung Tinh Linh So Cap" TotalRate="10000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="12480" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="1" />
     <Items Type="0" ItemID="12481" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -63,7 +63,7 @@ là Exp
     <Items Type="0" ItemID="12486" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="12487" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12500" BoxName="Rương Trứng Tinh Linh Cao Cấp" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="12500" BoxName="Ruong Trung Tinh Linh Cao Cap" TotalRate="10000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="12447" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="12448" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -75,7 +75,7 @@ là Exp
     <Items Type="0" ItemID="12454" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="12455" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12501" BoxName="Rương Trứng Tinh Linh Bạch Kim" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="12501" BoxName="Ruong Trung Tinh Linh Bach Kim" TotalRate="10000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="12456" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="1" />
     <Items Type="0" ItemID="12457" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="1" />
@@ -86,7 +86,7 @@ là Exp
     <Items Type="0" ItemID="12462" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="12463" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12502" BoxName="Rương Trứng Tinh Linh Hoàng Kim" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="12502" BoxName="Ruong Trung Tinh Linh Hoang Kim" TotalRate="10000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="12465" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="12466" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -98,7 +98,7 @@ là Exp
     <Items Type="0" ItemID="12472" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="12473" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12503" BoxName="Rương Sách Tinh Linh Sơ Cấp" TotalRate="20000" LimitWeek="0"
+  <Boxs IDBox="12503" BoxName="Ruong Sach Tinh Linh So Cap" TotalRate="20000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="34455" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="34458" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -118,7 +118,7 @@ là Exp
     <Items Type="0" ItemID="34523" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="34524" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12504" BoxName="Rương Sách Tinh Linh Trung Cấp" TotalRate="15000" LimitWeek="0"
+  <Boxs IDBox="12504" BoxName="Ruong Sach Tinh Linh Trung Cap" TotalRate="15000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="34472" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="34459" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -135,7 +135,7 @@ là Exp
     <Items Type="0" ItemID="34521" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="34525" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12505" BoxName="Rương Sách Tinh Linh Cao Cấp" TotalRate="20000" LimitWeek="0"
+  <Boxs IDBox="12505" BoxName="Ruong Sach Tinh Linh Cao Cap" TotalRate="20000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="34457" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="34460" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -156,7 +156,7 @@ là Exp
     <Items Type="0" ItemID="34527" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="34562" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12506" BoxName="Rương Sách Tinh Linh Huyền Thoại" TotalRate="20000" LimitWeek="0"
+  <Boxs IDBox="12506" BoxName="Ruong Sach Tinh Linh Huyen Thoai" TotalRate="20000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="34528" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" />
     <Items Type="0" ItemID="34529" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" />
@@ -180,7 +180,7 @@ là Exp
     <Items Type="0" ItemID="34560" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" />
     <Items Type="0" ItemID="34561" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" />
   </Boxs>
-  <Boxs IDBox="12507" BoxName="Rương Sách Tinh Linh Bùa Chú" TotalRate="20000" LimitWeek="0"
+  <Boxs IDBox="12507" BoxName="Ruong Sach Tinh Linh Bua Chu" TotalRate="20000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="34464" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="34465" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -200,7 +200,7 @@ là Exp
     <Items Type="0" ItemID="34517" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="34515" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12508" BoxName="Rương Sách Tinh Linh Đặc Biệt" TotalRate="15000" LimitWeek="0"
+  <Boxs IDBox="12508" BoxName="Ruong Sach Tinh Linh Dac Biet" TotalRate="15000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="34456" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" />
     <Items Type="0" ItemID="34515" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" />
@@ -208,7 +208,7 @@ là Exp
     <Items Type="0" ItemID="34569" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" />
     <Items Type="0" ItemID="34571" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" />
   </Boxs>
-  <Boxs IDBox="11256" BoxName="Rương đã tấu Đồng" TotalRate="30000" LimitWeek="0" LimitDay="0">
+  <Boxs IDBox="11256" BoxName="Ruong da tau Dong" TotalRate="30000" LimitWeek="0" LimitDay="0">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="100000 " Rate="3000" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="250000" Rate="3000" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="500000" Rate="3000" Lock="1" />
@@ -222,7 +222,7 @@ là Exp
     <Items Type="0" ItemID="351" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="1" />
     <Items Type="0" ItemID="343" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="11257" BoxName="Rương đã tấu Bạc" TotalRate="30000" LimitWeek="0" LimitDay="0">
+  <Boxs IDBox="11257" BoxName="Ruong da tau Bac" TotalRate="30000" LimitWeek="0" LimitDay="0">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="600000" Rate="3500" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="800000" Rate="3500" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="1000000" Rate="3000" Lock="1" />
@@ -237,7 +237,7 @@ là Exp
     <Items Type="0" ItemID="352" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="343" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="11261" BoxName="Rương trang bị Định Quốc" TotalRate="15000" LimitWeek="0"
+  <Boxs IDBox="11261" BoxName="Ruong trang bi Dinh Quoc" TotalRate="15000" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="1787" Series="0" TimeLimit="0" Number="1" Rate="4000" Lock="0" />
     <Items Type="0" ItemID="1788" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" />
@@ -245,13 +245,13 @@ là Exp
     <Items Type="0" ItemID="1790" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" />
     <Items Type="0" ItemID="1791" Series="0" TimeLimit="0" Number="1" Rate="4000" Lock="0" />
   </Boxs>
-  <Boxs IDBox="11262" BoxName="Rương trang bị An Bang" TotalRate="10000" LimitWeek="0" LimitDay="0">
+  <Boxs IDBox="11262" BoxName="Ruong trang bi An Bang" TotalRate="10000" LimitWeek="0" LimitDay="0">
     <Items Type="0" ItemID="1605" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" />
     <Items Type="0" ItemID="1606" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" />
     <Items Type="0" ItemID="1607" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" />
     <Items Type="0" ItemID="1608" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" />
   </Boxs>
-  <Boxs IDBox="11263" BoxName="Rương trang bị Hoàng Kim Kim Quang" TotalRate="22500" LimitWeek="0"
+  <Boxs IDBox="11263" BoxName="Ruong trang bi Hoang Kim Kim Quang" TotalRate="22500" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="1583" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1584" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
@@ -261,70 +261,70 @@ là Exp
     <Items Type="0" ItemID="1589" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1590" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
   </Boxs>
-  <Boxs IDBox="11264" BoxName="Rương Dã Tẩu trang bị Hoàng Kim Môn Phái" TotalRate="70000"
+  <Boxs IDBox="11264" BoxName="Ruong Da Tau trang bi Hoang Kim Mon Phai" TotalRate="70000"
     LimitWeek="0" LimitDay="0">
     <Items Type="0" ItemID="1390" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--
-    ItemID="1390" Name="Mộng Long Chính Hồng Tăng Mão" -->
+    ItemID="1390" Name="Mong Long Chinh Hong Tang Mao" -->
     <Items Type="0" ItemID="1395" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" /> <!--
-    ItemID="1395" Name="Phục Ma Tử Kim Côn" -->
+    ItemID="1395" Name="Phuc Ma Tu Kim Con" -->
     <Items Type="0" ItemID="1400" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1400" Name="Tứ Không Giáng Ma Giới đao" -->
+    ItemID="1400" Name="Tu Khong Giang Ma Gioi dao" -->
     <Items Type="0" ItemID="1405" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1405" Name="Hám Thiên Kim Hoàn Đại Nhãn Thần Chùy" -->
+    ItemID="1405" Name="Ham Thien Kim Hoan Dai Nhan Than Chuy" -->
     <Items Type="0" ItemID="1410" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" /> <!--
-    ItemID="1410" Name="Kế Nghiệp Bôn Lôi Toàn Long thương" -->
+    ItemID="1410" Name="Ke Nghiep Bon Loi Toan Long thuong" -->
     <Items Type="0" ItemID="1415" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--
-    ItemID="1415" Name="Ngự Long Lượng Ngân Bảo đao" -->
+    ItemID="1415" Name="Ngu Long Luong Ngan Bao dao" -->
     <Items Type="0" ItemID="1420" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" /> <!--
-    ItemID="1420" Name="Vô Gian ỷ Thiên Kiếm" -->
+    ItemID="1420" Name="Vo Gian y Thien Kiem" -->
     <Items Type="0" ItemID="1428" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1428" Name="Vô Ma Tẩy Tượng Ngọc Khấu" -->
+    ItemID="1428" Name="Vo Ma Tay Tuong Ngoc Khau" -->
     <Items Type="0" ItemID="1430" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--
-    ItemID="1430" Name="Vô Trần Ngọc Nữ Tố Tâm quán" -->
+    ItemID="1430" Name="Vo Tran Ngoc Nu To Tam quan" -->
     <Items Type="0" ItemID="1435" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1435" Name="Tê Hoàng Phụng Nghi đao" -->
+    ItemID="1435" Name="Te Hoang Phung Nghi dao" -->
     <Items Type="0" ItemID="1440" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1440" Name="Bích Hải Uyên Ương Liên Hoàn đao" -->
+    ItemID="1440" Name="Bich Hai Uyen Uong Lien Hoan dao" -->
     <Items Type="0" ItemID="1445" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" /> <!--
-    ItemID="1445" Name="U Lung Kim Xà Phát đái" -->
+    ItemID="1445" Name="U Lung Kim Xa Phat dai" -->
     <Items Type="0" ItemID="1450" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1450" Name="Minh ảo Tà Sát Độc Nhận" -->
+    ItemID="1450" Name="Minh ao Ta Sat Doc Nhan" -->
     <Items Type="0" ItemID="1455" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--
-    ItemID="1455" Name="Chú Phược Phá giáp đầu hoàn" -->
+    ItemID="1455" Name="Chu Phuoc Pha giap dau hoan" -->
     <Items Type="0" ItemID="1460" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" /> <!--
-    ItemID="1460" Name="Băng Hàn Đơn Chỉ Phi Đao" -->
+    ItemID="1460" Name="Bang Han Don Chi Phi Dao" -->
     <Items Type="0" ItemID="1465" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1465" Name="Thiên Quang Hoa Vũ Mạn Thiên" -->
+    ItemID="1465" Name="Thien Quang Hoa Vu Man Thien" -->
     <Items Type="0" ItemID="1470" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="0" /> <!--
-    ItemID="1470" Name="Sâm Hoang Phi Tinh Đoạt Hồn" -->
+    ItemID="1470" Name="Sam Hoang Phi Tinh Doat Hon" -->
     <Items Type="0" ItemID="1475" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--
-    ItemID="1475" Name="Địa Phách Ngũ hành Liên Hoàn Quán" -->
+    ItemID="1475" Name="Dia Phach Ngu hanh Lien Hoan Quan" -->
     <Items Type="0" ItemID="1483" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1483" Name="Đồng Cừu Kháng Long Hộ Uyển" -->
+    ItemID="1483" Name="Dong Cuu Khang Long Ho Uyen" -->
     <Items Type="0" ItemID="1485" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" /> <!--
-    ItemID="1485" Name="Địch Khái Lục Ngọc Trượng" -->
+    ItemID="1485" Name="Dich Khai Luc Ngoc Truong" -->
     <Items Type="0" ItemID="1490" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1490" Name="Ma Sát Quỷ Cốc U Minh Thương" -->
+    ItemID="1490" Name="Ma Sat Quy Coc U Minh Thuong" -->
     <Items Type="0" ItemID="1499" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" /> <!--
-    ItemID="1499" Name="Ma Hoàng Đăng Đạp Ngoa" -->
+    ItemID="1499" Name="Ma Hoang Dang Dap Ngoa" -->
     <Items Type="0" ItemID="1500" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--
-    ItemID="1500" Name="Ma Thị Liệt Diệm Quán Miện" -->
+    ItemID="1500" Name="Ma Thi Liet Diem Quan Mien" -->
     <Items Type="0" ItemID="1505" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1505" Name="Lăng Nhạc Thái Cực Kiếm" -->
+    ItemID="1505" Name="Lang Nhac Thai Cuc Kiem" -->
     <Items Type="0" ItemID="1510" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1510" Name="Cập Phong Chân Vũ Kiếm" -->
+    ItemID="1510" Name="Cap Phong Chan Vu Kiem" -->
     <Items Type="0" ItemID="1515" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="1515" Name="Sương Tinh Thiên Niên Hàn Thiết" -->
+    ItemID="1515" Name="Suong Tinh Thien Nien Han Thiet" -->
     <Items Type="0" ItemID="1520" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" /> <!--
-    ItemID="1520" Name="Lôi Khung Hàn Tung Băng Bạch quan" -->
+    ItemID="1520" Name="Loi Khung Han Tung Bang Bach quan" -->
     <Items Type="0" ItemID="1526" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--
-    ItemID="1526" Name="Vụ ảo Ki Bán phù chú " -->
+    ItemID="1526" Name="Vu ao Ki Ban phu chu " -->
     <Items Type="0" ItemID="30001" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!--
-    ItemID="30001" Name="Thương Huyền Phi Thiên Kiếm" -->
+    ItemID="30001" Name="Thuong Huyen Phi Thien Kiem" -->
     <Items Type="0" ItemID="30009" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" /> <!--
-    ItemID="30009" Name="Bích Hoa Bạch Ngọc Bội" -->
+    ItemID="30009" Name="Bich Hoa Bach Ngoc Boi" -->
   </Boxs>
-  <Boxs IDBox="335" BoxName="Rương Thi Đấu Môn Phái" TotalRate="20000" LimitWeek="0" LimitDay="0">
+  <Boxs IDBox="335" BoxName="Ruong Thi Dau Mon Phai" TotalRate="20000" LimitWeek="0" LimitDay="0">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="500000" Rate="5000" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="1000000" Rate="2500" Lock="1" />
     <Items Type="0" ItemID="338" Series="0" TimeLimit="0" Number="1" Rate="5000" Lock="1" />
@@ -335,13 +335,13 @@ là Exp
   </Boxs>
 
 
-  <Boxs IDBox="1932" BoxName="Bánh Giầy" TotalRate="10000" LimitWeek="0" LimitDay="15">
+  <Boxs IDBox="1932" BoxName="Banh Giay" TotalRate="10000" LimitWeek="0" LimitDay="15">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="3000" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="200000" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="183" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="1" />
     <Items Type="0" ItemID="183" Series="0" TimeLimit="0" Number="2" Rate="2000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="1931" BoxName="Bánh Chưng" TotalRate="15000" LimitWeek="0" LimitDay="10">
+  <Boxs IDBox="1931" BoxName="Banh Chung" TotalRate="15000" LimitWeek="0" LimitDay="10">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="250000" Rate="3000" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="500000" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="183" Series="0" TimeLimit="0" Number="2" Rate="3000" Lock="1" />
@@ -349,7 +349,7 @@ là Exp
     <Items Type="0" ItemID="348" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="1" />
     <Items Type="0" ItemID="351" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="1" />
   </Boxs>
-  <Boxs IDBox="1933" BoxName="Bánh Chưng Thập Cẩm" TotalRate="15000" LimitWeek="0" LimitDay="30">
+  <Boxs IDBox="1933" BoxName="Banh Chung Thap Cam" TotalRate="15000" LimitWeek="0" LimitDay="30">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="600000" Rate="3000" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="1200000" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="184" Series="0" TimeLimit="0" Number="4" Rate="3000" Lock="1" />
@@ -357,7 +357,7 @@ là Exp
     <Items Type="0" ItemID="350" Series="0" TimeLimit="0" Number="2" Rate="2500" Lock="1" />
     <Items Type="0" ItemID="353" Series="0" TimeLimit="0" Number="2" Rate="2500" Lock="1" />
   </Boxs>
-  <Boxs IDBox="1928" BoxName="Bánh Chưng Đặc Biệt" TotalRate="15000" LimitWeek="0" LimitDay="30">
+  <Boxs IDBox="1928" BoxName="Banh Chung Dac Biet" TotalRate="15000" LimitWeek="0" LimitDay="30">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="1500000" Rate="3000" Lock="1" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="3000000" Rate="2000" Lock="1" />
     <Items Type="0" ItemID="185" Series="0" TimeLimit="0" Number="3" Rate="3000" Lock="1" />
@@ -366,7 +366,7 @@ là Exp
     <Items Type="0" ItemID="353" Series="0" TimeLimit="0" Number="2" Rate="2500" Lock="1" />
   </Boxs>
 
-  <Boxs IDBox="13725" BoxName="Rương nguyên liệu sơ cấp" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="13725" BoxName="Ruong nguyen lieu so cap" TotalRate="10000" LimitWeek="0"
     LimitDay="100">
     <Items Type="0" ItemID="2190" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="2210" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -380,7 +380,7 @@ là Exp
     <Items Type="0" ItemID="184" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
 
   </Boxs>
-  <Boxs IDBox="13726" BoxName="Rương nguyên liệu trung cấp" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="13726" BoxName="Ruong nguyen lieu trung cap" TotalRate="10000" LimitWeek="0"
     LimitDay="100">
     <Items Type="0" ItemID="2191" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="2211" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -393,7 +393,7 @@ là Exp
     <Items Type="0" ItemID="183" Series="0" TimeLimit="0" Number="2" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="184" Series="0" TimeLimit="0" Number="2" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="13727" BoxName="Rương nguyên liệu cao cấp" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="13727" BoxName="Ruong nguyen lieu cao cap" TotalRate="10000" LimitWeek="0"
     LimitDay="100">
     <Items Type="0" ItemID="2192" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="2212" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -406,7 +406,7 @@ là Exp
     <Items Type="0" ItemID="183" Series="0" TimeLimit="0" Number="3" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="184" Series="0" TimeLimit="0" Number="3" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="13728" BoxName="Rương nguyên liệu siêu cấp" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="13728" BoxName="Ruong nguyen lieu sieu cap" TotalRate="10000" LimitWeek="0"
     LimitDay="100">
     <Items Type="0" ItemID="2193" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="2213" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" />
@@ -419,14 +419,14 @@ là Exp
     <Items Type="0" ItemID="183" Series="0" TimeLimit="0" Number="4" Rate="1000" Lock="1" />
     <Items Type="0" ItemID="184" Series="0" TimeLimit="0" Number="4" Rate="1000" Lock="1" />
   </Boxs>
-  <Boxs IDBox="12022" BoxName="Rương trang bị Nhu Tình" TotalRate="10000" LimitWeek="0"
+  <Boxs IDBox="12022" BoxName="Ruong trang bi Nhu Tinh" TotalRate="10000" LimitWeek="0"
     LimitDay="100">
     <Items Type="0" ItemID="1579" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" />
     <Items Type="0" ItemID="1580" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
     <Items Type="0" ItemID="1581" Series="0" TimeLimit="0" Number="1" Rate="3500" Lock="0" />
     <Items Type="0" ItemID="1582" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" />
   </Boxs>
-  <Boxs IDBox="11242" BoxName="Rương Trang Bị Tinh Linh" TotalRate="20500" LimitWeek="0"
+  <Boxs IDBox="11242" BoxName="Ruong Trang Bi Tinh Linh" TotalRate="20500" LimitWeek="0"
     LimitDay="0">
     <Items Type="0" ItemID="50080" Series="0" TimeLimit="0" Number="1" Rate="1300" Lock="0" />
     <Items Type="0" ItemID="50081" Series="0" TimeLimit="0" Number="1" Rate="400" Lock="0" />
@@ -439,7 +439,7 @@ là Exp
     <Items Type="0" ItemID="50088" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" />
   </Boxs>
 
-  <Boxs IDBox="8871" BoxName="Mâm Lễ Chay (Sự kiện giỗ tổ Hùng Vương)" TotalRate="20000"
+  <Boxs IDBox="8871" BoxName="Mam Le Chay (Su kien gio to Hung Vuong)" TotalRate="20000"
     LimitWeek="0" LimitDay="0">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="1000000" Rate="4000" Lock="0" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="2000000" Rate="4000" Lock="0" />
@@ -447,7 +447,7 @@ là Exp
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="4000000" Rate="4000" Lock="0" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="5000000" Rate="4000" Lock="0" />
   </Boxs>
-  <Boxs IDBox="8872" BoxName="Mâm Lễ mặn (Sự kiện giỗ tổ Hùng Vương)" TotalRate="20000"
+  <Boxs IDBox="8872" BoxName="Mam Le man (Su kien gio to Hung Vuong)" TotalRate="20000"
     LimitWeek="0" LimitDay="0">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="5000000" Rate="4000" Lock="0" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="6000000" Rate="4000" Lock="0" />
@@ -455,7 +455,7 @@ là Exp
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="9000000" Rate="4000" Lock="0" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="10000000" Rate="4000" Lock="0" />
   </Boxs>
-  <Boxs IDBox="8873" BoxName="Mâm Lễ đặc biệt (Sự kiện giỗ tổ Hùng Vương)" TotalRate="20000"
+  <Boxs IDBox="8873" BoxName="Mam Le dac biet (Su kien gio to Hung Vuong)" TotalRate="20000"
     LimitWeek="0" LimitDay="0">
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="10000000" Rate="4000" Lock="0" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="12000000" Rate="4000" Lock="0" />
@@ -463,32 +463,32 @@ là Exp
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="18000000" Rate="4000" Lock="0" />
     <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="20000000" Rate="4000" Lock="0" />
   </Boxs>
-  <Boxs IDBox="11278" BoxName="Thần Bí Bảo Rương" TotalRate="100000"
+  <Boxs IDBox="11278" BoxName="Than Bi Bao Ruong" TotalRate="100000"
     LimitWeek="0" LimitDay="0">
-    <Items Type="0" ItemID="10470" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" /> <!-- Mảnh Vũ Khí Môn Phái -->
-    <Items Type="0" ItemID="8532" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!-- Huyết Ngọc -->
-    <Items Type="0" ItemID="8875" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!-- Rương Trang Sức PHLT -->
-    <Items Type="0" ItemID="2444" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" /> <!-- Hòa Thị Ngọc -->
-    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" /> <!-- Huyền Tinh 6 -->
-    <Items Type="0" ItemID="187" Series="0" TimeLimit="0" Number="1" Rate="5000" Lock="0" /> <!-- Huyền Tinh 5 -->
-    <Items Type="0" ItemID="527" Series="0" TimeLimit="0" Number="1" Rate="15000" Lock="0" /> <!-- Hắc Thiết Bài -->
-    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="100" Rate="15000" Lock="0" /> <!-- Ngũ Hành Hồn Thạch -->
-    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="500000" Rate="29500" Lock="0" /> <!-- Bạc Khóa -->
-    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="20000000" Rate="30000" Lock="0" /> <!-- Kinh Nghiệm -->
+    <Items Type="0" ItemID="10470" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" /> <!-- Manh Vu Khi Mon Phai -->
+    <Items Type="0" ItemID="8532" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!-- Huyet Ngoc -->
+    <Items Type="0" ItemID="8875" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" /> <!-- Ruong Trang Suc PHLT -->
+    <Items Type="0" ItemID="2444" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" /> <!-- Hoa Thi Ngoc -->
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" /> <!-- Huyen Tinh 6 -->
+    <Items Type="0" ItemID="187" Series="0" TimeLimit="0" Number="1" Rate="5000" Lock="0" /> <!-- Huyen Tinh 5 -->
+    <Items Type="0" ItemID="527" Series="0" TimeLimit="0" Number="1" Rate="15000" Lock="0" /> <!-- Hac Thiet Bai -->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="100" Rate="15000" Lock="0" /> <!-- Ngu Hanh Hon Thach -->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="500000" Rate="29500" Lock="0" /> <!-- Bac Khoa -->
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="20000000" Rate="30000" Lock="0" /> <!-- Kinh Nghiem -->
   </Boxs>
 </ConfigBox><!--
-	=== Hướng dẫn config randombox ===
-	=== Hướng dẫn config randombox ===
+	=== Huong dan config randombox ===
+	=== Huong dan config randombox ===
 	
-	Khai báo 1 Boxs ID mới thì IDBox cần phải khác nhau không được giống nhau
-	Tổng số lượng RATE phải điền đúng nếu ko sẽ gây lỗi
-	LimitWeek : Tối đa 1 tuần được mở mấy lần  | Nếu để là 0 thì không giới hạn
-	LimitDay : Tối đa 1 ngày được mở mấy lần | Nếu để là 0 thì không giới hạn
-	Lock : 0 Là không khóa | 1 là có khóa
-	Type : Là kiểu tong đó : 0 là vật phẩm | 1 là bạc khóa , 2: là bạc , 3 là đồng khóa , 4 là đồng	| 5
-là Exp
-  Serier : là đồ theo hệ
-  TimeLimit : thời gian đồ có thể dùng
-  ItemID là ID đồ của vật phẩm 
-	Number : Là số lượng tương ứng của mỗi vật phẩm | Nếu type là tiền thì Number là số tiền
+	Khai bao 1 Boxs ID moi thi IDBox can phai khac nhau khong duoc giong nhau
+	Tong so luong RATE phai dien dung neu ko se gay loi
+	LimitWeek : Toi da 1 tuan duoc mo may lan  | Neu de la 0 thi khong gioi han
+	LimitDay : Toi da 1 ngay duoc mo may lan | Neu de la 0 thi khong gioi han
+	Lock : 0 La khong khoa | 1 la co khoa
+	Type : La kieu tong do : 0 la vat pham | 1 la bac khoa , 2: la bac , 3 la dong khoa , 4 la dong	| 5
+la Exp
+  Serier : la do theo he
+  TimeLimit : thoi gian do co the dung
+  ItemID la ID do cua vat pham 
+	Number : La so luong tuong ung cua moi vat pham | Neu type la tien thi Number la so tien
 -->

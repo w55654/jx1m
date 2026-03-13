@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SevenDaysLogin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="7 ngày dăng nhập" IsOpen="true">
+<SevenDaysLogin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="7 ngay dang nhap" IsOpen="true">
  <Item ID="1" Days="1">
     <RollAwardItem ItemID="183" Number="2" Rate="60" />
     <RollAwardItem ItemID="184" Number="1" Rate="15" />

@@ -11903,7 +11903,7 @@
 	<Drop ItemID="8487" RandRate="200000" />
   </DropProfile>
  
- <!-- Hoạt Động -->
+ <!-- Hoat Dong -->
   
  <DropProfile ProfileName="BMS" Count="1" RandRange="3685000" CopySceneOnly="true" ItemRate="50" MagicRate="80" MinMoney="0"  MaxMoney="0" MapsID ="65" MoneyRate="50" MoneyScale="0" MinItemLevel="3" MinItemLevelScale="13" MaxItemLevel="6" MaxItemLevelScale="80">
 	<Drop ItemID="1026" RandRate="20000" />
@@ -12557,13 +12557,13 @@
 	<Drop ItemID="185" RandRate="100000" />
   </DropProfile>
   <DropProfile ProfileName="bachmanson_1" Count="1" RandRange="500000" CopySceneOnly="true" ItemRate="100" MagicRate="80" MinMoney="0"  MaxMoney="0" MapsID ="65" MoneyRate="50" MoneyScale="0" MinItemLevel="3" MinItemLevelScale="13" MaxItemLevel="6" MaxItemLevelScale="80">
-	<Drop ItemID="11273" RandRate="500000" /> <!-- Nhiếp Không Thảo -->
+	<Drop ItemID="11273" RandRate="500000" /> <!-- Nhiep Khong Thao -->
   </DropProfile>
   <DropProfile ProfileName="bachmanson_2" Count="1" RandRange="500000" CopySceneOnly="true" ItemRate="100" MagicRate="80" MinMoney="0"  MaxMoney="0" MapsID ="65" MoneyRate="50" MoneyScale="0" MinItemLevel="3" MinItemLevelScale="13" MaxItemLevel="6" MaxItemLevelScale="80">
-	<Drop ItemID="11274" RandRate="500000" /> <!-- Đuôi Bọ Cạp -->
+	<Drop ItemID="11274" RandRate="500000" /> <!-- Duoi Bo Cap -->
   </DropProfile>
   <DropProfile ProfileName="hausonphucnguu" Count="1" RandRange="500000" CopySceneOnly="true" ItemRate="100" MagicRate="80" MinMoney="0"  MaxMoney="0" MapsID ="67" MoneyRate="50" MoneyScale="0" MinItemLevel="3" MinItemLevelScale="13" MaxItemLevel="6" MaxItemLevelScale="80">
-  	<Drop ItemID="11272" RandRate="500000" /> <!-- Dụng Cụ Đẽo Đá -->
+  	<Drop ItemID="11272" RandRate="500000" /> <!-- Dung Cu Deo Da -->
   </DropProfile>
   <DropProfile ProfileName="hausonphucnguu_boss" Count="10" RandRange="3200000" CopySceneOnly="true" ItemRate="100" MagicRate="80" MinMoney="0"  MaxMoney="0" MapsID ="67" MoneyRate="0" MoneyScale="0" MinItemLevel="3" MinItemLevelScale="13" MaxItemLevel="6" MaxItemLevelScale="80">
 	<Drop ItemID="1027" RandRate="20000" />
@@ -14142,7 +14142,7 @@
 	<Drop ItemID="8461" RandRate="200" />
 	<Drop ItemID="8462" RandRate="200" />
 	<Drop ItemID="8463" RandRate="200" />
-	<!-- Đồ Phổ 
+	<!-- Do Pho 
 	<Drop ItemID="8650" RandRate="10" />
 	<Drop ItemID="8651" RandRate="10" />
 	<Drop ItemID="8652" RandRate="10" />
@@ -14308,7 +14308,7 @@
 	<Drop ItemID="8461" RandRate="200" />
 	<Drop ItemID="8462" RandRate="200" />
 	<Drop ItemID="8463" RandRate="200" />
-	<!-- Đồ Phổ 
+	<!-- Do Pho 
 	<Drop ItemID="12049" RandRate="10" />
 	<Drop ItemID="12050" RandRate="10" />
 	<Drop ItemID="12051" RandRate="10" />
@@ -14479,7 +14479,7 @@
 	<Drop ItemID="8461" RandRate="200" />
 	<Drop ItemID="8462" RandRate="200" />
 	<Drop ItemID="8463" RandRate="200" />
-	<!-- Đồ Phổ 
+	<!-- Do Pho 
 	<Drop ItemID="8740" RandRate="10" />
 	<Drop ItemID="8741" RandRate="10" />
 	<Drop ItemID="8742" RandRate="10" />
@@ -14640,7 +14640,7 @@
 	<Drop ItemID="8461" RandRate="200" />
 	<Drop ItemID="8462" RandRate="200" />
 	<Drop ItemID="8463" RandRate="200" />
-	<!-- Đồ Phổ 
+	<!-- Do Pho 
 	<Drop ItemID="8765" RandRate="10" />
 	<Drop ItemID="8766" RandRate="10" />
 	<Drop ItemID="8767" RandRate="10" />
@@ -14801,7 +14801,7 @@
 	<Drop ItemID="8461" RandRate="200" />
 	<Drop ItemID="8462" RandRate="200" />
 	<Drop ItemID="8463" RandRate="200" />
-	<!-- Đồ Phổ 
+	<!-- Do Pho 
 	<Drop ItemID="8705" RandRate="10" />
 	<Drop ItemID="8706" RandRate="10" />
 	<Drop ItemID="8707" RandRate="10" />

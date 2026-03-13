@@ -6,10 +6,10 @@
     <members>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute">
             <summary>
-            Usado para especificar o item de implantação (arquivo ou diretório) para implantação por teste.
-            Pode ser especificado em classe de teste ou em método de teste.
-            Pode ter várias instâncias do atributo para especificar mais de um item.
-            O caminho do item pode ser absoluto ou relativo. Se relativo, é relativo a RunConfig.RelativePathRoot.
+            Usado para especificar o item de implanta中中o (arquivo ou diret中rio) para implanta中中o por teste.
+            Pode ser especificado em classe de teste ou em m中todo de teste.
+            Pode ter v中rias inst中ncias do atributo para especificar mais de um item.
+            O caminho do item pode ser absoluto ou relativo. Se relativo, 中 relativo a RunConfig.RelativePathRoot.
             </summary>
             <example>
             [DeploymentItem("file1.xml")]
@@ -22,42 +22,42 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-             Inicializa uma nova instância da classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+             Inicializa uma nova inst中ncia da classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">O arquivo ou o diretório a ser implantado. O caminho é relativo ao diretório de saída do build. O item será copiado para o mesmo diretório que o dos assemblies de teste implantados.</param>
+            <param name="path">O arquivo ou o diret中rio a ser implantado. O caminho 中 relativo ao diret中rio de sa中da do build. O item ser中 copiado para o mesmo diret中rio que o dos assemblies de teste implantados.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-             Inicializa uma nova instância da classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
+             Inicializa uma nova inst中ncia da classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
             </summary>
-            <param name="path">O caminho relativo ou absoluto ao arquivo ou ao diretório a ser implantado. O caminho é relativo ao diretório de saída do build. O item será copiado para o mesmo diretório que o dos assemblies de teste implantados.</param>
-            <param name="outputDirectory">O caminho do diretório para o qual os itens deverão ser copiados. Ele pode ser absoluto ou relativo ao diretório de implantação. Todos os arquivos e diretórios identificados por <paramref name="path"/> serão copiados para esse diretório.</param>
+            <param name="path">O caminho relativo ou absoluto ao arquivo ou ao diret中rio a ser implantado. O caminho 中 relativo ao diret中rio de sa中da do build. O item ser中 copiado para o mesmo diret中rio que o dos assemblies de teste implantados.</param>
+            <param name="outputDirectory">O caminho do diret中rio para o qual os itens dever中o ser copiados. Ele pode ser absoluto ou relativo ao diret中rio de implanta中中o. Todos os arquivos e diret中rios identificados por <paramref name="path"/> ser中o copiados para esse diret中rio.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
-            Obtém o caminho da pasta ou do arquivo de origem a ser copiado.
+            Obt中m o caminho da pasta ou do arquivo de origem a ser copiado.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.OutputDirectory">
             <summary>
-            Obtém o caminho do diretório para o qual o item é copiado.
+            Obt中m o caminho do diret中rio para o qual o item 中 copiado.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext">
             <summary>
-            Classe TestContext. Essa classe deve ser totalmente abstrata e não conter nenhum
-            membro. O adaptador implementará os membros. Os usuários na estrutura devem
-            acessá-la somente por meio de uma interface bem definida.
+            Classe TestContext. Essa classe deve ser totalmente abstrata e n中o conter nenhum
+            membro. O adaptador implementar中 os membros. Os usu中rios na estrutura devem
+            acess中-la somente por meio de uma interface bem definida.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties">
             <summary>
-            Obtém as propriedades de teste para um teste.
+            Obt中m as propriedades de teste para um teste.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">
             <summary>
-            Obtém o Nome totalmente qualificado da classe contendo o método de teste executado no momento
+            Obt中m o Nome totalmente qualificado da classe contendo o m中todo de teste executado no momento
             </summary>
             <remarks>
             This property can be useful in attributes derived from ExpectedExceptionBaseAttribute.
@@ -68,12 +68,12 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestName">
             <summary>
-            Obtém o Nome do método de teste executado no momento
+            Obt中m o Nome do m中todo de teste executado no momento
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.CurrentTestOutcome">
             <summary>
-            Obtém o resultado do teste atual.
+            Obt中m o resultado do teste atual.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.WriteLine(System.String)">

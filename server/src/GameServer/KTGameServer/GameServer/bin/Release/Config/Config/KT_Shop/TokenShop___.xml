@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TokenShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<!-- Tiệm Đồng -->
+	<!-- Tiem Dong -->
 	<Token>
 		<Shop ID="203" />
 		<Shop ID="212" />
@@ -10,7 +10,7 @@
 	</Token>
 	<!-- End -->
 	
-	<!-- Tiệm Đồng Khóa -->
+	<!-- Tiem Dong Khoa -->
 	<BoundToken>
 		<Shop ID="207" />
 		<Shop ID="214" />

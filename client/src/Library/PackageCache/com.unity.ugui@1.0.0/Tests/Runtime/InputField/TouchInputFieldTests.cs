@@ -75,8 +75,8 @@ namespace InputfieldTests
         }
 
         [Test]
-        [TestCase("*Azé09", "*Azé09", InputField.CharacterValidation.None)]
-        [TestCase("*Azé09?.", "Az09", InputField.CharacterValidation.Alphanumeric)]
+        [TestCase("*Az中09", "*Az中09", InputField.CharacterValidation.None)]
+        [TestCase("*Az中09?.", "Az09", InputField.CharacterValidation.Alphanumeric)]
         [TestCase("Abc10x", "10", InputField.CharacterValidation.Integer)]
         [TestCase("-10", "-10", InputField.CharacterValidation.Integer)]
         [TestCase("10.0", "100", InputField.CharacterValidation.Integer)]
@@ -105,8 +105,8 @@ namespace InputfieldTests
         }
 
         [UnityTest]
-        [TestCase("*Azé09", "*Azé09", InputField.CharacterValidation.None, ExpectedResult = null)]
-        [TestCase("*Azé09?.", "Az09", InputField.CharacterValidation.Alphanumeric, ExpectedResult = null)]
+        [TestCase("*Az中09", "*Az中09", InputField.CharacterValidation.None, ExpectedResult = null)]
+        [TestCase("*Az中09?.", "Az09", InputField.CharacterValidation.Alphanumeric, ExpectedResult = null)]
         [TestCase("Abc10x", "10", InputField.CharacterValidation.Integer, ExpectedResult = null)]
         [TestCase("-10", "-10", InputField.CharacterValidation.Integer, ExpectedResult = null)]
         [TestCase("10.0", "100", InputField.CharacterValidation.Integer, ExpectedResult = null)]

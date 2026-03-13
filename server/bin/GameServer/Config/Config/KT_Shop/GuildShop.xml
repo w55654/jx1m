@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
 <GuildShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShopName="Cửa Hàng Bang Hội" ShopID="226">
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShopName="Cua Hang Bang Hoi" ShopID="226">
 
   <SellItems ID="7033" ItemID="8465" Money="50000" BuyLimitRank="0 1 0 0 0 0" LimitType="1" Bind="1" Expiry="10080" />
 
@@ -20,31 +20,31 @@
 
   <SellItems ID="7041" ItemID="10196" Money="800000" BuyLimitRank="0 2 1 0 0 0" LimitType="1" Bind="1" Expiry="10080" />
 </GuildShop>
- <!-- Khai báo shop bang hội tại đây 
+ <!-- Khai bao shop bang hoi tai day 
  
- ID : Tăng dần cứ từ 1-> X
- ITemID : Là ID vật phẩm trong
+ ID : Tang dan cu tu 1-> X
+ ITemID : La ID vat pham trong
 TotalItem 
- Money : Là số tiền bang cống sẽ tiêu tốn
+ Money : La so tien bang cong se tieu ton
  
- BuyLimitRank : Là số lượng sẽ mua được
-tùy theo mỗi chức vụ
- Member : Vị trí 0
- Bang chủ Vị trí 1
- Phó bang chủ vị trí 2
- Trưởng lão vị 3
-trí 3
- Đường chủ vị trí 4
- Tinh anh vị trí 5
+ BuyLimitRank : La so luong se mua duoc
+tuy theo moi chuc vu
+ Member : Vi tri 0
+ Bang chu Vi tri 1
+ Pho bang chu vi tri 2
+ Truong lao vi 3
+tri 3
+ Duong chu vi tri 4
+ Tinh anh vi tri 5
  
- LimitType : Là kiểu giới hạn
-  -1 : Là mua thỏa mái
-mái đéo giới hạn gì
-   0 : Là giới hạn trên ngày
-   1 : Là giới hạn tuần
+ LimitType : La kieu gioi han
+  -1 : La mua thoa mai
+mai deo gioi han gi
+   0 : La gioi han tren ngay
+   1 : La gioi han tuan
   
- Chú ý : Nếu mà
-LimitType là -1 thì nó bỏ qua không xét BuyLimitRank vì mua thỏa mái rồi
-Bind : 0 không khóa, 1 là khóa 
-Expiry :hạn sự dụng vật phẩm
+ Chu y : Neu ma
+LimitType la -1 thi no bo qua khong xet BuyLimitRank vi mua thoa mai roi
+Bind : 0 khong khoa, 1 la khoa 
+Expiry :han su dung vat pham
  -->

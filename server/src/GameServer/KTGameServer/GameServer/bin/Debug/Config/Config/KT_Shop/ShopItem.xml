@@ -2435,7 +2435,7 @@
   OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
   LimitType="-1" LimitValue="-1" />
   -->
-  <!-- ShopName="Thiên Vương-Thi đấu môn phái" ShopID="26 "-->
+  <!-- ShopName="Thien Vuong-Thi dau mon phai" ShopID="26 "-->
   <ShopItem ID="892" ItemID="31815" Series="5" Bind="1" ReputeDBID="302" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -2544,8 +2544,8 @@
   <ShopItem ID="939" ItemID="0000" Series="-1" Bind="1" ReputeDBID="302" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!--ShopName="Thúy
-  yên-Thi đấu môn phái" ShopID="30" -->
+  <!--ShopName="Thuy
+  yen-Thi dau mon phai" ShopID="30" -->
   <ShopItem ID="940" ItemID="31815" Series="5" Bind="1" ReputeDBID="306" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -2690,7 +2690,7 @@
   <ShopItem ID="987" ItemID="0000" Series="-1" Bind="1" ReputeDBID="306" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Hoa Sơn-Thi đấu môn phái" ShopID="35" -->
+  <!-- ShopName="Hoa Son-Thi dau mon phai" ShopID="35" -->
   <ShopItem ID="988" ItemID="31815" Series="5" Bind="1" ReputeDBID="311" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -2799,7 +2799,7 @@
   <ShopItem ID="1023" ItemID="0000" Series="-1" Bind="1" ReputeDBID="311" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Nga My-Thi đấu môn phái" ShopID="29"-->
+  <!-- ShopName="Nga My-Thi dau mon phai" ShopID="29"-->
   <ShopItem ID="1036" ItemID="31815" Series="5" Bind="1" ReputeDBID="305" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -2935,7 +2935,7 @@
   <ShopItem ID="1080" ItemID="0000" Series="-1" Bind="1" ReputeDBID="305" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- Võ Đang-Thi đấu môn phái-->
+  <!-- Vo Dang-Thi dau mon phai-->
   <ShopItem ID="1081" ItemID="31815" Series="5" Bind="1" ReputeDBID="309" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -4498,7 +4498,7 @@
   LimitType="-1" LimitValue="-1" />
   -->
   <!-- -->
-  <!-- ShopName="Thiếu Lâm-Thi đấu môn phái" ShopID="25"-->
+  <!-- ShopName="Thieu Lam-Thi dau mon phai" ShopID="25"-->
   <ShopItem ID="1612" ItemID="31815" Series="5" Bind="1" ReputeDBID="301" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -4607,7 +4607,7 @@
   <ShopItem ID="1647" ItemID="0000" Series="-1" Bind="1" ReputeDBID="301" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Đường Môn-Thi đấu môn phái" ShopID="27"-->
+  <!-- ShopName="Duong Mon-Thi dau mon phai" ShopID="27"-->
   <ShopItem ID="1648" ItemID="31815" Series="5" Bind="1" ReputeDBID="303" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -4716,7 +4716,7 @@
   <ShopItem ID="1683" ItemID="0000" Series="-1" Bind="1" ReputeDBID="303" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Ngũ độc-Thi đấu môn phái" ShopID="28"-->
+  <!-- ShopName="Ngu doc-Thi dau mon phai" ShopID="28"-->
   <ShopItem ID="1684" ItemID="31815" Series="5" Bind="1" ReputeDBID="304" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -4825,7 +4825,7 @@
   <ShopItem ID="1719" ItemID="0000" Series="-1" Bind="1" ReputeDBID="304" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Thiên nhẫn-Thi đấu môn phái" ShopID="32"-->
+  <!-- ShopName="Thien nhan-Thi dau mon phai" ShopID="32"-->
   <ShopItem ID="1720" ItemID="31815" Series="5" Bind="1" ReputeDBID="308" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -4935,7 +4935,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
 
-  <!--  ShopName="Cái bang-Thi đấu môn phái" ShopID="31"-->
+  <!--  ShopName="Cai bang-Thi dau mon phai" ShopID="31"-->
   <ShopItem ID="1756" ItemID="31815" Series="5" Bind="1" ReputeDBID="307" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5068,8 +5068,8 @@
   <ShopItem ID="1799" ItemID="0000" Series="-1" Bind="1" ReputeDBID="307" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!--ShopName="Côn
-  Lôn-Thi đấu môn phái" ShopID="34 -->
+  <!--ShopName="Con
+  Lon-Thi dau mon phai" ShopID="34 -->
   <ShopItem ID="1800" ItemID="31815" Series="5" Bind="1" ReputeDBID="310" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5211,7 +5211,7 @@
   OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
   LimitType="-1" LimitValue="-1" />
   -->
-  <!-- ShopName="Danh Vọng Dã Tẩu" ShopID="73"-->
+  <!-- ShopName="Danh Vong Da Tau" ShopID="73"-->
   <ShopItem ID="1846" ItemID="31831" Series="5" Bind="0" ReputeDBID="101" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5287,7 +5287,7 @@
   <ShopItem ID="1870" ItemID="0000" Series="-1" Bind="0" ReputeDBID="101" ReputeLevel="10"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Danh Vọng Thủy Hoàng" ShopID="74"-->
+  <!-- ShopName="Danh Vong Thuy Hoang" ShopID="74"-->
   <ShopItem ID="1871" ItemID="0000" Series="-1" Bind="0" ReputeDBID="406" ReputeLevel="3"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5364,7 +5364,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
 
-  <!-- Danh Vọng Tống Kim(Biện Kinh)" ShopID="75" -->
+  <!-- Danh Vong Tong Kim(Bien Kinh)" ShopID="75" -->
   <ShopItem ID="1896" ItemID="31788" Series="5" Bind="0" ReputeDBID="201" ReputeLevel="6"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5515,7 +5515,7 @@
   <ShopItem ID="1945" ItemID="0000" Series="-1" Bind="0" ReputeDBID="201" ReputeLevel="6"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Danh Vọng Tống Kim(Phượng Tường)" ShopID="76"-->
+  <!-- ShopName="Danh Vong Tong Kim(Phuong Tuong)" ShopID="76"-->
   <ShopItem ID="1946" ItemID="31787" Series="5" Bind="0" ReputeDBID="202" ReputeLevel="6"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5592,7 +5592,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
   <!--ShopName="Danh
-  Vọng Tống Kim(Tương dương)" ShopID="77" -->
+  Vong Tong Kim(Tuong duong)" ShopID="77" -->
   <ShopItem ID="1971" ItemID="31786" Series="5" Bind="1" ReputeDBID="203" ReputeLevel="6"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5666,7 +5666,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
   <!--ShopName="Danh
-  Vọng Liên Đấu" ShopID="78"  -->
+  Vong Lien Dau" ShopID="78"  -->
   <ShopItem ID="1995" ItemID="10823" Series="-1" Bind="1" ReputeDBID="501" ReputeLevel="6"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5740,7 +5740,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
 
-  <!-- ShopName="Danh Vọng Phong Hỏa Liên Thành" ShopID="79" -->
+  <!-- ShopName="Danh Vong Phong Hoa Lien Thanh" ShopID="79" -->
   <ShopItem ID="2019" ItemID="0000" Series="-1" Bind="1" ReputeDBID="402" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5849,7 +5849,7 @@
   <ShopItem ID="2054" ItemID="0000" Series="-1" Bind="1" ReputeDBID="402" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Danh Vọng Quân Doanh" ShopID="80"-->
+  <!-- ShopName="Danh Vong Quan Doanh" ShopID="80"-->
   <ShopItem ID="2055" ItemID="0000" Series="-1" Bind="1" ReputeDBID="102" ReputeLevel="7"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -5922,7 +5922,7 @@
   <ShopItem ID="2078" ItemID="0000" Series="-1" Bind="1" ReputeDBID="102" ReputeLevel="7"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ShopName="Danh Vọng Bạch Hổ Đường" ShopID="81"-->
+  <!-- ShopName="Danh Vong Bach Ho Duong" ShopID="81"-->
   <ShopItem ID="2079" ItemID="31803" Series="5" Bind="1" ReputeDBID="401" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -10765,7 +10765,7 @@
     LimitType="-1" LimitValue="-1" />
 
 
-  <!-- Shop Công Thành Chiến -->
+  <!-- Shop Cong Thanh Chien -->
   <ShopItem ID="5331" ItemID="10818" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="10798" GoodsPrice="500"
     LimitType="-1" LimitValue="-1" />
@@ -10794,8 +10794,8 @@
   <ShopItem ID="5339" ItemID="10818" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="10798" GoodsPrice="500"
     LimitType="-1" LimitValue="-1" />
-  <!--Thiên
-  Vương-->
+  <!--Thien
+  Vuong-->
   <ShopItem ID="5340" ItemID="14736" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -10820,7 +10820,7 @@
   <ShopItem ID="5347" ItemID="14743" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- Đường Môn-->
+  <!-- Duong Mon-->
   <ShopItem ID="5348" ItemID="20839" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -10845,7 +10845,7 @@
   <ShopItem ID="5355" ItemID="20846" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- ngũ độc-->
+  <!-- ngu doc-->
   <ShopItem ID="5356" ItemID="30011" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -10919,7 +10919,7 @@
   <ShopItem ID="5379" ItemID="14713" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- Thúy Yên-->
+  <!-- Thuy Yen-->
   <ShopItem ID="5380" ItemID="14716" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -10968,7 +10968,7 @@
   <ShopItem ID="5395" ItemID="14763" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- Cái bang-->
+  <!-- Cai bang-->
   <ShopItem ID="5396" ItemID="14764" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -10987,7 +10987,7 @@
   <ShopItem ID="5401" ItemID="12357" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- Thiên Vương trùy-->
+  <!-- Thien Vuong truy-->
   <ShopItem ID="5402" ItemID="14746" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -11012,7 +11012,7 @@
   <ShopItem ID="5409" ItemID="14753" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- kỳ trân các thường dùng KNB-->
+  <!-- ky tran cac thuong dung KNB-->
   <ShopItem ID="5410" ItemID="9679" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="10082" TongFund="-1" GoodsIndex="-1" GoodsPrice="1200"
     LimitType="-1" LimitValue="-1" />
@@ -11067,7 +11067,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="4000"
     LimitType="-1" LimitValue="-1" />
 
-  <!-- kỳ trân các đạo cụ KNB-->
+  <!-- ky tran cac dao cu KNB-->
   <ShopItem ID="5427" ItemID="10462" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="1500"
     LimitType="-1" LimitValue="-1" />
@@ -11127,7 +11127,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="120"
     LimitType="-1" LimitValue="-1" />
 
-  <!-- kỳ trân các Bí Kíp KNB -->
+  <!-- ky tran cac Bi Kip KNB -->
   <ShopItem ID="5446" ItemID="8489" Series="5" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="20000"
     LimitType="-1" LimitValue="-1" />
@@ -11344,7 +11344,7 @@
   <ShopItem ID="7032" ItemID="8135" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="20000"
     LimitType="-1" LimitValue="-1" />
-  <!-- Shop bang hội-->
+  <!-- Shop bang hoi-->
   <ShopItem ID="7033" ItemID="8465" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="50000" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="0" LimitValue="1" />
@@ -11374,7 +11374,7 @@
     LimitType="0" LimitValue="1" />
 
   <!--KTC
-  Thú cưỡi trứng Khác-->
+  Thu cuoi trung Khac-->
   <ShopItem ID="5303" ItemID="8136" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="20000"
     LimitType="-1" LimitValue="-1" />
@@ -11453,7 +11453,7 @@
     LimitType="-1" LimitValue="-1" />
 
 
-  <!-- KTC Thường dùng khóa -->
+  <!-- KTC Thuong dung khoa -->
   <ShopItem ID="9985" ItemID="8411" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="4000"
     LimitType="-1" LimitValue="-1" />
@@ -11479,7 +11479,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="500"
     LimitType="-1" LimitValue="-1" />
 
-  <!-- Thú Cưỡi/ Trứng Tinh Linh / Giá-->
+  <!-- Thu Cuoi/ Trung Tinh Linh / Gia-->
   <ShopItem ID="9993" ItemID="10407" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="3000"
     LimitType="-1" LimitValue="-1" />
@@ -11514,7 +11514,7 @@
   <ShopItem ID="10003" ItemID="0000" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- thuốc Tinh Linh-->
+  <!-- thuoc Tinh Linh-->
   <ShopItem ID="10004" ItemID="20814" Series="0" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -11544,7 +11544,7 @@
     LimitType="-1" LimitValue="-1" />
 
 
-  <!-- Clone Đồ -->
+  <!-- Clone Do -->
   <ShopItem ID="20012" ItemID="31786" Series="1" Bind="0" ReputeDBID="203" ReputeLevel="6"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -12409,7 +12409,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
   <!-- -->
-  <!-- danh vọng tần lăng-->
+  <!-- danh vong tan lang-->
   <ShopItem ID="20309" ItemID="10826" Series="0" Bind="0" ReputeDBID="602" ReputeLevel="2"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="2000000"
     LimitType="-1" LimitValue="-1" />
@@ -12420,7 +12420,7 @@
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
 
-  <!-- Vũ khí hoàng kim-->
+  <!-- Vu khi hoang kim-->
   <ShopItem ID="20312" ItemID="41018" Series="-1" Bind="0" ReputeDBID="-1" ReputeLevel="-1"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="10470" GoodsPrice="10"
     LimitType="-1" LimitValue="-1" />
@@ -12574,7 +12574,7 @@
   <ShopItem ID="20361" ItemID="31830" Series="5" Bind="0" ReputeDBID="316" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- Tiêu dao -->
+  <!-- Tieu dao -->
   <ShopItem ID="20362" ItemID="31816" Series="1" Bind="0" ReputeDBID="315" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -12620,7 +12620,7 @@
   <ShopItem ID="20376" ItemID="31830" Series="5" Bind="0" ReputeDBID="315" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- đoàn thị -->
+  <!-- doan thi -->
   <ShopItem ID="20377" ItemID="31816" Series="1" Bind="0" ReputeDBID="313" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
@@ -12666,7 +12666,7 @@
   <ShopItem ID="20391" ItemID="31830" Series="5" Bind="0" ReputeDBID="313" ReputeLevel="5"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />
-  <!-- cổ mộ -->
+  <!-- co mo -->
   <ShopItem ID="20392" ItemID="31816" Series="1" Bind="0" ReputeDBID="314" ReputeLevel="9"
     OfficialLevel="-1" Honor="-1" Expiry="-1" TongFund="-1" GoodsIndex="-1" GoodsPrice="-1"
     LimitType="-1" LimitValue="-1" />

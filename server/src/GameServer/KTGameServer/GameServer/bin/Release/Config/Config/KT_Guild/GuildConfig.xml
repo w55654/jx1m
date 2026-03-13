@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GuildConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ChangeQuestCost="1000" MaxQuestPerDay="20" RequireItem="13220" RequireMoney="5000000" RequireAdditionString="Yêu cầu 100 điểm danh vọng">
+<GuildConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ChangeQuestCost="1000" MaxQuestPerDay="20" RequireItem="13220" RequireMoney="5000000" RequireAdditionString="Yeu cau 100 diem danh vong">
   <LevelUps Level="1" ExpRequest="2000" PointUpdate="3000">
     <ItemRequest ItemID="9809" ItemNum="100" />
     <ItemRequest ItemID="9433" ItemNum="100" />
@@ -40,7 +40,7 @@
     <ItemRequest ItemID="9809" ItemNum="50000" />
     <ItemRequest ItemID="9433" ItemNum="50000" />
   </LevelUps>
-  <Skills ID="35001" Name="Thánh Long Thần Công" Icon="Icon_Skill_1" Desc="Tăng sát thương lên quái">
+  <Skills ID="35001" Name="Thanh Long Than Cong" Icon="Icon_Skill_1" Desc="Tang sat thuong len quai">
     <LevelData Level="1" PointUpdate="1000">
       <SkillProb PropType="npcdamageadded" Value1="1" Value2="-1" Value3="-1" />
       <ItemRequest ItemID="9809" ItemNum="100" />
@@ -92,7 +92,7 @@
       <ItemRequest ItemID="9433" ItemNum="8000" />
     </LevelData>
   </Skills>
-  <Skills ID="35002" Name="Long Khí Hóa Kình" Icon="Icon_Skill_2" Desc="Phát huy lực tấn công kỹ năng">
+  <Skills ID="35002" Name="Long Khi Hoa Kinh" Icon="Icon_Skill_2" Desc="Phat huy luc tan cong ky nang">
     <LevelData Level="1" PointUpdate="1000">
       <SkillProb PropType="magic_faction_damage_p"  Value1="1" Value2="-1" Value3="-1"/>
       <ItemRequest ItemID="9809" ItemNum="100" />
@@ -144,7 +144,7 @@
       <ItemRequest ItemID="9433" ItemNum="8000" />
     </LevelData>
   </Skills>
-  <Skills ID="35003" Name="Chân Long Huyền Công" Icon="Icon_Skill_3" Desc="Tăng tất cả thuộc tính">
+  <Skills ID="35003" Name="Chan Long Huyen Cong" Icon="Icon_Skill_3" Desc="Tang tat ca thuoc tinh">
     <LevelData Level="1" PointUpdate="1000">
       <SkillProb PropType="strength_v"  Value1="5" Value2="-1" Value3="-1"/>
       <SkillProb PropType="dexterity_v"  Value1="5" Value2="-1" Value3="-1"/>
@@ -226,7 +226,7 @@
       <ItemRequest ItemID="9433" ItemNum="4000" />
     </LevelData>
   </Skills>
-  <Skills ID="35004" Name="Thánh Long Tổng Quyết" Icon="Icon_Skill_4" Desc="Tăng sinh lực và nội lực">
+  <Skills ID="35004" Name="Thanh Long Tong Quyet" Icon="Icon_Skill_4" Desc="Tang sinh luc va noi luc">
     <LevelData Level="1" PointUpdate="500">
       <SkillProb PropType="lifemax_p"  Value1="1" Value2="-1" Value3="-1"/>
       <SkillProb PropType="manamax_p"  Value1="1" Value2="-1" Value3="-1"/>

@@ -1,57 +1,42 @@
-# MIỄN TRỪ TRÁCH NHIỆM
+# 免责声明
 
+## 术语与定义
 
+- 武林会馆（HQVL）：HQVL 的 Facebook 社群（https://fb.com/groups/volamquan）及其衍生渠道，包括：
+    - Github : https://github.com/jxoffline
+    - Discord: https://discord.gg/gBrZsTwauH
+- HQVL 管理团队：在 HQVL Facebook 社群中担任管理角色的成员。
+- 个体或多个个体：参与 HQVL 的成员。
 
-## Thuật ngữ và các định nghĩa
+- 其他个体：在同一语境中，除当前所述个体之外的其他成员。
 
-- Hội Quán Võ Lâm (HQVL): nhóm facebook HQVL tại https://fb.com/groups/volamquan và các kênh phái sinh từ HQVL, bao gồm: 
-    - Github :  https://github.com/jxoffline
-    - Discord:  https://discord.gg/gBrZsTwauH
-- Ban quản trị HQVL: các thành viên có vai trò quản trị trên nhóm facebook HQVL.
-- Cá thể hoặc các cá thể: thành viên tham gia HQVL.
+- 买卖、批发、商业行为、交易：指两个或多个个体之间一切与货币或资产相关的往来行为。
 
-- Cá thể khác: thành viên khác với cá thể được đề cập trong cùng ngữ cảnh.
+## 用户责任
 
-- Trao đổi mua bán, bán buôn, thương mại, giao dịch trao đổi: tất cả các hoạt động qua lại  giữ hai hoặc nhiều cá thể với nhau có liên quan đến tiền tệ hoặc tài sản.
+武林会馆是一个开源社区，聚集了对《剑侠情缘》系列游戏技术研究与开发有兴趣的成员。社区中的每篇帖子均由不同个体发布，由管理团队按照社区通用标准进行审核，但审核范围不包括：
 
+- 对内容真实性及来源进行鉴定。
+- 对内容附件文件进行安全与有效性鉴定。
+- 对发帖者是否存在诈骗、非法侵占财产动机进行鉴定。
 
+但如果其他成员能够向管理团队 **举报** 并 **提供证据** 证明帖子内容不符合社区规范或存在潜在风险，管理团队有责任尽快移除相关内容。
 
-## Trách nhiệm người dùng
+HQVL 不支持基于社区帖子产生的任何买卖行为。因此，HQVL **不提供任何买卖双方保障政策**，管理团队 **不承担由此引发的相关责任**。
 
-Hội Quán Võ Lâm là cộng đồng nguồn mở tập trung các cá thể có đam mê tìm hiểu và phát triển các kỹ thuật cho các họ game Võ Lâm Truyền Kỳ. Theo đó, mỗi bài viết được chia sẻ bởi các cá thể khác nhau. Các bài viết này được BQT kiểm duyệt theo các tiêu chí chung của cộng đồng. Các tiêu chí này không bao gồm:
+带有招揽批发或商业营销性质的内容将被 HQVL 拒绝发布。对于通过私下联系方式发起的兜售、邀约等行为，任何选择交易的个体须自行承担全部责任；若发生纠纷或损失，管理团队不提供保障机制。
 
-- Thẩm định tính đúng đắn, nguồn gốc của nội dung.
-- Thẩm định các tập tin đính kèm trong nội dung.
-- Thẩm định động cơ của cá thể đăng bài nhằm mục đích lừa đảo, chiếm đoạt tài sản bất hợp pháp.
+本声明可能由 HQVL 管理团队根据实际情况进行更新。
 
-
-
-Tuy nhiên, nếu các cá thể khác trong HQVL có thể **thông báo** cho BQT đồng thời **cung cấp bằng chứng** cho thấy nội dung bài viết không phù hợp với cộng đồng hoặc có yếu tố gây nguy hiểm cho cộng đồng. BQT có trách nhiệm gỡ nội dung trong thời gian sớm nhất có thể.
-
-HQVL hoàn toàn không ủng hộ bất cứ hình thức trao đổi mua bán nào phát sinh phía sau các nội dung được đăng tải. Theo đó, HQVL **KHÔNG có chính sách nào bảo vệ bên mua và bên bán**. Theo đói, BQT **từ chối các trách nhiệm liên quan**.
-
-​	Các bài viết với nội dung có tính chất chào mời bán buôn, thương mại sẽ bị từ chối đăng bài trên HQVL. Đối với các hình thức gạ gẫm, mời chào qua kênh liên lạc riêng bán xuất phát từ các cá thể trên HQVL, các cá thể có quyết định giao dịch trao đổi hoàn toàn tự chịu trách nhiệm với các quyết định mang tính cá nhân này. BQT  hoàn toàn không có cơ chế nào bảo vệ các cá thể nếu có sự cố phát sinh.
-
-
-
-Nội dung có thể sẽ được cập nhật bởi BQT HQVL cho phù hợp với tình hình thực tế.
-
-
-
-
-
-* * *
+---
 
 <details style="color:grey">
-    <summary>&copy; <b>Hội quán võ lâm</b>, 2021-2024</summary>
+    <summary>&copy; <b>武林会馆</b>, 2021-2024</summary>
     <p>
-        <b>Bản quyền phân phối</b> nội dung thuộc về <a href="https://fb.com/groups/volamquan">Hội quán võ lâm</a>. <b>Quyền tác giả</b> thuộc về người đã sáng tạo nội dung được thể hiện rõ trong bài viết.
+        内容的 <b>发布与分发权</b> 归属于 <a href="https://fb.com/groups/volamquan">武林会馆</a>；<b>著作权</b> 归属于帖子中明确标注的原创作者。
     </p>
     <p>
-    Mọi hình thức sao chép phân phối lại yêu cầu giữ nguyên toàn bộ bài viết bao gồm cả tiêu đề, nội dung và hình thức. <b>Không</b> được phép <b>chỉnh sửa, thay đổi</b> các liên kết dẫn về <a href="https://fb.com/groups/volamquan">Hội quán võ lâm</a>, cũng như <b>thông tin về tác giả</b>.
+    任何转载与再分发都必须完整保留原文（包括标题、内容与呈现形式）。<b>不得</b> <b>修改或替换</b> 指向 <a href="https://fb.com/groups/volamquan">武林会馆</a> 的链接，也不得改动 <b>作者信息</b>。
     </p>
-    Các vấn đề tác quyền liên hệ: <a href="mailto:jx1offline@gmail.com">jx1offline@gmail.com</a>
+    版权相关问题联系：<a href="mailto:jx1offline@gmail.com">jx1offline@gmail.com</a>
 </details>
-
-
-

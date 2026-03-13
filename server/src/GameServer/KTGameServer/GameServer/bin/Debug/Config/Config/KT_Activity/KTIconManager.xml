@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <IconManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Icons IconID="OpenTokenShop" Name="Kỳ Trân Các" State="Show" />
-  <Icons IconID="OpenSeashellCircle" Name="Bách Bảo Rương" State="Show" />
-  <Icons IconID="OpenWelfareFirstRecharge" Name="Phúc lợi nạp đầu" State="Show" />
-  <Icons IconID="OpenWelfare" Name="Phúc lợi" State="Show" />
-  <Icons IconID="OpenActivityList" Name="Hoạt động" State="Show" />
-  <Icons IconID="OpenSystemSetting" Name="Thiết lập hệ thống" State="Show" />
-  <Icons IconID="OpenFriendBox" Name="Bạn bè" State="Show" />
-  <Icons IconID="OpenGuildBox" Name="Bang hội" State="Show" />
-  <Icons IconID="OpenTaskBox" Name="Nhiệm vụ" State="Show" />
-  <Icons IconID="OpenBrowsePlayer" Name="Tìm người chơi" State="Show" />
-  <Icons IconID="OpenMailBox" Name="Thư" State="Show" />
-  <Icons IconID="OpenBag" Name="Túi đồ" State="Show" />
-  <Icons IconID="OpenRoleInfo" Name="Nhân vật" State="Show" />
-  <Icons IconID="OpenSkill" Name="Kỹ năng" State="Show" />
-  <Icons IconID="OpenLifeSkill" Name="Kỹ năng sống" State="Show" />
+  <Icons IconID="OpenTokenShop" Name="Ky Tran Cac" State="Show" />
+  <Icons IconID="OpenSeashellCircle" Name="Bach Bao Ruong" State="Show" />
+  <Icons IconID="OpenWelfareFirstRecharge" Name="Phuc loi nap dau" State="Show" />
+  <Icons IconID="OpenWelfare" Name="Phuc loi" State="Show" />
+  <Icons IconID="OpenActivityList" Name="Hoat dong" State="Show" />
+  <Icons IconID="OpenSystemSetting" Name="Thiet lap he thong" State="Show" />
+  <Icons IconID="OpenFriendBox" Name="Ban be" State="Show" />
+  <Icons IconID="OpenGuildBox" Name="Bang hoi" State="Show" />
+  <Icons IconID="OpenTaskBox" Name="Nhiem vu" State="Show" />
+  <Icons IconID="OpenBrowsePlayer" Name="Tim nguoi choi" State="Show" />
+  <Icons IconID="OpenMailBox" Name="Thu" State="Show" />
+  <Icons IconID="OpenBag" Name="Tui do" State="Show" />
+  <Icons IconID="OpenRoleInfo" Name="Nhan vat" State="Show" />
+  <Icons IconID="OpenSkill" Name="Ky nang" State="Show" />
+  <Icons IconID="OpenLifeSkill" Name="Ky nang song" State="Show" />
 </IconManager>

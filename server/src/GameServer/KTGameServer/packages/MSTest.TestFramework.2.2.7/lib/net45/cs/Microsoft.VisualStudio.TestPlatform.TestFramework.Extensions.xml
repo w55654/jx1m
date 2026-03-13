@@ -6,10 +6,10 @@
     <members>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute">
             <summary>
-            Používá se pro určení položky nasazení (souboru nebo adresáře) za účelem nasazení podle testu.
-            Lze zadat na testovací třídě nebo testovací metodě.
-            Může mít více instancí atributu pro zadání více než jedné položky.
-            Cesta k položce může být absolutní nebo relativní. Pokud je relativní, je relativní ve vztahu k RunConfig.RelativePathRoot.
+            Použ中v中 se pro určen中 položky nasazen中 (souboru nebo adres中ře) za 中čelem nasazen中 podle testu.
+            Lze zadat na testovac中 tř中dě nebo testovac中 metodě.
+            Může m中t v中ce instanc中 atributu pro zad中n中 v中ce než jedn中 položky.
+            Cesta k položce může b中t absolutn中 nebo relativn中. Pokud je relativn中, je relativn中 ve vztahu k RunConfig.RelativePathRoot.
             </summary>
             <example>
             [DeploymentItem("file1.xml")]
@@ -19,65 +19,65 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">Soubor nebo adresář, který se má nasadit. Cesta je relativní ve vztahu k adresáři výstupu sestavení. Položka bude zkopírována do adresáře, ve kterém jsou nasazená testovací sestavení.</param>
+            <param name="path">Soubor nebo adres中ř, kter中 se m中 nasadit. Cesta je relativn中 ve vztahu k adres中ři v中stupu sestaven中. Položka bude zkop中rov中na do adres中ře, ve kter中m jsou nasazen中 testovac中 sestaven中.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">Relativní nebo absolutní cesta k souboru nebo adresáři, který se má nasadit. Cesta je relativní ve vztahu k adresáři výstupu sestavení. Položka bude zkopírována do stejného adresáře jako nasazená testovací sestavení.</param>
-            <param name="outputDirectory">Cesta k adresáři, do kterého se mají položky kopírovat. Může být absolutní nebo relativní ve vztahu k adresáři nasazení. Všechny soubory a adresáře určené cestou <paramref name="path"/> budou zkopírovány do tohoto adresáře.</param>
+            <param name="path">Relativn中 nebo absolutn中 cesta k souboru nebo adres中ři, kter中 se m中 nasadit. Cesta je relativn中 ve vztahu k adres中ři v中stupu sestaven中. Položka bude zkop中rov中na do stejn中ho adres中ře jako nasazen中 testovac中 sestaven中.</param>
+            <param name="outputDirectory">Cesta k adres中ři, do kter中ho se maj中 položky kop中rovat. Může b中t absolutn中 nebo relativn中 ve vztahu k adres中ři nasazen中. Všechny soubory a adres中ře určen中 cestou <paramref name="path"/> budou zkop中rov中ny do tohoto adres中ře.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
-            Získá cestu ke zdrojovému souboru nebo složce, které se mají kopírovat.
+            Z中sk中 cestu ke zdrojov中mu souboru nebo složce, kter中 se maj中 kop中rovat.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.OutputDirectory">
             <summary>
-            Získá cestu adresáře, do kterého se položka zkopíruje.
+            Z中sk中 cestu adres中ře, do kter中ho se položka zkop中ruje.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames">
             <summary>
-            Obsahuje literály názvů oddílů, vlastností a atributů.
+            Obsahuje liter中ly n中zvů odd中lů, vlastnost中 a atributů.
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.SectionName">
             <summary>
-            Název oddílu konfigurace
+            N中zev odd中lu konfigurace
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.Beta2SectionName">
             <summary>
-            Název části konfigurace pro Beta2. Zůstává kvůli kompatibilitě.
+            N中zev č中sti konfigurace pro Beta2. Zůst中v中 kvůli kompatibilitě.
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.DataSourcesSectionName">
             <summary>
-            Název části pro zdroj dat
+            N中zev č中sti pro zdroj dat
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.NameAttributeName">
             <summary>
-            Název atributu pro Name
+            N中zev atributu pro Name
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.ConnectionStringAttributeName">
             <summary>
-            Název atributu pro ConnectionString
+            N中zev atributu pro ConnectionString
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.DataAccessMethodAttributeName">
             <summary>
-            Název atributu pro DataAccessMethod
+            N中zev atributu pro DataAccessMethod
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.DataTableAttributeName">
             <summary>
-            Název atributu pro DataTable
+            N中zev atributu pro DataTable
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement">
@@ -87,32 +87,32 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement.Name">
             <summary>
-            Získá nebo nastaví název této konfigurace.
+            Z中sk中 nebo nastav中 n中zev t中to konfigurace.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement.ConnectionString">
             <summary>
-            Získá nebo nastaví element ConnectionStringSettings v části &lt;connectionStrings&gt; v souboru .config.
+            Z中sk中 nebo nastav中 element ConnectionStringSettings v č中sti &lt;connectionStrings&gt; v souboru .config.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement.DataTableName">
             <summary>
-            Získá nebo nastaví název tabulky dat.
+            Z中sk中 nebo nastav中 n中zev tabulky dat.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement.DataAccessMethod">
             <summary>
-            Získá nebo nastaví typ přístupu k datům.
+            Z中sk中 nebo nastav中 typ př中stupu k datům.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement.Key">
             <summary>
-            Získá název klíče.
+            Z中sk中 n中zev kl中če.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement.Properties">
             <summary>
-            Získá vlastnosti konfigurace.
+            Z中sk中 vlastnosti konfigurace.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection">
@@ -122,27 +122,27 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.#ctor">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection"/>.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection"/>.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Item(System.String)">
             <summary>
-            Vrátí element konfigurace se zadaným klíčem.
+            Vr中t中 element konfigurace se zadan中m kl中čem.
             </summary>
-            <param name="name">Klíč elementu, který se má vrátit</param>
-            <returns>System.Configuration.ConfigurationElement se zadaným klíčem, jinak null.</returns>
+            <param name="name">Kl中č elementu, kter中 se m中 vr中tit</param>
+            <returns>System.Configuration.ConfigurationElement se zadan中m kl中čem, jinak null.</returns>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Item(System.Int32)">
             <summary>
-            Získá element konfigurace v zadaném umístění indexu.
+            Z中sk中 element konfigurace v zadan中m um中stěn中 indexu.
             </summary>
-            <param name="index">Umístění indexu elementu System.Configuration.ConfigurationElement, který se má vrátit.</param>
+            <param name="index">Um中stěn中 indexu elementu System.Configuration.ConfigurationElement, kter中 se m中 vr中tit.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Add(Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement)">
             <summary>
-            Přidá element konfigurace ke kolekci elementů konfigurace.
+            Přid中 element konfigurace ke kolekci elementů konfigurace.
             </summary>
-            <param name="element">System.Configuration.ConfigurationElement, který se má přidat</param>
+            <param name="element">System.Configuration.ConfigurationElement, kter中 se m中 přidat</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Remove(Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement)">
             <summary>
@@ -154,7 +154,7 @@
             <summary>
             Odebere System.Configuration.ConfigurationElement z kolekce.
             </summary>
-            <param name="name">Klíč elementu System.Configuration.ConfigurationElement, který se má odebrat</param>
+            <param name="name">Kl中č elementu System.Configuration.ConfigurationElement, kter中 se m中 odebrat</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Clear">
             <summary>
@@ -163,755 +163,755 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.CreateNewElement">
             <summary>
-            Vytvoří nový <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.
+            Vytvoř中 nov中 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.
             </summary>
-            <returns>Nový <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.</returns>
+            <returns>Nov中 <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement"/>.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.GetElementKey(System.Configuration.ConfigurationElement)">
             <summary>
-            Získá klíč elementu pro zadaný element konfigurace.
+            Z中sk中 kl中č elementu pro zadan中 element konfigurace.
             </summary>
-            <param name="element">System.Configuration.ConfigurationElement, pro který se má vrátit klíč</param>
-            <returns>System.Object, který funguje jako klíč pro zadaný element System.Configuration.ConfigurationElement</returns>
+            <param name="element">System.Configuration.ConfigurationElement, pro kter中 se m中 vr中tit kl中č</param>
+            <returns>System.Object, kter中 funguje jako kl中č pro zadan中 element System.Configuration.ConfigurationElement</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.BaseAdd(System.Configuration.ConfigurationElement)">
             <summary>
-            Přidá element konfigurace ke kolekci elementů konfigurace.
+            Přid中 element konfigurace ke kolekci elementů konfigurace.
             </summary>
-            <param name="element">System.Configuration.ConfigurationElement, který se má přidat</param>
+            <param name="element">System.Configuration.ConfigurationElement, kter中 se m中 přidat</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.BaseAdd(System.Int32,System.Configuration.ConfigurationElement)">
             <summary>
-            Přidá element konfigurace ke kolekci elementů konfigurace.
+            Přid中 element konfigurace ke kolekci elementů konfigurace.
             </summary>
-            <param name="index">Umístění indexu, kde se má přidat zadaný element System.Configuration.ConfigurationElement</param>
-            <param name="element">System.Configuration.ConfigurationElement, který se má přidat</param>
+            <param name="index">Um中stěn中 indexu, kde se m中 přidat zadan中 element System.Configuration.ConfigurationElement</param>
+            <param name="element">System.Configuration.ConfigurationElement, kter中 se m中 přidat</param>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfiguration">
             <summary>
-            Podpora nastavení konfigurace testů
+            Podpora nastaven中 konfigurace testů
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfiguration.ConfigurationSection">
             <summary>
-            Získá oddíl konfigurace pro testy.
+            Z中sk中 odd中l konfigurace pro testy.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection">
             <summary>
-            Oddíl konfigurace pro testy
+            Odd中l konfigurace pro testy
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection.DataSources">
             <summary>
-            Získá zdroje dat pro tento oddíl konfigurace.
+            Z中sk中 zdroje dat pro tento odd中l konfigurace.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection.Properties">
             <summary>
-            Získá kolekci vlastností.
+            Z中sk中 kolekci vlastnost中.
             </summary>
             <returns>
-            Třídu <see cref="T:System.Configuration.ConfigurationPropertyCollection"/> vlastností pro element
+            Tř中du <see cref="T:System.Configuration.ConfigurationPropertyCollection"/> vlastnost中 pro element
             </returns>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject">
             <summary>
-            Tato třída představuje živý, NEVEŘEJNÝ, INTERNÍ objekt v systému.
+            Tato tř中da představuje živ中, NEVEŘEJN中, INTERN中 objekt v syst中mu.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která obsahuje
-            už existující objekt privátní třídy.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kter中 obsahuje
+            už existuj中c中 objekt priv中tn中 tř中dy.
             </summary>
-            <param name="obj"> objektů, které slouží jako počáteční bod k dosažení privátních členů</param>
-            <param name="memberToAccess">řetězec zrušení reference využívající . a odkazující na objekt, který se má načíst, jako například v m_X.m_Y.m_Z</param>
+            <param name="obj"> objektů, kter中 slouž中 jako poč中tečn中 bod k dosažen中 priv中tn中ch členů</param>
+            <param name="memberToAccess">řetězec zrušen中 reference využ中vaj中c中 . a odkazuj中c中 na objekt, kter中 se m中 nač中st, jako např中klad v m_X.m_Y.m_Z</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
-            zadaný typ.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kter中 zabaluje
+            zadan中 typ.
             </summary>
-            <param name="assemblyName">Název sestavení</param>
-            <param name="typeName">plně kvalifikovaný název</param>
-            <param name="args">Argumenty, které se mají předat konstruktoru</param>
+            <param name="assemblyName">N中zev sestaven中</param>
+            <param name="typeName">plně kvalifikovan中 n中zev</param>
+            <param name="args">Argumenty, kter中 se maj中 předat konstruktoru</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Type[],System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
-            zadaný typ.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kter中 zabaluje
+            zadan中 typ.
             </summary>
-            <param name="assemblyName">Název sestavení</param>
-            <param name="typeName">plně kvalifikovaný název</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má načíst konstruktor</param>
-            <param name="args">Argumenty, které se mají předat konstruktoru</param>
+            <param name="assemblyName">N中zev sestaven中</param>
+            <param name="typeName">plně kvalifikovan中 n中zev</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 nač中st konstruktor</param>
+            <param name="args">Argumenty, kter中 se maj中 předat konstruktoru</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
-            zadaný typ.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kter中 zabaluje
+            zadan中 typ.
             </summary>
-            <param name="type">typ objektu, který chcete vytvořit</param>
-            <param name="args">Argumenty, které se mají předat konstruktoru</param>
+            <param name="type">typ objektu, kter中 chcete vytvořit</param>
+            <param name="args">Argumenty, kter中 se maj中 předat konstruktoru</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Type[],System.Object[])">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
-            zadaný typ.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kter中 zabaluje
+            zadan中 typ.
             </summary>
-            <param name="type">typ objektu, který chcete vytvořit</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má načíst konstruktor</param>
-            <param name="args">Argumenty, které se mají předat konstruktoru</param>
+            <param name="type">typ objektu, kter中 chcete vytvořit</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 nač中st konstruktor</param>
+            <param name="args">Argumenty, kter中 se maj中 předat konstruktoru</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
-            daný objekt.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kter中 zabaluje
+            dan中 objekt.
             </summary>
-            <param name="obj">Objekt, který chcete zabalit</param>
+            <param name="obj">Objekt, kter中 chcete zabalit</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, která zabaluje
-            daný objekt.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kter中 zabaluje
+            dan中 objekt.
             </summary>
-            <param name="obj">Objekt, který chcete zabalit</param>
+            <param name="obj">Objekt, kter中 chcete zabalit</param>
             <param name="type">Objekt PrivateType</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Target">
             <summary>
-            Získá nebo nastaví cíl.
+            Z中sk中 nebo nastav中 c中l.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.RealType">
             <summary>
-            Získá typ základního objektu.
+            Z中sk中 typ z中kladn中ho objektu.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetHashCode">
             <summary>
-            Vrátí hodnotu hash cílového objektu.
+            Vr中t中 hodnotu hash c中lov中ho objektu.
             </summary>
-            <returns>celé číslo představující hodnotu hash cílového objektu</returns>
+            <returns>cel中 č中slo představuj中c中 hodnotu hash c中lov中ho objektu</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Equals(System.Object)">
             <summary>
-            Rovná se
+            Rovn中 se
             </summary>
-            <param name="obj">Objekt, se kterým chcete porovnat</param>
-            <returns>pokud se objekty rovnají, vrátí true.</returns>
+            <param name="obj">Objekt, se kter中m chcete porovnat</param>
+            <returns>pokud se objekty rovnaj中, vr中t中 true.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Object[])">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Type[],System.Object[])">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda nač中st.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Type[],System.Object[],System.Type[])">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda nač中st.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <param name="typeArguments">Pole typů odpov中daj中c中 typům obecn中ch argumentů</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <param name="culture">Informace o jazykové verzi</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <param name="culture">Informace o jazykov中 verzi</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Type[],System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <param name="culture">Informace o jazykové verzi</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda nač中st.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <param name="culture">Informace o jazykov中 verzi</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Reflection.BindingFlags,System.Object[])">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Reflection.BindingFlags,System.Type[],System.Object[])">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda nač中st.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Reflection.BindingFlags,System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <param name="culture">Informace o jazykové verzi</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <param name="culture">Informace o jazykov中 verzi</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Reflection.BindingFlags,System.Type[],System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <param name="culture">Informace o jazykové verzi</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda nač中st.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <param name="culture">Informace o jazykov中 verzi</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Reflection.BindingFlags,System.Type[],System.Object[],System.Globalization.CultureInfo,System.Type[])">
             <summary>
-            Vyvolá zadanou metodu.
+            Vyvol中 zadanou metodu.
             </summary>
-            <param name="name">Název metody</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda načíst.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <param name="culture">Informace o jazykové verzi</param>
-            <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
-            <returns>Výsledek volání metody</returns>
+            <param name="name">N中zev metody</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda nač中st.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <param name="culture">Informace o jazykov中 verzi</param>
+            <param name="typeArguments">Pole typů odpov中daj中c中 typům obecn中ch argumentů</param>
+            <returns>V中sledek vol中n中 metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetArrayElement(System.String,System.Int32[])">
             <summary>
-            Získá prvek pole pomocí pole dolních indexů pro jednotlivé rozměry.
+            Z中sk中 prvek pole pomoc中 pole doln中ch indexů pro jednotliv中 rozměry.
             </summary>
-            <param name="name">Název člena</param>
+            <param name="name">N中zev člena</param>
             <param name="indices">indexy pole</param>
             <returns>Pole prvků</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetArrayElement(System.String,System.Object,System.Int32[])">
             <summary>
-            Nastaví prvek pole pomocí pole dolních indexů pro jednotlivé rozměry.
+            Nastav中 prvek pole pomoc中 pole doln中ch indexů pro jednotliv中 rozměry.
             </summary>
-            <param name="name">Název člena</param>
-            <param name="value">Hodnota, která se má nastavit</param>
+            <param name="name">N中zev člena</param>
+            <param name="value">Hodnota, kter中 se m中 nastavit</param>
             <param name="indices">indexy pole</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetArrayElement(System.String,System.Reflection.BindingFlags,System.Int32[])">
             <summary>
-            Získá prvek pole pomocí pole dolních indexů pro jednotlivé rozměry.
+            Z中sk中 prvek pole pomoc中 pole doln中ch indexů pro jednotliv中 rozměry.
             </summary>
-            <param name="name">Název člena</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="name">N中zev člena</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
             <param name="indices">indexy pole</param>
             <returns>Pole prvků</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetArrayElement(System.String,System.Reflection.BindingFlags,System.Object,System.Int32[])">
             <summary>
-            Nastaví prvek pole pomocí pole dolních indexů pro jednotlivé rozměry.
+            Nastav中 prvek pole pomoc中 pole doln中ch indexů pro jednotliv中 rozměry.
             </summary>
-            <param name="name">Název člena</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="value">Hodnota, která se má nastavit</param>
+            <param name="name">N中zev člena</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="value">Hodnota, kter中 se m中 nastavit</param>
             <param name="indices">indexy pole</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetField(System.String)">
             <summary>
-            Získá pole.
+            Z中sk中 pole.
             </summary>
-            <param name="name">Název pole</param>
+            <param name="name">N中zev pole</param>
             <returns>Pole</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetField(System.String,System.Object)">
             <summary>
-            Nastaví pole.
+            Nastav中 pole.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="value">nastavovací hodnota</param>
+            <param name="name">N中zev pole</param>
+            <param name="value">nastavovac中 hodnota</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetField(System.String,System.Reflection.BindingFlags)">
             <summary>
-            Získá pole.
+            Z中sk中 pole.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="name">N中zev pole</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
             <returns>Pole</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetField(System.String,System.Reflection.BindingFlags,System.Object)">
             <summary>
-            Nastaví pole.
+            Nastav中 pole.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="value">nastavovací hodnota</param>
+            <param name="name">N中zev pole</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="value">nastavovac中 hodnota</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetFieldOrProperty(System.String)">
             <summary>
             Načte pole nebo vlastnost.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
+            <param name="name">N中zev pole nebo vlastnosti</param>
             <returns>Pole nebo vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetFieldOrProperty(System.String,System.Object)">
             <summary>
-            Nastaví pole nebo vlastnost.
+            Nastav中 pole nebo vlastnost.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
-            <param name="value">nastavovací hodnota</param>
+            <param name="name">N中zev pole nebo vlastnosti</param>
+            <param name="value">nastavovac中 hodnota</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetFieldOrProperty(System.String,System.Reflection.BindingFlags)">
             <summary>
-            Získá pole nebo vlastnost.
+            Z中sk中 pole nebo vlastnost.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
+            <param name="name">N中zev pole nebo vlastnosti</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
             <returns>Pole nebo vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetFieldOrProperty(System.String,System.Reflection.BindingFlags,System.Object)">
             <summary>
-            Nastaví pole nebo vlastnost.
+            Nastav中 pole nebo vlastnost.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="value">nastavovací hodnota</param>
+            <param name="name">N中zev pole nebo vlastnosti</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="value">nastavovac中 hodnota</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetProperty(System.String,System.Object[])">
             <summary>
-            Získá vlastnost.
+            Z中sk中 vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
             <returns>Vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetProperty(System.String,System.Type[],System.Object[])">
             <summary>
-            Získá vlastnost.
+            Z中sk中 vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů indexovan中 vlastnosti.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
             <returns>Vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetProperty(System.String,System.Object,System.Object[])">
             <summary>
-            Nastaví vlastnost.
+            Nastav中 vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="value">nastavovací hodnota</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="value">nastavovac中 hodnota</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetProperty(System.String,System.Type[],System.Object,System.Object[])">
             <summary>
-            Nastaví vlastnost.
+            Nastav中 vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
-            <param name="value">nastavovací hodnota</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů indexovan中 vlastnosti.</param>
+            <param name="value">nastavovac中 hodnota</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetProperty(System.String,System.Reflection.BindingFlags,System.Object[])">
             <summary>
-            Získá vlastnost.
+            Z中sk中 vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
             <returns>Vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetProperty(System.String,System.Reflection.BindingFlags,System.Type[],System.Object[])">
             <summary>
-            Získá vlastnost.
+            Z中sk中 vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů indexovan中 vlastnosti.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
             <returns>Vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetProperty(System.String,System.Reflection.BindingFlags,System.Object,System.Object[])">
             <summary>
-            Nastaví vlastnost.
+            Nastav中 vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="value">nastavovací hodnota</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="value">nastavovac中 hodnota</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetProperty(System.String,System.Reflection.BindingFlags,System.Object,System.Type[],System.Object[])">
             <summary>
-            Nastaví vlastnost.
+            Nastav中 vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Bitová maska sestávající z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určující způsob vyhledávání.</param>
-            <param name="value">nastavovací hodnota</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="bindingFlags">Bitov中 maska sest中vaj中c中 z jednoho nebo několika <see cref="T:System.Reflection.BindingFlags"/> určuj中c中 způsob vyhled中v中n中.</param>
+            <param name="value">nastavovac中 hodnota</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů indexovan中 vlastnosti.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.ValidateAccessString(System.String)">
             <summary>
-            Ověří přístupový řetězec.
+            Ověř中 př中stupov中 řetězec.
             </summary>
-            <param name="access"> přístupový řetězec</param>
+            <param name="access"> př中stupov中 řetězec</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.InvokeHelper(System.String,System.Reflection.BindingFlags,System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá člen.
+            Vyvol中 člen.
             </summary>
-            <param name="name">Název člena</param>
-            <param name="bindingFlags">Další atributy</param>
-            <param name="args">Argumenty vyvolání</param>
-            <param name="culture">Jazyková verze</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev člena</param>
+            <param name="bindingFlags">Dalš中 atributy</param>
+            <param name="args">Argumenty vyvol中n中</param>
+            <param name="culture">Jazykov中 verze</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetGenericMethodFromCache(System.String,System.Type[],System.Type[],System.Reflection.BindingFlags,System.Reflection.ParameterModifier[])">
             <summary>
-            Vybere z aktuálního privátního typu nejvhodnější signaturu obecné metody.
+            Vybere z aktu中ln中ho priv中tn中ho typu nejvhodnějš中 signaturu obecn中 metody.
             </summary>
-            <param name="methodName">Název metody, ve které chcete prohledat mezipaměť podpisu</param>
-            <param name="parameterTypes">Pole typů odpovídající typům parametrů, ve kterých se má hledat.</param>
-            <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
-            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags"/> pro další filtrování podpisů metody.</param>
-            <param name="modifiers">Modifikátory parametrů</param>
+            <param name="methodName">N中zev metody, ve kter中 chcete prohledat mezipaměť podpisu</param>
+            <param name="parameterTypes">Pole typů odpov中daj中c中 typům parametrů, ve kter中ch se m中 hledat.</param>
+            <param name="typeArguments">Pole typů odpov中daj中c中 typům obecn中ch argumentů</param>
+            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags"/> pro dalš中 filtrov中n中 podpisů metody.</param>
+            <param name="modifiers">Modifik中tory parametrů</param>
             <returns>Instance methodinfo</returns>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType">
             <summary>
-            Tato třída představuje privátní třídu pro funkci privátního přístupového objektu.
+            Tato tř中da představuje priv中tn中 tř中du pro funkci priv中tn中ho př中stupov中ho objektu.
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.BindToEveryThing">
             <summary>
-            Váže se na vše.
+            V中že se na vše.
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.type">
             <summary>
-            Zabalený typ
+            Zabalen中 typ
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.String,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, která obsahuje privátní typ.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, kter中 obsahuje priv中tn中 typ.
             </summary>
-            <param name="assemblyName">Název sestavení</param>
-            <param name="typeName">plně kvalifikovaný název </param>
+            <param name="assemblyName">N中zev sestaven中</param>
+            <param name="typeName">plně kvalifikovan中 n中zev </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.Type)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, která obsahuje
-            privátní typ z objektu typu.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, kter中 obsahuje
+            priv中tn中 typ z objektu typu.
             </summary>
-            <param name="type">Zabalený typ, který se má vytvořit</param>
+            <param name="type">Zabalen中 typ, kter中 se m中 vytvořit</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.ReferencedType">
             <summary>
-            Získá odkazovaný typ.
+            Z中sk中 odkazovan中 typ.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Object[])">
             <summary>
-            Vyvolá statický člen.
+            Vyvol中 statick中 člen.
             </summary>
-            <param name="name">Název členu InvokeHelper</param>
-            <param name="args">Argumenty vyvolání</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev členu InvokeHelper</param>
+            <param name="args">Argumenty vyvol中n中</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Type[],System.Object[])">
             <summary>
-            Vyvolá statický člen.
+            Vyvol中 statick中 člen.
             </summary>
-            <param name="name">Název členu InvokeHelper</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
-            <param name="args">Argumenty vyvolání</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev členu InvokeHelper</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda vyvolat</param>
+            <param name="args">Argumenty vyvol中n中</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Type[],System.Object[],System.Type[])">
             <summary>
-            Vyvolá statický člen.
+            Vyvol中 statick中 člen.
             </summary>
-            <param name="name">Název členu InvokeHelper</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
-            <param name="args">Argumenty vyvolání</param>
-            <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev členu InvokeHelper</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda vyvolat</param>
+            <param name="args">Argumenty vyvol中n中</param>
+            <param name="typeArguments">Pole typů odpov中daj中c中 typům obecn中ch argumentů</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá statickou metodu.
+            Vyvol中 statickou metodu.
             </summary>
-            <param name="name">Název člena</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <param name="culture">Jazyková verze</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev člena</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <param name="culture">Jazykov中 verze</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Type[],System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá statickou metodu.
+            Vyvol中 statickou metodu.
             </summary>
-            <param name="name">Název člena</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <param name="culture">Informace o jazykové verzi</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev člena</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda vyvolat</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <param name="culture">Informace o jazykov中 verzi</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Reflection.BindingFlags,System.Object[])">
             <summary>
-            Vyvolá statickou metodu.
+            Vyvol中 statickou metodu.
             </summary>
-            <param name="name">Název člena</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev člena</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Reflection.BindingFlags,System.Type[],System.Object[])">
             <summary>
-            Vyvolá statickou metodu.
+            Vyvol中 statickou metodu.
             </summary>
-            <param name="name">Název člena</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev člena</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda vyvolat</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Reflection.BindingFlags,System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá statickou metodu.
+            Vyvol中 statickou metodu.
             </summary>
-            <param name="name">Název členu</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <param name="culture">Jazyková verze</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev členu</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <param name="culture">Jazykov中 verze</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Reflection.BindingFlags,System.Type[],System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá statickou metodu.
+            Vyvol中 statickou metodu.
             </summary>
-            <param name="name">Název členu</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            /// <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <param name="culture">Jazyková verze</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev členu</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            /// <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda vyvolat</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <param name="culture">Jazykov中 verze</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Reflection.BindingFlags,System.Type[],System.Object[],System.Globalization.CultureInfo,System.Type[])">
             <summary>
-            Vyvolá statickou metodu.
+            Vyvol中 statickou metodu.
             </summary>
-            <param name="name">Název členu</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            /// <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů, které má metoda vyvolat</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <param name="culture">Jazyková verze</param>
-            <param name="typeArguments">Pole typů odpovídající typům obecných argumentů</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev členu</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            /// <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů, kter中 m中 metoda vyvolat</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <param name="culture">Jazykov中 verze</param>
+            <param name="typeArguments">Pole typů odpov中daj中c中 typům obecn中ch argumentů</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticArrayElement(System.String,System.Int32[])">
             <summary>
-            Získá prvek ve statickém poli.
+            Z中sk中 prvek ve statick中m poli.
             </summary>
-            <param name="name">Název pole</param>
+            <param name="name">N中zev pole</param>
             <param name="indices">
-            Jednorozměrné pole 32bitových celých čísel představujících indexy, které určují
-            pozici elementu, který se má získat. Pokud chcete získat přístup například k a[10][11], budou indexy {10,11}.
+            Jednorozměrn中 pole 32bitov中ch cel中ch č中sel představuj中c中ch indexy, kter中 určuj中
+            pozici elementu, kter中 se m中 z中skat. Pokud chcete z中skat př中stup např中klad k a[10][11], budou indexy {10,11}.
             </param>
-            <returns>prvek v zadaném umístění</returns>
+            <returns>prvek v zadan中m um中stěn中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticArrayElement(System.String,System.Object,System.Int32[])">
             <summary>
-            Nastaví člen statického pole.
+            Nastav中 člen statick中ho pole.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="value">nastavovací hodnota</param>
+            <param name="name">N中zev pole</param>
+            <param name="value">nastavovac中 hodnota</param>
             <param name="indices">
-            Jednorozměrné pole 32bitových celých čísel představujících indexy, které určují
-            pozici elementu, který se má nastavit. Pokud chcete například získat přístup k a[10][11], bude toto pole {10,11}.
+            Jednorozměrn中 pole 32bitov中ch cel中ch č中sel představuj中c中ch indexy, kter中 určuj中
+            pozici elementu, kter中 se m中 nastavit. Pokud chcete např中klad z中skat př中stup k a[10][11], bude toto pole {10,11}.
             </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticArrayElement(System.String,System.Reflection.BindingFlags,System.Int32[])">
             <summary>
-            Získá prvek ve statickém poli.
+            Z中sk中 prvek ve statick中m poli.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="bindingFlags">Další atributy InvokeHelper</param>
+            <param name="name">N中zev pole</param>
+            <param name="bindingFlags">Dalš中 atributy InvokeHelper</param>
             <param name="indices">
-            Jednorozměrné pole 32bitových celých čísel představujících indexy, které určují
-            pozici elementu, který se má získat. Pokud chcete například získat přístup k a[10][11], bude toto pole {10,11}.
+            Jednorozměrn中 pole 32bitov中ch cel中ch č中sel představuj中c中ch indexy, kter中 určuj中
+            pozici elementu, kter中 se m中 z中skat. Pokud chcete např中klad z中skat př中stup k a[10][11], bude toto pole {10,11}.
             </param>
-            <returns>prvek v zadaném umístění</returns>
+            <returns>prvek v zadan中m um中stěn中</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticArrayElement(System.String,System.Reflection.BindingFlags,System.Object,System.Int32[])">
             <summary>
-            Nastaví člen statického pole.
+            Nastav中 člen statick中ho pole.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="bindingFlags">Další atributy InvokeHelper</param>
-            <param name="value">nastavovací hodnota</param>
+            <param name="name">N中zev pole</param>
+            <param name="bindingFlags">Dalš中 atributy InvokeHelper</param>
+            <param name="value">nastavovac中 hodnota</param>
             <param name="indices">
-            Jednorozměrné pole 32bitových celých čísel představujících indexy, které určují
-            pozici elementu, který se má nastavit. Pokud chcete například získat přístup k a[10][11], bude toto pole {10,11}.
+            Jednorozměrn中 pole 32bitov中ch cel中ch č中sel představuj中c中ch indexy, kter中 určuj中
+            pozici elementu, kter中 se m中 nastavit. Pokud chcete např中klad z中skat př中stup k a[10][11], bude toto pole {10,11}.
             </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticField(System.String)">
             <summary>
-            Získá statické pole.
+            Z中sk中 statick中 pole.
             </summary>
-            <param name="name">Název pole</param>
-            <returns>Statické pole</returns>
+            <param name="name">N中zev pole</param>
+            <returns>Statick中 pole</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticField(System.String,System.Object)">
             <summary>
-            Nastaví statické pole.
+            Nastav中 statick中 pole.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="value">Argument k vyvolání</param>
+            <param name="name">N中zev pole</param>
+            <param name="value">Argument k vyvol中n中</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticField(System.String,System.Reflection.BindingFlags)">
             <summary>
-            Získá statické pole pomocí zadaných atributů InvokeHelper.
+            Z中sk中 statick中 pole pomoc中 zadan中ch atributů InvokeHelper.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <returns>Statické pole</returns>
+            <param name="name">N中zev pole</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <returns>Statick中 pole</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticField(System.String,System.Reflection.BindingFlags,System.Object)">
             <summary>
-            Nastaví statické pole pomocí atributů vazby.
+            Nastav中 statick中 pole pomoc中 atributů vazby.
             </summary>
-            <param name="name">Název pole</param>
-            <param name="bindingFlags">Další atributy InvokeHelper</param>
-            <param name="value">Argument k vyvolání</param>
+            <param name="name">N中zev pole</param>
+            <param name="bindingFlags">Dalš中 atributy InvokeHelper</param>
+            <param name="value">Argument k vyvol中n中</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticFieldOrProperty(System.String)">
             <summary>
-            Získá statické pole nebo vlastnost.
+            Z中sk中 statick中 pole nebo vlastnost.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
-            <returns>Statické pole nebo vlastnost</returns>
+            <param name="name">N中zev pole nebo vlastnosti</param>
+            <returns>Statick中 pole nebo vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticFieldOrProperty(System.String,System.Object)">
             <summary>
-            Nastaví statické pole nebo vlastnost.
+            Nastav中 statick中 pole nebo vlastnost.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
-            <param name="value">Hodnota, která se má nastavit pro pole nebo vlastnost</param>
+            <param name="name">N中zev pole nebo vlastnosti</param>
+            <param name="value">Hodnota, kter中 se m中 nastavit pro pole nebo vlastnost</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticFieldOrProperty(System.String,System.Reflection.BindingFlags)">
             <summary>
-            Získá statické pole nebo vlastnost pomocí zadaných atributů InvokeHelper.
+            Z中sk中 statick中 pole nebo vlastnost pomoc中 zadan中ch atributů InvokeHelper.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <returns>Statické pole nebo vlastnost</returns>
+            <param name="name">N中zev pole nebo vlastnosti</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <returns>Statick中 pole nebo vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticFieldOrProperty(System.String,System.Reflection.BindingFlags,System.Object)">
             <summary>
-            Nastaví statické pole nebo vlastnost pomocí atributů vazby.
+            Nastav中 statick中 pole nebo vlastnost pomoc中 atributů vazby.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="value">Hodnota, která se má nastavit pro pole nebo vlastnost</param>
+            <param name="name">N中zev pole nebo vlastnosti</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="value">Hodnota, kter中 se m中 nastavit pro pole nebo vlastnost</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticProperty(System.String,System.Object[])">
             <summary>
-            Získá statistickou vlastnost.
+            Z中sk中 statistickou vlastnost.
             </summary>
-            <param name="name">Název pole nebo vlastnosti</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <returns>Statická vlastnost</returns>
+            <param name="name">N中zev pole nebo vlastnosti</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <returns>Statick中 vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticProperty(System.String,System.Object,System.Object[])">
             <summary>
-            Nastaví statickou vlastnost.
+            Nastav中 statickou vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="value">Hodnota, která se má nastavit pro pole nebo vlastnost</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="value">Hodnota, kter中 se m中 nastavit pro pole nebo vlastnost</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticProperty(System.String,System.Object,System.Type[],System.Object[])">
             <summary>
-            Nastaví statickou vlastnost.
+            Nastav中 statickou vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="value">Hodnota, která se má nastavit pro pole nebo vlastnost</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="value">Hodnota, kter中 se m中 nastavit pro pole nebo vlastnost</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů indexovan中 vlastnosti.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticProperty(System.String,System.Reflection.BindingFlags,System.Object[])">
             <summary>
-            Získá statistickou vlastnost.
+            Z中sk中 statistickou vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <returns>Statická vlastnost</returns>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <returns>Statick中 vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticProperty(System.String,System.Reflection.BindingFlags,System.Type[],System.Object[])">
             <summary>
-            Získá statistickou vlastnost.
+            Z中sk中 statistickou vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
-            <returns>Statická vlastnost</returns>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů indexovan中 vlastnosti.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
+            <returns>Statick中 vlastnost</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticProperty(System.String,System.Reflection.BindingFlags,System.Object,System.Object[])">
             <summary>
-            Nastaví statickou vlastnost.
+            Nastav中 statickou vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="value">Hodnota, která se má nastavit pro pole nebo vlastnost</param>
-            <param name="args">Volitelné hodnoty indexu pro indexované vlastnosti. Indexy indexovaných vlastností se počítají od nuly. Tato hodnota by měla pro neindexované vlastnosti být Null. </param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="value">Hodnota, kter中 se m中 nastavit pro pole nebo vlastnost</param>
+            <param name="args">Voliteln中 hodnoty indexu pro indexovan中 vlastnosti. Indexy indexovan中ch vlastnost中 se poč中taj中 od nuly. Tato hodnota by měla pro neindexovan中 vlastnosti b中t Null. </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticProperty(System.String,System.Reflection.BindingFlags,System.Object,System.Type[],System.Object[])">
             <summary>
-            Nastaví statickou vlastnost.
+            Nastav中 statickou vlastnost.
             </summary>
-            <param name="name">Název vlastnosti</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="value">Hodnota, která se má nastavit pro pole nebo vlastnost</param>
-            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představujících počet, pořadí a typ parametrů indexované vlastnosti.</param>
-            <param name="args">Argumenty pro vyvolání, které se mají předat členu</param>
+            <param name="name">N中zev vlastnosti</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="value">Hodnota, kter中 se m中 nastavit pro pole nebo vlastnost</param>
+            <param name="parameterTypes">Pole <see cref="T:System.Type"/> objektů představuj中c中ch počet, pořad中 a typ parametrů indexovan中 vlastnosti.</param>
+            <param name="args">Argumenty pro vyvol中n中, kter中 se maj中 předat členu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeHelperStatic(System.String,System.Reflection.BindingFlags,System.Object[],System.Globalization.CultureInfo)">
             <summary>
-            Vyvolá statickou metodu.
+            Vyvol中 statickou metodu.
             </summary>
-            <param name="name">Název členu</param>
-            <param name="bindingFlags">Další atributy vyvolání</param>
-            <param name="args">Argumenty k vyvolání</param>
-            <param name="culture">Jazyková verze</param>
-            <returns>Výsledek vyvolání</returns>
+            <param name="name">N中zev členu</param>
+            <param name="bindingFlags">Dalš中 atributy vyvol中n中</param>
+            <param name="args">Argumenty k vyvol中n中</param>
+            <param name="culture">Jazykov中 verze</param>
+            <returns>V中sledek vyvol中n中</returns>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper">
             <summary>
-            Poskytuje zjišťování podpisu metody pro obecné metody.
+            Poskytuje zjišťov中n中 podpisu metody pro obecn中 metody.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.CompareMethodSigAndName(System.Reflection.MethodBase,System.Reflection.MethodBase)">
             <summary>
-            Porovnává signatury těchto dvou metod.
+            Porovn中v中 signatury těchto dvou metod.
             </summary>
             <param name="m1">Method1</param>
             <param name="m2">Method2</param>
@@ -919,179 +919,179 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.GetHierarchyDepth(System.Type)">
             <summary>
-            Získá hloubku hierarchie od základního typu poskytnutého typu.
+            Z中sk中 hloubku hierarchie od z中kladn中ho typu poskytnut中ho typu.
             </summary>
             <param name="t">Typ</param>
             <returns>Hloubka</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.FindMostDerivedNewSlotMeth(System.Reflection.MethodBase[],System.Int32)">
             <summary>
-            Najde nejvíce odvozený typ s poskytnutými informacemi.
+            Najde nejv中ce odvozen中 typ s poskytnut中mi informacemi.
             </summary>
-            <param name="match">Možné shody</param>
+            <param name="match">Možn中 shody</param>
             <param name="cMatches">Počet shod</param>
-            <returns>Nejvíce odvozená metoda</returns>
+            <returns>Nejv中ce odvozen中 metoda</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.SelectMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Type[],System.Reflection.ParameterModifier[])">
             <summary>
-            S ohledem na sadu metod, které splňují základní kritéria, vybere pro pole typů
-            metodu. Pokud kritériím nevyhovuje žádná metoda, měla by tato metoda
-            vrátit null.
+            S ohledem na sadu metod, kter中 splňuj中 z中kladn中 krit中ria, vybere pro pole typů
+            metodu. Pokud krit中ri中m nevyhovuje ž中dn中 metoda, měla by tato metoda
+            vr中tit null.
             </summary>
             <param name="bindingAttr">Specifikace vazby</param>
-            <param name="match">Možné shody</param>
+            <param name="match">Možn中 shody</param>
             <param name="types">Typy</param>
-            <param name="modifiers">Modifikátory parametrů</param>
-            <returns>Metoda porovnávání. Null, pokud se nic neshoduje</returns>
+            <param name="modifiers">Modifik中tory parametrů</param>
+            <returns>Metoda porovn中v中n中. Null, pokud se nic neshoduje</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.FindMostSpecificMethod(System.Reflection.MethodBase,System.Int32[],System.Type,System.Reflection.MethodBase,System.Int32[],System.Type,System.Type[],System.Object[])">
             <summary>
-            Najde v daných dvou poskytnutých metodách nejkonkrétnější metodu.
+            Najde v dan中ch dvou poskytnut中ch metod中ch nejkonkr中tnějš中 metodu.
             </summary>
             <param name="m1">Metoda 1</param>
-            <param name="paramOrder1">Pořadí parametrů pro Metodu 1</param>
+            <param name="paramOrder1">Pořad中 parametrů pro Metodu 1</param>
             <param name="paramArrayType1">Typ pole parametrů</param>
             <param name="m2">Metoda 2</param>
-            <param name="paramOrder2">Pořadí parametrů pro Metodu 2</param>
+            <param name="paramOrder2">Pořad中 parametrů pro Metodu 2</param>
             <param name="paramArrayType2">&gt;Typ pole parametrů</param>
-            <param name="types">Typy, ve kterých se má hledat</param>
+            <param name="types">Typy, ve kter中ch se m中 hledat</param>
             <param name="args">Argumenty</param>
-            <returns>Číslo typu int, které představuje shodu</returns>
+            <returns>Č中slo typu int, kter中 představuje shodu</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.FindMostSpecific(System.Reflection.ParameterInfo[],System.Int32[],System.Type,System.Reflection.ParameterInfo[],System.Int32[],System.Type,System.Type[],System.Object[])">
             <summary>
-            Najde v daných dvou poskytnutých metodách nejkonkrétnější metodu.
+            Najde v dan中ch dvou poskytnut中ch metod中ch nejkonkr中tnějš中 metodu.
             </summary>
             <param name="p1">Metoda 1</param>
-            <param name="paramOrder1">Pořadí parametrů pro Metodu 1</param>
+            <param name="paramOrder1">Pořad中 parametrů pro Metodu 1</param>
             <param name="paramArrayType1">Typ pole parametrů</param>
             <param name="p2">Metoda 2</param>
-            <param name="paramOrder2">Pořadí parametrů pro Metodu 2</param>
+            <param name="paramOrder2">Pořad中 parametrů pro Metodu 2</param>
             <param name="paramArrayType2">&gt;Typ pole parametrů</param>
-            <param name="types">Typy, ve kterých se má hledat</param>
+            <param name="types">Typy, ve kter中ch se m中 hledat</param>
             <param name="args">Argumenty</param>
-            <returns>Číslo typu int, které představuje shodu</returns>
+            <returns>Č中slo typu int, kter中 představuje shodu</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.FindMostSpecificType(System.Type,System.Type,System.Type)">
             <summary>
-            Najde ze dvou poskytnutých typů ten nejkonkrétnější.
+            Najde ze dvou poskytnut中ch typů ten nejkonkr中tnějš中.
             </summary>
             <param name="c1">Typ 1</param>
             <param name="c2">Typ 2</param>
-            <param name="t">Definující typ</param>
-            <returns>Číslo typu int, které představuje shodu</returns>
+            <param name="t">Definuj中c中 typ</param>
+            <returns>Č中slo typu int, kter中 představuje shodu</returns>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext">
             <summary>
-            Používá se pro ukládání informací poskytovaných testy jednotek.
+            Použ中v中 se pro ukl中d中n中 informac中 poskytovan中ch testy jednotek.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties">
             <summary>
-            Získá vlastnosti testu.
+            Z中sk中 vlastnosti testu.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow">
             <summary>
-            Získá aktuální řádek dat, když se test použije k testování řízenému daty.
+            Z中sk中 aktu中ln中 ř中dek dat, když se test použije k testov中n中 ř中zen中mu daty.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataConnection">
             <summary>
-            Získá aktuální řádek připojení k datům, když se test použije k testování řízenému daty.
+            Z中sk中 aktu中ln中 ř中dek připojen中 k datům, když se test použije k testov中n中 ř中zen中mu daty.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory">
             <summary>
-            Získá základní adresář pro testovací běh, do kterého se ukládají nasazené soubory a soubory s výsledky.
+            Z中sk中 z中kladn中 adres中ř pro testovac中 běh, do kter中ho se ukl中daj中 nasazen中 soubory a soubory s v中sledky.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory">
             <summary>
-            Získá adresář pro soubory nasazené pro testovací běh. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Z中sk中 adres中ř pro soubory nasazen中 pro testovac中 běh. Obvykle se jedn中 o podadres中ř adres中ře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory">
             <summary>
-            Získá základní adresář pro výsledky z testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Z中sk中 z中kladn中 adres中ř pro v中sledky z testovac中ho běhu. Obvykle se jedn中 o podadres中ř adres中ře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory">
             <summary>
-            Získá adresář pro soubory výsledků testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
+            Z中sk中 adres中ř pro soubory v中sledků testovac中ho běhu. Obvykle se jedn中 o podadres中ř adres中ře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory">
             <summary>
-            Získá adresář pro soubory s výsledky testu.
+            Z中sk中 adres中ř pro soubory s v中sledky testu.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDir">
             <summary>
-            Získá základní adresář pro testovací běh, do kterého se ukládají nasazené soubory a soubory výsledků.
-            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>. Použijte místo toho tuto vlastnost.
+            Z中sk中 z中kladn中 adres中ř pro testovac中 běh, do kter中ho se ukl中daj中 nasazen中 soubory a soubory v中sledků.
+            Shodn中 s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>. Použijte m中sto toho tuto vlastnost.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDeploymentDir">
             <summary>
-            Získá adresář pro soubory nasazené pro testovací běh. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
-            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory"/>. Použijte místo toho tuto vlastnost.
+            Z中sk中 adres中ř pro soubory nasazen中 pro testovac中 běh. Obvykle se jedn中 o podadres中ř adres中ře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Shodn中 s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory"/>. Použijte m中sto toho tuto vlastnost.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestLogsDir">
             <summary>
-            Získá adresář pro soubory výsledků testovacího běhu. Obvykle se jedná o podadresář adresáře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
-            Shodné s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory"/>. Pro soubory výsledků testovacího běhu použijte tuto vlastnost,
-            pro soubory výsledků konkrétního testu pak <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory"/>.
+            Z中sk中 adres中ř pro soubory v中sledků testovac中ho běhu. Obvykle se jedn中 o podadres中ř adres中ře <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
+            Shodn中 s <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory"/>. Pro soubory v中sledků testovac中ho běhu použijte tuto vlastnost,
+            pro soubory v中sledků konkr中tn中ho testu pak <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory"/>.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">
             <summary>
-            Získá plně kvalifikovaný název třídy, která obsahuje aktuálně prováděnou metodu testu.
+            Z中sk中 plně kvalifikovan中 n中zev tř中dy, kter中 obsahuje aktu中lně prov中děnou metodu testu.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestName">
             <summary>
-            Získá název aktuálně prováděné metody testu.
+            Z中sk中 n中zev aktu中lně prov中děn中 metody testu.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.CurrentTestOutcome">
             <summary>
-            Získá aktuální výsledek testu.
+            Z中sk中 aktu中ln中 v中sledek testu.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.WriteLine(System.String)">
             <summary>
-            Používá se pro zápis trasovacích zpráv během testu.
+            Použ中v中 se pro z中pis trasovac中ch zpr中v během testu.
             </summary>
-            <param name="message">řetězec formátované zprávy</param>
+            <param name="message">řetězec form中tovan中 zpr中vy</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.WriteLine(System.String,System.Object[])">
             <summary>
-            Používá se pro zápis trasovacích zpráv během testu.
+            Použ中v中 se pro z中pis trasovac中ch zpr中v během testu.
             </summary>
-            <param name="format">Řetězec formátu</param>
+            <param name="format">Řetězec form中tu</param>
             <param name="args">argumenty</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.AddResultFile(System.String)">
             <summary>
-            Přidá do seznamu v TestResult.ResultFileNames název souboru.
+            Přid中 do seznamu v TestResult.ResultFileNames n中zev souboru.
             </summary>
             <param name="fileName">
-            Název souboru
+            N中zev souboru
             </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.BeginTimer(System.String)">
             <summary>
-            Spustí zadaným způsobem časovač.
+            Spust中 zadan中m způsobem časovač.
             </summary>
-            <param name="timerName">Název časovače</param>
+            <param name="timerName">N中zev časovače</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.EndTimer(System.String)">
             <summary>
-            Ukončí zadaným způsobem časovač.
+            Ukonč中 zadan中m způsobem časovač.
             </summary>
-            <param name="timerName">Název časovače</param>
+            <param name="timerName">N中zev časovače</param>
         </member>
     </members>
 </doc>

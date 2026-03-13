@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SỰ KIỆN PHONG HỎA LIÊN THÀNH
-	- Config: Thiết lập sự kiện
-		- RequireLevel: Cấp độ yêu cầu
-		- MinPlayers: Số người chơi tối thiểu
-		- MaxPlayers: Số người chơi tối đa
-	- EventMap: Thông tin bản đồ sự kiện
-		- EnterMapID: ID bản đồ sự kiện
-		- EnterPosX: Tọa độ X tiến vào (cũng là vị trí hồi sinh khi chết)
-		- EnterPosX: Tọa độ Y tiến vào (cũng là vị trí hồi sinh khi chết)
-		- CityMapID: ID bản đồ thành thị
-		- CityPosX: Tọa độ X ở thành thị khi thoát sự kiện
-		- CityPosY: Tọa độ Y ở thành thị khi thoát sự kiện
-	- EventPoints: Điểm tích lũy trong sự kiện
-		- ProtectMarshalAwardPeriod: Thời gian bảo vệ nguyên soái mỗi lần tích tăng điểm (Mili-giây)
-		- ProtectMarshalAwardPoint: Số điểm tích lũy có được mỗi lần bảo vệ nguyên soái
-		- KillMonsterPoint: Số điểm có được khi giết quái
-		- KillSiegePoint: Số điểm có được khi giết xe công thành
-		- KillSiegeTeamPoint: Số điểm các thành viên khác trong đội có được khi giết xe công thành
-		- KillBossPoint: Số điểm có được khi giết Boss
-		- KillBossTeamPoint: Số điểm các thành viên khác trong đội có được khi giết Boss
-		- KillBossAllPoint: Số điểm toàn bộ người chơi khác có được khi giết Boss
-	- Awards: Danh sách phần thưởng sự kiện	
-		- Award: Thông tin phần thưởng
-			- FromRank: Từ thứ hạng
-			- ToRank: Đến thứ hạng
-			- ReputeID: ID danh vọng
-			- ReputePoint: Số điểm danh vọng
-			- AwardItem: Thông tin vật phẩm thưởng
-				- ItemID: ID vật phẩm
-				- Quantity: Số lượng
-				- Bound: Nhận khóa hay không (True/False)
-	- NPCs: Danh sách NPC
-		- NPC: Thông tin NPC
-			- ID: ID NPC (xem ở File Npc)
-			- Name: Tên NPC, bỏ trống sẽ lấy thông tin ở File cấu hình
-			- Title: Danh hiệu NPC, bỏ trống sẽ lấy thông tin ở File cấu hình
-			- PosX: Vị trí X
-			- PosY: Vị trí Y
-			- ScriptID: ID script Lua điều khiển (-1 nếu không có)
-	- Teleport: Cổng dịch chuyển
-		- Name: Tên cổng
-		- PosX: Vị trí X (nếu mặc định là dịch chuyển ra ngoài vị trí báo danh thì điền -1)
-		- PosY: Vị trí Y (nếu mặc định là dịch chuyển ra ngoài vị trí báo danh thì điền -1)
-		- ToMapID: Vị trí bản đồ đích đến (nếu cùng bản đồ hiện tại thì điền -1)
-		- ToPosX: Vị trí đích đến X
-		- ToPosY: Vị trí đích đến Y
-	- GroupPositions: Danh sách vị trí xuất hiện của các nhóm
-		- Group: Thông tin nhóm
-			- ID: ID nhóm
-			- DestPosX: Vị trí X sẽ dịch chuyển đến
-			- DestPosY: Vị trí Y sẽ dịch chuyển đến
-			- Position: Vị trí xuất hiện ngẫu nhiên mỗi đợt
-				- PosX: Tọa độ X
-				- PosY: Tọa độ Y
-				- Radius: Phạm vi xuất hiện xung quanh vị trí
-	- Attackers: Danh sách các đối tượng công thành
-		- Monster: Thông tin quái
-			- ID: ID quái (xem ở File Monster)
-			- OrderID: Thứ tự (dùng để đánh dấu con nào gọi ở Round nào)
-			- Name: Tên quái, bỏ trống sẽ lấy thông tin ở File cấu hình
-			- Title: Danh hiệu, bỏ trống sẽ lấy thông tin ở File cấu hình
-			- PosX: Tọa độ X
-			- PosY: Tọa độ Y
-			- BaseHP: Sinh lực cơ bản
-			- HPIncreaseEachLevel: Sinh lực tăng thêm với mỗi cấp
-			- AIScriptID: IDScriptAI điều khiển
-				- Nếu có sử dụng các Skill đánh thì AIScriptID để bằng 100001, sẽ không sử dụng kỹ năng đánh thường của quái như ngoài Map mà thay vào bằng kỹ năng trong danh sách thiết lập (buộc phải thiết lập kỹ năng đánh, nếu không sẽ lỗi)
-			- Skills: Danh sách kỹ năng được sử dụng, gồm 2 tham biến, ngăn cách nhau bởi dấu ; giữa các loại kỹ năng
-				- ID_Cấp
-				- Kỹ năng sẽ được dùng theo thứ tự từ trái sang phải, nếu kỹ năng trước đang chờ hồi phục thì dùng kỹ năng sau
-			- Auras: Danh sách vòng sáng kích hoạt, gồm 2 tham biến, ngăn cách nhau bởi dấu ; giữa các loại vòng sáng
-				- ID_Cấp
-				- Tất cả quái xung quanh sẽ được vòng sáng tương ứng cho đến khi bản thân quái mang vòng sáng bị giết chết
-		- Boss: Thông tin Boss
-			- Tương tự như quái
-		- Siege: Thông tin xe công thành
-			- Tương tự như quái
-	- Defenders: Danh sách các đối tượng thủ thành
-		- Monster: Thông tin quái thủ thành
-			- Tương tự quái công thành
-			- RespawnTicks: Thời gian tái sinh sau khi chết
-		- Marshal: Thông tin nguyên soái thủ thành
-			- Tương tự Boss công thành
-	- Rounds: Thông tin các lượt ra quân của phe công thành
-		- RoundPeriod: Thời gian giãn cách bắt đầu mỗi lượt tấn công
-		- AdditionByPlayers: Số lượng thêm vào tùy theo mỗi khoảng người chơi tương ứng
-			- Monsters: Thêm 1 con quái với mỗi số lượng x người chơi tương ứng
-			- Sieges: Thêm 1 xe công thành với mỗi số lượng x người chơi tương ứng
-			- Bosses: Thêm 1 con Boss với mỗi số lượng x người chơi tương ứng
-		- Round: Thông tin lượt (áp dụng cho từng nhóm)
-			- MonsterCount: Số lượng quái
-			- SiegeCount: Số lượng xe
-			- BossCount: Số lượng Boss
+	SU KIEN PHONG HOA LIEN THANH
+	- Config: Thiet lap su kien
+		- RequireLevel: Cap do yeu cau
+		- MinPlayers: So nguoi choi toi thieu
+		- MaxPlayers: So nguoi choi toi da
+	- EventMap: Thong tin ban do su kien
+		- EnterMapID: ID ban do su kien
+		- EnterPosX: Toa do X tien vao (cung la vi tri hoi sinh khi chet)
+		- EnterPosX: Toa do Y tien vao (cung la vi tri hoi sinh khi chet)
+		- CityMapID: ID ban do thanh thi
+		- CityPosX: Toa do X o thanh thi khi thoat su kien
+		- CityPosY: Toa do Y o thanh thi khi thoat su kien
+	- EventPoints: Diem tich luy trong su kien
+		- ProtectMarshalAwardPeriod: Thoi gian bao ve nguyen soai moi lan tich tang diem (Mili-giay)
+		- ProtectMarshalAwardPoint: So diem tich luy co duoc moi lan bao ve nguyen soai
+		- KillMonsterPoint: So diem co duoc khi giet quai
+		- KillSiegePoint: So diem co duoc khi giet xe cong thanh
+		- KillSiegeTeamPoint: So diem cac thanh vien khac trong doi co duoc khi giet xe cong thanh
+		- KillBossPoint: So diem co duoc khi giet Boss
+		- KillBossTeamPoint: So diem cac thanh vien khac trong doi co duoc khi giet Boss
+		- KillBossAllPoint: So diem toan bo nguoi choi khac co duoc khi giet Boss
+	- Awards: Danh sach phan thuong su kien	
+		- Award: Thong tin phan thuong
+			- FromRank: Tu thu hang
+			- ToRank: Den thu hang
+			- ReputeID: ID danh vong
+			- ReputePoint: So diem danh vong
+			- AwardItem: Thong tin vat pham thuong
+				- ItemID: ID vat pham
+				- Quantity: So luong
+				- Bound: Nhan khoa hay khong (True/False)
+	- NPCs: Danh sach NPC
+		- NPC: Thong tin NPC
+			- ID: ID NPC (xem o File Npc)
+			- Name: Ten NPC, bo trong se lay thong tin o File cau hinh
+			- Title: Danh hieu NPC, bo trong se lay thong tin o File cau hinh
+			- PosX: Vi tri X
+			- PosY: Vi tri Y
+			- ScriptID: ID script Lua dieu khien (-1 neu khong co)
+	- Teleport: Cong dich chuyen
+		- Name: Ten cong
+		- PosX: Vi tri X (neu mac dinh la dich chuyen ra ngoai vi tri bao danh thi dien -1)
+		- PosY: Vi tri Y (neu mac dinh la dich chuyen ra ngoai vi tri bao danh thi dien -1)
+		- ToMapID: Vi tri ban do dich den (neu cung ban do hien tai thi dien -1)
+		- ToPosX: Vi tri dich den X
+		- ToPosY: Vi tri dich den Y
+	- GroupPositions: Danh sach vi tri xuat hien cua cac nhom
+		- Group: Thong tin nhom
+			- ID: ID nhom
+			- DestPosX: Vi tri X se dich chuyen den
+			- DestPosY: Vi tri Y se dich chuyen den
+			- Position: Vi tri xuat hien ngau nhien moi dot
+				- PosX: Toa do X
+				- PosY: Toa do Y
+				- Radius: Pham vi xuat hien xung quanh vi tri
+	- Attackers: Danh sach cac doi tuong cong thanh
+		- Monster: Thong tin quai
+			- ID: ID quai (xem o File Monster)
+			- OrderID: Thu tu (dung de danh dau con nao goi o Round nao)
+			- Name: Ten quai, bo trong se lay thong tin o File cau hinh
+			- Title: Danh hieu, bo trong se lay thong tin o File cau hinh
+			- PosX: Toa do X
+			- PosY: Toa do Y
+			- BaseHP: Sinh luc co ban
+			- HPIncreaseEachLevel: Sinh luc tang them voi moi cap
+			- AIScriptID: IDScriptAI dieu khien
+				- Neu co su dung cac Skill danh thi AIScriptID de bang 100001, se khong su dung ky nang danh thuong cua quai nhu ngoai Map ma thay vao bang ky nang trong danh sach thiet lap (buoc phai thiet lap ky nang danh, neu khong se loi)
+			- Skills: Danh sach ky nang duoc su dung, gom 2 tham bien, ngan cach nhau boi dau ; giua cac loai ky nang
+				- ID_Cap
+				- Ky nang se duoc dung theo thu tu tu trai sang phai, neu ky nang truoc dang cho hoi phuc thi dung ky nang sau
+			- Auras: Danh sach vong sang kich hoat, gom 2 tham bien, ngan cach nhau boi dau ; giua cac loai vong sang
+				- ID_Cap
+				- Tat ca quai xung quanh se duoc vong sang tuong ung cho den khi ban than quai mang vong sang bi giet chet
+		- Boss: Thong tin Boss
+			- Tuong tu nhu quai
+		- Siege: Thong tin xe cong thanh
+			- Tuong tu nhu quai
+	- Defenders: Danh sach cac doi tuong thu thanh
+		- Monster: Thong tin quai thu thanh
+			- Tuong tu quai cong thanh
+			- RespawnTicks: Thoi gian tai sinh sau khi chet
+		- Marshal: Thong tin nguyen soai thu thanh
+			- Tuong tu Boss cong thanh
+	- Rounds: Thong tin cac luot ra quan cua phe cong thanh
+		- RoundPeriod: Thoi gian gian cach bat dau moi luot tan cong
+		- AdditionByPlayers: So luong them vao tuy theo moi khoang nguoi choi tuong ung
+			- Monsters: Them 1 con quai voi moi so luong x nguoi choi tuong ung
+			- Sieges: Them 1 xe cong thanh voi moi so luong x nguoi choi tuong ung
+			- Bosses: Them 1 con Boss voi moi so luong x nguoi choi tuong ung
+		- Round: Thong tin luot (ap dung cho tung nhom)
+			- MonsterCount: So luong quai
+			- SiegeCount: So luong xe
+			- BossCount: So luong Boss
 -->
 <FengHuoLianCheng>
 	<Config RequireLevel="60" MinPlayers="1" MaxPlayers="200" />
@@ -123,11 +123,11 @@
 	</Awards>
 	
 	<NPCs>
-		<NPC ID="20023" Name="Chủ Hiệu Thuốc" Title="" PosX="3794" PosY="596" ScriptID="400041" />
+		<NPC ID="20023" Name="Chu Hieu Thuoc" Title="" PosX="3794" PosY="596" ScriptID="400041" />
 	</NPCs>
 	
 	<Teleports>
-		<Teleport Name="Dịch chuyển" PosX="4825" PosY="826" ToPosX="4638" ToPosY="3161" />
+		<Teleport Name="Dich chuyen" PosX="4825" PosY="826" ToPosX="4638" ToPosY="3161" />
 	</Teleports>
 	
 	<GroupPositions>
@@ -182,35 +182,35 @@
 	</GroupPositions>
 	
 	<Attackers>
-		<Monster ID="6330" OrderID ="1" Name="Sói Xám" Title="" BaseHP="200" HPIncreaseEachLevel="300" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6331" OrderID ="2" Name="Báo Hoang" Title="" BaseHP="200" HPIncreaseEachLevel="450" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6332" OrderID ="3" Name="Hổ Vương" Title="" BaseHP="200" HPIncreaseEachLevel="600" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6333" OrderID ="4" Name="Gấu Đen" Title="" BaseHP="200" HPIncreaseEachLevel="750" AIScriptID="100000" Auras="" Skills="" />
-		<Boss ID="6334" OrderID ="5" Name="Thống Lĩnh Ác Thú" Title="" BaseHP="2000" HPIncreaseEachLevel="9000" AIScriptID="100001" Auras="" Skills="14258_10_5000;14510_10_-1" />
+		<Monster ID="6330" OrderID ="1" Name="Soi Xam" Title="" BaseHP="200" HPIncreaseEachLevel="300" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6331" OrderID ="2" Name="Bao Hoang" Title="" BaseHP="200" HPIncreaseEachLevel="450" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6332" OrderID ="3" Name="Ho Vuong" Title="" BaseHP="200" HPIncreaseEachLevel="600" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6333" OrderID ="4" Name="Gau Den" Title="" BaseHP="200" HPIncreaseEachLevel="750" AIScriptID="100000" Auras="" Skills="" />
+		<Boss ID="6334" OrderID ="5" Name="Thong Linh Ac Thu" Title="" BaseHP="2000" HPIncreaseEachLevel="9000" AIScriptID="100001" Auras="" Skills="14258_10_5000;14510_10_-1" />
 		
 		
-		<Monster ID="6335" OrderID ="6" Name="Thổ Phỉ" Title="" BaseHP="600" HPIncreaseEachLevel="1200" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6336" OrderID ="7" Name="Thổ Phỉ Giáp" Title="" BaseHP="600" HPIncreaseEachLevel="1800" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6337" OrderID ="8" Name="Lợi Phủ" Title="" BaseHP="600" HPIncreaseEachLevel="2400" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6338" OrderID ="9" Name="Trường Đao" Title="" BaseHP="600" HPIncreaseEachLevel="3000" AIScriptID="100000" Auras="" Skills="" />
-		<Boss ID="6339" OrderID ="10" Name="Đồng Chùy" Title="" BaseHP="6000" HPIncreaseEachLevel="27000" AIScriptID="100001" Auras="" Skills="14258_20_5000;14510_10_-1" />
+		<Monster ID="6335" OrderID ="6" Name="Tho Phi" Title="" BaseHP="600" HPIncreaseEachLevel="1200" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6336" OrderID ="7" Name="Tho Phi Giap" Title="" BaseHP="600" HPIncreaseEachLevel="1800" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6337" OrderID ="8" Name="Loi Phu" Title="" BaseHP="600" HPIncreaseEachLevel="2400" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6338" OrderID ="9" Name="Truong Dao" Title="" BaseHP="600" HPIncreaseEachLevel="3000" AIScriptID="100000" Auras="" Skills="" />
+		<Boss ID="6339" OrderID ="10" Name="Dong Chuy" Title="" BaseHP="6000" HPIncreaseEachLevel="27000" AIScriptID="100001" Auras="" Skills="14258_20_5000;14510_10_-1" />
 		
 		
-		<Monster ID="6340" OrderID ="11" Name="Lãnh Thương" Title="" BaseHP="1800" HPIncreaseEachLevel="3600" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6341" OrderID ="12" Name="Lam Cân" Title="" BaseHP="1800" HPIncreaseEachLevel="5400" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6342" OrderID ="13" Name="Lưu Lương" Title="" BaseHP="1800" HPIncreaseEachLevel="7200" AIScriptID="100000" Auras="" Skills="" />
-		<Monster ID="6343" OrderID ="14" Name="Kế Chủy" Title="" BaseHP="1800" HPIncreaseEachLevel="9000" AIScriptID="100000" Auras="" Skills="" />
-		<Boss ID="6344" OrderID ="15" Name="Ma Hoàng" Title="" BaseHP="18000" HPIncreaseEachLevel="81000" AIScriptID="100001" Auras="" Skills="14259_20_6000;14261_20_5000;14512_10_-1" />
+		<Monster ID="6340" OrderID ="11" Name="Lanh Thuong" Title="" BaseHP="1800" HPIncreaseEachLevel="3600" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6341" OrderID ="12" Name="Lam Can" Title="" BaseHP="1800" HPIncreaseEachLevel="5400" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6342" OrderID ="13" Name="Luu Luong" Title="" BaseHP="1800" HPIncreaseEachLevel="7200" AIScriptID="100000" Auras="" Skills="" />
+		<Monster ID="6343" OrderID ="14" Name="Ke Chuy" Title="" BaseHP="1800" HPIncreaseEachLevel="9000" AIScriptID="100000" Auras="" Skills="" />
+		<Boss ID="6344" OrderID ="15" Name="Ma Hoang" Title="" BaseHP="18000" HPIncreaseEachLevel="81000" AIScriptID="100001" Auras="" Skills="14259_20_6000;14261_20_5000;14512_10_-1" />
 		
 		
-		<Siege ID="6348" OrderID ="16" Name="Kim Tiên Phong" Title="" BaseHP="5400" HPIncreaseEachLevel="10800" AIScriptID="100001" Auras="14255_20" Skills="14259_20_5000;14261_20_4000;14512_10_-1" />
-		<Siege ID="6349" OrderID ="17" Name="Kim Đội Trưởng" Title="" BaseHP="5400" HPIncreaseEachLevel="16200" AIScriptID="100001" Auras="" Skills="14257_20_6000;14258_20_3000;14510_10_-1" />
+		<Siege ID="6348" OrderID ="16" Name="Kim Tien Phong" Title="" BaseHP="5400" HPIncreaseEachLevel="10800" AIScriptID="100001" Auras="14255_20" Skills="14259_20_5000;14261_20_4000;14512_10_-1" />
+		<Siege ID="6349" OrderID ="17" Name="Kim Doi Truong" Title="" BaseHP="5400" HPIncreaseEachLevel="16200" AIScriptID="100001" Auras="" Skills="14257_20_6000;14258_20_3000;14510_10_-1" />
 		<Siege ID="6347" OrderID ="18" Name="Kim Binh" Title="" BaseHP="5400" HPIncreaseEachLevel="21600" AIScriptID="100001" Auras="" Skills="14264_20_6000;14266_20_4000;14267_20_2000;14512_20_-1" />
-		<Boss ID="6345" OrderID ="19" Name="Song Sát" Title="" BaseHP="5400" HPIncreaseEachLevel="27000" AIScriptID="100001" Auras="" Skills="14270_20_2000;14268_20_1000;14513_20_-1" />
-		<Boss ID="6346" OrderID ="20" Name="Hạo Thiên" Title="" BaseHP="5400" HPIncreaseEachLevel="32400" AIScriptID="100001" Auras="" Skills="14271_20_1000;14272_20_-1" />
-		<Boss ID="6350" OrderID ="21" Name="Kim Phó Tướng" Title="" BaseHP="16200" HPIncreaseEachLevel="64800" AIScriptID="100001" Auras="14255_20" Skills="14259_20_6000;14257_20_5000;14261_20_4000;14271_20_3000;14266_20_2000;14512_20_-1" />
-		<Boss ID="6351" OrderID ="22" Name="Kim Chủ Tướng" Title="" BaseHP="16200" HPIncreaseEachLevel="97200" AIScriptID="100001" Auras="14256_5" Skills="14237_20_6000;14239_20_5000;14241_20_4000;14244_20_3000;14248_20_2000;14250_20_1000;14512_20_-1" />
-		<Boss ID="6352" OrderID ="23" Name="Kim Nguyên Soái" Title="" BaseHP="16200" HPIncreaseEachLevel="129600" AIScriptID="100001" Auras="14256_10" Skills="14237_20_6000;14239_20_5000;14241_20_4000;14244_20_3000;14248_20_2000;14250_20_1000;14512_20_-1" />
+		<Boss ID="6345" OrderID ="19" Name="Song Sat" Title="" BaseHP="5400" HPIncreaseEachLevel="27000" AIScriptID="100001" Auras="" Skills="14270_20_2000;14268_20_1000;14513_20_-1" />
+		<Boss ID="6346" OrderID ="20" Name="Hao Thien" Title="" BaseHP="5400" HPIncreaseEachLevel="32400" AIScriptID="100001" Auras="" Skills="14271_20_1000;14272_20_-1" />
+		<Boss ID="6350" OrderID ="21" Name="Kim Pho Tuong" Title="" BaseHP="16200" HPIncreaseEachLevel="64800" AIScriptID="100001" Auras="14255_20" Skills="14259_20_6000;14257_20_5000;14261_20_4000;14271_20_3000;14266_20_2000;14512_20_-1" />
+		<Boss ID="6351" OrderID ="22" Name="Kim Chu Tuong" Title="" BaseHP="16200" HPIncreaseEachLevel="97200" AIScriptID="100001" Auras="14256_5" Skills="14237_20_6000;14239_20_5000;14241_20_4000;14244_20_3000;14248_20_2000;14250_20_1000;14512_20_-1" />
+		<Boss ID="6352" OrderID ="23" Name="Kim Nguyen Soai" Title="" BaseHP="16200" HPIncreaseEachLevel="129600" AIScriptID="100001" Auras="14256_10" Skills="14237_20_6000;14239_20_5000;14241_20_4000;14244_20_3000;14248_20_2000;14250_20_1000;14512_20_-1" />
 	</Attackers>
 	
 	<Defenders>

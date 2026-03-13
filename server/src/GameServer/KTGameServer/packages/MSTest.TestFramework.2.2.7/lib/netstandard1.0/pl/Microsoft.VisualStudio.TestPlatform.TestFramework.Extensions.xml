@@ -31,22 +31,22 @@
             Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
             </summary>
             <param name="path">Względna lub bezwzględna ścieżka do pliku lub katalogu do wdrożenia. Ścieżka jest określana względem katalogu wyjściowego kompilacji. Element zostanie skopiowany do tego samego katalogu co wdrożone zestawy testowe.</param>
-            <param name="outputDirectory">Ścieżka katalogu, do którego mają być kopiowane elementy. Może być bezwzględna lub określana względem katalogu wdrażania. Wszystkie pliki i katalogi określone przez <paramref name="path"/> zostaną skopiowane do tego katalogu.</param>
+            <param name="outputDirectory">Ścieżka katalogu, do kt中rego mają być kopiowane elementy. Może być bezwzględna lub określana względem katalogu wdrażania. Wszystkie pliki i katalogi określone przez <paramref name="path"/> zostaną skopiowane do tego katalogu.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
-            Pobiera ścieżkę źródłowego pliku lub folderu do skopiowania.
+            Pobiera ścieżkę źr中dłowego pliku lub folderu do skopiowania.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.OutputDirectory">
             <summary>
-            Pobiera ścieżkę katalogu, do którego element jest kopiowany.
+            Pobiera ścieżkę katalogu, do kt中rego element jest kopiowany.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext">
             <summary>
             Klasa TestContext. Ta klasa powinna być w pełni abstrakcyjna i nie może zawierać żadnych
-            elementów członkowskich. Adapter zaimplementuje elementy członkowskie. Użytkownicy platformy powinni
+            element中w członkowskich. Adapter zaimplementuje elementy członkowskie. Użytkownicy platformy powinni
             uzyskiwać dostęp do tego elementu tylko za pośrednictwem prawidłowo zdefiniowanego interfejsu.
             </summary>
         </member>

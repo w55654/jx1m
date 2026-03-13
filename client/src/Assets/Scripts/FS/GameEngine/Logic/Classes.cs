@@ -1,31 +1,31 @@
-﻿using System.Collections.Generic;
+﻿﻿using System.Collections.Generic;
 using Server.Data;
 
 namespace FS.GameEngine.Logic
 {
     /// <summary>
-    /// Dữ liệu máy chủ
+    /// 服务器数据
     /// </summary>
     public class XuanFuServerData
     {
         /// <summary>
-        /// Máy chủ đề cử
+        /// 提名服务器
         /// </summary>
         public BuffServerInfo RecommendServer { get; set; }
         /// <summary>
-        /// Máy chủ lần trước
+        /// 最后一个服务器
         /// </summary>
         public BuffServerInfo LastServer { get; set; }
         /// <summary>
-        /// Danh sách máy chủ đã vào
+        /// 输入的服务器列表
         /// </summary>
         public List<BuffServerInfo> RecordServerInfos { get; set; }
         /// <summary>
-        /// Danh sách máy chủ đề cử
+        /// 推荐服务器列表
         /// </summary>
         public List<BuffServerInfo> RecommendServerInfos { get; set; }
         /// <summary>
-        /// Danh sách máy chủ
+        /// 服务器列表
         /// </summary>
         public List<BuffServerInfo> ServerInfos { get; set; }
     }

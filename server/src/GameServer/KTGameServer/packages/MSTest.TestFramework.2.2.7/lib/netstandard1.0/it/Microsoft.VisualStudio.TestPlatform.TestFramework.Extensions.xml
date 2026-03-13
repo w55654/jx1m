@@ -7,9 +7,9 @@
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute">
             <summary>
             Usato per specificare l'elemento di distribuzione (file o directory) per la distribuzione per singolo test.
-            Può essere specificato in classi o metodi di test.
-            Può contenere più istanze dell'attributo per specificare più di un elemento.
-            Il percorso dell'elemento può essere assoluto o relativo; se è relativo, è relativo rispetto a RunConfig.RelativePathRoot.
+            Pu中 essere specificato in classi o metodi di test.
+            Pu中 contenere pi中 istanze dell'attributo per specificare pi中 di un elemento.
+            Il percorso dell'elemento pu中 essere assoluto o relativo; se 中 relativo, 中 relativo rispetto a RunConfig.RelativePathRoot.
             </summary>
             <example>
             [DeploymentItem("file1.xml")]
@@ -24,14 +24,14 @@
             <summary>
             Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">File o directory per la distribuzione. Il percorso è relativo alla directory di output della compilazione. L'elemento verrà copiato nella stessa directory degli assembly di test distribuiti.</param>
+            <param name="path">File o directory per la distribuzione. Il percorso 中 relativo alla directory di output della compilazione. L'elemento verr中 copiato nella stessa directory degli assembly di test distribuiti.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
             Inizializza una nuova istanza della classe <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
             </summary>
-            <param name="path">Percorso relativo o assoluto del file o della directory per la distribuzione. Il percorso è relativo alla directory di output della compilazione. L'elemento verrà copiato nella stessa directory degli assembly di test distribuiti.</param>
-            <param name="outputDirectory">Percorso della directory in cui vengono copiati gli elementi. Può essere assoluto o relativo rispetto alla directory di distribuzione. Tutte le directory e tutti i file identificati da <paramref name="path"/> verranno copiati in questa directory.</param>
+            <param name="path">Percorso relativo o assoluto del file o della directory per la distribuzione. Il percorso 中 relativo alla directory di output della compilazione. L'elemento verr中 copiato nella stessa directory degli assembly di test distribuiti.</param>
+            <param name="outputDirectory">Percorso della directory in cui vengono copiati gli elementi. Pu中 essere assoluto o relativo rispetto alla directory di distribuzione. Tutte le directory e tutti i file identificati da <paramref name="path"/> verranno copiati in questa directory.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -52,7 +52,7 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties">
             <summary>
-            Ottiene le proprietà di un test.
+            Ottiene le propriet中 di un test.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">

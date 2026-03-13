@@ -103,7 +103,7 @@
       <summary>Rappresenta informazioni sulle operazioni dinamiche in C# specifiche di determinati argomenti in un sito di chiamata.Istanze di questa classe vengono generate dal compilatore C#.</summary>
     </member>
     <member name="F:Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.Constant">
-      <summary>L'argomento è una costante.</summary>
+      <summary>L'argomento 中 una costante.</summary>
     </member>
     <member name="F:Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.IsOut">
       <summary>L'argomento viene passato a un parametro out.</summary>
@@ -112,10 +112,10 @@
       <summary>L'argomento viene passato a un parametro ref.</summary>
     </member>
     <member name="F:Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.IsStaticType">
-      <summary>L'argomento è un oggetto <see cref="T:System.Type" /> che indica un nome di tipo effettivo utilizzato nell'origine.Utilizzato solo per gli oggetti di destinazione in chiamate statiche.</summary>
+      <summary>L'argomento 中 un oggetto <see cref="T:System.Type" /> che indica un nome di tipo effettivo utilizzato nell'origine.Utilizzato solo per gli oggetti di destinazione in chiamate statiche.</summary>
     </member>
     <member name="F:Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.NamedArgument">
-      <summary>L'argomento è un argomento denominato.</summary>
+      <summary>L'argomento 中 un argomento denominato.</summary>
     </member>
     <member name="F:Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags.None">
       <summary>Nessuna informazione aggiuntiva da rappresentare.</summary>
@@ -148,10 +148,10 @@
       <summary>Non sono presenti informazioni aggiuntive necessarie per questo gestore di associazione.</summary>
     </member>
     <member name="F:Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ResultDiscarded">
-      <summary>Il gestore di associazione viene utilizzato in una posizione che non richiede un risultato e può quindi essere associato a un metodo che restituisce void.</summary>
+      <summary>Il gestore di associazione viene utilizzato in una posizione che non richiede un risultato e pu中 quindi essere associato a un metodo che restituisce void.</summary>
     </member>
     <member name="F:Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ResultIndexed">
-      <summary>Il risultato di qualsiasi associazione sarà indicizzato per ottenere un gestore di associazione dell'indice set o get.</summary>
+      <summary>Il risultato di qualsiasi associazione sar中 indicizzato per ottenere un gestore di associazione dell'indice set o get.</summary>
     </member>
     <member name="F:Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags.ValueFromCompoundAssignment">
       <summary>Il valore in questo indice set o membro set presenta un operatore di assegnazione composto.</summary>
@@ -164,12 +164,12 @@
     </member>
     <member name="M:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException.#ctor(System.String)">
       <summary>Inizializza una nuova istanza della classe <see cref="T:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" /> che include un messaggio di errore specificato.</summary>
-      <param name="message">Messaggio in cui viene descritta l'eccezione.È necessario che il chiamante del costruttore assicuri che la stringa sia stata localizzata per le impostazioni cultura correnti del sistema.</param>
+      <param name="message">Messaggio in cui viene descritta l'eccezione.中 necessario che il chiamante del costruttore assicuri che la stringa sia stata localizzata per le impostazioni cultura correnti del sistema.</param>
     </member>
     <member name="M:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException.#ctor(System.String,System.Exception)">
       <summary>Inizializza una nuova istanza della classe <see cref="T:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException" /> che include un messaggio di errore specificato e un riferimento all'eccezione interna che ha generato l'eccezione.</summary>
       <param name="message">Messaggio di errore nel quale viene indicato il motivo dell’eccezione</param>
-      <param name="innerException">Eccezione che ha provocato l'eccezione corrente o riferimento null se non è stata specificata alcuna eccezione interna.</param>
+      <param name="innerException">Eccezione che ha provocato l'eccezione corrente o riferimento null se non 中 stata specificata alcuna eccezione interna.</param>
     </member>
     <member name="T:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException">
       <summary>Rappresenta un errore che si verifica quando viene elaborata un'associazione dinamica nel gestore di associazione di runtime in C#.</summary>
@@ -179,12 +179,12 @@
     </member>
     <member name="M:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException.#ctor(System.String)">
       <summary>Inizializza una nuova istanza della classe <see cref="T:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException" /> con un messaggio specifico in cui viene descritto l'errore.</summary>
-      <param name="message">Messaggio in cui viene descritta l'eccezione.È necessario che il chiamante del costruttore assicuri che la stringa sia stata localizzata per le impostazioni cultura correnti del sistema.</param>
+      <param name="message">Messaggio in cui viene descritta l'eccezione.中 necessario che il chiamante del costruttore assicuri che la stringa sia stata localizzata per le impostazioni cultura correnti del sistema.</param>
     </member>
     <member name="M:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException.#ctor(System.String,System.Exception)">
       <summary>Inizializza una nuova istanza della classe <see cref="T:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException" /> che include un messaggio di errore specificato e un riferimento all'eccezione interna che ha generato l'eccezione.</summary>
       <param name="message">Messaggio di errore nel quale viene indicato il motivo dell’eccezione</param>
-      <param name="innerException">Eccezione che ha provocato l'eccezione corrente o riferimento null se non è stata specificata alcuna eccezione interna.</param>
+      <param name="innerException">Eccezione che ha provocato l'eccezione corrente o riferimento null se non 中 stata specificata alcuna eccezione interna.</param>
     </member>
   </members>
 </doc>

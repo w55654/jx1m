@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTopRankingConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <TopRankingConfig RankType="1" RankName="Tài phú" EndTime="2023-05-28T23:00:00.9855744+07:00">
+  <TopRankingConfig RankType="1" RankName="Tai phu" EndTime="2023-05-28T23:00:00.9855744+07:00">
 	<!--
    <AwardConfig RankStart="1" RankEnd="1" AwardList="12471:1|34547:3|10448:20" Index="1" />
     <AwardConfig RankStart="2" RankEnd="2" AwardList="12470:1|34547:2|10448:10" Index="2" />
@@ -9,7 +9,7 @@
 	-->
   </TopRankingConfig>
 
-   <TopRankingConfig RankType="0" RankName="Cấp Độ" EndTime="2023-05-28T23:00:00.9855744+07:00">
+   <TopRankingConfig RankType="0" RankName="Cap Do" EndTime="2023-05-28T23:00:00.9855744+07:00">
    <!--
 	<AwardConfig RankStart="1" RankEnd="1" AwardList="8309:1|10448:10" Index="1" />
     <AwardConfig RankStart="2" RankEnd="2" AwardList="8160:1|10448:5" Index="2" />

@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SỰ KIỆN VÕ LÂM LIÊN ĐẤU
-	- Config: Thiết lập sự kiện
-		- EventID: ID sự kiện
-		- EnterMapID: ID bản đồ hội trường
-		- EnterPosX: Vị trí X vào bản đồ hội trường
-		- EnterPosY: Vị trí Y vào bản đồ hội trường
-		- MinLevel: Cấp độ tối thiểu tham gia
-	- RegisterConfig: Thiết báo danh
-		- FromDay: Ngày bắt đầu báo danh trong tháng
-		- ToDay: Ngày kết thúc báo danh trong tháng
-		- TeamCapacity: Số thành viên nhóm yêu cầu (tối thiểu 1 và tối đa 4, -1 nếu ngẫu nhiên trong khoảng [1..4])
-	- Battle: Thi đấu
-		- Config: Thiết lập thi đấu
-			- Duration: Thời gian mỗi hiệp đấu (đơn vị Mili-giây)
-			- FinishWaitDuration: Thời gian chờ sau khi phân thắng bại mỗi hiệp đấu để tự đẩy ra khỏi đấu trường (đơn vị Mili-giây)
-			- MapID: ID bản đồ thi đấu
-			- PosX: Vị trí X vào bản đồ thi đấu
-			- PosY: Vị trí Y vào bản đồ thi đấu
-			- MaxCircleRoundBattles: Tổng số trận đấu vòng tròn tối đa được tham dự
-			- ToFinalRoundTotalTeams: Tổng số đội được chọn vào vòng chung kết
-			- ArrangeToFinalRoundAtDay: Tự xếp hạng các chiến đội vào vòng sau lúc 0:00 ngày tương ứng
-		- EventTimes: Thời gian sự kiện
-			- Time: Thông tin mốc thời gian
-				- Day: Ngày diễn ra trong tháng
-				- Times: Danh sách các múi giờ diễn ra trong ngày
-				- Stage: Hạng của trận (0: Vòng hỗn chiến, 1..N: Vòng chung kết)
-				- IncreaseStageForWinnerTeam: Có tăng bậc của chiến đội cho đội thắng cuộc không (Tại vòng hỗn chiến sẽ không tăng, còn các vòng ở chung kết sẽ tăng để loại trực tiếp luôn)
-	- Award: Phần thưởng
-		- Config: Thiết lập nhận thưởng
-			- FromDay: Ngày bắt đầu nhận thưởng trong tháng
-			- ToDay: Ngày kết thúc nhận thưởng trong tháng
-		- WinRound: Phần thưởng khi chiến thắng trong lượt đấu bất kỳ
-			- Exp: Kinh nghiệm
-			- BoundMoney: Bạc khóa
-			- Repute: Danh vọng
-		- EnterRound: Phần thưởng khi bắt đầu lượt đấu
-			- Exp: Kinh nghiệm
-			- BoundMoney: Bạc khóa
-			- Repute: Danh vọng
-		- FinalRank: Phần thưởng theo thứ hạng
-			- RankInfo: Thông tin hạng
-				- FromRank: Từ thứ hạng
-				- ToRank: Đến thứ hạng
-				- Exp: Kinh nghiệm
-				- Repute: Danh vọng
-				- Items: Vật phẩm nhận được ngăn cách nhau bởi dấu ; giữa các món
-					- Gồm 2 giá trị ID_Số lượng
+	SU KIEN VO LAM LIEN DAU
+	- Config: Thiet lap su kien
+		- EventID: ID su kien
+		- EnterMapID: ID ban do hoi truong
+		- EnterPosX: Vi tri X vao ban do hoi truong
+		- EnterPosY: Vi tri Y vao ban do hoi truong
+		- MinLevel: Cap do toi thieu tham gia
+	- RegisterConfig: Thiet bao danh
+		- FromDay: Ngay bat dau bao danh trong thang
+		- ToDay: Ngay ket thuc bao danh trong thang
+		- TeamCapacity: So thanh vien nhom yeu cau (toi thieu 1 va toi da 4, -1 neu ngau nhien trong khoang [1..4])
+	- Battle: Thi dau
+		- Config: Thiet lap thi dau
+			- Duration: Thoi gian moi hiep dau (don vi Mili-giay)
+			- FinishWaitDuration: Thoi gian cho sau khi phan thang bai moi hiep dau de tu day ra khoi dau truong (don vi Mili-giay)
+			- MapID: ID ban do thi dau
+			- PosX: Vi tri X vao ban do thi dau
+			- PosY: Vi tri Y vao ban do thi dau
+			- MaxCircleRoundBattles: Tong so tran dau vong tron toi da duoc tham du
+			- ToFinalRoundTotalTeams: Tong so doi duoc chon vao vong chung ket
+			- ArrangeToFinalRoundAtDay: Tu xep hang cac chien doi vao vong sau luc 0:00 ngay tuong ung
+		- EventTimes: Thoi gian su kien
+			- Time: Thong tin moc thoi gian
+				- Day: Ngay dien ra trong thang
+				- Times: Danh sach cac mui gio dien ra trong ngay
+				- Stage: Hang cua tran (0: Vong hon chien, 1..N: Vong chung ket)
+				- IncreaseStageForWinnerTeam: Co tang bac cua chien doi cho doi thang cuoc khong (Tai vong hon chien se khong tang, con cac vong o chung ket se tang de loai truc tiep luon)
+	- Award: Phan thuong
+		- Config: Thiet lap nhan thuong
+			- FromDay: Ngay bat dau nhan thuong trong thang
+			- ToDay: Ngay ket thuc nhan thuong trong thang
+		- WinRound: Phan thuong khi chien thang trong luot dau bat ky
+			- Exp: Kinh nghiem
+			- BoundMoney: Bac khoa
+			- Repute: Danh vong
+		- EnterRound: Phan thuong khi bat dau luot dau
+			- Exp: Kinh nghiem
+			- BoundMoney: Bac khoa
+			- Repute: Danh vong
+		- FinalRank: Phan thuong theo thu hang
+			- RankInfo: Thong tin hang
+				- FromRank: Tu thu hang
+				- ToRank: Den thu hang
+				- Exp: Kinh nghiem
+				- Repute: Danh vong
+				- Items: Vat pham nhan duoc ngan cach nhau boi dau ; giua cac mon
+					- Gom 2 gia tri ID_So luong
 -->
 <TeamBattle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<!-- Thiết lập -->
+	<!-- Thiet lap -->
 	<Config EventID="15" EnterMapID="59" EnterPosX="1895" EnterPosY="3138" MinLevel="100" />
 
-	<!-- Đăng ký -->
+	<!-- Dang ky -->
 	<RegisterConfig FromDay="20" ToDay="23" TeamCapacity="1" />
 	
-	<!-- Thi đấu -->
+	<!-- Thi dau -->
 	<Battle>
 		<Config Duration="600000" FinishWaitDuration="30000" MapID="60" PosX="1602" PosY="1108" MaxCircleRoundBattles="24" ToFinalRoundTotalTeams="8" ArrangeToFinalRoundAtDay="28" />
 		
@@ -94,7 +94,7 @@
 		</EventTimes>
 	</Battle>
 	
-	<!-- Phần thưởng -->
+	<!-- Phan thuong -->
 	<Award>
 		<Config FromDay="29" ToDay="31" />
 	

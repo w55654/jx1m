@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	HỆ THỐNG DANH HIỆU ĐẶC BIỆT
-	- Title: Thông tin danh hiệu
-		- ID: ID danh hiệu
-		- Duration: Thời hạn (đơn vị giờ, -1 nếu vĩnh viễn)
-		- EffectID: ID hiệu ứng
-		- BundleDir: Đường dẫn File AssetBundle
-		- AtlasName: Tên atlas
-		- AnimationSpeed: Thời gian thực thi hiệu ứng danh hiệu động (đơn vị giây, không chứa số thập phân)
+	HE THONG DANH HIEU DAC BIET
+	- Title: Thong tin danh hieu
+		- ID: ID danh hieu
+		- Duration: Thoi han (don vi gio, -1 neu vinh vien)
+		- EffectID: ID hieu ung
+		- BundleDir: Duong dan File AssetBundle
+		- AtlasName: Ten atlas
+		- AnimationSpeed: Thoi gian thuc thi hieu ung danh hieu dong (don vi giay, khong chua so thap phan)
 -->
 <SpecialTitle>
 	<Title ID="1" Duration="168" EffectID="-1" BundleDir="Common/AnimatedTitle/ThieuLam.unity3d" AtlasName="ThieuLam" AnimationSpeed="2">

@@ -2,8 +2,8 @@
 <Map>
   <NPCs>
 	
-<!--	<NPC Code="3699" Name="Mã Vân" MinimapName="" VisibleOnMinimap="1" Title="Gia Tộc Chiêu Mộ Sứ" X="6580" Y="4614" Dir="1" ScriptID="201"/> -->
+<!--	<NPC Code="3699" Name="Ma Van" MinimapName="" VisibleOnMinimap="1" Title="Gia Toc Chieu Mo Su" X="6580" Y="4614" Dir="1" ScriptID="201"/> -->
 <!-- PhucNguuSon--> 
-		<NPC Code="2014" Name="Đại Tướng" MinimapName="Đại Tướng" VisibleOnMinimap="1" Title="" X="4980" Y="3280" Dir="1" ScriptID="-1"/> 
+		<NPC Code="2014" Name="Dai Tuong" MinimapName="Dai Tuong" VisibleOnMinimap="1" Title="" X="4980" Y="3280" Dir="1" ScriptID="-1"/> 
   </NPCs>
 </Map>

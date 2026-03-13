@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- MapSetting Thôn-Phái
-	DropRate: Tỷ lệ rơi đồ (0-100)
-	ExpRate: Tỷ lệ nhận kinh nghiệm (0-100)
-	MoneyRate: Tỷ lệ nhận tiền (0-100)
+<!-- MapSetting Thon-Phai
+	DropRate: Ty le roi do (0-100)
+	ExpRate: Ty le nhan kinh nghiem (0-100)
+	MoneyRate: Ty le nhan tien (0-100)
 
-	IsCopyScene: Có phải phụ bản không, nếu là phụ bản thì các cổng Teleport hoặc NPC thường sẽ không thể dịch chuyển vào được
-	FreePK: PK tự do, không tăng sát khí
-	AllowPK: Cho phép PK không
-	AllowStall: Cho phép mở sạp không
-	AllowTrade: Cho phép giao dịch không
-	PKAllSubStamina: Khi ở trạng thái đồ sát thì trừ bao nhiêu thể lực khi chạy mỗi nửa giây
-	SitHealHP: Khi ở trạng thái ngồi thì hồi bao nhiêu máu mỗi nửa giây
-	SitHealMP: Khi ở trạng thái ngồi thì hồi bao nhiêu mana mỗi nửa giây
-	SitHealStamina: Khi ở trạng thái ngồi thì hồi bao nhiêu thể mỗi nửa giây
+	IsCopyScene: Co phai phu ban khong, neu la phu ban thi cac cong Teleport hoac NPC thuong se khong the dich chuyen vao duoc
+	FreePK: PK tu do, khong tang sat khi
+	AllowPK: Cho phep PK khong
+	AllowStall: Cho phep mo sap khong
+	AllowTrade: Cho phep giao dich khong
+	PKAllSubStamina: Khi o trang thai do sat thi tru bao nhieu the luc khi chay moi nua giay
+	SitHealHP: Khi o trang thai ngoi thi hoi bao nhieu mau moi nua giay
+	SitHealMP: Khi o trang thai ngoi thi hoi bao nhieu mana moi nua giay
+	SitHealStamina: Khi o trang thai ngoi thi hoi bao nhieu the moi nua giay
 	
-	SubPKValueTick: Thời gian trừ 1 điểm sát khí (-1 nếu không)
-	ForceChangePKStatusTo: Khi vào bản đồ, buộc thay đổi trạng thái PK về dạng tương ứng (-1 nếu không)
-	AllowChangePKStatus: Cho phép chủ động thay đổi trạng thái PK không
-	AllowFightTarget: Cho phép tuyên chiến với người chơi chỉ định không
+	SubPKValueTick: Thoi gian tru 1 diem sat khi (-1 neu khong)
+	ForceChangePKStatusTo: Khi vao ban do, buoc thay doi trang thai PK ve dang tuong ung (-1 neu khong)
+	AllowChangePKStatus: Cho phep chu dong thay doi trang thai PK khong
+	AllowFightTarget: Cho phep tuyen chien voi nguoi choi chi dinh khong
 	
-	AllowChallenge: Cho phép tỷ thí hay không
+	AllowChallenge: Cho phep ty thi hay khong
 	
-	AllowUseSkill: Cho phép dùng kỹ năng hay không
-	AllowUseOffensiveSkill: Cho phép dùng các kỹ năng chủ động tấn công hay không
-	BanSkills: Danh sách các kỹ năng bị cấm, ngăn cách bởi dấu ;
+	AllowUseSkill: Cho phep dung ky nang hay khong
+	AllowUseOffensiveSkill: Cho phep dung cac ky nang chu dong tan cong hay khong
+	BanSkills: Danh sach cac ky nang bi cam, ngan cach boi dau ;
 	
-	AllowTeam: Cho phép tổ đội không, nếu không có thì khi vào toàn bộ người sẽ bị xóa trạng thái đội
-	AllowCreateTeam: Cho phép tạo nhóm hay không
-	AllowInviteToTeam: Cho phép mời vào nhóm hay không
-	AllowKickFromTeam: Cho phép trục xuất thành viên khỏi nhóm hay không
-	AllowLeaveTeam: Cho phép chủ động rời nhóm hay không
-	AllowJoinTeam: Cho phép chấp nhận thành viên vào nhóm hay không
-	AllowChangeTeamLeader: Cho phép thay đổi nhóm trưởng hay không
+	AllowTeam: Cho phep to doi khong, neu khong co thi khi vao toan bo nguoi se bi xoa trang thai doi
+	AllowCreateTeam: Cho phep tao nhom hay khong
+	AllowInviteToTeam: Cho phep moi vao nhom hay khong
+	AllowKickFromTeam: Cho phep truc xuat thanh vien khoi nhom hay khong
+	AllowLeaveTeam: Cho phep chu dong roi nhom hay khong
+	AllowJoinTeam: Cho phep chap nhan thanh vien vao nhom hay khong
+	AllowChangeTeamLeader: Cho phep thay doi nhom truong hay khong
 	
-	AllowUseItem: Cho phép dùng vật phẩm hay không
-	BanItems: Danh sách vật phẩm bị cấm
+	AllowUseItem: Cho phep dung vat pham hay khong
+	BanItems: Danh sach vat pham bi cam
 	
-	AllowReviveAtPos: Cho phép hồi sinh tại chỗ (có thể bởi kỹ năng) không
-	AllowUseReviveMedicine: Cho phép dùng Cửu Chuyển Hoàn Hồn Đơn không
+	AllowReviveAtPos: Cho phep hoi sinh tai cho (co the boi ky nang) khong
+	AllowUseReviveMedicine: Cho phep dung Cuu Chuyen Hoan Hon Don khong
 -->
 <MapSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<RateConfig DropRate="100" ExpRate="200" MoneyRate="100" />

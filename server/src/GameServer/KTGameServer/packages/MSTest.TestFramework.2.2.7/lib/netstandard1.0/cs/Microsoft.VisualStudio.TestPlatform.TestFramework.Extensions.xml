@@ -6,10 +6,10 @@
     <members>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute">
             <summary>
-            Používá se pro určení položky nasazení (souboru nebo adresáře) za účelem nasazení podle testu.
-            Lze zadat na testovací třídě nebo testovací metodě.
-            Může mít více instancí atributu pro zadání více než jedné položky.
-            Cesta k položce může být absolutní nebo relativní. Pokud je relativní, je relativní ve vztahu k RunConfig.RelativePathRoot.
+            Použ中v中 se pro určen中 položky nasazen中 (souboru nebo adres中ře) za 中čelem nasazen中 podle testu.
+            Lze zadat na testovac中 tř中dě nebo testovac中 metodě.
+            Může m中t v中ce instanc中 atributu pro zad中n中 v中ce než jedn中 položky.
+            Cesta k položce může b中t absolutn中 nebo relativn中. Pokud je relativn中, je relativn中 ve vztahu k RunConfig.RelativePathRoot.
             </summary>
             <example>
             [DeploymentItem("file1.xml")]
@@ -22,42 +22,42 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">Soubor nebo adresář, který se má nasadit. Cesta je relativní ve vztahu k adresáři výstupu sestavení. Položka bude zkopírována do adresáře, ve kterém jsou nasazená testovací sestavení.</param>
+            <param name="path">Soubor nebo adres中ř, kter中 se m中 nasadit. Cesta je relativn中 ve vztahu k adres中ři v中stupu sestaven中. Položka bude zkop中rov中na do adres中ře, ve kter中m jsou nasazen中 testovac中 sestaven中.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
-            Inicializuje novou instanci třídy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
+            Inicializuje novou instanci tř中dy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">Relativní nebo absolutní cesta k souboru nebo adresáři, který se má nasadit. Cesta je relativní ve vztahu k adresáři výstupu sestavení. Položka bude zkopírována do stejného adresáře jako nasazená testovací sestavení.</param>
-            <param name="outputDirectory">Cesta k adresáři, do kterého se mají položky kopírovat. Může být absolutní nebo relativní ve vztahu k adresáři nasazení. Všechny soubory a adresáře určené cestou <paramref name="path"/> budou zkopírovány do tohoto adresáře.</param>
+            <param name="path">Relativn中 nebo absolutn中 cesta k souboru nebo adres中ři, kter中 se m中 nasadit. Cesta je relativn中 ve vztahu k adres中ři v中stupu sestaven中. Položka bude zkop中rov中na do stejn中ho adres中ře jako nasazen中 testovac中 sestaven中.</param>
+            <param name="outputDirectory">Cesta k adres中ři, do kter中ho se maj中 položky kop中rovat. Může b中t absolutn中 nebo relativn中 ve vztahu k adres中ři nasazen中. Všechny soubory a adres中ře určen中 cestou <paramref name="path"/> budou zkop中rov中ny do tohoto adres中ře.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
-            Získá cestu ke zdrojovému souboru nebo složce, které se mají kopírovat.
+            Z中sk中 cestu ke zdrojov中mu souboru nebo složce, kter中 se maj中 kop中rovat.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.OutputDirectory">
             <summary>
-            Získá cestu adresáře, do kterého se položka zkopíruje.
+            Z中sk中 cestu adres中ře, do kter中ho se položka zkop中ruje.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext">
             <summary>
-            Třída TestContext. Tato třída by měla být zcela abstraktní a neměla by obsahovat žádné
-            členy. Členy implementuje adaptér. Uživatelé rozhraní by měli
-            k této funkci přistupovat jenom prostřednictvím dobře definovaného rozhraní.
+            Tř中da TestContext. Tato tř中da by měla b中t zcela abstraktn中 a neměla by obsahovat ž中dn中
+            členy. Členy implementuje adapt中r. Uživatel中 rozhran中 by měli
+            k t中to funkci přistupovat jenom prostřednictv中m dobře definovan中ho rozhran中.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties">
             <summary>
-            Získá vlastnosti testu.
+            Z中sk中 vlastnosti testu.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">
             <summary>
-            Získá plně kvalifikovaný název třídy obsahující aktuálně prováděnou testovací metodu.
+            Z中sk中 plně kvalifikovan中 n中zev tř中dy obsahuj中c中 aktu中lně prov中děnou testovac中 metodu.
             </summary>
             <remarks>
             This property can be useful in attributes derived from ExpectedExceptionBaseAttribute.
@@ -68,12 +68,12 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestName">
             <summary>
-            Získá název aktuálně prováděné testovací metody.
+            Z中sk中 n中zev aktu中lně prov中děn中 testovac中 metody.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.CurrentTestOutcome">
             <summary>
-            Získá aktuální výsledek testu.
+            Z中sk中 aktu中ln中 v中sledek testu.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.WriteLine(System.String)">

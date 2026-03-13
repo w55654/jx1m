@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Config hạt hoàng kim -->
-<!--TimeStart : Thời gian tham gia sự kiện -->
-<!--MapID : Bản đồ diễn ra sự kiện -->
-<!--DayOfWeek : Ngày nào trong tuần có thể tham gia -->
-<!--MinLevelCanJoin : Cấp độ tối thiểu có thể tham gia -->
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Config hat hoang kim -->
+<!--TimeStart : Thoi gian tham gia su kien -->
+<!--MapID : Ban do dien ra su kien -->
+<!--DayOfWeek : Ngay nao trong tuan co the tham gia -->
+<!--MinLevelCanJoin : Cap do toi thieu co the tham gia -->
 <GrowTreeConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TimeStart="20 0 0" Dualtion="3600" MapID="64" DayOfWeek="1 3 5" MinLevelCanJoin="60">
   
   
-  <!--GrowTrees : Danh sách các hạt hoàng kim sẽ xuất hiện trên bản đồ RespwanTime : thời gian hồi sinh của cây này |  ResID : Hình ảnh của hạt này ở client có ID là gì |  Lấy trong NPC.xml-->
+  <!--GrowTrees : Danh sach cac hat hoang kim se xuat hien tren ban do RespwanTime : thoi gian hoi sinh cua cay nay |  ResID : Hinh anh cua hat nay o client co ID la gi |  Lay trong NPC.xml-->
   <!-- 1 -->
   <GrowTrees Name="" PosX="6421" PosY="2163"   ResID="1113" RespwanTime="60000"  CollectTick="3000" Quality="2" />
   <GrowTrees Name="" PosX="6245" PosY="2189"   ResID="1113" RespwanTime="60000" CollectTick="3000" Quality="2" />
@@ -212,7 +212,7 @@
   <GrowTrees Name="" PosX="5942" PosY="4451"   ResID="1119" RespwanTime="60000" CollectTick="3000" Quality="3" />
   <GrowTrees Name="" PosX="6142" PosY="4747"   ResID="1120" RespwanTime="60000"  CollectTick="3000" Quality="4" />
   
-  <!-- khu an toàn -->
+  <!-- khu an toan -->
   
   <GrowTrees Name="" PosX="3602" PosY="3408"   ResID="1112" RespwanTime="60000" CollectTick="3000" Quality="1" />
   <GrowTrees Name="" PosX="3859" PosY="3381"   ResID="1112" RespwanTime="60000" CollectTick="3000" Quality="1" />
@@ -241,12 +241,12 @@
   <GrowTrees Name="" PosX="4296" PosY="3471"   ResID="1112" RespwanTime="60000"  CollectTick="3000" Quality="1" />
 
   
-   <!--GrowAwards : Danh sách các phần thưởng sẽ xuất hiện ngẫu nhiên khi hái hạt thành công -->
-   <!--IsExp : Nếu phần thưởng ra EXP thì cái này là true, ItemNum chính là số EXP có thể nhận được -->
-   <!--IsMoney : Nếu phần thưởng ra Tiền thì cái này là true, ItemNum chính là số Tiền có thể nhận được -->
-   <!--Rate : Tỉ lệ sẽ xuất hiện phần thưởng này -->
+   <!--GrowAwards : Danh sach cac phan thuong se xuat hien ngau nhien khi hai hat thanh cong -->
+   <!--IsExp : Neu phan thuong ra EXP thi cai nay la true, ItemNum chinh la so EXP co the nhan duoc -->
+   <!--IsMoney : Neu phan thuong ra Tien thi cai nay la true, ItemNum chinh la so Tien co the nhan duoc -->
+   <!--Rate : Ti le se xuat hien phan thuong nay -->
    
-   <!--Quality : cái này tương ứng với phẩm chất của hạt mà hạt có thể ra được | nếu hạt bên trên có phẩm chất là 1 thì nó sẽ chọn tất cả các phần thưởng có phẩm chất là 1 bên ở danh sách này để chọn 1 phần thưởng ngẫu nhiên khi mở ra hạt-->
+   <!--Quality : cai nay tuong ung voi pham chat cua hat ma hat co the ra duoc | neu hat ben tren co pham chat la 1 thi no se chon tat ca cac phan thuong co pham chat la 1 ben o danh sach nay de chon 1 phan thuong ngau nhien khi mo ra hat-->
    
   <GrowAwards Quality="1" ItemID="-1" ItemNum="10000" Rate="30" IsExp="true" IsMoney="false" />
   <GrowAwards Quality="1" ItemID="-1" ItemNum="50000" Rate="15" IsExp="true" IsMoney="false" />
@@ -286,7 +286,7 @@
   <GrowAwards Quality="4" ItemID="10450" ItemNum="1" Rate="10" IsExp="false" IsMoney="false" />
   <GrowAwards Quality="4" ItemID="10452" ItemNum="1" Rate="5" IsExp="false" IsMoney="false" />
   
-     <!--RespwanPoints : Điểm hồi sinh của nhân vật sau khi chết -->
+     <!--RespwanPoints : Diem hoi sinh cua nhan vat sau khi chet -->
   <RespwanPoints PosX="4087" PosY="3380" />
   <RespwanPoints PosX="4405" PosY="3441" />
   <RespwanPoints PosX="4662" PosY="3360" />

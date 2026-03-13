@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfBulletinMsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <BulletinMsg ID="0" ServerID="-1" Messenger="Trang chủ duy nhất của Võ Kiếm Mobile https://vokiem.mobi mọi thông tin về nạp thẻ , fanpage, cộng đồng đều được hiển thị tại đây, mong các bạn chú ý!!! ">
+  <BulletinMsg ID="0" ServerID="-1" Messenger="Trang chu duy nhat cua Vo Kiem Mobile https://vokiem.mobi moi thong tin ve nap the , fanpage, cong dong deu duoc hien thi tai day, mong cac ban chu y!!! ">
     <DayOfWeek>1</DayOfWeek>
     <DayOfWeek>2</DayOfWeek>
     <DayOfWeek>3</DayOfWeek>
@@ -21,12 +21,12 @@
     <NotifyTimes Hours="20" Minute="0" />
     <NotifyTimes Hours="22" Minute="0" />
   </BulletinMsg>
-  <BulletinMsg ID="2" ServerID="-1" Messenger="Boss Liên Server đã xuất hiện, bằng hữu hãy tập trung tổ đội để tiêu diệt!!!">
+  <BulletinMsg ID="2" ServerID="-1" Messenger="Boss Lien Server da xuat hien, bang huu hay tap trung to doi de tieu diet!!!">
     <DayOfWeek>6</DayOfWeek>
     <DayOfWeek>7</DayOfWeek>
     <NotifyTimes Hours="15" Minute="30" />
   </BulletinMsg>
-  <BulletinMsg ID="3" ServerID="-1" Messenger="Tống Kim Liên Máy Chủ Đang Trong Giai Đoạn Báo Danh!!!">
+  <BulletinMsg ID="3" ServerID="-1" Messenger="Tong Kim Lien May Chu Dang Trong Giai Doan Bao Danh!!!">
     <DayOfWeek>1</DayOfWeek>
     <DayOfWeek>2</DayOfWeek>
     <DayOfWeek>3</DayOfWeek>
@@ -36,7 +36,7 @@
     <DayOfWeek>7</DayOfWeek>
     <NotifyTimes Hours="21" Minute="50" />
   </BulletinMsg>
-  <BulletinMsg ID="4" ServerID="-1" Messenger="Tống Kim Liên Máy Chủ Đã Bắt Đầu!!!">
+  <BulletinMsg ID="4" ServerID="-1" Messenger="Tong Kim Lien May Chu Da Bat Dau!!!">
     <DayOfWeek>1</DayOfWeek>
     <DayOfWeek>2</DayOfWeek>
     <DayOfWeek>3</DayOfWeek>

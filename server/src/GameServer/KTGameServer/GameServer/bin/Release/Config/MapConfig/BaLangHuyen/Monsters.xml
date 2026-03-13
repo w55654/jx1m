@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
 <Map>
   <Monsters>
-  <!-- cọc gỗ -->
+  <!-- coc go -->
    <Monster Code="415" X="7710" Y="4617" Radius="1" Num="1" Timeslot="10" VisibleOnMinimap="0" />
    <Monster Code="415" X="7910" Y="4617" Radius="1" Num="1" Timeslot="10" VisibleOnMinimap="0" />
    <Monster Code="415" X="8110" Y="4617" Radius="1" Num="1" Timeslot="10" VisibleOnMinimap="1" />
@@ -44,7 +44,7 @@
    <Monster Code="417" X="8510" Y="3617" Radius="1" Num="1" Timeslot="10" VisibleOnMinimap="0" />
    <Monster Code="417" X="8710" Y="3617" Radius="1" Num="1" Timeslot="10" VisibleOnMinimap="0" />
    
-   <!-- quái -->
+   <!-- quai -->
    <Monster Code="45" X="7191" Y="4982" Radius="250" Num="10" Timeslot="10" VisibleOnMinimap="1" />
    <Monster Code="33" X="6338" Y="5216" Radius="250" Num="10" Timeslot="10" VisibleOnMinimap="0" />
    <Monster Code="44" X="5451" Y="5131" Radius="250" Num="10" Timeslot="10" VisibleOnMinimap="1" />

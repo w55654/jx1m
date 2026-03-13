@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	Kinh nghiệm lên cấp kỹ năng, áp dụng với các kỹ năng có thuộc tính IsExpSkill = true
-	- MaxExpEachDay: Lượng kinh nghiệm tối đa nhận được từ việc đánh quái và giết Boss mỗi ngày
-	- Skills: Thông tin kỹ năng
-		- IDs: Danh sách ID kỹ năng tương ứng thuộc nhóm, ngăn cách bởi dấu ;
-		- Exp: Thông tin kinh nghiệm
-			- Require: Lượng kinh nghiệm yêu cầu
-			- MonsterExpP: % kinh nghiệm giết quái
-			- BossExpP: % kinh nghiệm giết Boss
-			- AutoLevelUp: Tự lên cấp khi đạt ngưỡng kinh nghiệm yêu cầu
+	Kinh nghiem len cap ky nang, ap dung voi cac ky nang co thuoc tinh IsExpSkill = true
+	- MaxExpEachDay: Luong kinh nghiem toi da nhan duoc tu viec danh quai va giet Boss moi ngay
+	- Skills: Thong tin ky nang
+		- IDs: Danh sach ID ky nang tuong ung thuoc nhom, ngan cach boi dau ;
+		- Exp: Thong tin kinh nghiem
+			- Require: Luong kinh nghiem yeu cau
+			- MonsterExpP: % kinh nghiem giet quai
+			- BossExpP: % kinh nghiem giet Boss
+			- AutoLevelUp: Tu len cap khi dat nguong kinh nghiem yeu cau
 -->
 <SkillExp MaxExpEachDay="2000000">
 <!--Skill 90-->

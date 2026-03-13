@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	VÒNG QUAY MAY MẮN
-	- Config: Thiết lập vòng quay
-		- Activate: Kích hoạt vòng quay
-		- LimitLevel: Giới hạn cấp độ
-	- Requiration: Yêu cầu quay
-		- RequireToken: Yêu cầu đồng cho mỗi lượt quay
-		- RequireBoundToken: Yêu cầu đồng khóa cho mỗi lượt quay
-		- RequireItemID: Yêu cầu vé quay may mắn
-	- Time: Thời gian sự kiện
-		- WeekDays: Các ngày trong tuần (0: Chủ nhật, 1: Thứ 2, ..., 6: Thứ 7), ngăn cách bởi dấu ;
-		- Times: Các mốc thời gian mở, ngăn cách bởi dấu ;
-		- Duration: Thời gian duy trì (mili-giây)
-	- CellData: Dữ liệu ô quay (phải có chính xác 28 ô)
-		- Cell: Thông tin ô vật phẩm
-			- ItemID: ID vật phẩm
-			- Quantity: Số lượng
-			- RateUsingToken: Tỷ lệ quay vào nếu sử dụng đồng (phần 10.000)
-			- RateUsingBoundToken: Tỷ lệ quay vào nếu sử dụng đồng khóa (phần 10.000)
-			- RateUsingCard: Tỷ lệ quay vào nếu sử dụng thẻ (phần 10.000)
-			- CheckPoint: Khi số lượt quay đạt các ngưỡng tương ứng mới quay vào ô này, ngăn cách bởi dấu ; (-1 nếu không áp dụng)
-			- NotifyAfterTaken: Thông báo khi nhận
-			=> Khi có CheckPoint thì Rate sẽ luôn luôn là 0%
-			- EffectType: màu sắc của vòng tròn xoay quanh (-1 là không có gì) màu từ 1-7
+	VONG QUAY MAY MAN
+	- Config: Thiet lap vong quay
+		- Activate: Kich hoat vong quay
+		- LimitLevel: Gioi han cap do
+	- Requiration: Yeu cau quay
+		- RequireToken: Yeu cau dong cho moi luot quay
+		- RequireBoundToken: Yeu cau dong khoa cho moi luot quay
+		- RequireItemID: Yeu cau ve quay may man
+	- Time: Thoi gian su kien
+		- WeekDays: Cac ngay trong tuan (0: Chu nhat, 1: Thu 2, ..., 6: Thu 7), ngan cach boi dau ;
+		- Times: Cac moc thoi gian mo, ngan cach boi dau ;
+		- Duration: Thoi gian duy tri (mili-giay)
+	- CellData: Du lieu o quay (phai co chinh xac 28 o)
+		- Cell: Thong tin o vat pham
+			- ItemID: ID vat pham
+			- Quantity: So luong
+			- RateUsingToken: Ty le quay vao neu su dung dong (phan 10.000)
+			- RateUsingBoundToken: Ty le quay vao neu su dung dong khoa (phan 10.000)
+			- RateUsingCard: Ty le quay vao neu su dung the (phan 10.000)
+			- CheckPoint: Khi so luot quay dat cac nguong tuong ung moi quay vao o nay, ngan cach boi dau ; (-1 neu khong ap dung)
+			- NotifyAfterTaken: Thong bao khi nhan
+			=> Khi co CheckPoint thi Rate se luon luon la 0%
+			- EffectType: mau sac cua vong tron xoay quanh (-1 la khong co gi) mau tu 1-7
 -->
 <KTLuckyCircle>
 	<Config Activate="false" LimitLevel="1" />

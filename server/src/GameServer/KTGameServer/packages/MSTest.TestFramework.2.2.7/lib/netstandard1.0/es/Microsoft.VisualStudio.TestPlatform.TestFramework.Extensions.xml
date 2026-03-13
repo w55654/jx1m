@@ -6,9 +6,9 @@
     <members>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute">
             <summary>
-            Se usa para especificar el elemento (archivo o directorio) para la implementación por prueba.
-            Puede especificarse en la clase de prueba o en el método de prueba.
-            Puede tener varias instancias del atributo para especificar más de un elemento.
+            Se usa para especificar el elemento (archivo o directorio) para la implementaci中n por prueba.
+            Puede especificarse en la clase de prueba o en el m中todo de prueba.
+            Puede tener varias instancias del atributo para especificar m中s de un elemento.
             La ruta de acceso del elemento puede ser absoluta o relativa. Si es relativa, lo es respecto a RunConfig.RelativePathRoot.
             </summary>
             <example>
@@ -24,14 +24,14 @@
             <summary>
             Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">Archivo o directorio para implementar. La ruta de acceso es relativa al directorio de salida de compilación. El elemento se copiará en el mismo directorio que los ensamblados de prueba implementados.</param>
+            <param name="path">Archivo o directorio para implementar. La ruta de acceso es relativa al directorio de salida de compilaci中n. El elemento se copiar中 en el mismo directorio que los ensamblados de prueba implementados.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.#ctor(System.String,System.String)">
             <summary>
             Inicializa una nueva instancia de la clase <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>.
             </summary>
-            <param name="path">Ruta de acceso relativa o absoluta al archivo o directorio para implementar. La ruta de acceso es relativa al directorio de salida de compilación. El elemento se copiará en el mismo directorio que los ensamblados de prueba implementados.</param>
-            <param name="outputDirectory">Ruta de acceso del directorio en el que se van a copiar los elementos. Puede ser absoluta o relativa respecto al directorio de implementación. Todos los archivos y directorios que identifica <paramref name="path"/> se copiarán en este directorio.</param>
+            <param name="path">Ruta de acceso relativa o absoluta al archivo o directorio para implementar. La ruta de acceso es relativa al directorio de salida de compilaci中n. El elemento se copiar中 en el mismo directorio que los ensamblados de prueba implementados.</param>
+            <param name="outputDirectory">Ruta de acceso del directorio en el que se van a copiar los elementos. Puede ser absoluta o relativa respecto al directorio de implementaci中n. Todos los archivos y directorios que identifica <paramref name="path"/> se copiar中n en este directorio.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
@@ -45,9 +45,9 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext">
             <summary>
-            Clase TestContext. Esta clase debe ser totalmente abstracta y no contener ningún
-            miembro. El adaptador implementará los miembros. Los usuarios del marco solo deben
-            tener acceso a esta clase a través de una interfaz bien definida.
+            Clase TestContext. Esta clase debe ser totalmente abstracta y no contener ning中n
+            miembro. El adaptador implementar中 los miembros. Los usuarios del marco solo deben
+            tener acceso a esta clase a trav中s de una interfaz bien definida.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties">
@@ -57,7 +57,7 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">
             <summary>
-            Obtiene el nombre completo de la clase que contiene el método de prueba que se está ejecutando.
+            Obtiene el nombre completo de la clase que contiene el m中todo de prueba que se est中 ejecutando.
             </summary>
             <remarks>
             This property can be useful in attributes derived from ExpectedExceptionBaseAttribute.
@@ -68,7 +68,7 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestName">
             <summary>
-            Obtiene el nombre del método de prueba que se está ejecutando.
+            Obtiene el nombre del m中todo de prueba que se est中 ejecutando.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.CurrentTestOutcome">

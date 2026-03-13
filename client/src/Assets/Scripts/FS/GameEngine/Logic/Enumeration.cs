@@ -1,64 +1,64 @@
-﻿namespace FS.GameEngine.Logic
+﻿﻿namespace FS.GameEngine.Logic
 {
     /// <summary>
-    /// Sự kiện trong Game
+    /// 游戏中的事件
     /// </summary>
     public enum GameEvent
     {
         /// <summary>
-        /// Lôi đài di động
+        /// 移动收音机
         /// </summary>
         DynamicArena = 0,
         /// <summary>
-        /// Bí cảnh
+        /// 秘密场景
         /// </summary>
         MiJing = 1,
         /// <summary>
-        /// Quân doanh
+        /// 军营
         /// </summary>
         MilitaryCamp = 2,
         /// <summary>
-        /// Thần Bí Bảo Khố
+        /// 神秘的宝库
         /// </summary>
         ShenMiBaoKu = 3,
         /// <summary>
-        /// Du Long Các
+        /// 杜龙卡
         /// </summary>
         YouLong = 4,
         /// <summary>
-        /// Võ Lâm Liên Đấu
+        /// 武术连斗
         /// </summary>
         TeamBattle = 5,
 
         /// <summary>
-        /// Tống Kim
+        /// 金东
         /// </summary>
         SongJin = 20,
         /// <summary>
-        /// Thi đấu môn phái
+        /// 门派比赛
         /// </summary>
         FactionBattle = 21,
         /// <summary>
-        /// Sự kiện Phong Hỏa Liên Thành
+        /// 风火连青事件
         /// </summary>
         FengHuoLianCheng = 22,
         /// <summary>
-        /// Bạch Hổ Đường
+        /// 巴赫胡阳
         /// </summary>
         BaiHuTang = 23,
         /// <summary>
-        /// Tần Lăng
+        /// 贪狼
         /// </summary>
         EmperorTomb = 24,
     }
 
     /// <summary>
-    /// Loại đối tượng
+    /// 对象类型
     /// </summary>
     public enum GSpriteTypes
     {
         /// <summary>
-        /// Không có
+        /// 没有
         /// </summary>
         None = -1,
 
@@ -68,12 +68,12 @@
         Leader = 0,
 
         /// <summary>
-        /// Người chơi khác
+        /// 其他玩家
         /// </summary>
         Other,
 
         /// <summary>
-        /// Quái
+        /// 他妈的
         /// </summary>
         Monster,
 
@@ -83,22 +83,22 @@
         NPC,
 
         /// <summary>
-        /// Điểm thu thập
+        /// 收集点
         /// </summary>
         GrowPoint,
 
         /// <summary>
-        /// Khu vực động
+        /// 动态区域
         /// </summary>
         DynamicArea,
 
         /// <summary>
-        /// Cổng dịch chuyển
+        /// 传送门
         /// </summary>
         Teleport,
 
         /// <summary>
-        /// Vật phẩm rơi
+        /// 掉落物品
         /// </summary>
         GoodsPack,
 
@@ -113,353 +113,353 @@
         Pet,
 
         /// <summary>
-        /// Xe tiêu
+        /// 辣椒车
         /// </summary>
         TraderCarriage,
 
         /// <summary>
-        /// Bot bán hàng
+        /// 销售机器人
         /// </summary>
         StallBot,
     }
 
     /// <summary>
-    /// Loại thao tác với vật phẩm
+    /// 项目操作类型
     /// </summary>
     public enum ModGoodsTypes
     {
         /// <summary>
-        /// Vứt bỏ
+        /// 丢弃
         /// </summary>
         Abandon = 0,
 
         /// <summary>
-        /// Trang bị lên người
+        /// 装备自己
         /// </summary>
         EquipLoad = 1,
 
         /// <summary>
-        /// Tháo trang bị
+        /// 移除设备
         /// </summary>
         EquipUnload = 2,
 
         /// <summary>
-        /// Thay đổi số lượng
+        /// 更改数量
         /// </summary>
         ModValue = 3,
 
         /// <summary>
-        /// Xóa vật phẩm
+        /// 删除项目
         /// </summary>
         Destroy = 4,
 
         /// <summary>
-        /// Bán cho NPC
+        /// 卖给NPC
         /// </summary>
         SaleToNpc = 5,
 
         /// <summary>
-        /// Tách
+        /// 杯子
         /// </summary>
         SplitItem = 6,
     }
 
     /// <summary>
-    /// Kiểu Nhiệm Vụ
+    /// 任务类型
     /// </summary>
     public enum TaskTypes
     {
         /// <summary>
-        /// Không có
+        /// 没有
         /// </summary>
         None = -1,
 
         /// <summary>
-        /// Nói chuyện với NPC
+        /// 与 NPC 交谈
         /// </summary>
         Talk = 0,
 
         /// <summary>
-        /// Giết quái
+        /// 杀死怪物
         /// </summary>
         KillMonster = 1,
 
         /// <summary>
-        /// Giết quái và nhặt vật phẩm
+        /// 杀死怪物并拾取物品
         /// </summary>
         MonsterSomething = 2,
 
         /// <summary>
-        /// Mua vật phẩm từ SHOP
+        /// 从商店购买商品
         /// </summary>
         BuySomething = 3,
 
         /// <summary>
-        /// Sử dụng vật phẩm
+        /// 使用物品
         /// </summary>
         UseSomething = 4,
 
         /// <summary>
-        /// Giao vật phẩm cho NPC
+        /// 向 NPC 运送物品
         /// </summary>
         TransferSomething = 5,
 
         /// <summary>
-        /// Nhận vật phẩm từ NPC
+        /// 从 NPC 处获取物品
         /// </summary>
         GetSomething = 6,
 
         /// <summary>
-        /// Nhận tiền từ NPC
+        /// 从 NPC 处获取金钱
         /// </summary>
         Collect = 7,
 
         /// <summary>
-        /// Trả lời câu hỏi
+        /// 回答问题
         /// </summary>
         AnswerQuest = 8,
 
         /// <summary>
-        /// Vào phái
+        /// 进入宗门
         /// </summary>
         JoinFaction = 9,
 
         /// <summary>
-        /// Chế đồ
+        /// 做东西
         /// </summary>
         Crafting = 10,
 
         /// <summary>
-        /// Cường hóa
+        /// 强化
         /// </summary>
         Enhance = 11,
 
         /// <summary>
-        /// Cường hóa tổng cộng bao nhiêu lần
+        /// 总共增强了多少次？
         /// </summary>
         EnhanceTime = 12,
 
         /// <summary>
-        /// Tham gia hoạt động nào đó X lần
+        /// 参加某活动X次
         /// </summary>
         JoinActivity = 13,
 
         /// <summary>
-        /// Tham gia hoạt động
+        /// 参加活动
         /// </summary>
         JoinBattleSongJinEvent = 14,
 
         /// <summary>
-        /// Giết người
+        /// 杀戮
         /// </summary>
         KillOtherGuildRole = 15,
 
         /// <summary>
-        /// mua vật phẩm gì đó
+        /// 买东西
         /// </summary>
         BuyItemInShopGuild = 16,
 
         /// <summary>
-        /// Tìm kiếm vật phẩm với dòng chỉ định
+        /// 搜索指定行的项目
         /// </summary>
         GetItemWithSpcecialLine = 17,
 
         /// <summary>
-        /// Giết người map khác tại bản đồ nào đó
+        /// 在特定地图上杀死其他人
         /// </summary>
         KillOtherGuildRoleTargetMapcode = 18,
 
         /// <summary>
-        /// Vận tiêu bao nhiêu lần
+        /// 花费多少次？
         /// </summary>
         CarriageTotalCount = 19,
     };
 
     /// <summary>
-    /// Trạng thái nhiệm vụ của NPC
+    /// NPC任务状态
     /// </summary>
     public enum NPCTaskStates
     {
         /// <summary>
-        /// Không có trạng thái
+        /// 无状态
         /// </summary>
         None,
 
         /// <summary>
-        /// Có nhiệm vụ chính tuyến để nhận
+        /// 有主要任务需要接受
         /// </summary>
         ToReceive_MainQuest,
 
         /// <summary>
-        /// Có nhiệm vụ chính tuyến để trả
+        /// 有主要任务需要付费
         /// </summary>
         ToReturn_MainQuest,
 
         /// <summary>
-        /// Có nhiệm vụ phụ để nhận
+        /// 有支线任务可以接
         /// </summary>
         ToReceive_SubQuest,
 
         /// <summary>
-        /// Có nhiệm vụ phụ để trả
+        /// 有支线任务需要付费
         /// </summary>
         ToReturn_SubQuest,
 
         /// <summary>
-        /// Có nhiệm vụ tuần hoàn để nhận
+        /// 有重复的任务可以接收
         /// </summary>
         ToReceive_DailyQuest,
 
         /// <summary>
-        /// Có nhiệm vụ tuần hoàn để trả
+        /// 有经常性的义务要支付
         /// </summary>
         ToReturn_DailyQuest,
     };
 
     /// <summary>
-    /// Giao dịch
+    /// 交易
     /// </summary>
     public enum GoodsExchangeCmds
     {
         /// <summary>
-        /// Không có
+        /// 没有
         /// </summary>
         None = 0,
 
         /// <summary>
-        /// Yêu cầu giao dịch
+        /// 请求交易
         /// </summary>
         Request,
 
         /// <summary>
-        /// Từ chối
+        /// 拒绝
         /// </summary>
         Refuse,
 
         /// <summary>
-        /// Đồng ý
+        /// 同意
         /// </summary>
         Agree,
 
         /// <summary>
-        /// Hủy giao dịch
+        /// 取消交易
         /// </summary>
         Cancel,
 
         /// <summary>
-        /// Thêm vật phẩm lên phiên
+        /// 将项目添加到会话
         /// </summary>
         AddGoods,
 
         /// <summary>
-        /// Gỡ bỏ vật phẩm khỏi phiên
+        /// 从会话中删除项目
         /// </summary>
         RemoveGoods,
 
         /// <summary>
-        /// Thêm bạc vào
+        /// 加银
         /// </summary>
         UpdateMoney,
 
         /// <summary>
-        /// Thêm đồng vào
+        /// 添加铜
         /// </summary>
         UpdateYuanBao,
 
         /// <summary>
-        /// Giao dịch Pet
+        /// 宠物交易
         /// </summary>
         AddPet,
 
         /// <summary>
-        /// Gỡ bỏ pet khỏi phiên
+        /// 从会话中删除宠物
         /// </summary>
         RemovePet,
 
         /// <summary>
-        /// Khóa
+        /// 锁
         /// </summary>
         Lock,
 
         /// <summary>
-        /// Bỏ Khóa
+        /// 开锁
         /// </summary>
         Unlock,
 
         /// <summary>
-        /// Hoàn Tất Giao dịch
+        /// 完成交易
         /// </summary>
         Done,
     }
 
     /// <summary>
-    /// Thực thể mua hàng
+    /// 采购实体
     /// </summary>
     public enum GoodsStallCmds
     {
         /// <summary>
-        /// Không có
+        /// 没有
         /// </summary>
         None = 0,
 
         /// <summary>
-        /// Yêu cầu mở cửa hàng
+        /// 要求开店
         /// </summary>
         Request,
 
         /// <summary>
-        /// Bắt đầu ngồi bán
+        /// 开始销售
         /// </summary>
         Start,
 
         /// <summary>
-        /// Hủy Bán
+        /// 取消销售
         /// </summary>
         Cancel,
 
         /// <summary>
-        /// Thêm vật phẩm lên sập hàng
+        /// 将商品添加到商店
         /// </summary>
         AddGoods,
 
         /// <summary>
-        /// Gỡ bỏ vật phẩm khỏi sập hàng
+        /// 从库存中移除物品
         /// </summary>
         RemoveGoods,
 
         /// <summary>
-        /// Update lại tên cửa hàng
+        /// 更新店铺名称
         /// </summary>
         UpdateMessage,
 
         /// <summary>
-        /// Xem cửa hàng của ai đó
+        /// 查看某人的商店
         /// </summary>
         ShowStall,
 
         /// <summary>
-        /// Mua vật phẩm của cửa hàng nào đó
+        /// 从特定商店购买商品
         /// </summary>
         BuyGoods,
     }
 
     /// <summary>
-    /// Loại quái vật
+    /// 怪物的种类
     /// </summary>
     public enum MonsterTypes
     {
         /// <summary>
-        /// Quái thường, chỉ khi bị sát thương mới đuổi theo
+        /// 通常，只有在受到伤害时，它们才会追逐
         /// </summary>
         Normal = 0,
 
         /// <summary>
-        /// Quái tinh anh, Boss, cứ gặp người là đuổi theo
+        /// 老板你真是个聪明人，每次看到人就追
         /// </summary>
         Elite = 1,
 
         /// <summary>
-        /// Thủ lĩnh
+        /// 领导者
         /// </summary>
         Leader = 2,
 
@@ -469,109 +469,109 @@
         Boss = 3,
 
         /// <summary>
-        /// Hải tặc
+        /// 海盗
         /// </summary>
         Pirate = 4,
 
         /// <summary>
-        /// Quái chữ đỏ, tự đuổi người
+        /// 吓坏了红字，自我追逐的人
         /// </summary>
         Hater = 5,
 
         /// <summary>
-        /// Quái đặc biệt, tự đuổi người, AI chạy liên tục kể cả khi không có người xung quanh
+        /// 特殊怪物，自我追逐，无人时AI持续运行
         /// </summary>
         Special_Normal = 6,
 
         /// <summary>
-        /// Boss đặc biệt, AI chạy liên tục kể cả khi không có người xung quanh
+        /// 特殊boss，无人时AI持续运行
         /// </summary>
         Special_Boss = 7,
 
         /// <summary>
-        /// Quái tĩnh, không có AI
+        /// 安静的怪物，没有人工智能
         /// </summary>
         Static = 8,
 
         /// <summary>
-        /// Quái tĩnh, miễn dịch toàn bộ, không có AI
+        /// 安静的怪物，完全免疫，无AI
         /// </summary>
         Static_ImmuneAll = 9,
 
         /// <summary>
-        /// NPC di chuyển
+        /// NPC 移动
         /// </summary>
         DynamicNPC = 10,
 
         /// <summary>
-        /// Tổng số
+        /// 全部的
         /// </summary>
         Total,
     }
 
     /// <summary>
-    /// Loại phúc lợi
+    /// 福利类型
     /// </summary>
     public enum ActivityTypes
     {
         /// <summary>
-        /// Không có
+        /// 没有
         /// </summary>
         None = 0,
 
         /// <summary>
-        /// Nạp đầu
+        /// 顶部装载
         /// </summary>
         InputFirst = 1,
 
         /// <summary>
-        /// Nạp mỗi ngày
+        /// 每天充电
         /// </summary>
         MeiRiChongZhiHaoLi = 27,
 
         /// <summary>
-        /// Tích nạp
+        /// 充电
         /// </summary>
         TotalCharge = 38,
 
         /// <summary>
-        /// Tích tiêu
+        /// 累积消费
         /// </summary>
         TotalConsume = 39,
 
         /// <summary>
-        /// Tổng số
+        /// 全部的
         /// </summary>
         MaxVal,
     }
 
     /// <summary>
-    /// Loại kết nối lại
+    /// 重新连接型
     /// </summary>
     public enum ReConnectType
     {
         /// <summary>
-        /// Từ màn hình đăng nhập
+        /// 从登录屏幕
         /// </summary>
         LoginWindow = 0,
 
         /// <summary>
-        /// Từ màn hình chọn nhân vật
+        /// 从角色选择画面
         /// </summary>
         SelectRoleWindow = 1,
 
         /// <summary>
-        /// Kết nối lại với nhân vật hiện tại
+        /// 与当前角色重新连接
         /// </summary>
         ReconnectCurrentRole = 3,
 
         /// <summary>
-        /// Từ màn hình chọn Server
+        /// 从屏幕中选择服务器
         /// </summary>
         ServerListWindow = 4,
 
         /// <summary>
-        /// Đổi Server
+        /// 更改服务器
         /// </summary>
         ChangeServer = 5,
     }

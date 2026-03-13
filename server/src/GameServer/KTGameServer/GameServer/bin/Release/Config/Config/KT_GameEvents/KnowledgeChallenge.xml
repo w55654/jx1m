@@ -1,118 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SỰ KIỆN ĐOÁN HOA ĐĂNG
-	- Config: Thiết lập chung
-		- LimitLevel: Cấp độ yêu cầu
-	- Questions: Danh sách câu hỏi
-		- Question: Thông tin câu hỏi tương ứng
-			- Content: Nội dung câu hỏi
-			- RightAnswer: Đáp án chính xác
-			- OtherAnswer_1: Đáp án sai 1
-			- OtherAnswer_2: Đáp án sai 2
-			- OtherAnswer_3: Đáp án sai 3
-	- Event: Thông tin sự kiện
-		- Config: Thiết lập sự kiện
-			- MaxQuestions: Số câu trả lời tối đa trong cả sự kiện
-			- NPCStandDuration: Tổng thời gian NPC đứng lại cho người chơi trả lời câu hỏi (mili-giây)
-			- DelayTicksEachQuestion: Thời gian giãn cách mỗi lần mở câu hỏi mới (mili-giây)
-		- NPC: Thông tin NPC
+	SU KIEN DOAN HOA DANG
+	- Config: Thiet lap chung
+		- LimitLevel: Cap do yeu cau
+	- Questions: Danh sach cau hoi
+		- Question: Thong tin cau hoi tuong ung
+			- Content: Noi dung cau hoi
+			- RightAnswer: Dap an chinh xac
+			- OtherAnswer_1: Dap an sai 1
+			- OtherAnswer_2: Dap an sai 2
+			- OtherAnswer_3: Dap an sai 3
+	- Event: Thong tin su kien
+		- Config: Thiet lap su kien
+			- MaxQuestions: So cau tra loi toi da trong ca su kien
+			- NPCStandDuration: Tong thoi gian NPC dung lai cho nguoi choi tra loi cau hoi (mili-giay)
+			- DelayTicksEachQuestion: Thoi gian gian cach moi lan mo cau hoi moi (mili-giay)
+		- NPC: Thong tin NPC
 			- ID: ID NPC
-			- Name: Tên NPC (bỏ trống sẽ lấy ở File cấu hình)
-			- Title: Danh hiệu NPC (bỏ trống sẽ lấy ở File cấu hình)
-			- VillagePosition: Các vị trí xuất hiện của NPC ở bản đồ tương ứng
-				- MapID: ID bản đồ
-				- Positions: Các vị trí sẽ xuất hiện và sẽ di chuyển đến ngẫu nhiên trong khi diễn ra sự kiện
-	- Award: Phần thưởng mỗi lượt trả lời đúng
-		- BoundToken: Đồng khóa
-		- BoundMoney: Bạc khóa
+			- Name: Ten NPC (bo trong se lay o File cau hinh)
+			- Title: Danh hieu NPC (bo trong se lay o File cau hinh)
+			- VillagePosition: Cac vi tri xuat hien cua NPC o ban do tuong ung
+				- MapID: ID ban do
+				- Positions: Cac vi tri se xuat hien va se di chuyen den ngau nhien trong khi dien ra su kien
+	- Award: Phan thuong moi luot tra loi dung
+		- BoundToken: Dong khoa
+		- BoundMoney: Bac khoa
 		- Prestige: Uy danh
-		- Exp: Kinh nghiệm
+		- Exp: Kinh nghiem
 -->
 <KnowledgeChallenge xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Config LimitLevel="40" />
 	
 	<Questions>
-		<Question Content="Vật phẩm nào giúp tăng điểm tiềm năng cho nhân vật?" RightAnswer="Tẩy Tủy Kinh (Sơ)" OtherAnswer_1="Võ Lâm Mật Tịch (Sơ)" OtherAnswer_2="Mật Tịch Cao" OtherAnswer_3="Mật Tịch Trung" />
-		<Question Content="Khi giao dịch với người chơi khác sẽ mất bao nhiêu % phí giao dịch?" RightAnswer="10" OtherAnswer_1="5" OtherAnswer_2="8" OtherAnswer_3="12" />
-		<Question Content="Ngựa Xích Thố được bán ở đâu?" RightAnswer="Kỳ trân các" OtherAnswer_1="Các thành thị" OtherAnswer_2="NPC bán ngựa" OtherAnswer_3="Dây cương thần bí" />
-		<Question Content="Mỗi ngày có thể đánh mấy trận tống kim?" RightAnswer="3" OtherAnswer_1="4" OtherAnswer_2="5" OtherAnswer_3="6" />
-		<Question Content="Kim sáng dược dùng để làm gì?" RightAnswer="Hồi sinh lực" OtherAnswer_1="Dùng làm nguyên liệu chế" OtherAnswer_2="Hồi nội lực" OtherAnswer_3="Dùng làm nhiệm vụ chính tuyến" />
-		<Question Content="Ngưng thần đan dùng để làm gì" RightAnswer="Hồi nội lực" OtherAnswer_1="Dùng làm nguyên liệu chế" OtherAnswer_2="Hồi sinh lực" OtherAnswer_3="Dùng làm nhiệm vụ chính tuyến" />
-		<Question Content="Võ Kiếm Mobile có tổng cộng bao nhiêu thôn?" RightAnswer="2" OtherAnswer_1="3" OtherAnswer_2="4" OtherAnswer_3="5" />
-		<Question Content="Võ Kiếm Mobile có tổng cộng bao nhiêu thành thị?" RightAnswer="3" OtherAnswer_1="5" OtherAnswer_2="4" OtherAnswer_3="6" />
-		<Question Content="Thiếu lâm tọa lạc ở ngọn núi nào?" RightAnswer="Tung sơn" OtherAnswer_1="Thái sơn" OtherAnswer_2="Hằng sơn" OtherAnswer_3="Hoa sơn" />
-		<Question Content="Võ Kiếm Mobile có bao nhiêu kênh tán gẫu?" RightAnswer="10" OtherAnswer_1="11" OtherAnswer_2="12" OtherAnswer_3="9" />
-		<Question Content="Điểm danh vọng có cấp độ tối đa là bao nhiêu?" RightAnswer="10" OtherAnswer_1="8" OtherAnswer_2="4" OtherAnswer_3="6" />
-		<Question Content="Võ Kiếm Mobile có bao nhiêu NPC Long Ngũ?" RightAnswer="2" OtherAnswer_1="4" OtherAnswer_2="3" OtherAnswer_3="5" />
-		<Question Content="Nhân vật nữ có thể gia nhập được bao nhiêu môn phái?" RightAnswer="9" OtherAnswer_1="12" OtherAnswer_2="10" OtherAnswer_3="11" />
-		<Question Content="Nhân vật nam có thể gia nhập được bao nhiêu môn phái?" RightAnswer="9" OtherAnswer_1="10" OtherAnswer_2="12" OtherAnswer_3="11" />
-		<Question Content="Một ngày có thể khiêu chiến Du long bao nhiêu lần?" RightAnswer="40" OtherAnswer_1="20" OtherAnswer_2="15" OtherAnswer_3="30" />
-		<Question Content="Có bao nhiêu môn phái không phải xuống ngựa vẫn đánh được skill 90?" RightAnswer="4" OtherAnswer_1="5" OtherAnswer_2="3" OtherAnswer_3="6" />
-		<Question Content="Chưởng môn phái Nga My tên là gì?" RightAnswer="Thanh hiểu sư thái" OtherAnswer_1="Vô niệm sư thái" OtherAnswer_2="Vô sân sư thái" OtherAnswer_3="Vô si sư thái" />
-		<Question Content="Chưởng môn phái Thiếu Lâm tên là gì?" RightAnswer="Từ Nhân" OtherAnswer_1="Huyền Từ" OtherAnswer_2="Huyền Bi" OtherAnswer_3="Huyền Nan" />
-		<Question Content="Chưởng môn phái Thiên Vương tên là gì?" RightAnswer="Dương Anh" OtherAnswer_1="Bùi Dực Phi" OtherAnswer_2="Lâu Nhất Quan" OtherAnswer_3="Quý Thúc Ban" />
-		<Question Content="Chưởng môn phái Ngũ Độc tên là gì?" RightAnswer="Hắc Diện Lang Quân" OtherAnswer_1="Điệp Phiêu Phiêu" OtherAnswer_2="Lư Tiếu Bần" OtherAnswer_3="Hồ Hiến Cơ" />
-		<Question Content="Chưởng môn phái Đường Môn tên là gì?" RightAnswer="Đường Cừu" OtherAnswer_1="Đường Ngộ" OtherAnswer_2="Đường Khuyết" OtherAnswer_3="Đường Như" />
-		<Question Content="Chưởng môn phái Thúy Yên tên là gì?" RightAnswer="Doãn Hàm Yên" OtherAnswer_1="Đan Bích Tú" OtherAnswer_2="Cô Nguyệt Hoa" OtherAnswer_3="Nhạn Xảo Vân" />
-		<Question Content="Chưởng môn phái Cái Bang tên là gì?" RightAnswer="Hà Nhân Ngã" OtherAnswer_1="Lãnh Thu Vân" OtherAnswer_2="La Phong" OtherAnswer_3="Củng Thiếu Trăn" />
-		<Question Content="Chưởng môn phái Thiên Nhẫn tên là gì?" RightAnswer="Hoàn Nhan Hùng Liệt" OtherAnswer_1="Đoan Mộc Duệ" OtherAnswer_2="Ngột Tán" OtherAnswer_3="Bồ Sát Phong Nô" />
-		<Question Content="Chưởng môn phái Võ Đang tên là gì?" RightAnswer="Đạo Nhất Chân Nhân" OtherAnswer_1="Nhất Diệp Chân Nhân" OtherAnswer_2="Động Hư Chân Nhân" OtherAnswer_3="Vương Chí Minh" />
-		<Question Content="Chưởng môn phái Côn Lôn tên là gì?" RightAnswer="Tuyền Cơ Tử" OtherAnswer_1="Gia Cát Trác Vân" OtherAnswer_2="Du Lạc Thiên" OtherAnswer_3="Du thanh Tố" />
-		<Question Content="Chưởng môn phái Hoa Sơn tên là gì?" RightAnswer="Nam Cung Tuyệt" OtherAnswer_1="Lâm Hảo Thiên" OtherAnswer_2="Tử Mộ" OtherAnswer_3="Tiêu Viễn Tứ" />
-		<Question Content="Cấp độ bao nhiêu có thể Tạo Bang?" RightAnswer="50" OtherAnswer_1="30" OtherAnswer_2="60" OtherAnswer_3="40" />
-		<Question Content="Tạo Bang cần bao nhiêu bạc thường?" RightAnswer="1000 vạn" OtherAnswer_1="800 vạn" OtherAnswer_2="1100 vạn" OtherAnswer_3="100 vạn" />
-		<Question Content="Một ngày có thể làm tối đa bao nhiêu nhiệm vụ Boss sát thủ?" RightAnswer="8" OtherAnswer_1="6" OtherAnswer_2="10" OtherAnswer_3="14" />
-		<Question Content="Một ngày có thể làm tối đa bao nhiêu nhiệm vụ Dã Tẩu?" RightAnswer="20" OtherAnswer_1="40" OtherAnswer_2="50" OtherAnswer_3="30" />
-		<Question Content="Một Bang có tối đa bao nhiêu người chơi?" RightAnswer="150" OtherAnswer_1="5" OtherAnswer_2="50" OtherAnswer_3="100" />
-		<Question Content="Vật phẩm nào giúp tăng điểm kỹ năng cho nhân vật?" RightAnswer="Võ Lâm Mật Tịch(sơ)" OtherAnswer_1="Võ Lâm Mật Tịch (Sơ)" OtherAnswer_2="Mật Tịch Trung" OtherAnswer_3="Mật Tịch Cao" />
-		<Question Content="Trong hệ thống ngũ hành tương sinh, thì hệ Kim tạo ra hệ gì?" RightAnswer="Thủy" OtherAnswer_1="Hỏa" OtherAnswer_2="Mộc" OtherAnswer_3="Thổ" />
-		<Question Content="Trong hệ thống ngũ hành tương sinh, thì hệ Mộc tạo ra hệ gì?" RightAnswer="Hỏa" OtherAnswer_1="Thủy" OtherAnswer_2="Thổ" OtherAnswer_3="Mộc" />
-		<Question Content="Trong hệ thống ngũ hành tương sinh, thì hệ Thủy tạo ra hệ gì?" RightAnswer="Mộc" OtherAnswer_1="Kim" OtherAnswer_2="Hỏa" OtherAnswer_3="Thổ" />
-		<Question Content="Trong hệ thống ngũ hành tương sinh, thì hệ Hỏa tạo ra hệ gì?" RightAnswer="Thổ" OtherAnswer_1="Thủy" OtherAnswer_2="Hỏa" OtherAnswer_3="Kim" />
-		<Question Content="Trong hệ thống ngũ hành tương sinh, thì hệ Thổ tạo ra hệ gì?" RightAnswer="Kim" OtherAnswer_1="Thủy" OtherAnswer_2="Hỏa" OtherAnswer_3="Mộc" />
-		<Question Content="Muốn giảm pk thì phải làm gì" RightAnswer="Bị tiêu diệt" OtherAnswer_1="Đi dạo quanh thôn" OtherAnswer_2="Đi dạo các thành thị" OtherAnswer_3="Đánh boss" />
-		<Question Content="Một ngày có bao nhiêu trận Bạch Hổ Đường?" RightAnswer="5" OtherAnswer_1="6" OtherAnswer_2="7" OtherAnswer_3="8" />
-		<Question Content="Thời gian diễn ra Công Thành Chiến là vào giờ nào trong ngày?" RightAnswer="20:30 đến 21:30" OtherAnswer_1="20:00 đến 21:00" OtherAnswer_2="21:00 đến 22:00" OtherAnswer_3="21:30 đến 22:30" />
-		<Question Content="Nhân vật đạt cấp độ bao nhiêu có thể tham gia Quân Doanh?" RightAnswer="90" OtherAnswer_1="70" OtherAnswer_2="60" OtherAnswer_3="80" />
-		<Question Content="Nhân vật đạt cấp độ bao nhiêu có thể tham gia Thần Bí Bảo Khố?" RightAnswer="80" OtherAnswer_1="70" OtherAnswer_2="60" OtherAnswer_3="50" />
-		<Question Content="Nhân vật đạt cấp độ bao nhiêu có thể tham gia Nhiệm Vụ Boss sát thủ?" RightAnswer="50" OtherAnswer_1="70" OtherAnswer_2="60" OtherAnswer_3="80" />
-		<Question Content="Nhân vật đạt cấp độ bao nhiêu có thể gia nhập môn phái?" RightAnswer="10" OtherAnswer_1="11" OtherAnswer_2="9" OtherAnswer_3="12" />
-		<Question Content="Một ngày tham gia được bao nhiêu lần Bách Man Sơn?" RightAnswer="2" OtherAnswer_1="1" OtherAnswer_2="3" OtherAnswer_3="4" />
-		<Question Content="Một ngày tham gia được bao nhiêu lần Hậu Sơn Phục Ngưu?" RightAnswer="2" OtherAnswer_1="1" OtherAnswer_2="3" OtherAnswer_3="4" />
-		<Question Content="Một ngày tham gia được bao nhiêu lần Hải Lăng Vương Mộ?" RightAnswer="2" OtherAnswer_1="1" OtherAnswer_2="3" OtherAnswer_3="4" />
-		<Question Content="Một ngày tham gia được bao nhiêu lần Bạch Hổ Đường?" RightAnswer="1" OtherAnswer_1="2" OtherAnswer_2="3" OtherAnswer_3="4" />
-		<Question Content="Mỗi ngày người chơi có thể nhận được tối đa bao nhiêu giờ ủy thác Bạch Câu Hoàn?" RightAnswer="18h" OtherAnswer_1="16h" OtherAnswer_2="22h" OtherAnswer_3="20h" />
-		<Question Content="Công Thành Chiến Trường diễn ra vào những ngày nào trong tuần?" RightAnswer="Thứ 7 và Chủ Nhật" OtherAnswer_1="Thứ 3 và Thứ 5" OtherAnswer_2="Thứ 3 và Thứ 7" OtherAnswer_3="Thứ 5 và Chủ Nhật" />
-		<Question Content="Thi Đấu Môn Phái diễn ra vào ngày nào trong tuần?" RightAnswer="Thứ 3" OtherAnswer_1="Thứ 5" OtherAnswer_2="Thứ 2" OtherAnswer_3="Thứ 4" />
-		<Question Content="Mã bài Xích Thố yêu cầu cấp độ nhân vật bao nhiêu có thể sử dụng?" RightAnswer="80" OtherAnswer_1="60" OtherAnswer_2="120" OtherAnswer_3="90" />
-		<Question Content="Trang bị chế tạo từ kỹ năng sống có thể đổi ngũ hành hồn thạch ở NPC nào?" RightAnswer="Tiền Trang" OtherAnswer_1="Long Ngũ" OtherAnswer_2="Xa Phu" OtherAnswer_3="Lễ Quan" />
-		<Question Content="Muốn cường hóa trang bị cần đến NPC nào?" RightAnswer="Dã Luyện Đại Sư" OtherAnswer_1="Thương Nhân Tiêu Dao" OtherAnswer_2="Quan Lãnh Thổ" OtherAnswer_3="Quan Liên Đấu" />
-		<Question Content="Thôn Ba lăng huyện thông sang môn phái nào?" RightAnswer="Thiên Vương" OtherAnswer_1="Thiên Nhẫn" OtherAnswer_2="Võ Đang" OtherAnswer_3="Nga My" />
-		<Question Content="Giang Tân Thôn thông sang môn phái nào?" RightAnswer="Đường Môn" OtherAnswer_1="Thiên Nhẫn" OtherAnswer_2="Ngũ Độc" OtherAnswer_3="Thiếu Lâm" />
-		<Question Content="Giang Tân Thôn thông sang môn phái nào?" RightAnswer="Nga Mi" OtherAnswer_1="Thiên Nhẫn" OtherAnswer_2="Côn Lôn" OtherAnswer_3="Cái Bang" />
-		<Question Content="Giang Tân Thôn thông sang môn phái nào?" RightAnswer="Thúy Yên" OtherAnswer_1="Thiên Nhẫn" OtherAnswer_2="Hoa Sơn" OtherAnswer_3="Võ Đang" />
-		<Question Content="Bản đồ Thiên Tầm Tháp có cấp độ bao nhiêu?" RightAnswer="120 đến 140" OtherAnswer_1="100 đến 120" OtherAnswer_2="80 đến 100" OtherAnswer_3="140 đến 160" />
-		<Question Content="Mỗi ngày tối đa đi vào Thủy Hoàng Địa Cung trong bao lâu" RightAnswer="2h" OtherAnswer_1="1h" OtherAnswer_2="3h" OtherAnswer_3="1h30" />
-		<Question Content="Số lần đi Thần Bí Bảo Khố trong tuần?" RightAnswer="2" OtherAnswer_1="1" OtherAnswer_2="3" OtherAnswer_3="4" />
-		<Question Content="Số tinh linh tối đa mà nhân vật có thể sở hữu" RightAnswer="5" OtherAnswer_1="2" OtherAnswer_2="3" OtherAnswer_3="4" />
-		<Question Content="Giá trị cao nhất của huyền tinh?" RightAnswer="8" OtherAnswer_1="7" OtherAnswer_2="9" OtherAnswer_3="10" />
-		<Question Content="Có thể cường hóa đồ tối đa lv bao nhiêu" RightAnswer="10" OtherAnswer_1="7" OtherAnswer_2="9" OtherAnswer_3="8" />
-		<Question Content="Nhân vật nữ không được vào phái nào?" RightAnswer="Thiếu Lâm, Thiên Vương" OtherAnswer_1="Ngũ Độc, Đường Môn" OtherAnswer_2="Võ Đang, Côn Lôn" OtherAnswer_3="Cái Bang, Thiên Nhẫn" />
-		<Question Content="Nhân vật nam không được vào phái nào?" RightAnswer="Nga Mi, Thúy Yên" OtherAnswer_1="Ngũ Độc, Đường Môn" OtherAnswer_2="Võ Đang, Côn Lôn" OtherAnswer_3="Cái Bang, Thiên Nhẫn" />
-		<Question Content="Boss nào không phải là boss tiểu hoàng Kim" RightAnswer="Gia Luật Tỵ Li" OtherAnswer_1="Hà Nhân Ngã" OtherAnswer_2="Diệu Như" OtherAnswer_3="Liễu Thanh Thanh" />
-		<Question Content="Boss nào không phải là boss đại hoàng Kim" RightAnswer="Tịnh Thông" OtherAnswer_1="Đường Phi Yến" OtherAnswer_2="Hà Linh Phiêu" OtherAnswer_3="Cổ Bách" />
-		<Question Content="Boss Diệu Như xuất hiện ở đâu?" RightAnswer="Nga Mi, Thúy Yên" OtherAnswer_1="Ngũ Độc, Đường Môn" OtherAnswer_2="Võ Đang, Côn Lôn" OtherAnswer_3="Cái Bang, Thiên Nhẫn" />
-		<Question Content="Boss Tịnh Thông xuất hiện ở đâu?" RightAnswer="Thiếu Lâm, Thiên Vương" OtherAnswer_1="Võ Đang, Côn Lôn" OtherAnswer_2="Ngũ Độc, Đường Môn" OtherAnswer_3="Cái Bang, Thiên Nhẫn" />
-		<Question Content="Boss Liễu Thanh Thanh xuất hiện ở đâu?" RightAnswer="Ngũ Độc, Đường Môn" OtherAnswer_1="Nga Mi, Thúy Yên" OtherAnswer_2="Võ Đang, Côn Lôn" OtherAnswer_3="Cái Bang, Thiên Nhẫn" />
-		<Question Content="Boss Doãn Hàm Yên xuất hiện ở đâu?" RightAnswer="Map dã ngoại" OtherAnswer_1="Thành Thị" OtherAnswer_2="Tân thủ thôn" OtherAnswer_3="Môn Phái" />
-		<Question Content="Boss Hà Nhân Ngã xuất hiện ở đâu?" RightAnswer="Cái Bang, Thiên Nhẫn" OtherAnswer_1="Ngũ Độc, Đường Môn" OtherAnswer_2="Võ Đang, Côn Lôn" OtherAnswer_3="Nga Mi, Thúy Yên" />
+		<Question Content="Vat pham nao giup tang diem tiem nang cho nhan vat?" RightAnswer="Tay Tuy Kinh (So)" OtherAnswer_1="Vo Lam Mat Tich (So)" OtherAnswer_2="Mat Tich Cao" OtherAnswer_3="Mat Tich Trung" />
+		<Question Content="Khi giao dich voi nguoi choi khac se mat bao nhieu % phi giao dich?" RightAnswer="10" OtherAnswer_1="5" OtherAnswer_2="8" OtherAnswer_3="12" />
+		<Question Content="Ngua Xich Tho duoc ban o dau?" RightAnswer="Ky tran cac" OtherAnswer_1="Cac thanh thi" OtherAnswer_2="NPC ban ngua" OtherAnswer_3="Day cuong than bi" />
+		<Question Content="Moi ngay co the danh may tran tong kim?" RightAnswer="3" OtherAnswer_1="4" OtherAnswer_2="5" OtherAnswer_3="6" />
+		<Question Content="Kim sang duoc dung de lam gi?" RightAnswer="Hoi sinh luc" OtherAnswer_1="Dung lam nguyen lieu che" OtherAnswer_2="Hoi noi luc" OtherAnswer_3="Dung lam nhiem vu chinh tuyen" />
+		<Question Content="Ngung than dan dung de lam gi" RightAnswer="Hoi noi luc" OtherAnswer_1="Dung lam nguyen lieu che" OtherAnswer_2="Hoi sinh luc" OtherAnswer_3="Dung lam nhiem vu chinh tuyen" />
+		<Question Content="Vo Kiem Mobile co tong cong bao nhieu thon?" RightAnswer="2" OtherAnswer_1="3" OtherAnswer_2="4" OtherAnswer_3="5" />
+		<Question Content="Vo Kiem Mobile co tong cong bao nhieu thanh thi?" RightAnswer="3" OtherAnswer_1="5" OtherAnswer_2="4" OtherAnswer_3="6" />
+		<Question Content="Thieu lam toa lac o ngon nui nao?" RightAnswer="Tung son" OtherAnswer_1="Thai son" OtherAnswer_2="Hang son" OtherAnswer_3="Hoa son" />
+		<Question Content="Vo Kiem Mobile co bao nhieu kenh tan gau?" RightAnswer="10" OtherAnswer_1="11" OtherAnswer_2="12" OtherAnswer_3="9" />
+		<Question Content="Diem danh vong co cap do toi da la bao nhieu?" RightAnswer="10" OtherAnswer_1="8" OtherAnswer_2="4" OtherAnswer_3="6" />
+		<Question Content="Vo Kiem Mobile co bao nhieu NPC Long Ngu?" RightAnswer="2" OtherAnswer_1="4" OtherAnswer_2="3" OtherAnswer_3="5" />
+		<Question Content="Nhan vat nu co the gia nhap duoc bao nhieu mon phai?" RightAnswer="9" OtherAnswer_1="12" OtherAnswer_2="10" OtherAnswer_3="11" />
+		<Question Content="Nhan vat nam co the gia nhap duoc bao nhieu mon phai?" RightAnswer="9" OtherAnswer_1="10" OtherAnswer_2="12" OtherAnswer_3="11" />
+		<Question Content="Mot ngay co the khieu chien Du long bao nhieu lan?" RightAnswer="40" OtherAnswer_1="20" OtherAnswer_2="15" OtherAnswer_3="30" />
+		<Question Content="Co bao nhieu mon phai khong phai xuong ngua van danh duoc skill 90?" RightAnswer="4" OtherAnswer_1="5" OtherAnswer_2="3" OtherAnswer_3="6" />
+		<Question Content="Chuong mon phai Nga My ten la gi?" RightAnswer="Thanh hieu su thai" OtherAnswer_1="Vo niem su thai" OtherAnswer_2="Vo san su thai" OtherAnswer_3="Vo si su thai" />
+		<Question Content="Chuong mon phai Thieu Lam ten la gi?" RightAnswer="Tu Nhan" OtherAnswer_1="Huyen Tu" OtherAnswer_2="Huyen Bi" OtherAnswer_3="Huyen Nan" />
+		<Question Content="Chuong mon phai Thien Vuong ten la gi?" RightAnswer="Duong Anh" OtherAnswer_1="Bui Duc Phi" OtherAnswer_2="Lau Nhat Quan" OtherAnswer_3="Quy Thuc Ban" />
+		<Question Content="Chuong mon phai Ngu Doc ten la gi?" RightAnswer="Hac Dien Lang Quan" OtherAnswer_1="Diep Phieu Phieu" OtherAnswer_2="Lu Tieu Ban" OtherAnswer_3="Ho Hien Co" />
+		<Question Content="Chuong mon phai Duong Mon ten la gi?" RightAnswer="Duong Cuu" OtherAnswer_1="Duong Ngo" OtherAnswer_2="Duong Khuyet" OtherAnswer_3="Duong Nhu" />
+		<Question Content="Chuong mon phai Thuy Yen ten la gi?" RightAnswer="Doan Ham Yen" OtherAnswer_1="Dan Bich Tu" OtherAnswer_2="Co Nguyet Hoa" OtherAnswer_3="Nhan Xao Van" />
+		<Question Content="Chuong mon phai Cai Bang ten la gi?" RightAnswer="Ha Nhan Nga" OtherAnswer_1="Lanh Thu Van" OtherAnswer_2="La Phong" OtherAnswer_3="Cung Thieu Tran" />
+		<Question Content="Chuong mon phai Thien Nhan ten la gi?" RightAnswer="Hoan Nhan Hung Liet" OtherAnswer_1="Doan Moc Due" OtherAnswer_2="Ngot Tan" OtherAnswer_3="Bo Sat Phong No" />
+		<Question Content="Chuong mon phai Vo Dang ten la gi?" RightAnswer="Dao Nhat Chan Nhan" OtherAnswer_1="Nhat Diep Chan Nhan" OtherAnswer_2="Dong Hu Chan Nhan" OtherAnswer_3="Vuong Chi Minh" />
+		<Question Content="Chuong mon phai Con Lon ten la gi?" RightAnswer="Tuyen Co Tu" OtherAnswer_1="Gia Cat Trac Van" OtherAnswer_2="Du Lac Thien" OtherAnswer_3="Du thanh To" />
+		<Question Content="Chuong mon phai Hoa Son ten la gi?" RightAnswer="Nam Cung Tuyet" OtherAnswer_1="Lam Hao Thien" OtherAnswer_2="Tu Mo" OtherAnswer_3="Tieu Vien Tu" />
+		<Question Content="Cap do bao nhieu co the Tao Bang?" RightAnswer="50" OtherAnswer_1="30" OtherAnswer_2="60" OtherAnswer_3="40" />
+		<Question Content="Tao Bang can bao nhieu bac thuong?" RightAnswer="1000 van" OtherAnswer_1="800 van" OtherAnswer_2="1100 van" OtherAnswer_3="100 van" />
+		<Question Content="Mot ngay co the lam toi da bao nhieu nhiem vu Boss sat thu?" RightAnswer="8" OtherAnswer_1="6" OtherAnswer_2="10" OtherAnswer_3="14" />
+		<Question Content="Mot ngay co the lam toi da bao nhieu nhiem vu Da Tau?" RightAnswer="20" OtherAnswer_1="40" OtherAnswer_2="50" OtherAnswer_3="30" />
+		<Question Content="Mot Bang co toi da bao nhieu nguoi choi?" RightAnswer="150" OtherAnswer_1="5" OtherAnswer_2="50" OtherAnswer_3="100" />
+		<Question Content="Vat pham nao giup tang diem ky nang cho nhan vat?" RightAnswer="Vo Lam Mat Tich(so)" OtherAnswer_1="Vo Lam Mat Tich (So)" OtherAnswer_2="Mat Tich Trung" OtherAnswer_3="Mat Tich Cao" />
+		<Question Content="Trong he thong ngu hanh tuong sinh, thi he Kim tao ra he gi?" RightAnswer="Thuy" OtherAnswer_1="Hoa" OtherAnswer_2="Moc" OtherAnswer_3="Tho" />
+		<Question Content="Trong he thong ngu hanh tuong sinh, thi he Moc tao ra he gi?" RightAnswer="Hoa" OtherAnswer_1="Thuy" OtherAnswer_2="Tho" OtherAnswer_3="Moc" />
+		<Question Content="Trong he thong ngu hanh tuong sinh, thi he Thuy tao ra he gi?" RightAnswer="Moc" OtherAnswer_1="Kim" OtherAnswer_2="Hoa" OtherAnswer_3="Tho" />
+		<Question Content="Trong he thong ngu hanh tuong sinh, thi he Hoa tao ra he gi?" RightAnswer="Tho" OtherAnswer_1="Thuy" OtherAnswer_2="Hoa" OtherAnswer_3="Kim" />
+		<Question Content="Trong he thong ngu hanh tuong sinh, thi he Tho tao ra he gi?" RightAnswer="Kim" OtherAnswer_1="Thuy" OtherAnswer_2="Hoa" OtherAnswer_3="Moc" />
+		<Question Content="Muon giam pk thi phai lam gi" RightAnswer="Bi tieu diet" OtherAnswer_1="Di dao quanh thon" OtherAnswer_2="Di dao cac thanh thi" OtherAnswer_3="Danh boss" />
+		<Question Content="Mot ngay co bao nhieu tran Bach Ho Duong?" RightAnswer="5" OtherAnswer_1="6" OtherAnswer_2="7" OtherAnswer_3="8" />
+		<Question Content="Thoi gian dien ra Cong Thanh Chien la vao gio nao trong ngay?" RightAnswer="20:30 den 21:30" OtherAnswer_1="20:00 den 21:00" OtherAnswer_2="21:00 den 22:00" OtherAnswer_3="21:30 den 22:30" />
+		<Question Content="Nhan vat dat cap do bao nhieu co the tham gia Quan Doanh?" RightAnswer="90" OtherAnswer_1="70" OtherAnswer_2="60" OtherAnswer_3="80" />
+		<Question Content="Nhan vat dat cap do bao nhieu co the tham gia Than Bi Bao Kho?" RightAnswer="80" OtherAnswer_1="70" OtherAnswer_2="60" OtherAnswer_3="50" />
+		<Question Content="Nhan vat dat cap do bao nhieu co the tham gia Nhiem Vu Boss sat thu?" RightAnswer="50" OtherAnswer_1="70" OtherAnswer_2="60" OtherAnswer_3="80" />
+		<Question Content="Nhan vat dat cap do bao nhieu co the gia nhap mon phai?" RightAnswer="10" OtherAnswer_1="11" OtherAnswer_2="9" OtherAnswer_3="12" />
+		<Question Content="Mot ngay tham gia duoc bao nhieu lan Bach Man Son?" RightAnswer="2" OtherAnswer_1="1" OtherAnswer_2="3" OtherAnswer_3="4" />
+		<Question Content="Mot ngay tham gia duoc bao nhieu lan Hau Son Phuc Nguu?" RightAnswer="2" OtherAnswer_1="1" OtherAnswer_2="3" OtherAnswer_3="4" />
+		<Question Content="Mot ngay tham gia duoc bao nhieu lan Hai Lang Vuong Mo?" RightAnswer="2" OtherAnswer_1="1" OtherAnswer_2="3" OtherAnswer_3="4" />
+		<Question Content="Mot ngay tham gia duoc bao nhieu lan Bach Ho Duong?" RightAnswer="1" OtherAnswer_1="2" OtherAnswer_2="3" OtherAnswer_3="4" />
+		<Question Content="Moi ngay nguoi choi co the nhan duoc toi da bao nhieu gio uy thac Bach Cau Hoan?" RightAnswer="18h" OtherAnswer_1="16h" OtherAnswer_2="22h" OtherAnswer_3="20h" />
+		<Question Content="Cong Thanh Chien Truong dien ra vao nhung ngay nao trong tuan?" RightAnswer="Thu 7 va Chu Nhat" OtherAnswer_1="Thu 3 va Thu 5" OtherAnswer_2="Thu 3 va Thu 7" OtherAnswer_3="Thu 5 va Chu Nhat" />
+		<Question Content="Thi Dau Mon Phai dien ra vao ngay nao trong tuan?" RightAnswer="Thu 3" OtherAnswer_1="Thu 5" OtherAnswer_2="Thu 2" OtherAnswer_3="Thu 4" />
+		<Question Content="Ma bai Xich Tho yeu cau cap do nhan vat bao nhieu co the su dung?" RightAnswer="80" OtherAnswer_1="60" OtherAnswer_2="120" OtherAnswer_3="90" />
+		<Question Content="Trang bi che tao tu ky nang song co the doi ngu hanh hon thach o NPC nao?" RightAnswer="Tien Trang" OtherAnswer_1="Long Ngu" OtherAnswer_2="Xa Phu" OtherAnswer_3="Le Quan" />
+		<Question Content="Muon cuong hoa trang bi can den NPC nao?" RightAnswer="Da Luyen Dai Su" OtherAnswer_1="Thuong Nhan Tieu Dao" OtherAnswer_2="Quan Lanh Tho" OtherAnswer_3="Quan Lien Dau" />
+		<Question Content="Thon Ba lang huyen thong sang mon phai nao?" RightAnswer="Thien Vuong" OtherAnswer_1="Thien Nhan" OtherAnswer_2="Vo Dang" OtherAnswer_3="Nga My" />
+		<Question Content="Giang Tan Thon thong sang mon phai nao?" RightAnswer="Duong Mon" OtherAnswer_1="Thien Nhan" OtherAnswer_2="Ngu Doc" OtherAnswer_3="Thieu Lam" />
+		<Question Content="Giang Tan Thon thong sang mon phai nao?" RightAnswer="Nga Mi" OtherAnswer_1="Thien Nhan" OtherAnswer_2="Con Lon" OtherAnswer_3="Cai Bang" />
+		<Question Content="Giang Tan Thon thong sang mon phai nao?" RightAnswer="Thuy Yen" OtherAnswer_1="Thien Nhan" OtherAnswer_2="Hoa Son" OtherAnswer_3="Vo Dang" />
+		<Question Content="Ban do Thien Tam Thap co cap do bao nhieu?" RightAnswer="120 den 140" OtherAnswer_1="100 den 120" OtherAnswer_2="80 den 100" OtherAnswer_3="140 den 160" />
+		<Question Content="Moi ngay toi da di vao Thuy Hoang Dia Cung trong bao lau" RightAnswer="2h" OtherAnswer_1="1h" OtherAnswer_2="3h" OtherAnswer_3="1h30" />
+		<Question Content="So lan di Than Bi Bao Kho trong tuan?" RightAnswer="2" OtherAnswer_1="1" OtherAnswer_2="3" OtherAnswer_3="4" />
+		<Question Content="So tinh linh toi da ma nhan vat co the so huu" RightAnswer="5" OtherAnswer_1="2" OtherAnswer_2="3" OtherAnswer_3="4" />
+		<Question Content="Gia tri cao nhat cua huyen tinh?" RightAnswer="8" OtherAnswer_1="7" OtherAnswer_2="9" OtherAnswer_3="10" />
+		<Question Content="Co the cuong hoa do toi da lv bao nhieu" RightAnswer="10" OtherAnswer_1="7" OtherAnswer_2="9" OtherAnswer_3="8" />
+		<Question Content="Nhan vat nu khong duoc vao phai nao?" RightAnswer="Thieu Lam, Thien Vuong" OtherAnswer_1="Ngu Doc, Duong Mon" OtherAnswer_2="Vo Dang, Con Lon" OtherAnswer_3="Cai Bang, Thien Nhan" />
+		<Question Content="Nhan vat nam khong duoc vao phai nao?" RightAnswer="Nga Mi, Thuy Yen" OtherAnswer_1="Ngu Doc, Duong Mon" OtherAnswer_2="Vo Dang, Con Lon" OtherAnswer_3="Cai Bang, Thien Nhan" />
+		<Question Content="Boss nao khong phai la boss tieu hoang Kim" RightAnswer="Gia Luat Ty Li" OtherAnswer_1="Ha Nhan Nga" OtherAnswer_2="Dieu Nhu" OtherAnswer_3="Lieu Thanh Thanh" />
+		<Question Content="Boss nao khong phai la boss dai hoang Kim" RightAnswer="Tinh Thong" OtherAnswer_1="Duong Phi Yen" OtherAnswer_2="Ha Linh Phieu" OtherAnswer_3="Co Bach" />
+		<Question Content="Boss Dieu Nhu xuat hien o dau?" RightAnswer="Nga Mi, Thuy Yen" OtherAnswer_1="Ngu Doc, Duong Mon" OtherAnswer_2="Vo Dang, Con Lon" OtherAnswer_3="Cai Bang, Thien Nhan" />
+		<Question Content="Boss Tinh Thong xuat hien o dau?" RightAnswer="Thieu Lam, Thien Vuong" OtherAnswer_1="Vo Dang, Con Lon" OtherAnswer_2="Ngu Doc, Duong Mon" OtherAnswer_3="Cai Bang, Thien Nhan" />
+		<Question Content="Boss Lieu Thanh Thanh xuat hien o dau?" RightAnswer="Ngu Doc, Duong Mon" OtherAnswer_1="Nga Mi, Thuy Yen" OtherAnswer_2="Vo Dang, Con Lon" OtherAnswer_3="Cai Bang, Thien Nhan" />
+		<Question Content="Boss Doan Ham Yen xuat hien o dau?" RightAnswer="Map da ngoai" OtherAnswer_1="Thanh Thi" OtherAnswer_2="Tan thu thon" OtherAnswer_3="Mon Phai" />
+		<Question Content="Boss Ha Nhan Nga xuat hien o dau?" RightAnswer="Cai Bang, Thien Nhan" OtherAnswer_1="Ngu Doc, Duong Mon" OtherAnswer_2="Vo Dang, Con Lon" OtherAnswer_3="Nga Mi, Thuy Yen" />
 
 		
 	</Questions>
 	
 	<Event>
 		<Config MaxQuestions="30" NPCStandDuration="60000" DelayTicksEachQuestion="10000" />
-		<NPC NPCID="13138" MonsterID="10167" Name="Nhan Như Ngọc" Title="&lt;color=green&gt;Sứ giả Hoa Đăng&lt;/color&gt;">
+		<NPC NPCID="13138" MonsterID="10167" Name="Nhan Nhu Ngoc" Title="&lt;color=green&gt;Su gia Hoa Dang&lt;/color&gt;">
 			<VillagePosition MapID="1" Positions="5934_3054;4215_3441;4178_1931;6178_2254;7069_2917;3792_2832;5548_4037;3329_3748;5347_2491" />
 			<VillagePosition MapID="10" Positions="4171_3864;5873_3041;757_2159;4534_2596;7077_2929;5039_3482;3128_3340;2395_3699;2832_4578;6131_2447;2039_2776" />
 		</NPC>

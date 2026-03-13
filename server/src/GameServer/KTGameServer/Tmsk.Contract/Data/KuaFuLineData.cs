@@ -7,7 +7,7 @@ using ProtoBuf;
 namespace Tmsk.Contract
 {
     /// <summary>
-    /// Thông tin Liên máy chủ
+    /// 跨服线路信息
     /// </summary>
     [Serializable]
     [ProtoContract]
@@ -20,25 +20,25 @@ namespace Tmsk.Contract
         public int Line;
 
         /// <summary>
-        /// Trạng thái
+        /// 状态
         /// </summary>
         [ProtoMember(2)]
         public int State;
 
         /// <summary>
-        /// Số lượng Online
+        /// 在线人数
         /// </summary>
         [ProtoMember(3)]
         public int OnlineCount;
         
         /// <summary>
-        /// Số lượng Online tối đa
+        /// 最大在线人数
         /// </summary>
         [ProtoMember(4)]
         public int MaxOnlineCount;
 
         /// <summary>
-        /// ID máy chủ
+        /// 服务器 ID
         /// </summary>
         [ProtoMember(5)]
         public int ServerId;

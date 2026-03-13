@@ -1,4 +1,4 @@
-﻿using FS.Drawing;
+﻿﻿using FS.Drawing;
 using UnityEngine;
 using FS.GameEngine.Logic;
 using FS.GameEngine.Interface;
@@ -10,19 +10,19 @@ using FS.VLTK.Factory;
 namespace FS.GameEngine.GoodsPack
 {
     /// <summary>
-    /// Đối tượng vật phẩm rơi ở Map
+    /// 地图上掉落物品的对象
     /// </summary>
     public class GGoodsPack : IObject
     {
         /// <summary>
-        /// Thời gian tồn tại tối đa
+        /// 最大生存时间
         /// </summary>
         public const int GoodsPackKeepTimes = 60000;
 
-        #region Khởi tạo đối tượng
+        #region 初始化对象
 
         /// <summary>
-        /// Khởi tạo đối tượng
+        /// 初始化对象
         /// </summary>
         public GGoodsPack()
         {
@@ -37,23 +37,23 @@ namespace FS.GameEngine.GoodsPack
         public Item ComponentItem { get; private set; } = null;
         #endregion
 
-        #region Kế thừa IObject
+        #region 继承IObject
         /// <summary>
         /// BaseID
         /// </summary>
         public int BaseID { get; set; }
 
         /// <summary>
-        /// Tên
+        /// 姓名
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// Trạng thái ban đầu
+        /// 初始状态
         /// </summary>
         private bool _InitStatus = false;
         /// <summary>
-        /// Trạng thái ban đầu
+        /// 初始状态
         /// </summary>
         public bool InitStatus
         {
@@ -61,12 +61,12 @@ namespace FS.GameEngine.GoodsPack
         }
 
         /// <summary>
-        /// Đối tượng GameObject 2D
+        /// 2D 游戏对象对象
         /// </summary>
         public GameObject Role2D { get; set; }
 
         /// <summary>
-        /// Vị trí hiện tại (tọa độ thực)
+        /// 当前位置（真实坐标）
         /// </summary>
         public Point Coordinate
         {
@@ -83,7 +83,7 @@ namespace FS.GameEngine.GoodsPack
         private int _PosX = 0;
 
         /// <summary>
-        /// Tọa độ thực X
+        /// 实际坐标X
         /// </summary>
         public int PosX
         {
@@ -98,7 +98,7 @@ namespace FS.GameEngine.GoodsPack
         private int _PosY = 0;
 
         /// <summary>
-        /// Tọa độ thực Y
+        /// 实际Y坐标
         /// </summary>
         public int PosY
         {
@@ -111,7 +111,7 @@ namespace FS.GameEngine.GoodsPack
         }
 
         /// <summary>
-        /// Cập nhật tọa độ XY
+        /// 更新 XY 坐标
         /// </summary>
         private void ApplyXYPos()
         {
@@ -122,7 +122,7 @@ namespace FS.GameEngine.GoodsPack
         }
 
         /// <summary>
-        /// Trả về tọa độ của đối tượng dưới dạng UnityEngine.Vector2
+        /// 以 UnityEngine.Vector2 形式返回对象的坐标
         /// </summary>
         public Vector2 PositionInVector2
         {
@@ -134,10 +134,10 @@ namespace FS.GameEngine.GoodsPack
 
         #endregion
 
-        #region Kế thừa ISprite
+        #region 继承ISprite
 
         /// <summary>
-        /// Loại đối tượng
+        /// 对象类型
         /// </summary>
         public GSpriteTypes SpriteType
         {
@@ -146,67 +146,67 @@ namespace FS.GameEngine.GoodsPack
         }
 
         /// <summary>
-        /// Động tác
+        /// 移动
         /// </summary>
         public KE_NPC_DOING CurrentAction { get; set; } 
 
         /// <summary>
-        /// Hướng quay (8 hướng)
+        /// 旋转方向（8方向）
         /// </summary>
         public Direction Direction { get; set; }
 
         /// <summary>
-        /// Tốc chạy
+        /// 运行速度
         /// </summary>
         public int MoveSpeed { get; set; }
 
         #endregion
 
 
-        #region Kế thừa IObject - Hiển thị
+        #region 继承IObject-显示
 
         /// <summary>
-        /// Đã bắt đầu chưa
+        /// 已经开始了吗？
         /// </summary>
         private bool _Started = false;
 
         /// <summary>
-        /// Bắt đầu
+        /// 开始
         /// </summary>
         public void Start()
         {
-            /// Nếu đã bắt đầu
+            /// 如果已经开始
             if (this._Started)
             {
                 return;
             }
 
-            /// Đánh dấu đã bắt đầu
+            /// 标记已开始
             this._Started = true;
-            /// Đánh dấu đã khởi tạo
+            /// 标记已初始化
             this._InitStatus = true;
 
-            /// Thêm thành phần vào
+            /// 添加成分
             this.ComponentItem = this.Role2D.GetComponent<Item>();
-            /// Đánh dấu thời điểm bắt đầu
+            /// 标记开始时间
             this.StartTick = KTGlobal.GetCurrentTimeMilis();
 
-            /// Thêm đối tượng vào danh sách quản lý
+            /// 将对象添加到管理列表
             KTObjectsManager.Instance.AddObject(this);
         }
 
         /// <summary>
-        /// Hủy đối tượng
+        /// 摧毁物体
         /// </summary>
         public void Destroy()
         {
-            /// Xóa đối tượng
+            /// 删除对象
             KTObjectsManager.Instance.RemoveObject(this);
 
-            /// Nếu tồn tại đối tượng
+            /// 如果对象存在
             if (null != Role2D)
             {
-                /// Thực hiện hủy
+                /// 执行取消
                 this.ComponentItem.Destroy();
                 this.Role2D = null;
             }
@@ -214,23 +214,23 @@ namespace FS.GameEngine.GoodsPack
 
         #endregion 
 
-        #region Kế thừa IObject - Render
+        #region 继承IObject - 渲染
 
         /// <summary>
-        /// Hàm này gọi liên tục mỗi Frame, tương tự hàm Update
+        /// 该函数连续调用每个Frame，类似于Update函数
         /// </summary>
         public void OnFrameRender()
         {
-            /// Nếu chưa bắt đầu
+            /// 如果你还没有开始
             if (!this._Started)
             {
                 return;
             }
 
-            /// Nếu hết thời gian thì tự hủy vật phẩm
+            /// 如果时间耗尽，该物品将被销毁
             if (this.StartTick > 0 && KTGlobal.GetCurrentTimeMilis() - this.StartTick >= GGoodsPack.GoodsPackKeepTimes - this.LifeTimeTicks)
             {
-                /// Hủy đối tượng
+                /// 摧毁物体
                 KTGlobal.RemoveObject(this, true);
                 return;
             }
@@ -238,34 +238,34 @@ namespace FS.GameEngine.GoodsPack
 
         #endregion
 
-        #region Thuộc tính
+        #region 属性
         /// <summary>
-        /// Thời điểm được tạo ra
+        /// 这一刻被创造了
         /// </summary>
         private long StartTick = 0;
 
         /// <summary>
-        /// Thời gian tồn tại
+        /// 时间存在
         /// </summary>
         public long LifeTimeTicks { get; set; }
 
         /// <summary>
-        /// ID vật phẩm
+        /// 商品编号
         /// </summary>
         public int GoodsID { get; set; }
 
         /// <summary>
-        /// Số sao
+        /// 星星数量
         /// </summary>
         public int Stars { get; set; }
 
         /// <summary>
-        /// Số dòng
+        /// 行号
         /// </summary>
         public int LinesCount { get; set; }
 
         /// <summary>
-        /// Cấp cường hóa
+        /// 强化等级
         /// </summary>
         public int EnhanceLevel { get; set; }
         #endregion

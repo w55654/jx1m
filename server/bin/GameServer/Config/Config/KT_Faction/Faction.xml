@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Factions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Faction ID="0" Name="Tân thủ" Series="0" Gender="-1">
+	<Faction ID="0" Name="Tan thu" Series="0" Gender="-1">
 	</Faction>
-	<Faction ID="1" Name="Thiếu Lâm" Series="1" Gender="0">
-		<Sub ID="1" Name="Đao Pháp">
+	<Faction ID="1" Name="Thieu Lam" Series="1" Gender="0">
+		<Sub ID="1" Name="Dao Phap">
 			<Skill ID="10024" />
 			<Skill ID="10025" />
 			<Skill ID="10012" />
@@ -16,7 +16,7 @@
 			<Skill ID="10022" />
 			<Skill ID="10032" />
 		</Sub>
-		<Sub ID="2" Name="Côn Pháp">
+		<Sub ID="2" Name="Con Phap">
 			<Skill ID="10024" />
 			<Skill ID="10023" />
 			<Skill ID="10012" />
@@ -29,7 +29,7 @@
 			<Skill ID="10022" />
 			<Skill ID="10028" />
 		</Sub>
-		<Sub ID="3" Name="Quyền Pháp">
+		<Sub ID="3" Name="Quyen Phap">
 			<Skill ID="10010" />
 			<Skill ID="10011" />
 			<Skill ID="10012" />
@@ -43,8 +43,8 @@
 			<Skill ID="10021" />
 		</Sub>
 	</Faction>
-	<Faction ID="2" Name="Thiên Vương" Series="1" Gender="-1">
-		<Sub ID="1" Name="Thương Pháp">
+	<Faction ID="2" Name="Thien Vuong" Series="1" Gender="-1">
+		<Sub ID="1" Name="Thuong Phap">
 			<Skill ID="10035" />
 			<Skill ID="10038" />
 			<Skill ID="10045" />
@@ -57,7 +57,7 @@
 			<Skill ID="10052" />
 			<Skill ID="11061" />
 		</Sub>
-		<Sub ID="2" Name="Chùy Pháp">
+		<Sub ID="2" Name="Chuy Phap">
 			<Skill ID="10036" />
 			<Skill ID="10037" />
 			<Skill ID="10045" />
@@ -70,7 +70,7 @@
 			<Skill ID="10052" />
 			<Skill ID="11060" />
 		</Sub>
-		<Sub ID="3" Name="Đao Pháp">
+		<Sub ID="3" Name="Dao Phap">
 			<Skill ID="10034" />
 			<Skill ID="10039" />
 			<Skill ID="10045" />
@@ -84,8 +84,8 @@
 			<Skill ID="11057" />
 		</Sub>
 	</Faction>
-	<Faction ID="3" Name="Đường Môn" Series="2" Gender="-1">
-		<Sub ID="1" Name="Hãm Tĩnh">
+	<Faction ID="3" Name="Duong Mon" Series="2" Gender="-1">
+		<Sub ID="1" Name="Ham Tinh">
 			<Skill ID="10145" />
 			<Skill ID="10147" />
 			<Skill ID="10149" />
@@ -96,7 +96,7 @@
 			<Skill ID="10157" />
 			<Skill ID="10093" />
 		</Sub>
-		<Sub ID="2" Name="Tụ Tiễn">
+		<Sub ID="2" Name="Tu Tien">
 			<Skill ID="10125" />
 			<Skill ID="11380" />
 			<Skill ID="10132" />
@@ -106,7 +106,7 @@
 			<Skill ID="10157" />
 			<Skill ID="10139" />
 		</Sub>
-		<Sub ID="3" Name="Phi Đao">
+		<Sub ID="3" Name="Phi Dao">
 			<Skill ID="10125" />
 			<Skill ID="11380" />
 			<Skill ID="10127" />
@@ -116,7 +116,7 @@
 			<Skill ID="10157" />
 			<Skill ID="10129" />
 		</Sub>
-		<Sub ID="4" Name="Phi Tiêu">
+		<Sub ID="4" Name="Phi Tieu">
 			<Skill ID="10125" />
 			<Skill ID="11380" />
 			<Skill ID="10141" />
@@ -127,8 +127,8 @@
 			<Skill ID="10144" />
 		</Sub>
 	</Faction>
-	<Faction ID="4" Name="Ngũ Độc" Series="2" Gender="-1">
-		<Sub ID="1" Name="Đao Pháp">
+	<Faction ID="4" Name="Ngu Doc" Series="2" Gender="-1">
+		<Sub ID="1" Name="Dao Phap">
 			<Skill ID="10110" />
 			<Skill ID="10106" />
 			<Skill ID="10124" />
@@ -140,7 +140,7 @@
 			<Skill ID="10098" />
 			<Skill ID="10115" />
 		</Sub>
-		<Sub ID="2" Name="Chưởng Pháp">
+		<Sub ID="2" Name="Chuong Phap">
 			<Skill ID="10100" />
 			<Skill ID="10105" />
 			<Skill ID="10124" />
@@ -152,7 +152,7 @@
 			<Skill ID="10098" />
 			<Skill ID="10109" />
 		</Sub>
-		<Sub ID="3" Name="Bùa Chú">
+		<Sub ID="3" Name="Bua Chu">
 			<Skill ID="10117" />
 			<Skill ID="10118" />
 			<Skill ID="10119" />
@@ -165,7 +165,7 @@
 		</Sub>
 	</Faction>
 	<Faction ID="5" Name="Nga My" Series="3" Gender="1">
-		<Sub ID="1" Name="Chưởng Pháp">
+		<Sub ID="1" Name="Chuong Phap">
 			<Skill ID="10166" />
 			<Skill ID="10173" />
 			<Skill ID="10168" />
@@ -174,7 +174,7 @@
 			<Skill ID="10170" />
 			<Skill ID="10172" />
 		</Sub>
-		<Sub ID="2" Name="Kiếm Pháp">
+		<Sub ID="2" Name="Kiem Phap">
 			<Skill ID="10158" />
 			<Skill ID="10159" />
 			<Skill ID="10160" />
@@ -183,7 +183,7 @@
 			<Skill ID="10161" />
 			<Skill ID="10163" />
 		</Sub>
-		<Sub ID="3" Name="Hỗ Trợ">
+		<Sub ID="3" Name="Ho Tro">
 			<Skill ID="10175" />
 			<Skill ID="10177" />
 			<Skill ID="10179" />
@@ -195,8 +195,8 @@
 			<Skill ID="10092" />
 		</Sub>
 	</Faction>
-	<Faction ID="6" Name="Thúy Yên" Series="3" Gender="1">
-		<Sub ID="1" Name="Song Đao">
+	<Faction ID="6" Name="Thuy Yen" Series="3" Gender="1">
+		<Sub ID="1" Name="Song Dao">
 			<Skill ID="10196" />
 			<Skill ID="10190" />
 			<Skill ID="10089" />
@@ -209,7 +209,7 @@
 			<Skill ID="10085" />
 			<Skill ID="10202" />
 		</Sub>
-		<Sub ID="2" Name="Đơn Đao">
+		<Sub ID="2" Name="Don Dao">
 			<Skill ID="10187" />
 			<Skill ID="10188" />
 			<Skill ID="10089" />
@@ -223,8 +223,8 @@
 			<Skill ID="10194" />
 		</Sub>
 	</Faction>
-	<Faction ID="7" Name="Cái Bang" Series="4" Gender="-1">
-		<Sub ID="1" Name="Chưởng Pháp">
+	<Faction ID="7" Name="Cai Bang" Series="4" Gender="-1">
+		<Sub ID="1" Name="Chuong Phap">
 			<Skill ID="10204" />
 			<Skill ID="10205" />
 			<Skill ID="10219" />
@@ -237,7 +237,7 @@
 			<Skill ID="10083" />
 			<Skill ID="10209" />
 		</Sub>
-		<Sub ID="2" Name="Côn Pháp">
+		<Sub ID="2" Name="Con Phap">
 			<Skill ID="10212" />
 			<Skill ID="10213" />
 			<Skill ID="10219" />
@@ -251,8 +251,8 @@
 			<Skill ID="10217" />
 		</Sub>
 	</Faction>
-	<Faction ID="8" Name="Thiên Nhẫn" Series="4" Gender="-1">
-		<Sub ID="1" Name="Mâu Pháp">
+	<Faction ID="8" Name="Thien Nhan" Series="4" Gender="-1">
+		<Sub ID="1" Name="Mau Phap">
 			<Skill ID="10225" />
 			<Skill ID="10226" />
 			<Skill ID="10227" />
@@ -261,7 +261,7 @@
 			<Skill ID="10229" />
 			<Skill ID="10230" />
 		</Sub>
-		<Sub ID="2" Name="Đao Pháp">
+		<Sub ID="2" Name="Dao Phap">
 			<Skill ID="10245" />
 			<Skill ID="10232" />
 			<Skill ID="10233" />
@@ -270,7 +270,7 @@
 			<Skill ID="10236" />
 			<Skill ID="10238" />
 		</Sub>
-		<Sub ID="3" Name="Bùa Chú">
+		<Sub ID="3" Name="Bua Chu">
 			<Skill ID="10239" />
 			<Skill ID="10240" />
 			<Skill ID="10241" />
@@ -281,8 +281,8 @@
 			<Skill ID="10080" />
 		</Sub>
 	</Faction>
-	<Faction ID="9" Name="Võ Đang" Series="5" Gender="-1">
-		<Sub ID="1" Name="Khí Võ">
+	<Faction ID="9" Name="Vo Dang" Series="5" Gender="-1">
+		<Sub ID="1" Name="Khi Vo">
 			<Skill ID="10246" />
 			<Skill ID="10247" />
 			<Skill ID="10264" />
@@ -295,7 +295,7 @@
 			<Skill ID="10267" />
 			<Skill ID="10251" />
 		</Sub>
-		<Sub ID="2" Name="Kiếm Võ">
+		<Sub ID="2" Name="Kiem Vo">
 			<Skill ID="10252" />
 			<Skill ID="10257" />
 			<Skill ID="10264" />
@@ -309,8 +309,8 @@
 			<Skill ID="10261" />
 		</Sub>
 	</Faction>
-	<Faction ID="10" Name="Côn Lôn" Series="5" Gender="-1">
-		<Sub ID="1" Name="Đao Pháp">
+	<Faction ID="10" Name="Con Lon" Series="5" Gender="-1">
+		<Sub ID="1" Name="Dao Phap">
 			<Skill ID="10269" />
 			<Skill ID="10270" />
 			<Skill ID="10288" />
@@ -321,7 +321,7 @@
 			<Skill ID="10296" />
 			<Skill ID="10274" />
 		</Sub>
-		<Sub ID="2" Name="Kiếm Pháp">
+		<Sub ID="2" Name="Kiem Phap">
 			<Skill ID="10275" />
 			<Skill ID="10271" />
 			<Skill ID="10277" />
@@ -332,7 +332,7 @@
 			<Skill ID="10296" />
 			<Skill ID="10281" />
 		</Sub>
-		<Sub ID="3" Name="Bùa Chú">
+		<Sub ID="3" Name="Bua Chu">
 			<Skill ID="10285" />
 			<Skill ID="10282" />
 			<Skill ID="10286" />
@@ -343,8 +343,8 @@
 			<Skill ID="10295" />
 		</Sub>
 	</Faction>
-	<Faction ID="11" Name="Hoa Sơn" Series="3" Gender="-1">
-		<Sub ID="1" Name="Kiếm Tông">
+	<Faction ID="11" Name="Hoa Son" Series="3" Gender="-1">
+		<Sub ID="1" Name="Kiem Tong">
 			<Skill ID="11347" />
 			<Skill ID="11349" />
 			<Skill ID="11350" />
@@ -358,7 +358,7 @@
 			<Skill ID="11377" />
 			<Skill ID="11373" />
 		</Sub>
-		<Sub ID="2" Name="Khí Tông">
+		<Sub ID="2" Name="Khi Tong">
 			<Skill ID="11348" />
 			<Skill ID="11351" />
 			<Skill ID="11352" />

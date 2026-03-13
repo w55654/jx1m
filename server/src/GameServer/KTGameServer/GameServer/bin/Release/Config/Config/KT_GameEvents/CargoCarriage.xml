@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SỰ KIỆN VẬN TIÊU
-		- Config: Thiết lập tổng quan
-			- OpenTime: Thời gian mở sự kiện
-			- EndTime: Thời gian đóng sự kiện
-			- DayOfWeek: Các thứ trong tuần diễn ra sự kiện
-			- MaxRoundsPerDay: Số lượt nhận tiêu tối đa trong ngày
-		- Carriages: Danh sách xe tiêu
-			- Carriage: Thông tin xe tiêu
-				- Type: Loại xe tiêu (0: Tiêu thường, 1: Tiêu bạch kim, 2: Tiêu hoàng kim)
-				- Name: Tên xe tiêu
-				- ResID: ID Res (ID của quái trong file Monsters.xml)
-				- MoveSpeed: Tốc độ di chuyển
-				- Vision: Tầm nhìn của xe tiêu. Khi xe tiêu di chuyển, đi đến đâu thì toàn bộ quái trong tầm nhìn sẽ đuổi theo để đánh.
-				- MaxHP: Sinh lực tối đa
-		- CargoNPCs: Danh sách NPC tiếp tiêu
-			- NPC: Thông tin NPC
-				- ID: ID NPC (xem ở file NPCs.xml)
-				- Name: Tên NPC
-				- Title: Danh hiệu
-				- MapID: ID bản đồ
-				- PosX: Tọa độ X
-				- PosY: Tọa độ Y
-		- Awards: Danh sách phần thưởng vận tiêu
-			- Award: Thông tin phần thưởng
-				- Type: Loại xe tiêu
-				- Money: Phần thưởng bạc
-				- BoundMoney: Phần thưởng bạc khóa
-				- Token: Phần thưởng KNB
-				- BoundToken: Phần thưởng KNB khóa
-				- Item: Thông tin vật phẩm thưởng
-					- ItemID: ID vật phẩm
-					- Quantity: Số lượng
-					- Bound: Khóa khi nhận không
-		- DeathPunishs: Danh sách vật phẩm rơi ra khi tiêu chết
-			- Punishment: Thông tin rơi
-				- Type: Loại xe tiêu
-				- Drop: Thông tin vật phẩm rơi
-					- ItemID: ID vật phẩm
-					- Quantity: Số lượng
-					- Bound: Nhặt lên khóa hay không
-		- Paths: Danh sách đường đi
-			- Path: Thông tin đoạn đường
-				- Type: Loại xe tiêu
-				- RequireLevel: Cấp độ yêu cầu
-				- RequireMoney: Thế chấp bạc
-				- RequireBoundMoney: Thế chấp bạc khóa
-				- RequireToken: Thế chấp KNB
-				- RequireBoundToken: Thế chấp KNB khóa
-				- LimitTime: Thời gian vận tiêu tối đa
-				- MovePath: Thông tin bản đồ đường đi
-					- FromMapID: Từ bản đồ
-					- ToMapID: Đến bản đồ
-			=> Đi giữa 2 bản đồ khác nhau hoặc chung bản đồ, hệ thống sẽ chọn ngẫu nhiên NPC nằm trong bản đồ đích đến để trả tiêu
+	SU KIEN VAN TIEU
+		- Config: Thiet lap tong quan
+			- OpenTime: Thoi gian mo su kien
+			- EndTime: Thoi gian dong su kien
+			- DayOfWeek: Cac thu trong tuan dien ra su kien
+			- MaxRoundsPerDay: So luot nhan tieu toi da trong ngay
+		- Carriages: Danh sach xe tieu
+			- Carriage: Thong tin xe tieu
+				- Type: Loai xe tieu (0: Tieu thuong, 1: Tieu bach kim, 2: Tieu hoang kim)
+				- Name: Ten xe tieu
+				- ResID: ID Res (ID cua quai trong file Monsters.xml)
+				- MoveSpeed: Toc do di chuyen
+				- Vision: Tam nhin cua xe tieu. Khi xe tieu di chuyen, di den dau thi toan bo quai trong tam nhin se duoi theo de danh.
+				- MaxHP: Sinh luc toi da
+		- CargoNPCs: Danh sach NPC tiep tieu
+			- NPC: Thong tin NPC
+				- ID: ID NPC (xem o file NPCs.xml)
+				- Name: Ten NPC
+				- Title: Danh hieu
+				- MapID: ID ban do
+				- PosX: Toa do X
+				- PosY: Toa do Y
+		- Awards: Danh sach phan thuong van tieu
+			- Award: Thong tin phan thuong
+				- Type: Loai xe tieu
+				- Money: Phan thuong bac
+				- BoundMoney: Phan thuong bac khoa
+				- Token: Phan thuong KNB
+				- BoundToken: Phan thuong KNB khoa
+				- Item: Thong tin vat pham thuong
+					- ItemID: ID vat pham
+					- Quantity: So luong
+					- Bound: Khoa khi nhan khong
+		- DeathPunishs: Danh sach vat pham roi ra khi tieu chet
+			- Punishment: Thong tin roi
+				- Type: Loai xe tieu
+				- Drop: Thong tin vat pham roi
+					- ItemID: ID vat pham
+					- Quantity: So luong
+					- Bound: Nhat len khoa hay khong
+		- Paths: Danh sach duong di
+			- Path: Thong tin doan duong
+				- Type: Loai xe tieu
+				- RequireLevel: Cap do yeu cau
+				- RequireMoney: The chap bac
+				- RequireBoundMoney: The chap bac khoa
+				- RequireToken: The chap KNB
+				- RequireBoundToken: The chap KNB khoa
+				- LimitTime: Thoi gian van tieu toi da
+				- MovePath: Thong tin ban do duong di
+					- FromMapID: Tu ban do
+					- ToMapID: Den ban do
+			=> Di giua 2 ban do khac nhau hoac chung ban do, he thong se chon ngau nhien NPC nam trong ban do dich den de tra tieu
 					
 -->
 <CargoCarriage>
 	<Config MaxRoundsPerDay="2" />
 	
 	<Carriages>
-		<Carriage Type="1" Name="Xe Tiêu Thường" ResID="10101" MoveSpeed="7" Vision="300" MaxHP="100000" />
-		<Carriage Type="2" Name="Xe Tiêu Bạch Kim" ResID="10139" MoveSpeed="7" Vision="300" MaxHP="1000000" />
-		<Carriage Type="3" Name="Xe Tiêu Hoàng Kim" ResID="10100" MoveSpeed="7" Vision="300" MaxHP="5000000" />
+		<Carriage Type="1" Name="Xe Tieu Thuong" ResID="10101" MoveSpeed="7" Vision="300" MaxHP="100000" />
+		<Carriage Type="2" Name="Xe Tieu Bach Kim" ResID="10139" MoveSpeed="7" Vision="300" MaxHP="1000000" />
+		<Carriage Type="3" Name="Xe Tieu Hoang Kim" ResID="10100" MoveSpeed="7" Vision="300" MaxHP="5000000" />
 	</Carriages>
 	
 	<CargoNPCs>
-		<NPC ID="13100" Name="Tiêu Viễn Tứ" Title="Lão Hổ Động Vận Tiêu Sứ (Tây)" MapID="17" PosX="995" PosY="2060" />
-		<NPC ID="13101" Name="Hồ Bát Nhất" Title="Mạc Cao Quật Vận Tiêu Sứ (Nam)" MapID="18" PosX="7661" PosY="6053" />
-		<NPC ID="13102" Name="Nhiếp Đình" Title="Tần Lăng Vận Tiêu Sứ (Đông)" MapID="24" PosX="3031" PosY="2011" />
-		<NPC ID="13103" Name="Hoàng Bảo Thiên" Title="Dược Vương Cốc Vận Tiêu Sứ (Đông)" MapID="35" PosX="8122" PosY="1412" />
-		<NPC ID="13104" Name="Phùng Khinh" Title="Sa Mạc Sơn Động Vận Tiêu Sứ (Đông)" MapID="23" PosX="7388" PosY="3716" />
-		<NPC ID="13105" Name="Đỗ Kỳ Thương" Title="Lão Hổ Động Vận Tiêu Sứ (Đông)" MapID="17" PosX="5943" PosY="771" />
-		<NPC ID="13106" Name="Đoàn Chính Nguyên" Title="Mạc Cao Quật Vận Tiêu Sứ (Bắc)" MapID="18" PosX="3677" PosY="664" />
-		<NPC ID="13107" Name="Ngô Bính" Title="Tần Lăng Vận Tiêu Sứ (Tây)" MapID="24" PosX="658" PosY="1608" />
-		<NPC ID="13108" Name="Lữ Linh Tiên" Title="Dược Vương Cốc Vận Tiêu Sứ (Tây)" MapID="35" PosX="1540" PosY="2880" />
-		<NPC ID="13109" Name="Triệu Hùng" Title="Sa Mạc Sơn Động Vận Tiêu Sứ (Nam)" MapID="23" PosX="4561" PosY="429" />
+		<NPC ID="13100" Name="Tieu Vien Tu" Title="Lao Ho Dong Van Tieu Su (Tay)" MapID="17" PosX="995" PosY="2060" />
+		<NPC ID="13101" Name="Ho Bat Nhat" Title="Mac Cao Quat Van Tieu Su (Nam)" MapID="18" PosX="7661" PosY="6053" />
+		<NPC ID="13102" Name="Nhiep Dinh" Title="Tan Lang Van Tieu Su (Dong)" MapID="24" PosX="3031" PosY="2011" />
+		<NPC ID="13103" Name="Hoang Bao Thien" Title="Duoc Vuong Coc Van Tieu Su (Dong)" MapID="35" PosX="8122" PosY="1412" />
+		<NPC ID="13104" Name="Phung Khinh" Title="Sa Mac Son Dong Van Tieu Su (Dong)" MapID="23" PosX="7388" PosY="3716" />
+		<NPC ID="13105" Name="Do Ky Thuong" Title="Lao Ho Dong Van Tieu Su (Dong)" MapID="17" PosX="5943" PosY="771" />
+		<NPC ID="13106" Name="Doan Chinh Nguyen" Title="Mac Cao Quat Van Tieu Su (Bac)" MapID="18" PosX="3677" PosY="664" />
+		<NPC ID="13107" Name="Ngo Binh" Title="Tan Lang Van Tieu Su (Tay)" MapID="24" PosX="658" PosY="1608" />
+		<NPC ID="13108" Name="Lu Linh Tien" Title="Duoc Vuong Coc Van Tieu Su (Tay)" MapID="35" PosX="1540" PosY="2880" />
+		<NPC ID="13109" Name="Trieu Hung" Title="Sa Mac Son Dong Van Tieu Su (Nam)" MapID="23" PosX="4561" PosY="429" />
 	</CargoNPCs>
 	
 	<Awards>

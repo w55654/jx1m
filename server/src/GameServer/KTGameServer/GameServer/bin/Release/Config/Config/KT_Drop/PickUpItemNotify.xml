@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	DANH SÁCH CÁC VẬT PHẨM SẼ THÔNG BÁO KHI NGƯỜI CHƠI NHẶT
-	Item: Thông tin vật phẩm
-		- ID: ID vật phẩm
-		- BossOnly: Chỉ thông báo khi nhặt vật phẩm rơi từ Boss
+	DANH SACH CAC VAT PHAM SE THONG BAO KHI NGUOI CHOI NHAT
+	Item: Thong tin vat pham
+		- ID: ID vat pham
+		- BossOnly: Chi thong bao khi nhat vat pham roi tu Boss
 -->
 <PickUpItemNotify xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<!-- Huyền tinh (cấp 6 trở lên) -->
+	<!-- Huyen tinh (cap 6 tro len) -->
 	<Item ID="187" BossOnly="true" />
 	<Item ID="188" BossOnly="true" />
 	<Item ID="189" BossOnly="true" />
 	<Item ID="190" BossOnly="true" />
-	<!-- End - Huyền Tinh -->
-	<!-- Đồ Phổ -->
+	<!-- End - Huyen Tinh -->
+	<!-- Do Pho -->
 	<Item ID="8794" BossOnly="true" />
 	<Item ID="8795" BossOnly="true" />
 	<Item ID="8796" BossOnly="true" />
@@ -30,5 +30,5 @@
 	<Item ID="9829" BossOnly="true" />
 	<Item ID="9830" BossOnly="true" />
 	<Item ID="9831" BossOnly="true" />
-	<!-- END Đồ Phổ -->
+	<!-- END Do Pho -->
 </PickUpItemNotify>

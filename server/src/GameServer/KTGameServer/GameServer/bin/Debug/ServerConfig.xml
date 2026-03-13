@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	THIẾT LẬP HỆ THỐNG
-	LimitAccount: Giới hạn tài khoản
-		- MaxCCU: Giới hạn CCU
-		- LimitAccountPerIPAddress: Giới hạn số tài khoản đăng nhập trên một địa chỉ IP
-	MonsterAI: Thiết lập AI quái
-		- EnableMonsterAIRandomMove: Mở luồng AI tự di chuyển
-		- EnableMonsterAI: Mở luồng thực thi AI
-	Threading: Thiết lập luồng
-		- MaxUpdateGridThread: Số luồng tối đa cập nhật tầm nhìn của người chơi
-		- MaxPlayerStoryBoardThread: Số luồng thực thi StoryBoard tối đa của người chơi
-		- MaxMonsterTimer: Số luồng thực thi của quái
-		- MaxBuffTimer: Số luồng thực thi của Buff
-		- MaxPetTimer: Số luồng thực thi của Pet
-		- MaxTraderCarriageTimer: Số luồng thực thi của xe tiêu
-	GameConfig: Thiết lập trò chơi
-		- LimitLevel: Giới hạn cấp
-		- MonsterKilledToSpawnElite: Tổng số quái sau khi tiêu diệt đủ sẽ xuất hiện tinh anh ở mỗi bãi
-		- MonsterKilledToSpawnLeader: Tổng số quái sau khi tiêu diệt đủ sẽ xuất hiện thủ lĩnh ở mỗi bãi
-		- MaxFireCampAndElitePerZone: Số lượng lửa trại đồng thời cùng tinh anh tối đa có thể tồn tại đồng thời trên cùng 1 bãi
-		- EnableCrossServer: Mở liên Server
-	Captcha: Thiết lập Captcha
-		- EnableCaptcha: Kích hoạt Captcha
-		- EnableCaptchaForIOS: Kích hoạt Captcha cho các thiết bị iOS
-		- CaptchaAppearMinPeriod: Thời gian tối thiểu mỗi lần xuất hiện Captcha
-		- CaptchaAppearMaxPeriod: Thời gian tối đa mỗi lần xuất hiện Captcha
-		- CaptchaTeamPlayersOnly: Chỉ hiện Captcha với người chơi có nhóm
-		- CaptchaAppearFromTime: Thời gian (giờ:phút) bắt đầu xuất hiện Captcha trong ngày
-		- CaptchaAppearToTime: Thời gian (giờ:phút) kết thúc xuất hiện Captcha trong ngày
-		- CaptchaExpAddPerLevel: Phần thưởng kinh nghiệm khi trả lời đúng Captcha
-		- CaptchaBoundMoneyAddPerLevel: Phần thưởng bạc khóa khi trả lời đúng Captcha
+	THIET LAP HE THONG
+	LimitAccount: Gioi han tai khoan
+		- MaxCCU: Gioi han CCU
+		- LimitAccountPerIPAddress: Gioi han so tai khoan dang nhap tren mot dia chi IP
+	MonsterAI: Thiet lap AI quai
+		- EnableMonsterAIRandomMove: Mo luong AI tu di chuyen
+		- EnableMonsterAI: Mo luong thuc thi AI
+	Threading: Thiet lap luong
+		- MaxUpdateGridThread: So luong toi da cap nhat tam nhin cua nguoi choi
+		- MaxPlayerStoryBoardThread: So luong thuc thi StoryBoard toi da cua nguoi choi
+		- MaxMonsterTimer: So luong thuc thi cua quai
+		- MaxBuffTimer: So luong thuc thi cua Buff
+		- MaxPetTimer: So luong thuc thi cua Pet
+		- MaxTraderCarriageTimer: So luong thuc thi cua xe tieu
+	GameConfig: Thiet lap tro choi
+		- LimitLevel: Gioi han cap
+		- MonsterKilledToSpawnElite: Tong so quai sau khi tieu diet du se xuat hien tinh anh o moi bai
+		- MonsterKilledToSpawnLeader: Tong so quai sau khi tieu diet du se xuat hien thu linh o moi bai
+		- MaxFireCampAndElitePerZone: So luong lua trai dong thoi cung tinh anh toi da co the ton tai dong thoi tren cung 1 bai
+		- EnableCrossServer: Mo lien Server
+	Captcha: Thiet lap Captcha
+		- EnableCaptcha: Kich hoat Captcha
+		- EnableCaptchaForIOS: Kich hoat Captcha cho cac thiet bi iOS
+		- CaptchaAppearMinPeriod: Thoi gian toi thieu moi lan xuat hien Captcha
+		- CaptchaAppearMaxPeriod: Thoi gian toi da moi lan xuat hien Captcha
+		- CaptchaTeamPlayersOnly: Chi hien Captcha voi nguoi choi co nhom
+		- CaptchaAppearFromTime: Thoi gian (gio:phut) bat dau xuat hien Captcha trong ngay
+		- CaptchaAppearToTime: Thoi gian (gio:phut) ket thuc xuat hien Captcha trong ngay
+		- CaptchaExpAddPerLevel: Phan thuong kinh nghiem khi tra loi dung Captcha
+		- CaptchaBoundMoneyAddPerLevel: Phan thuong bac khoa khi tra loi dung Captcha
 -->
 <ServerConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ServerRate MoneyRate="2.0" ExpRate="6.0" />

@@ -1,4 +1,4 @@
-﻿using FS.Drawing;
+﻿﻿using FS.Drawing;
 using UnityEngine;
 using FS.GameEngine.Logic;
 using static FS.VLTK.Entities.Enum;
@@ -6,73 +6,73 @@ using static FS.VLTK.Entities.Enum;
 namespace FS.GameEngine.Interface
 {
     /// <summary>
-    /// Đối tượng trong bản đồ
+    /// 地图中的对象
     /// </summary>
 	public interface IObject
     {
         /// <summary>
-        /// BaseID đối tượng, để phân biệt với các đối tượng khác
+        /// 对象的BaseID，用于区别于其他对象
         /// </summary>
         int BaseID { get; set; }
 
         /// <summary>
-        /// Tên đối tượng
+        /// 对象名称
         /// </summary>
         string Name { get; set; }
 
         /// <summary>
-        /// Đã khởi tạo chưa
+        /// 已经初始化了吗？
         /// </summary>
         bool InitStatus { get; }
 
         /// <summary>
-        /// Script điều khiển nhân vật 2D
+        /// 控制 2D 角色的脚本
         /// </summary>
         GameObject Role2D { get; set; }
 
         /// <summary>
-        /// Tọa độ
+        /// 坐标
         /// </summary>
         Point Coordinate { set; get; }
 
         /// <summary>
-        /// Tọa độ thực X
+        /// 实际坐标X
         /// </summary>
         int PosX { get; set; }
 
         /// <summary>
-        /// Tọa độ thực Y
+        /// 实际Y坐标
         /// </summary>
         int PosY { get; set; }
 
         /// <summary>
-        /// Khởi tạo đối tượng
+        /// 初始化对象
         /// </summary>
         void Start();
 
         /// <summary>
-        /// Xóa đối tượng
+        /// 删除对象
         /// </summary>
         void Destroy();
 
         /// <summary>
-        /// Hàm này gọi liên tục tương tự hàm Update
+        /// 该函数与Update函数类似，不断调用
         /// </summary>
         /// <param name="time"></param>
         void OnFrameRender();
 
         /// <summary>
-        /// Loại đối tượng
+        /// 对象类型
         /// </summary>
         GSpriteTypes SpriteType { get; set; }
 
         /// <summary>
-        /// Động tác hiện tại
+        /// 当前动向
         /// </summary>
         KE_NPC_DOING CurrentAction { get; }
 
         /// <summary>
-        /// Hướng quay hiện tại
+        /// 当前旋转方向
         /// </summary>
         Direction Direction { get; set; }
     }

@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
 <Map>
   <Monsters>
-  <!-- cọc gỗ -->
+  <!-- coc go -->
    <Monster ID="1" Code="415" X="7710" Y="4617" Radius="1" Num="1" Timeslot="10" PursuitRadius="0" BirthType="0" TimePoints="" BirthRate="1" VisibleOnMinimap="0" />
    <Monster ID="2" Code="415" X="7910" Y="4617" Radius="1" Num="1" Timeslot="10" PursuitRadius="0" BirthType="0" TimePoints="" BirthRate="1" VisibleOnMinimap="0" />
    <Monster ID="3" Code="415" X="8110" Y="4617" Radius="1" Num="1" Timeslot="10" PursuitRadius="0" BirthType="0" TimePoints="" BirthRate="1" VisibleOnMinimap="1" />
@@ -44,7 +44,7 @@
    <Monster ID="35" Code="417" X="8510" Y="3617" Radius="1" Num="1" Timeslot="10" PursuitRadius="0" BirthType="0" TimePoints="" BirthRate="1" VisibleOnMinimap="0" />
    <Monster ID="36" Code="417" X="8710" Y="3617" Radius="1" Num="1" Timeslot="10" PursuitRadius="0" BirthType="0" TimePoints="" BirthRate="1" VisibleOnMinimap="0" />
    
-   <!-- quái -->
+   <!-- quai -->
    <Monster ID="37" Code="45" X="7191" Y="4982" Radius="250" Num="20" Timeslot="10" PursuitRadius="60" BirthType="0" TimePoints="" BirthRate="1" VisibleOnMinimap="1" />
    <Monster ID="38" Code="33" X="6338" Y="5216" Radius="250" Num="20" Timeslot="10" PursuitRadius="60" BirthType="0" TimePoints="" BirthRate="1" VisibleOnMinimap="0" />
    <Monster ID="39" Code="44" X="5451" Y="5131" Radius="250" Num="20" Timeslot="10" PursuitRadius="60" BirthType="0" TimePoints="" BirthRate="1" VisibleOnMinimap="1" />

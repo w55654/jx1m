@@ -4,11 +4,11 @@ using System.IO;
 namespace Server.Tools
 {
     /// <summary>
-    /// Quản lý toàn bộ logs type
+    /// 管理全部日志类型
     /// </summary>
     public enum LogTypes
     {
-        Ignore = -1, // Bỏ qua đéo ghi gì cả
+        Ignore = -1, // 忽略，不写任何日志
         Info = 0,
         Warning = 1,
         Error = 2,
@@ -24,7 +24,7 @@ namespace Server.Tools
     }
 
     /// <summary>
-    /// Class xử lý logs
+    /// 日志处理类
     /// </summary>
     public class LogManager
     {
@@ -113,7 +113,7 @@ namespace Server.Tools
         }
 
         /// <summary>
-        /// Xử lý ghi logs ra files
+        /// 将日志写入文件
         /// </summary>
         private static void WriteLog(string logFile, string logMsg)
         {
@@ -148,7 +148,7 @@ namespace Server.Tools
                 return;
             }
 
-            // Lock lại để đản bảo 1 lúc chỉ có 1 session ghi vào files
+            // 加锁，确保同一时刻只有一个会话写入文件
             lock (mutex)
             {
                 WriteLog(logType.ToString(), logMsg);

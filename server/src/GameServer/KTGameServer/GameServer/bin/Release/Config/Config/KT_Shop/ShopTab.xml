@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfShopTab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ShopTab ShopName="Triền Thủ" ShopID="1" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Trien Thu" ShopID="1" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>1</ShopItem>
     <ShopItem>2</ShopItem>
@@ -29,7 +29,7 @@
     <ShopItem>24</ShopItem>
     <ShopItem>25</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Kiếm" ShopID="2" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Kiem" ShopID="2" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>26</ShopItem>
     <ShopItem>27</ShopItem>
     <ShopItem>28</ShopItem>
@@ -56,7 +56,7 @@
     <ShopItem>49</ShopItem>
     <ShopItem>50</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đao" ShopID="3" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Dao" ShopID="3" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>51</ShopItem>
     <ShopItem>52</ShopItem>
     <ShopItem>53</ShopItem>
@@ -83,7 +83,7 @@
     <ShopItem>74</ShopItem>
     <ShopItem>75</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Côn" ShopID="4" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Con" ShopID="4" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>76</ShopItem>
     <ShopItem>77</ShopItem>
     <ShopItem>78</ShopItem>
@@ -110,7 +110,7 @@
     <ShopItem>99</ShopItem>
     <ShopItem>100</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thương" ShopID="5" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Thuong" ShopID="5" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>101</ShopItem>
     <ShopItem>102</ShopItem>
     <ShopItem>103</ShopItem>
@@ -137,7 +137,7 @@
     <ShopItem>124</ShopItem>
     <ShopItem>125</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Chùy" ShopID="6" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Chuy" ShopID="6" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>126</ShopItem>
     <ShopItem>127</ShopItem>
     <ShopItem>128</ShopItem>
@@ -164,7 +164,7 @@
     <ShopItem>149</ShopItem>
     <ShopItem>150</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Phi đao" ShopID="8" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Phi dao" ShopID="8" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>176</ShopItem>
     <ShopItem>177</ShopItem>
     <ShopItem>178</ShopItem>
@@ -191,7 +191,7 @@
     <ShopItem>199</ShopItem>
     <ShopItem>200</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tụ tiễn" ShopID="9" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Tu tien" ShopID="9" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>201</ShopItem>
     <ShopItem>202</ShopItem>
     <ShopItem>203</ShopItem>
@@ -218,7 +218,7 @@
     <ShopItem>224</ShopItem>
     <ShopItem>225</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Phục trang" ShopID="10" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Phuc trang" ShopID="10" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>226</ShopItem>
     <ShopItem>227</ShopItem>
@@ -370,7 +370,7 @@
     <ShopItem>373</ShopItem>
     <ShopItem>374</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Giày, thắt lưng" ShopID="11" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Giay, that lung" ShopID="11" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>376</ShopItem>
     <ShopItem>377</ShopItem>
@@ -473,7 +473,7 @@
     <ShopItem>474</ShopItem>
     <ShopItem>475</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Nón" ShopID="12" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Non" ShopID="12" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>476</ShopItem>
     <ShopItem>477</ShopItem>
     <ShopItem>478</ShopItem>
@@ -624,7 +624,7 @@
     <ShopItem>623</ShopItem>
     <ShopItem>624</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Hộ uyển, thủ trạc" ShopID="13" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Ho uyen, thu trac" ShopID="13" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>626</ShopItem>
     <ShopItem>627</ShopItem>
@@ -677,7 +677,7 @@
     <ShopItem>674</ShopItem>
     <ShopItem>675</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm thuốc thôn" ShopID="14" MoneyType="0" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem thuoc thon" ShopID="14" MoneyType="0" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>6011</ShopItem>
     <ShopItem>6012</ShopItem>
@@ -690,7 +690,7 @@
     <ShopItem>6025</ShopItem>
     <ShopItem>6026</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm thuốc thôn" ShopID="1400" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem thuoc thon" ShopID="1400" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>6011</ShopItem>
     <ShopItem>6012</ShopItem>
@@ -703,32 +703,7 @@
     <ShopItem>6025</ShopItem>
     <ShopItem>6026</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm thuốc" ShopID="1444" MoneyType="1" Discount="0" TimeSaleStart=""
-    TimeSaleEnd="">
-    <ShopItem>6011</ShopItem>
-    <ShopItem>6012</ShopItem>
-    <ShopItem>6013</ShopItem>
-    <ShopItem>6014</ShopItem>
-    <ShopItem>6015</ShopItem>
-    <ShopItem>6016</ShopItem>
-    <ShopItem>6017</ShopItem>
-    <ShopItem>6018</ShopItem>
-    <ShopItem>6020</ShopItem>
-    <ShopItem>6019</ShopItem>
-    <ShopItem>6021</ShopItem>
-    <ShopItem>6022</ShopItem>
-    <ShopItem>7000</ShopItem>
-    <ShopItem>6023</ShopItem>
-    <ShopItem>6024</ShopItem>
-    <ShopItem>6025</ShopItem>
-    <ShopItem>6026</ShopItem>
-
-    <ShopItem>6028</ShopItem>
-
-    <ShopItem>7001</ShopItem>
-    <ShopItem>7002</ShopItem>
-  </ShopTab>
-  <ShopTab ShopName="Tiệm thuốc" ShopID="1445" MoneyType="0" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem thuoc" ShopID="1444" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>6011</ShopItem>
     <ShopItem>6012</ShopItem>
@@ -753,7 +728,32 @@
     <ShopItem>7001</ShopItem>
     <ShopItem>7002</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tạp hóa" ShopID="15" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Tiem thuoc" ShopID="1445" MoneyType="0" Discount="0" TimeSaleStart=""
+    TimeSaleEnd="">
+    <ShopItem>6011</ShopItem>
+    <ShopItem>6012</ShopItem>
+    <ShopItem>6013</ShopItem>
+    <ShopItem>6014</ShopItem>
+    <ShopItem>6015</ShopItem>
+    <ShopItem>6016</ShopItem>
+    <ShopItem>6017</ShopItem>
+    <ShopItem>6018</ShopItem>
+    <ShopItem>6020</ShopItem>
+    <ShopItem>6019</ShopItem>
+    <ShopItem>6021</ShopItem>
+    <ShopItem>6022</ShopItem>
+    <ShopItem>7000</ShopItem>
+    <ShopItem>6023</ShopItem>
+    <ShopItem>6024</ShopItem>
+    <ShopItem>6025</ShopItem>
+    <ShopItem>6026</ShopItem>
+
+    <ShopItem>6028</ShopItem>
+
+    <ShopItem>7001</ShopItem>
+    <ShopItem>7002</ShopItem>
+  </ShopTab>
+  <ShopTab ShopName="Tap hoa" ShopID="15" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>6062</ShopItem>
     <ShopItem>6063</ShopItem>
     <ShopItem>6064</ShopItem>
@@ -829,7 +829,7 @@
     <ShopItem>61302</ShopItem>
     <ShopItem>61303</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tạp hóa" ShopID="200" MoneyType="0" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tap hoa" ShopID="200" MoneyType="0" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>6062</ShopItem>
     <ShopItem>6063</ShopItem>
@@ -906,7 +906,7 @@
     <ShopItem>61302</ShopItem>
     <ShopItem>61303</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Khoáng thạch" ShopID="16" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Khoang thach" ShopID="16" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>716</ShopItem>
     <ShopItem>717</ShopItem>
@@ -930,7 +930,7 @@
     <ShopItem>735</ShopItem>
     <ShopItem>886</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Vải" ShopID="17" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Vai" ShopID="17" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>736</ShopItem>
     <ShopItem>737</ShopItem>
     <ShopItem>738</ShopItem>
@@ -953,7 +953,7 @@
     <ShopItem>755</ShopItem>
     <ShopItem>887</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Dược liệu" ShopID="18" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Duoc lieu" ShopID="18" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>756</ShopItem>
     <ShopItem>758</ShopItem>
@@ -967,7 +967,7 @@
     <ShopItem>774</ShopItem>
     <ShopItem>888</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Gỗ" ShopID="19" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Go" ShopID="19" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>776</ShopItem>
     <ShopItem>777</ShopItem>
     <ShopItem>778</ShopItem>
@@ -1013,7 +1013,7 @@
     <ShopItem>815</ShopItem>
     <ShopItem>890</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thực phẩm" ShopID="21" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuc pham" ShopID="21" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>821</ShopItem>
     <ShopItem>822</ShopItem>
@@ -1021,7 +1021,7 @@
     <ShopItem>824</ShopItem>
     <ShopItem>825</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thực phẩm" ShopID="201" MoneyType="0" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuc pham" ShopID="201" MoneyType="0" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>821</ShopItem>
     <ShopItem>822</ShopItem>
@@ -1029,7 +1029,7 @@
     <ShopItem>824</ShopItem>
     <ShopItem>825</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Ngựa" ShopID="22" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Ngua" ShopID="22" MoneyType="1" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>6000</ShopItem>
     <ShopItem>6001</ShopItem>
     <ShopItem>6002</ShopItem>
@@ -1042,7 +1042,7 @@
     <ShopItem>6009</ShopItem>
     <ShopItem>6010</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đạo cụ chiến trường" ShopID="23" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Dao cu chien truong" ShopID="23" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>840</ShopItem>
     <ShopItem>841</ShopItem>
@@ -1080,7 +1080,7 @@
     <ShopItem>873</ShopItem>
     <ShopItem>874</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiếu Lâm-Thi đấu môn phái" ShopID="25" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thieu Lam-Thi dau mon phai" ShopID="25" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1612</ShopItem>
     <ShopItem>1613</ShopItem>
@@ -1119,7 +1119,7 @@
     <ShopItem>1646</ShopItem>
     <ShopItem>1647</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Vương-Thi đấu môn phái" ShopID="26" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Vuong-Thi dau mon phai" ShopID="26" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>892</ShopItem>
     <ShopItem>893</ShopItem>
@@ -1159,7 +1159,7 @@
     <ShopItem>939</ShopItem>
     <!--  -->
   </ShopTab>
-  <ShopTab ShopName="Đường Môn-Thi đấu môn phái" ShopID="27" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Duong Mon-Thi dau mon phai" ShopID="27" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1648</ShopItem>
     <ShopItem>1649</ShopItem>
@@ -1198,7 +1198,7 @@
     <ShopItem>1682</ShopItem>
     <ShopItem>1683</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Ngũ độc-Thi đấu môn phái" ShopID="28" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Ngu doc-Thi dau mon phai" ShopID="28" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1684</ShopItem>
     <ShopItem>1685</ShopItem>
@@ -1237,7 +1237,7 @@
     <ShopItem>1718</ShopItem>
     <ShopItem>1719</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Nga My-Thi đấu môn phái" ShopID="29" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Nga My-Thi dau mon phai" ShopID="29" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1036</ShopItem>
     <ShopItem>1037</ShopItem>
@@ -1310,7 +1310,7 @@
     <ShopItem>1178</ShopItem>
     <ShopItem>1179</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Thúy yên-Thi đấu môn phái" ShopID="30" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thuy yen-Thi dau mon phai" ShopID="30" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>940</ShopItem>
     <ShopItem>941</ShopItem>
@@ -1386,7 +1386,7 @@
     <ShopItem>1202</ShopItem>
     <ShopItem>1203</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Cái bang-Thi đấu môn phái" ShopID="31" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cai bang-Thi dau mon phai" ShopID="31" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1756</ShopItem>
     <ShopItem>1757</ShopItem>
@@ -1433,7 +1433,7 @@
     <ShopItem>1798</ShopItem>
     <ShopItem>1799</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên nhẫn-Thi đấu môn phái" ShopID="32" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien nhan-Thi dau mon phai" ShopID="32" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1720</ShopItem>
     <ShopItem>1721</ShopItem>
@@ -1472,7 +1472,7 @@
     <ShopItem>1754</ShopItem>
     <ShopItem>1755</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Võ Đang-Thi đấu môn phái" ShopID="33" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Vo Dang-Thi dau mon phai" ShopID="33" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
 
     <ShopItem>1081</ShopItem>
@@ -1528,7 +1528,7 @@
     <ShopItem>1226</ShopItem>
     <ShopItem>1227</ShopItem-->
   </ShopTab>
-  <ShopTab ShopName="Côn Lôn-Thi đấu môn phái" ShopID="34" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Con Lon-Thi dau mon phai" ShopID="34" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
 
     <ShopItem>1800</ShopItem>
@@ -1565,7 +1565,7 @@
     <ShopItem>1831</ShopItem>
     <ShopItem>1832</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Hoa Sơn-Thi đấu môn phái" ShopID="35" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Hoa Son-Thi dau mon phai" ShopID="35" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>988</ShopItem>
     <ShopItem>989</ShopItem>
@@ -1666,7 +1666,7 @@
     <ShopItem>1251</ShopItem>-->
   </ShopTab>
   <!--<ShopTab
-  ShopName="Côn Lôn-Thi đấu môn phái" ShopID="36" MoneyType="1" Discount="0"
+  ShopName="Con Lon-Thi dau mon phai" ShopID="36" MoneyType="1" Discount="0"
   TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1810</ShopItem>
     <ShopItem>1811</ShopItem>
@@ -1705,7 +1705,7 @@
     <ShopItem>1844</ShopItem>
   <ShopItem>1845</ShopItem>
   </ShopTab>-->
-  <ShopTab ShopName="Thiếu Lâm-Nhiệm vụ môn phái" ShopID="37" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thieu Lam-Nhiem vu mon phai" ShopID="37" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1252</ShopItem>
     <ShopItem>1253</ShopItem>
@@ -1729,7 +1729,7 @@
     <ShopItem>1397</ShopItem>
     <ShopItem>1398</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Vương-Nhiệm vụ môn phái" ShopID="38" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Vuong-Nhiem vu mon phai" ShopID="38" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1252</ShopItem>
     <ShopItem>1253</ShopItem>
@@ -1774,7 +1774,7 @@
     <ShopItem>1404</ShopItem>
     <ShopItem>1405</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đường Môn-Nhiệm vụ môn phái" ShopID="39" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Duong Mon-Nhiem vu mon phai" ShopID="39" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1266</ShopItem>
     <ShopItem>1267</ShopItem>
@@ -1819,7 +1819,7 @@
     <ShopItem>1418</ShopItem>
     <ShopItem>1419</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Minh Giáo-Nhiệm vụ môn phái" ShopID="40" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Minh Giao-Nhiem vu mon phai" ShopID="40" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1266</ShopItem>
     <ShopItem>1267</ShopItem>
@@ -1864,7 +1864,7 @@
     <ShopItem>1418</ShopItem>
     <ShopItem>1419</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Ngũ Độc-Nhiệm vụ môn phái" ShopID="41" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Ngu Doc-Nhiem vu mon phai" ShopID="41" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1266</ShopItem>
     <ShopItem>1267</ShopItem>
@@ -1909,7 +1909,7 @@
     <ShopItem>1418</ShopItem>
     <ShopItem>1419</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đại Lý Đoàn Thị-Nhiệm vụ môn phái" ShopID="42" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Dai Ly Doan Thi-Nhiem vu mon phai" ShopID="42" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1280</ShopItem>
     <ShopItem>1281</ShopItem>
@@ -1954,7 +1954,7 @@
     <ShopItem>1432</ShopItem>
     <ShopItem>1433</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Nga My-Nhiệm vụ môn phái" ShopID="43" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Nga My-Nhiem vu mon phai" ShopID="43" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1287</ShopItem>
     <ShopItem>1288</ShopItem>
@@ -1978,7 +1978,7 @@
     <ShopItem>1432</ShopItem>
     <ShopItem>1433</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thúy Yên-Nhiệm vụ môn phái" ShopID="44" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thuy Yen-Nhiem vu mon phai" ShopID="44" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1280</ShopItem>
     <ShopItem>1281</ShopItem>
@@ -2023,7 +2023,7 @@
     <ShopItem>1432</ShopItem>
     <ShopItem>1433</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Nhẫn-Nhiệm vụ môn phái" ShopID="45" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Nhan-Nhiem vu mon phai" ShopID="45" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1294</ShopItem>
     <ShopItem>1295</ShopItem>
@@ -2068,7 +2068,7 @@
     <ShopItem>1446</ShopItem>
     <ShopItem>1447</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cái Bang-Nhiệm vụ môn phái" ShopID="46" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cai Bang-Nhiem vu mon phai" ShopID="46" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1294</ShopItem>
     <ShopItem>1295</ShopItem>
@@ -2113,7 +2113,7 @@
     <ShopItem>1446</ShopItem>
     <ShopItem>1447</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Võ Đang-Nhiệm vụ môn phái" ShopID="47" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Vo Dang-Nhiem vu mon phai" ShopID="47" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1308</ShopItem>
     <ShopItem>1309</ShopItem>
@@ -2158,7 +2158,7 @@
     <ShopItem>1460</ShopItem>
     <ShopItem>1461</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Côn Lôn-Nhiệm vụ môn phái" ShopID="48" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Con Lon-Nhiem vu mon phai" ShopID="48" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1308</ShopItem>
     <ShopItem>1309</ShopItem>
@@ -2203,7 +2203,7 @@
     <ShopItem>1460</ShopItem>
     <ShopItem>1461</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiếu Lâm-Chiến trường Dương Châu" ShopID="49" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thieu Lam-Chien truong Duong Chau" ShopID="49" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1462</ShopItem>
     <ShopItem>1463</ShopItem>
@@ -2215,7 +2215,7 @@
     <ShopItem>1563</ShopItem>
     <ShopItem>1564</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Vương-Chiến trường Dương Châu" ShopID="50" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Vuong-Chien truong Duong Chau" ShopID="50" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1462</ShopItem>
     <ShopItem>1463</ShopItem>
@@ -2236,7 +2236,7 @@
     <ShopItem>1568</ShopItem>
     <ShopItem>1569</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đường Môn-Chiến trường Dương Châu" ShopID="51" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Duong Mon-Chien truong Duong Chau" ShopID="51" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1472</ShopItem>
     <ShopItem>1473</ShopItem>
@@ -2257,7 +2257,7 @@
     <ShopItem>1578</ShopItem>
     <ShopItem>1579</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Minh Giáo-Chiến trường Dương Châu" ShopID="52" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Minh Giao-Chien truong Duong Chau" ShopID="52" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1472</ShopItem>
     <ShopItem>1473</ShopItem>
@@ -2278,7 +2278,7 @@
     <ShopItem>1578</ShopItem>
     <ShopItem>1579</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Ngũ Độc-Chiến trường Dương Châu" ShopID="53" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Ngu Doc-Chien truong Duong Chau" ShopID="53" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1472</ShopItem>
     <ShopItem>1473</ShopItem>
@@ -2299,7 +2299,7 @@
     <ShopItem>1578</ShopItem>
     <ShopItem>1579</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đại Lý Đoàn Thị-Chiến trường Dương Châu" ShopID="54" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Dai Ly Doan Thi-Chien truong Duong Chau" ShopID="54" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1482</ShopItem>
     <ShopItem>1483</ShopItem>
@@ -2320,7 +2320,7 @@
     <ShopItem>1588</ShopItem>
     <ShopItem>1589</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Nga My-Chiến trường Dương Châu" ShopID="55" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Nga My-Chien truong Duong Chau" ShopID="55" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1487</ShopItem>
     <ShopItem>1488</ShopItem>
@@ -2332,7 +2332,7 @@
     <ShopItem>1588</ShopItem>
     <ShopItem>1589</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thúy Yên-Chiến trường Dương Châu" ShopID="56" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thuy Yen-Chien truong Duong Chau" ShopID="56" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1482</ShopItem>
     <ShopItem>1483</ShopItem>
@@ -2353,7 +2353,7 @@
     <ShopItem>1588</ShopItem>
     <ShopItem>1589</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Nhẫn-Chiến trường Dương Châu" ShopID="57" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Nhan-Chien truong Duong Chau" ShopID="57" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1492</ShopItem>
     <ShopItem>1493</ShopItem>
@@ -2374,7 +2374,7 @@
     <ShopItem>1598</ShopItem>
     <ShopItem>1599</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cái Bang-Chiến trường Dương Châu" ShopID="58" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cai Bang-Chien truong Duong Chau" ShopID="58" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1492</ShopItem>
     <ShopItem>1493</ShopItem>
@@ -2395,7 +2395,7 @@
     <ShopItem>1598</ShopItem>
     <ShopItem>1599</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Võ Đang-Chiến trường Dương Châu" ShopID="59" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Vo Dang-Chien truong Duong Chau" ShopID="59" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1502</ShopItem>
     <ShopItem>1503</ShopItem>
@@ -2416,7 +2416,7 @@
     <ShopItem>1608</ShopItem>
     <ShopItem>1609</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Côn Lôn-Chiến trường Dương Châu" ShopID="60" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Con Lon-Chien truong Duong Chau" ShopID="60" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1502</ShopItem>
     <ShopItem>1503</ShopItem>
@@ -2437,7 +2437,7 @@
     <ShopItem>1608</ShopItem>
     <ShopItem>1609</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiếu Lâm-Chiến trường Phượng Tường" ShopID="61" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thieu Lam-Chien truong Phuong Tuong" ShopID="61" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1465</ShopItem>
     <ShopItem>1466</ShopItem>
@@ -2446,7 +2446,7 @@
     <ShopItem>1565</ShopItem>
     <ShopItem>1566</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Vương-Chiến trường Phượng Tường" ShopID="62" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Vuong-Chien truong Phuong Tuong" ShopID="62" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1465</ShopItem>
     <ShopItem>1466</ShopItem>
@@ -2461,7 +2461,7 @@
     <ShopItem>1570</ShopItem>
     <ShopItem>1571</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đường Môn-Chiến trường Phượng Tường" ShopID="63" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Duong Mon-Chien truong Phuong Tuong" ShopID="63" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1475</ShopItem>
     <ShopItem>1476</ShopItem>
@@ -2476,7 +2476,7 @@
     <ShopItem>1580</ShopItem>
     <ShopItem>1581</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Minh Giáo-Chiến trường Phượng Tường" ShopID="64" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Minh Giao-Chien truong Phuong Tuong" ShopID="64" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1475</ShopItem>
     <ShopItem>1476</ShopItem>
@@ -2491,7 +2491,7 @@
     <ShopItem>1580</ShopItem>
     <ShopItem>1581</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Ngũ Độc-Chiến trường Phượng Tường" ShopID="65" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Ngu Doc-Chien truong Phuong Tuong" ShopID="65" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1475</ShopItem>
     <ShopItem>1476</ShopItem>
@@ -2506,7 +2506,7 @@
     <ShopItem>1580</ShopItem>
     <ShopItem>1581</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đại Lý Đoàn Thị-Chiến trường Phượng Tường" ShopID="66" MoneyType="1"
+  <ShopTab ShopName="Dai Ly Doan Thi-Chien truong Phuong Tuong" ShopID="66" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1485</ShopItem>
     <ShopItem>1486</ShopItem>
@@ -2521,7 +2521,7 @@
     <ShopItem>1590</ShopItem>
     <ShopItem>1591</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Nga My-Chiến trường Phượng Tường" ShopID="67" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Nga My-Chien truong Phuong Tuong" ShopID="67" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1490</ShopItem>
     <ShopItem>1491</ShopItem>
@@ -2530,7 +2530,7 @@
     <ShopItem>1590</ShopItem>
     <ShopItem>1591</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thúy Yên-Chiến trường Phượng Tường" ShopID="68" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thuy Yen-Chien truong Phuong Tuong" ShopID="68" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1485</ShopItem>
     <ShopItem>1486</ShopItem>
@@ -2545,7 +2545,7 @@
     <ShopItem>1590</ShopItem>
     <ShopItem>1591</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Nhẫn-Chiến trường Phượng Tường" ShopID="69" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Nhan-Chien truong Phuong Tuong" ShopID="69" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1495</ShopItem>
     <ShopItem>1496</ShopItem>
@@ -2560,7 +2560,7 @@
     <ShopItem>1600</ShopItem>
     <ShopItem>1601</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cái Bang-Chiến trường Phượng Tường" ShopID="70" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cai Bang-Chien truong Phuong Tuong" ShopID="70" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1495</ShopItem>
     <ShopItem>1496</ShopItem>
@@ -2575,7 +2575,7 @@
     <ShopItem>1600</ShopItem>
     <ShopItem>1601</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Võ Đang-Chiến trường Phượng Tường" ShopID="71" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Vo Dang-Chien truong Phuong Tuong" ShopID="71" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1505</ShopItem>
     <ShopItem>1506</ShopItem>
@@ -2590,7 +2590,7 @@
     <ShopItem>1610</ShopItem>
     <ShopItem>1611</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Côn Lôn-Chiến trường Phượng Tường" ShopID="72" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Con Lon-Chien truong Phuong Tuong" ShopID="72" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1505</ShopItem>
     <ShopItem>1506</ShopItem>
@@ -2605,7 +2605,7 @@
     <ShopItem>1610</ShopItem>
     <ShopItem>1611</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Dã Tẩu" ShopID="73" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Danh Vong Da Tau" ShopID="73" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>1846</ShopItem>
     <ShopItem>1847</ShopItem>
@@ -2633,7 +2633,7 @@
     <ShopItem>1869</ShopItem>
     <ShopItem>1870</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Thủy Hoàng" ShopID="74" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Danh Vong Thuy Hoang" ShopID="74" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>1871</ShopItem>
     <ShopItem>1872</ShopItem>
@@ -2661,7 +2661,7 @@
     <ShopItem>1894</ShopItem>
     <ShopItem>1895</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Tống Kim(Biện Kinh)" ShopID="75" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Danh Vong Tong Kim(Bien Kinh)" ShopID="75" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1896</ShopItem>
     <ShopItem>1897</ShopItem>
@@ -2714,7 +2714,7 @@
     <ShopItem>1944</ShopItem>
     <ShopItem>1945</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Tống Kim(Phượng Tường)" ShopID="76" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Danh Vong Tong Kim(Phuong Tuong)" ShopID="76" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1946</ShopItem>
     <ShopItem>1947</ShopItem>
@@ -2742,7 +2742,7 @@
     <ShopItem>1969</ShopItem>
     <ShopItem>1970</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Tống Kim(Tương dương)" ShopID="77" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Danh Vong Tong Kim(Tuong duong)" ShopID="77" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1971</ShopItem>
     <ShopItem>1972</ShopItem>
@@ -2794,7 +2794,7 @@
 
     -->
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Liên Đấu" ShopID="78" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Danh Vong Lien Dau" ShopID="78" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1995</ShopItem>
     <ShopItem>1996</ShopItem>
@@ -2823,7 +2823,7 @@
 
 
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Phong Hỏa Liên Thành" ShopID="79" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Danh Vong Phong Hoa Lien Thanh" ShopID="79" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2019</ShopItem>
     <ShopItem>2020</ShopItem>
@@ -2875,7 +2875,7 @@
     <ShopItem>2113</ShopItem>
     <ShopItem>2114</ShopItem> -->
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Quân Doanh" ShopID="80" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Danh Vong Quan Doanh" ShopID="80" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2055</ShopItem>
     <ShopItem>2056</ShopItem>
@@ -2915,7 +2915,7 @@
     <ShopItem>2113</ShopItem>
     <ShopItem>2114</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Danh Vọng Bạch Hổ Đường" ShopID="81" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Danh Vong Bach Ho Duong" ShopID="81" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
 
     <ShopItem>2079</ShopItem>
@@ -2955,7 +2955,7 @@
     <ShopItem>2113</ShopItem>
     <ShopItem>2114</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đại Lý Đoàn Thị-Danh vọng gia tộc" ShopID="82" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Dai Ly Doan Thi-Danh vong gia toc" ShopID="82" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2115</ShopItem>
     <ShopItem>2116</ShopItem>
@@ -2970,46 +2970,7 @@
     <ShopItem>2125</ShopItem>
     <ShopItem>2126</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Nga My-Danh vọng gia tộc" ShopID="83" MoneyType="1" Discount="0"
-    TimeSaleStart="" TimeSaleEnd="">
-    <ShopItem>1995</ShopItem>
-    <ShopItem>1996</ShopItem>
-    <ShopItem>1997</ShopItem>
-    <ShopItem>1998</ShopItem>
-    <ShopItem>1999</ShopItem>
-    <ShopItem>2000</ShopItem>
-    <ShopItem>2001</ShopItem>
-    <ShopItem>2002</ShopItem>
-    <ShopItem>2003</ShopItem>
-    <ShopItem>2004</ShopItem>
-    <ShopItem>2005</ShopItem>
-    <ShopItem>2006</ShopItem>
-    <ShopItem>2055</ShopItem>
-    <ShopItem>2056</ShopItem>
-    <ShopItem>2057</ShopItem>
-    <ShopItem>2058</ShopItem>
-    <ShopItem>2059</ShopItem>
-    <ShopItem>2060</ShopItem>
-    <ShopItem>2061</ShopItem>
-    <ShopItem>2062</ShopItem>
-    <ShopItem>2063</ShopItem>
-    <ShopItem>2064</ShopItem>
-    <ShopItem>2065</ShopItem>
-    <ShopItem>2066</ShopItem>
-    <ShopItem>2115</ShopItem>
-    <ShopItem>2116</ShopItem>
-    <ShopItem>2117</ShopItem>
-    <ShopItem>2118</ShopItem>
-    <ShopItem>2119</ShopItem>
-    <ShopItem>2120</ShopItem>
-    <ShopItem>2121</ShopItem>
-    <ShopItem>2122</ShopItem>
-    <ShopItem>2123</ShopItem>
-    <ShopItem>2124</ShopItem>
-    <ShopItem>2125</ShopItem>
-    <ShopItem>2126</ShopItem>
-  </ShopTab>
-  <ShopTab ShopName="Thúy Yên-Danh vọng gia tộc" ShopID="84" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Nga My-Danh vong gia toc" ShopID="83" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>1995</ShopItem>
     <ShopItem>1996</ShopItem>
@@ -3048,7 +3009,46 @@
     <ShopItem>2125</ShopItem>
     <ShopItem>2126</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Nhẫn-Danh vọng gia tộc" ShopID="85" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thuy Yen-Danh vong gia toc" ShopID="84" MoneyType="1" Discount="0"
+    TimeSaleStart="" TimeSaleEnd="">
+    <ShopItem>1995</ShopItem>
+    <ShopItem>1996</ShopItem>
+    <ShopItem>1997</ShopItem>
+    <ShopItem>1998</ShopItem>
+    <ShopItem>1999</ShopItem>
+    <ShopItem>2000</ShopItem>
+    <ShopItem>2001</ShopItem>
+    <ShopItem>2002</ShopItem>
+    <ShopItem>2003</ShopItem>
+    <ShopItem>2004</ShopItem>
+    <ShopItem>2005</ShopItem>
+    <ShopItem>2006</ShopItem>
+    <ShopItem>2055</ShopItem>
+    <ShopItem>2056</ShopItem>
+    <ShopItem>2057</ShopItem>
+    <ShopItem>2058</ShopItem>
+    <ShopItem>2059</ShopItem>
+    <ShopItem>2060</ShopItem>
+    <ShopItem>2061</ShopItem>
+    <ShopItem>2062</ShopItem>
+    <ShopItem>2063</ShopItem>
+    <ShopItem>2064</ShopItem>
+    <ShopItem>2065</ShopItem>
+    <ShopItem>2066</ShopItem>
+    <ShopItem>2115</ShopItem>
+    <ShopItem>2116</ShopItem>
+    <ShopItem>2117</ShopItem>
+    <ShopItem>2118</ShopItem>
+    <ShopItem>2119</ShopItem>
+    <ShopItem>2120</ShopItem>
+    <ShopItem>2121</ShopItem>
+    <ShopItem>2122</ShopItem>
+    <ShopItem>2123</ShopItem>
+    <ShopItem>2124</ShopItem>
+    <ShopItem>2125</ShopItem>
+    <ShopItem>2126</ShopItem>
+  </ShopTab>
+  <ShopTab ShopName="Thien Nhan-Danh vong gia toc" ShopID="85" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
 
 
@@ -3065,7 +3065,7 @@
     <ShopItem>2137</ShopItem>
     <ShopItem>2138</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cái Bang-Danh vọng gia tộc" ShopID="86" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cai Bang-Danh vong gia toc" ShopID="86" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2007</ShopItem>
     <ShopItem>2008</ShopItem>
@@ -3104,7 +3104,7 @@
     <ShopItem>2137</ShopItem>
     <ShopItem>2138</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Võ Đang-Danh vọng gia tộc" ShopID="87" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Vo Dang-Danh vong gia toc" ShopID="87" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
 
 
@@ -3121,7 +3121,7 @@
     <ShopItem>2149</ShopItem>
     <ShopItem>2150</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Côn Lôn-Danh vọng gia tộc" ShopID="88" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Con Lon-Danh vong gia toc" ShopID="88" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2019</ShopItem>
     <ShopItem>2020</ShopItem>
@@ -3160,7 +3160,7 @@
     <ShopItem>2149</ShopItem>
     <ShopItem>2150</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiếu Lâm-Danh vọng Bạch Hổ Đường" ShopID="89" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thieu Lam-Danh vong Bach Ho Duong" ShopID="89" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2151</ShopItem>
     <ShopItem>2152</ShopItem>
@@ -3181,7 +3181,7 @@
     <ShopItem>2215</ShopItem>
     <ShopItem>2216</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Vương-Danh vọng Bạch Hổ Đường" ShopID="90" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Vuong-Danh vong Bach Ho Duong" ShopID="90" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2151</ShopItem>
     <ShopItem>2152</ShopItem>
@@ -3202,7 +3202,7 @@
     <ShopItem>2215</ShopItem>
     <ShopItem>2216</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đường Môn-Danh vọng Bạch Hổ Đường" ShopID="91" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Duong Mon-Danh vong Bach Ho Duong" ShopID="91" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2157</ShopItem>
     <ShopItem>2158</ShopItem>
@@ -3223,7 +3223,7 @@
     <ShopItem>2221</ShopItem>
     <ShopItem>2222</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Minh Giáo-Danh vọng Bạch Hổ Đường" ShopID="92" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Minh Giao-Danh vong Bach Ho Duong" ShopID="92" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2157</ShopItem>
     <ShopItem>2158</ShopItem>
@@ -3244,7 +3244,7 @@
     <ShopItem>2221</ShopItem>
     <ShopItem>2222</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Ngũ Độc-Danh vọng Bạch Hổ Đường" ShopID="93" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Ngu Doc-Danh vong Bach Ho Duong" ShopID="93" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2157</ShopItem>
     <ShopItem>2158</ShopItem>
@@ -3265,7 +3265,7 @@
     <ShopItem>2221</ShopItem>
     <ShopItem>2222</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đại Lý Đoàn Thị-Danh vọng Bạch Hổ Đường" ShopID="94" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Dai Ly Doan Thi-Danh vong Bach Ho Duong" ShopID="94" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2163</ShopItem>
     <ShopItem>2164</ShopItem>
@@ -3286,7 +3286,7 @@
     <ShopItem>2227</ShopItem>
     <ShopItem>2228</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Nga My-Danh vọng Bạch Hổ Đường" ShopID="95" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Nga My-Danh vong Bach Ho Duong" ShopID="95" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2163</ShopItem>
     <ShopItem>2164</ShopItem>
@@ -3307,7 +3307,7 @@
     <ShopItem>2227</ShopItem>
     <ShopItem>2228</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thúy Yên-Danh vọng Bạch Hổ Đường" ShopID="96" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thuy Yen-Danh vong Bach Ho Duong" ShopID="96" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2163</ShopItem>
     <ShopItem>2164</ShopItem>
@@ -3328,7 +3328,7 @@
     <ShopItem>2227</ShopItem>
     <ShopItem>2228</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thiên Nhẫn-Danh vọng Bạch Hổ Đường" ShopID="97" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thien Nhan-Danh vong Bach Ho Duong" ShopID="97" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2169</ShopItem>
     <ShopItem>2170</ShopItem>
@@ -3349,7 +3349,7 @@
     <ShopItem>2233</ShopItem>
     <ShopItem>2234</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cái Bang-Danh vọng Bạch Hổ Đường" ShopID="98" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cai Bang-Danh vong Bach Ho Duong" ShopID="98" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2169</ShopItem>
     <ShopItem>2170</ShopItem>
@@ -3370,7 +3370,7 @@
     <ShopItem>2233</ShopItem>
     <ShopItem>2234</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Võ Đang-Danh vọng Bạch Hổ Đường" ShopID="99" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Vo Dang-Danh vong Bach Ho Duong" ShopID="99" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2175</ShopItem>
     <ShopItem>2176</ShopItem>
@@ -3391,7 +3391,7 @@
     <ShopItem>2239</ShopItem>
     <ShopItem>2240</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Côn Lôn-Danh vọng Bạch Hổ Đường" ShopID="100" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Con Lon-Danh vong Bach Ho Duong" ShopID="100" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2175</ShopItem>
     <ShopItem>2176</ShopItem>
@@ -3412,115 +3412,115 @@
     <ShopItem>2239</ShopItem>
     <ShopItem>2240</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Biện Kinh" ShopID="101" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Bien Kinh" ShopID="101" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2241</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Phượng Tường" ShopID="102" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Phuong Tuong" ShopID="102" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2242</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Tương Dương" ShopID="103" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Tuong Duong" ShopID="103" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2243</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Thành Đô" ShopID="104" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Thanh Do" ShopID="104" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2244</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Đại Lý" ShopID="105" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Dai Ly" ShopID="105" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2245</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Dương Châu" ShopID="106" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Duong Chau" ShopID="106" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2246</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Lâm An" ShopID="107" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Lam An" ShopID="107" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2247</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Long Môn Trấn" ShopID="108" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Long Mon Tran" ShopID="108" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2248</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Vân Trung Trấn" ShopID="109" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Van Trung Tran" ShopID="109" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2249</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Vĩnh Lạc Trấn" ShopID="110" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Vinh Lac Tran" ShopID="110" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2250</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Đạo Hương Thôn" ShopID="111" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Dao Huong Thon" ShopID="111" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2251</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Giang Tân Thôn" ShopID="112" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Giang Tan Thon" ShopID="112" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2252</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Ba Lăng Huyện" ShopID="113" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Ba Lang Huyen" ShopID="113" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2253</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Long Tuyền Thôn" ShopID="114" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Long Tuyen Thon" ShopID="114" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2254</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Thạch Cổ Trấn" ShopID="115" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Thach Co Tran" ShopID="115" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2255</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Thiếu Lâm" ShopID="116" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Thieu Lam" ShopID="116" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2256</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Thiên Vương" ShopID="117" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Thien Vuong" ShopID="117" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2257</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Đường Môn" ShopID="118" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Duong Mon" ShopID="118" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2258</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Ngũ Độc" ShopID="119" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Ngu Doc" ShopID="119" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2259</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Minh Giáo" ShopID="120" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Minh Giao" ShopID="120" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2260</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Nga My" ShopID="121" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Nga My" ShopID="121" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2261</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Thúy Yên" ShopID="122" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Thuy Yen" ShopID="122" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2262</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Đoàn Thị" ShopID="123" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Doan Thi" ShopID="123" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2263</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Cái Bang" ShopID="124" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Cai Bang" ShopID="124" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2264</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Thiên Nhẫn" ShopID="125" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem dac san Thien Nhan" ShopID="125" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2265</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Võ Đang" ShopID="126" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Vo Dang" ShopID="126" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2266</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm đặc sản Côn Lôn" ShopID="127" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem dac san Con Lon" ShopID="127" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2267</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đổi rương cơ quan" ShopID="129" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Doi ruong co quan" ShopID="129" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2290</ShopItem>
     <ShopItem>2289</ShopItem>
@@ -3541,7 +3541,7 @@
     <ShopItem>4018</ShopItem>
     <ShopItem>4019</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm nguyên liệu-Tiêu Dao Cốc" ShopID="130" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem nguyen lieu-Tieu Dao Coc" ShopID="130" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2294</ShopItem>
     <ShopItem>2295</ShopItem>
@@ -3549,7 +3549,7 @@
     <ShopItem>2297</ShopItem>
     <ShopItem>2298</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm thành phẩm-Tiêu Dao Cốc" ShopID="131" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem thanh pham-Tieu Dao Coc" ShopID="131" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2299</ShopItem>
     <ShopItem>2300</ShopItem>
@@ -3557,7 +3557,7 @@
     <ShopItem>2302</ShopItem>
     <ShopItem>2303</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Bộ trang bị_Nam hệ Kim" ShopID="132" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Bo trang bi_Nam he Kim" ShopID="132" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2304</ShopItem>
     <ShopItem>2305</ShopItem>
@@ -3573,7 +3573,7 @@
     <ShopItem>2302</ShopItem>
     <ShopItem>2303</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Toàn kích Hộ thân phù" ShopID="133" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Toan kich Ho than phu" ShopID="133" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2307</ShopItem>
     <ShopItem>2308</ShopItem>
@@ -3587,7 +3587,7 @@
     <ShopItem>2316</ShopItem>
     <ShopItem>2408</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Vũ khí boss hệ Kim" ShopID="135" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Vu khi boss he Kim" ShopID="135" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2320</ShopItem>
     <ShopItem>2321</ShopItem>
@@ -3606,7 +3606,7 @@
     <ShopItem>2362</ShopItem>
     <ShopItem>2363</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Vũ khí boss hệ Mộc" ShopID="136" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Vu khi boss he Moc" ShopID="136" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2328</ShopItem>
     <ShopItem>2329</ShopItem>
@@ -3633,7 +3633,7 @@
     <ShopItem>2406</ShopItem>
     <ShopItem>2407</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Vũ khí boss hệ Thủy" ShopID="137" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Vu khi boss he Thuy" ShopID="137" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2332</ShopItem>
     <ShopItem>2333</ShopItem>
@@ -3652,7 +3652,7 @@
     <ShopItem>2374</ShopItem>
     <ShopItem>2375</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Vũ khí boss hệ Hỏa" ShopID="138" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Vu khi boss he Hoa" ShopID="138" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2340</ShopItem>
     <ShopItem>2341</ShopItem>
@@ -3671,7 +3671,7 @@
     <ShopItem>2382</ShopItem>
     <ShopItem>2383</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Vũ khí boss hệ Thổ" ShopID="139" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Vu khi boss he Tho" ShopID="139" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2348</ShopItem>
     <ShopItem>2349</ShopItem>
@@ -3690,7 +3690,7 @@
     <ShopItem>2390</ShopItem>
     <ShopItem>2391</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Liên đấu quán" ShopID="134" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Lien dau quan" ShopID="134" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2317</ShopItem>
     <ShopItem>2318</ShopItem>
@@ -3716,7 +3716,7 @@
     <ShopItem>2531</ShopItem>
     <ShopItem>2532</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Tiệm Phi Phong Hồn Thạch-Kim" ShopID="140" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Phi Phong Hon Thach-Kim" ShopID="140" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2411</ShopItem>
     <ShopItem>2412</ShopItem>
@@ -3746,7 +3746,7 @@
     <ShopItem>4010</ShopItem>
     <ShopItem>4064</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Phi Phong Hồn Thạch-Mộc" ShopID="141" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Phi Phong Hon Thach-Moc" ShopID="141" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2431</ShopItem>
     <ShopItem>2432</ShopItem>
@@ -3778,7 +3778,7 @@
     <ShopItem>4010</ShopItem>
     <ShopItem>4064</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Phi Phong Hồn Thạch-Thủy" ShopID="142" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Phi Phong Hon Thach-Thuy" ShopID="142" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2451</ShopItem>
     <ShopItem>2452</ShopItem>
@@ -3810,7 +3810,7 @@
     <ShopItem>4010</ShopItem>
     <ShopItem>4064</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Phi Phong Hồn Thạch-Hỏa" ShopID="143" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Phi Phong Hon Thach-Hoa" ShopID="143" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2471</ShopItem>
     <ShopItem>2472</ShopItem>
@@ -3840,7 +3840,7 @@
     <ShopItem>4010</ShopItem>
     <ShopItem>4064</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Phi Phong Hồn Thạch-Thổ" ShopID="144" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Phi Phong Hon Thach-Tho" ShopID="144" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>2491</ShopItem>
     <ShopItem>2492</ShopItem>
@@ -3870,7 +3870,7 @@
     <ShopItem>4010</ShopItem>
     <ShopItem>4064</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Bang hội quán" ShopID="145" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Bang hoi quan" ShopID="145" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2574</ShopItem>
     <ShopItem>2575</ShopItem>
@@ -3880,7 +3880,7 @@
     <ShopItem>3043</ShopItem>
     <ShopItem>3044</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Vũ khí Tẩy Tủy Đảo" ShopID="146" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Vu khi Tay Tuy Dao" ShopID="146" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>2534</ShopItem>
     <ShopItem>2535</ShopItem>
@@ -3923,7 +3923,7 @@
     <ShopItem>2572</ShopItem>
     <ShopItem>2573</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm danh vọng lãnh thổ chiến" ShopID="147" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem danh vong lanh tho chien" ShopID="147" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <!--  <ShopItem>2576</ShopItem>
     <ShopItem>2577</ShopItem>
@@ -3959,7 +3959,7 @@
     <ShopItem>3063</ShopItem>
     <ShopItem>3064</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Tiệm quan hàm_Kim" ShopID="149" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem quan ham_Kim" ShopID="149" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>3001</ShopItem>
     <ShopItem>3002</ShopItem>
@@ -3970,7 +3970,7 @@
     <ShopItem>3007</ShopItem>
     <ShopItem>3008</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm quan hàm_Mộc" ShopID="150" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem quan ham_Moc" ShopID="150" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>3009</ShopItem>
     <ShopItem>3010</ShopItem>
@@ -3981,7 +3981,7 @@
     <ShopItem>3015</ShopItem>
     <ShopItem>3016</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm quan hàm_Thủy" ShopID="151" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem quan ham_Thuy" ShopID="151" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>3017</ShopItem>
     <ShopItem>3018</ShopItem>
@@ -3992,7 +3992,7 @@
     <ShopItem>3023</ShopItem>
     <ShopItem>3024</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm quan hàm_Hỏa" ShopID="152" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem quan ham_Hoa" ShopID="152" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>3025</ShopItem>
     <ShopItem>3026</ShopItem>
@@ -4003,7 +4003,7 @@
     <ShopItem>3031</ShopItem>
     <ShopItem>3032</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm quan hàm_Thổ" ShopID="153" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem quan ham_Tho" ShopID="153" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>3033</ShopItem>
     <ShopItem>3034</ShopItem>
@@ -4014,13 +4014,13 @@
     <ShopItem>3039</ShopItem>
     <ShopItem>3040</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm danh vọng quân doanh" ShopID="154" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem danh vong quan doanh" ShopID="154" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>4013</ShopItem>
     <ShopItem>4014</ShopItem>
   </ShopTab>
 
-  <ShopTab ShopName="Tần Lăng-Vũ khí boss hệ Kim" ShopID="156" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tan Lang-Vu khi boss he Kim" ShopID="156" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3068</ShopItem>
     <ShopItem>3069</ShopItem>
@@ -4055,7 +4055,7 @@
     <ShopItem>3228</ShopItem>
     <ShopItem>3233</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tần Lăng-Vũ khí boss hệ Mộc" ShopID="157" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tan Lang-Vu khi boss he Moc" ShopID="157" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3078</ShopItem>
     <ShopItem>3079</ShopItem>
@@ -4094,7 +4094,7 @@
     <ShopItem>3240</ShopItem>
     <ShopItem>3241</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tần Lăng-Vũ khí boss hệ Thủy" ShopID="158" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tan Lang-Vu khi boss he Thuy" ShopID="158" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3088</ShopItem>
     <ShopItem>3089</ShopItem>
@@ -4129,7 +4129,7 @@
     <ShopItem>3230</ShopItem>
     <ShopItem>3235</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tần Lăng-Vũ khí boss hệ Hỏa" ShopID="159" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tan Lang-Vu khi boss he Hoa" ShopID="159" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3098</ShopItem>
     <ShopItem>3099</ShopItem>
@@ -4164,7 +4164,7 @@
     <ShopItem>3231</ShopItem>
     <ShopItem>3236</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tần Lăng-Vũ khí boss hệ Thổ" ShopID="160" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tan Lang-Vu khi boss he Tho" ShopID="160" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3108</ShopItem>
     <ShopItem>3109</ShopItem>
@@ -4199,7 +4199,7 @@
     <ShopItem>3232</ShopItem>
     <ShopItem>3237</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng Đại Hội Võ Lâm" ShopID="162" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang Dai Hoi Vo Lam" ShopID="162" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3262</ShopItem>
     <ShopItem>3263</ShopItem>
@@ -4211,7 +4211,7 @@
     <ShopItem>825</ShopItem>
     <ShopItem>695</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng nhẫn danh vọng Đại Hội Võ Lâm" ShopID="163" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang nhan danh vong Dai Hoi Vo Lam" ShopID="163" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3268</ShopItem>
     <ShopItem>3269</ShopItem>
@@ -4224,7 +4224,7 @@
     <ShopItem>3276</ShopItem>
     <ShopItem>3277</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Nguyệt Ảnh Thạch" ShopID="166" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tiem Nguyet Anh Thach" ShopID="166" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>3687</ShopItem>
     <ShopItem>3688</ShopItem>
@@ -4242,7 +4242,7 @@
     <!-- <ShopItem>4065</ShopItem> -->
     <ShopItem>3726</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tạp Hóa Du Long" ShopID="167" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Tap Hoa Du Long" ShopID="167" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>3694</ShopItem>
     <ShopItem>3695</ShopItem>
@@ -4274,7 +4274,7 @@
     <ShopItem>3721</ShopItem>
     <ShopItem>3722</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng liên đấu liên server" ShopID="168" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang lien dau lien server" ShopID="168" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3732</ShopItem>
     <ShopItem>3733</ShopItem>
@@ -4297,36 +4297,36 @@
     <ShopItem>3750</ShopItem>
     <ShopItem>3751</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thành chiến liên server-Tiệm thị vệ" ShopID="171" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thanh chien lien server-Tiem thi ve" ShopID="171" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3762</ShopItem>
     <ShopItem>3763</ShopItem>
     <ShopItem>3764</ShopItem>
     <ShopItem>3765</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thành chiến liên server-Tiệm thành chủ" ShopID="172" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Thanh chien lien server-Tiem thanh chu" ShopID="172" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3766</ShopItem>
     <ShopItem>3767</ShopItem>
     <ShopItem>3768</ShopItem>
     <ShopItem>3769</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thành chiến liên server-Tiệm ngựa thị vệ" ShopID="173" MoneyType="1"
+  <ShopTab ShopName="Thanh chien lien server-Tiem ngua thi ve" ShopID="173" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3770</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thành chiến liên server-Tiệm ngựa thành chủ" ShopID="174" MoneyType="1"
+  <ShopTab ShopName="Thanh chien lien server-Tiem ngua thanh chu" ShopID="174" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3771</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng liên đấu liên server" ShopID="179" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang lien dau lien server" ShopID="179" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3869</ShopItem>
     <ShopItem>3870</ShopItem>
     <ShopItem>3871</ShopItem>
     <ShopItem>3872</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng hoạt động di tích Hàn Vũ" ShopID="184" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang hoat dong di tich Han Vu" ShopID="184" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3976</ShopItem>
     <ShopItem>3977</ShopItem>
@@ -4339,7 +4339,7 @@
     <ShopItem>3984</ShopItem>
     <ShopItem>3985</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng di tích Hàn Vũ" ShopID="185" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang danh vong di tich Han Vu" ShopID="185" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>3987</ShopItem>
     <ShopItem>3988</ShopItem>
@@ -4362,7 +4362,7 @@
     <ShopItem>4062</ShopItem>
     <ShopItem>4063</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng liên đấu liên server" ShopID="189" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang lien dau lien server" ShopID="189" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>4077</ShopItem>
     <ShopItem>4078</ShopItem>
@@ -4372,30 +4372,30 @@
     <ShopItem>4075</ShopItem>
     <ShopItem>4076</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Khuyến Mại" ShopID="203" MoneyType="2" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Khuyen Mai" ShopID="203" MoneyType="2" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
-    <ShopItem>5000</ShopItem> <!--Thỏi
-    vàng-->
-    <ShopItem>5001</ShopItem> <!--Vô
-    hạn truyền tống phù-->
+    <ShopItem>5000</ShopItem> <!--Thoi
+    vang-->
+    <ShopItem>5001</ShopItem> <!--Vo
+    han truyen tong phu-->
     <ShopItem>5002</ShopItem> <!--Can
-    Khôn phù-->
+    Khon phu-->
 
     <ShopItem>5003</ShopItem>
     <!--	<ShopItem>5004</ShopItem>
 		<ShopItem>5005</ShopItem>
 		<ShopItem>5006</ShopItem>-->
     <ShopItem>5007</ShopItem> <!--Tu
-    Luyện đơn -->
+    Luyen don -->
 
     <!--<ShopItem>5008</ShopItem>
 		<ShopItem>5009</ShopItem>-->
-    <ShopItem>5010</ShopItem><!--Nguyệt
-    ảnh nguyên thạch thô-->
+    <ShopItem>5010</ShopItem><!--Nguyet
+    anh nguyen thach tho-->
     <!--<ShopItem>5011</ShopItem>
 		<ShopItem>5012</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Huyền Tinh" ShopID="204" MoneyType="2" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Huyen Tinh" ShopID="204" MoneyType="2" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5013</ShopItem>
     <ShopItem>5014</ShopItem>
@@ -4404,7 +4404,7 @@
     <ShopItem>5017</ShopItem>
     <ShopItem>5018</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thường Dùng" ShopID="205" MoneyType="2" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuong Dung" ShopID="205" MoneyType="2" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5019</ShopItem>
     <ShopItem>5020</ShopItem>
@@ -4471,7 +4471,7 @@
     <ShopItem>5081</ShopItem>
     <ShopItem>5082</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đạo Cụ" ShopID="206" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Dao Cu" ShopID="206" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5083</ShopItem>
     <ShopItem>5084</ShopItem>
     <ShopItem>5085</ShopItem>
@@ -4490,7 +4490,7 @@
     <ShopItem>5098</ShopItem>
     <ShopItem>5099</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Khuyến Mại" ShopID="207" MoneyType="3" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Khuyen Mai" ShopID="207" MoneyType="3" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5100</ShopItem>
     <ShopItem>5101</ShopItem>
@@ -4501,7 +4501,7 @@
     <ShopItem>5106</ShopItem>
     <!-- <ShopItem>5107</ShopItem> -->
   </ShopTab>
-  <ShopTab ShopName="Huyền Tinh" ShopID="208" MoneyType="3" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Huyen Tinh" ShopID="208" MoneyType="3" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5108</ShopItem>
     <ShopItem>5109</ShopItem>
@@ -4510,7 +4510,7 @@
     <ShopItem>5112</ShopItem>
     <ShopItem>5113</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thường Dùng" ShopID="209" MoneyType="3" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuong Dung" ShopID="209" MoneyType="3" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5114</ShopItem>
     <ShopItem>5115</ShopItem>
@@ -4543,7 +4543,7 @@
     <ShopItem>5142</ShopItem>
     <ShopItem>5143</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đạo Cụ" ShopID="210" MoneyType="3" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Dao Cu" ShopID="210" MoneyType="3" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5144</ShopItem>
     <ShopItem>5145</ShopItem>
     <ShopItem>5146</ShopItem>
@@ -4560,7 +4560,7 @@
     <ShopItem>5157</ShopItem>
     <ShopItem>5158</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thường dùng" ShopID="211" MoneyType="2" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuong dung" ShopID="211" MoneyType="2" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5159</ShopItem>
     <ShopItem>5160</ShopItem>
@@ -4587,7 +4587,7 @@
     <ShopItem>5181</ShopItem>
     <ShopItem>5182</ShopItem>
     <!-- <ShopItem>5183</ShopItem>
-		<ShopItem>5184</ShopItem> bí cảnh
+		<ShopItem>5184</ShopItem> bi canh
 		<ShopItem>5185</ShopItem>
     <ShopItem>5186</ShopItem>
 		<ShopItem>5187</ShopItem>-->
@@ -4598,7 +4598,7 @@
 		<ShopItem>5192</ShopItem>
 		<ShopItem>5193</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Huyền Tinh" ShopID="212" MoneyType="2" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Huyen Tinh" ShopID="212" MoneyType="2" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5194</ShopItem>
     <ShopItem>5195</ShopItem>
@@ -4607,7 +4607,7 @@
     <ShopItem>5198</ShopItem>
     <ShopItem>5199</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đạo Cụ" ShopID="213" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Dao Cu" ShopID="213" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5200</ShopItem>
     <!--<ShopItem>5201</ShopItem>
 		<ShopItem>5202</ShopItem>
@@ -4623,7 +4623,7 @@
 		<ShopItem>5212</ShopItem>
     <ShopItem>5213</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Huyền Tinh" ShopID="214" MoneyType="3" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Huyen Tinh" ShopID="214" MoneyType="3" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5214</ShopItem>
     <ShopItem>5215</ShopItem>
@@ -4632,7 +4632,7 @@
     <ShopItem>5218</ShopItem>
     <ShopItem>5219</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thường Dùng" ShopID="215" MoneyType="3" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuong Dung" ShopID="215" MoneyType="3" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5220</ShopItem>
     <ShopItem>5221</ShopItem>
@@ -4649,7 +4649,7 @@
 		<ShopItem>5232</ShopItem>
     <ShopItem>5233</ShopItem>-->
   </ShopTab>
-  <!--  <ShopTab ShopName="Trang Bị Nghĩa Quân - Kim" ShopID="216" MoneyType="1" Discount="0"
+  <!--  <ShopTab ShopName="Trang Bi Nghia Quan - Kim" ShopID="216" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5234</ShopItem>
     <ShopItem>5235</ShopItem>
@@ -4694,7 +4694,7 @@
     <ShopItem>5274</ShopItem>
     <ShopItem>5275</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Trang Bị Nghĩa Quân - Mộc" ShopID="217" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Trang Bi Nghia Quan - Moc" ShopID="217" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5276</ShopItem>
     <ShopItem>5277</ShopItem>
@@ -4739,7 +4739,7 @@
     <ShopItem>5316</ShopItem>
     <ShopItem>5317</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Trang Bị Nghĩa Quân - Thủy" ShopID="218" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Trang Bi Nghia Quan - Thuy" ShopID="218" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5318</ShopItem>
     <ShopItem>5319</ShopItem>
@@ -4784,7 +4784,7 @@
     <ShopItem>5358</ShopItem>
     <ShopItem>5359</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Trang Bị Nghĩa Quân - Hỏa" ShopID="219" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Trang Bi Nghia Quan - Hoa" ShopID="219" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5360</ShopItem>
     <ShopItem>5361</ShopItem>
@@ -4829,7 +4829,7 @@
     <ShopItem>5400</ShopItem>
     <ShopItem>5401</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Trang Bị Nghĩa Quân - Thổ" ShopID="220" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Trang Bi Nghia Quan - Tho" ShopID="220" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5402</ShopItem>
     <ShopItem>5403</ShopItem>
@@ -4847,9 +4847,9 @@
     <ShopItem>5415</ShopItem>
     <ShopItem>5416</ShopItem>
     <ShopItem>5417</ShopItem>
-   	<ShopItem>5418</ShopItem> Phúc duyên lộ
-		<ShopItem>5419</ShopItem> Phúc duyên lộ
-    <ShopItem>5420</ShopItem> Phúc duyên lộ
+   	<ShopItem>5418</ShopItem> Phuc duyen lo
+		<ShopItem>5419</ShopItem> Phuc duyen lo
+    <ShopItem>5420</ShopItem> Phuc duyen lo
     <ShopItem>5421</ShopItem>
     <ShopItem>5422</ShopItem>
     <ShopItem>5423</ShopItem>
@@ -4874,7 +4874,7 @@
     <ShopItem>5442</ShopItem>
     <ShopItem>5443</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Bạch Hổ Đường-Kim" ShopID="221" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Bach Ho Duong-Kim" ShopID="221" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5444</ShopItem>
     <ShopItem>5445</ShopItem>
@@ -4895,7 +4895,7 @@
     <ShopItem>5460</ShopItem>
     <ShopItem>5461</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Bạch Hổ Đường-Mộc" ShopID="222" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Bach Ho Duong-Moc" ShopID="222" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5462</ShopItem>
     <ShopItem>5463</ShopItem>
@@ -4916,7 +4916,7 @@
     <ShopItem>5478</ShopItem>
     <ShopItem>5479</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Bạch Hổ Đường-Thủy" ShopID="223" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Bach Ho Duong-Thuy" ShopID="223" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5480</ShopItem>
     <ShopItem>5481</ShopItem>
@@ -4937,7 +4937,7 @@
     <ShopItem>5496</ShopItem>
     <ShopItem>5497</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Bạch Hổ Đường-Hỏa" ShopID="224" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Bach Ho Duong-Hoa" ShopID="224" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5498</ShopItem>
     <ShopItem>5499</ShopItem>
@@ -4958,7 +4958,7 @@
     <ShopItem>5514</ShopItem>
     <ShopItem>5515</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Tiệm Bạch Hổ Đường-Thổ" ShopID="225" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Tiem Bach Ho Duong-Tho" ShopID="225" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5516</ShopItem>
     <ShopItem>5517</ShopItem>
@@ -4980,7 +4980,7 @@
     <ShopItem>5533</ShopItem>
   </ShopTab>-->
 
-  <ShopTab ShopName="Cửa hàng Thợ rèn" ShopID="227" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Cua hang Tho ren" ShopID="227" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>6031</ShopItem>
     <ShopItem>6032</ShopItem>
@@ -5012,7 +5012,7 @@
     <ShopItem>6058</ShopItem>
     <ShopItem>6059</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng Thợ rèn" ShopID="2270" MoneyType="0" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Cua hang Tho ren" ShopID="2270" MoneyType="0" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>6031</ShopItem>
     <ShopItem>6032</ShopItem>
@@ -5044,7 +5044,7 @@
     <ShopItem>6058</ShopItem>
     <ShopItem>6059</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thường dùng" ShopID="238" MoneyType="2" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuong dung" ShopID="238" MoneyType="2" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>5410</ShopItem>
     <ShopItem>5411</ShopItem>
@@ -5062,7 +5062,7 @@
 		<ShopItem>5423</ShopItem>
 		<ShopItem>5424</ShopItem>-->
   </ShopTab>
-  <ShopTab ShopName="Thương nhân thần bí" ShopID="239" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuong nhan than bi" ShopID="239" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <!-- <ShopItem>7003</ShopItem>
     <ShopItem>7004</ShopItem>
@@ -5074,7 +5074,7 @@
     <ShopItem>7010</ShopItem>
     <ShopItem>7011</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thường dùng" ShopID="240" MoneyType="3" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuong dung" ShopID="240" MoneyType="3" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>9985</ShopItem>
     <ShopItem>9986</ShopItem>
@@ -5085,7 +5085,7 @@
     <ShopItem>9991</ShopItem>
     <ShopItem>9992</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đạo Cụ" ShopID="241" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Dao Cu" ShopID="241" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5427</ShopItem>
     <!--   <ShopItem>5428</ShopItem>
     <ShopItem>5429</ShopItem>-->
@@ -5107,7 +5107,7 @@
     <ShopItem>5444</ShopItem>
     <ShopItem>5445</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Đạo Cụ" ShopID="242" MoneyType="3" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Dao Cu" ShopID="242" MoneyType="3" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>9993</ShopItem>
     <ShopItem>9994</ShopItem>
     <ShopItem>9995</ShopItem>
@@ -5117,7 +5117,7 @@
     <ShopItem>9999</ShopItem>
     <ShopItem>10000</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Bí Kíp" ShopID="243" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Bi Kip" ShopID="243" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5446</ShopItem>
     <ShopItem>5447</ShopItem>
     <ShopItem>5448</ShopItem>
@@ -5151,7 +5151,7 @@
     <ShopItem>5476</ShopItem>
     <ShopItem>5477</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Hiệu Thuốc Phong Hỏa Liên Thành" ShopID="244" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Hieu Thuoc Phong Hoa Lien Thanh" ShopID="244" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>6014</ShopItem>
     <ShopItem>6015</ShopItem>
@@ -5161,7 +5161,7 @@
     <ShopItem>6028</ShopItem>
     <ShopItem>6026</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa Hàng Tiền Trang" ShopID="245" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Cua Hang Tien Trang" ShopID="245" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>7016</ShopItem>
     <ShopItem>7017</ShopItem>
@@ -5174,7 +5174,7 @@
     <ShopItem>7024</ShopItem>
     <ShopItem>7025</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa Hàng Bang Hội" ShopID="226" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Cua Hang Bang Hoi" ShopID="226" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>7033</ShopItem>
     <ShopItem>7034</ShopItem>
@@ -5186,7 +5186,7 @@
     <ShopItem>7040</ShopItem>
     <ShopItem>7041</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Khác" ShopID="246" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Khac" ShopID="246" MoneyType="2" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5303</ShopItem>
     <ShopItem>5304</ShopItem>
     <ShopItem>5305</ShopItem>
@@ -5210,11 +5210,11 @@
     <ShopItem>5323</ShopItem>
     <ShopItem>5324</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Khác" ShopID="247" MoneyType="3" Discount="0" TimeSaleStart="" TimeSaleEnd="">
+  <ShopTab ShopName="Khac" ShopID="247" MoneyType="3" Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5316</ShopItem>
     <ShopItem>5317</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thuốc Tinh Linh" ShopID="248" MoneyType="0" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuoc Tinh Linh" ShopID="248" MoneyType="0" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>10004</ShopItem>
     <ShopItem>10005</ShopItem>
@@ -5226,7 +5226,7 @@
     <ShopItem>10011</ShopItem>
     <ShopItem>10012</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Thuốc Tinh Linh" ShopID="249" MoneyType="1" Discount="0" TimeSaleStart=""
+  <ShopTab ShopName="Thuoc Tinh Linh" ShopID="249" MoneyType="1" Discount="0" TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>10004</ShopItem>
     <ShopItem>10005</ShopItem>
@@ -5238,7 +5238,7 @@
     <ShopItem>10011</ShopItem>
     <ShopItem>10012</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng tống kim tương dương" ShopID="298" MoneyType="1"
+  <ShopTab ShopName="Cua hang danh vong tong kim tuong duong" ShopID="298" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20012</ShopItem>
     <ShopItem>20013</ShopItem>
@@ -5246,7 +5246,7 @@
     <ShopItem>20015</ShopItem>
     <ShopItem>20016</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng tống kim phượng tường" ShopID="299" MoneyType="1"
+  <ShopTab ShopName="Cua hang danh vong tong kim phuong tuong" ShopID="299" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20017</ShopItem>
     <ShopItem>20018</ShopItem>
@@ -5254,7 +5254,7 @@
     <ShopItem>20020</ShopItem>
     <ShopItem>20021</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng tống kim biện kinh" ShopID="300" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang danh vong tong kim bien kinh" ShopID="300" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20022</ShopItem>
     <ShopItem>20023</ShopItem>
@@ -5262,7 +5262,7 @@
     <ShopItem>20025</ShopItem>
     <ShopItem>20026</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng bạch hổ đường" ShopID="301" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang danh vong bach ho duong" ShopID="301" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20027</ShopItem>
     <ShopItem>20028</ShopItem>
@@ -5280,7 +5280,7 @@
     <ShopItem>20040</ShopItem>
     <ShopItem>20041</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng dã tẩu" ShopID="302" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang danh vong da tau" ShopID="302" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20042</ShopItem>
     <ShopItem>20043</ShopItem>
@@ -5298,7 +5298,7 @@
     <ShopItem>20055</ShopItem>
     <ShopItem>20056</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng quân doanh" ShopID="303" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang danh vong quan doanh" ShopID="303" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20057</ShopItem>
     <ShopItem>20058</ShopItem>
@@ -5323,7 +5323,7 @@
     <ShopItem>20077</ShopItem>
     <ShopItem>20078</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng phong hỏa liên thành khắc kim" ShopID="304" MoneyType="1"
+  <ShopTab ShopName="Cua hang danh vong phong hoa lien thanh khac kim" ShopID="304" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20081</ShopItem>
     <ShopItem>20082</ShopItem>
@@ -5334,7 +5334,7 @@
     <ShopItem>20087</ShopItem>
     <ShopItem>20088</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng phong hỏa liên thành khắc mộc" ShopID="305" MoneyType="1"
+  <ShopTab ShopName="Cua hang danh vong phong hoa lien thanh khac moc" ShopID="305" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20091</ShopItem>
     <ShopItem>20092</ShopItem>
@@ -5345,7 +5345,7 @@
     <ShopItem>20097</ShopItem>
     <ShopItem>20098</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng phong hỏa liên thành khắc thủy" ShopID="306" MoneyType="1"
+  <ShopTab ShopName="Cua hang danh vong phong hoa lien thanh khac thuy" ShopID="306" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20101</ShopItem>
     <ShopItem>20102</ShopItem>
@@ -5356,7 +5356,7 @@
     <ShopItem>20107</ShopItem>
     <ShopItem>20108</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng phong hỏa liên thành khắc hỏa" ShopID="307" MoneyType="1"
+  <ShopTab ShopName="Cua hang danh vong phong hoa lien thanh khac hoa" ShopID="307" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20111</ShopItem>
     <ShopItem>20112</ShopItem>
@@ -5367,7 +5367,7 @@
     <ShopItem>20117</ShopItem>
     <ShopItem>20118</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng danh vọng phong hỏa liên thành khắc thổ" ShopID="308" MoneyType="1"
+  <ShopTab ShopName="Cua hang danh vong phong hoa lien thanh khac tho" ShopID="308" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20121</ShopItem>
     <ShopItem>20122</ShopItem>
@@ -5378,7 +5378,7 @@
     <ShopItem>20127</ShopItem>
     <ShopItem>20128</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái thiếu lâm" ShopID="309" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai thieu lam" ShopID="309" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20129</ShopItem>
     <ShopItem>20130</ShopItem>
@@ -5396,7 +5396,7 @@
     <ShopItem>20142</ShopItem>
     <ShopItem>20143</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái thiên vương" ShopID="310" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai thien vuong" ShopID="310" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20144</ShopItem>
     <ShopItem>20145</ShopItem>
@@ -5414,7 +5414,7 @@
     <ShopItem>20157</ShopItem>
     <ShopItem>20158</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái đường môn" ShopID="311" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai duong mon" ShopID="311" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20159</ShopItem>
     <ShopItem>20160</ShopItem>
@@ -5432,7 +5432,7 @@
     <ShopItem>20172</ShopItem>
     <ShopItem>20173</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái ngũ độc" ShopID="312" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai ngu doc" ShopID="312" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20174</ShopItem>
     <ShopItem>20175</ShopItem>
@@ -5450,7 +5450,7 @@
     <ShopItem>20187</ShopItem>
     <ShopItem>20188</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái nga my" ShopID="313" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai nga my" ShopID="313" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20189</ShopItem>
     <ShopItem>20190</ShopItem>
@@ -5468,7 +5468,7 @@
     <ShopItem>20202</ShopItem>
     <ShopItem>20203</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái thúy yên" ShopID="314" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai thuy yen" ShopID="314" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20204</ShopItem>
     <ShopItem>20205</ShopItem>
@@ -5486,7 +5486,7 @@
     <ShopItem>20217</ShopItem>
     <ShopItem>20218</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái cái bang" ShopID="315" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai cai bang" ShopID="315" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20219</ShopItem>
     <ShopItem>20220</ShopItem>
@@ -5504,7 +5504,7 @@
     <ShopItem>20232</ShopItem>
     <ShopItem>20233</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái thiên nhẫn" ShopID="316" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai thien nhan" ShopID="316" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20234</ShopItem>
     <ShopItem>20235</ShopItem>
@@ -5522,7 +5522,7 @@
     <ShopItem>20247</ShopItem>
     <ShopItem>20248</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái võ đang" ShopID="317" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai vo dang" ShopID="317" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20249</ShopItem>
     <ShopItem>20250</ShopItem>
@@ -5540,7 +5540,7 @@
     <ShopItem>20262</ShopItem>
     <ShopItem>20263</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái côn lôn" ShopID="318" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai con lon" ShopID="318" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20264</ShopItem>
     <ShopItem>20265</ShopItem>
@@ -5558,7 +5558,7 @@
     <ShopItem>20277</ShopItem>
     <ShopItem>20278</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái hoa sơn" ShopID="319" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai hoa son" ShopID="319" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20279</ShopItem>
     <ShopItem>20280</ShopItem>
@@ -5576,7 +5576,7 @@
     <ShopItem>20292</ShopItem>
     <ShopItem>20293</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="cửa hàng danh vọng thi đấu môn phái Minh Giáo" ShopID="320" MoneyType="1"
+  <ShopTab ShopName="cua hang danh vong thi dau mon phai Minh Giao" ShopID="320" MoneyType="1"
     Discount="0" TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>20294</ShopItem>
     <ShopItem>20295</ShopItem>
@@ -5594,7 +5594,7 @@
     <ShopItem>20307</ShopItem>
     <ShopItem>20308</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng Công Thành Chiến " ShopID="228" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang Cong Thanh Chien " ShopID="228" MoneyType="1" Discount="0"
     TimeSaleStart="" TimeSaleEnd="">
     <ShopItem>5331</ShopItem>
     <ShopItem>5332</ShopItem>
@@ -5602,14 +5602,14 @@
     <ShopItem>5334</ShopItem>
     <ShopItem>5335</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Danh vọng Tần Lăng-Luyện Hóa" ShopID="229" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Danh vong Tan Lang-Luyen Hoa" ShopID="229" MoneyType="1" Discount="0"
     TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>20309</ShopItem>
     <ShopItem>20310</ShopItem>
     <ShopItem>20311</ShopItem>
   </ShopTab>
-  <ShopTab ShopName="Cửa hàng vũ khí hoàng kim" ShopID="230" MoneyType="1" Discount="0"
+  <ShopTab ShopName="Cua hang vu khi hoang kim" ShopID="230" MoneyType="1" Discount="0"
     TimeSaleStart=""
     TimeSaleEnd="">
     <ShopItem>20312</ShopItem>

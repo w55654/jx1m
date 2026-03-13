@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FactionDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema" MAX_ATTEND_PLAYER="200" MIN_ATTEND_PLAYER="2" MIN_LEVEL="60">
-   <!-- Ngày nào trong tuần có sự kiện-->
+   <!-- Ngay nao trong tuan co su kien-->
    <OPEN_WEEK_DATE>2</OPEN_WEEK_DATE>
 
 
-   <!-- Thời gian bắt đầu sự kiện-->
+   <!-- Thoi gian bat dau su kien-->
    <TimeBattle Hours="20" Minute="0" />
 
 
 
-   <!-- Tọa độ vào map -->
+   <!-- Toa do vao map -->
    <GoIn PosX="3502" PosY="2305" />
 
 
-   <!-- Danh sách các map diễn ra sự kiện-->
+   <!-- Danh sach cac map dien ra su kien-->
    <MapFactionList FactionID="1" MapId="71" />
    <MapFactionList FactionID="2" MapId="80" />
    <MapFactionList FactionID="3" MapId="82" />
@@ -29,7 +29,7 @@
 
 
 
-   <!-- Config tọa độ cho các lôi đài-->
+   <!-- Config toa do cho cac loi dai-->
    <TotalArena ArenaID="0" PosX="6197" PosY="3734" />
    <TotalArena ArenaID="1" PosX="5415" PosY="4149" />
    <TotalArena ArenaID="2" PosX="7186" PosY="3269" />
@@ -40,7 +40,7 @@
    <TotalArena ArenaID="7" PosX="3855" PosY="1553" />
    <TotalArena ArenaID="8" PosX="4822" PosY="1105" />
 
-   <!-- Randomo tọa độ cờ -->
+   <!-- Randomo toa do co -->
    <RandomFlag PosX="1595" PosY="3459" />
    <RandomFlag PosX="2347" PosY="3657" />
    <RandomFlag PosX="3671" PosY="4215" />
@@ -92,7 +92,7 @@
    <RandomFlag PosX="5262" PosY="4654" />
 
 
-   <!-- Random tọa độ BOX -->
+   <!-- Random toa do BOX -->
    <!-- 5 -->
    <Box ArenaID="5">
       <RandomBox PosX="822" PosY="3121" />
@@ -184,7 +184,7 @@
       <RandomBox PosX="6727" PosY="3435" />
    </Box>
 
-   <!-- Random tọa độ BOX_1 -->
+   <!-- Random toa do BOX_1 -->
    <Box ArenaID="0">
       <RandomBox PosX="6905" PosY="3765" />
       <RandomBox PosX="6585" PosY="3966" />
@@ -205,7 +205,7 @@
       <RandomBox PosX="6109" PosY="4060" />
    </Box>
 
-   <!-- Tọa độ hồi sinh random trong hỗn chiến -->
+   <!-- Toa do hoi sinh random trong hon chien -->
    <PVPRandomRevice PosX="8187" PosY="6283" />
    <PVPRandomRevice PosX="6185" PosY="5489" />
    <PVPRandomRevice PosX="8345" PosY="4284" />
@@ -258,7 +258,7 @@
   
   
 
-   <!-- Thời gian các sự kiện tính theo giây
+   <!-- Thoi gian cac su kien tinh theo giay
    <TimeAct SIGN_UP_DULATION="1800" MELEE_PVP_DULATION="300" MELEE_PVP_FREE_DUALTION="300" FREE_ELIMINATION="420" ELIMINATION_ROUND_ROUND="420" REVICE_AWARD="600" />
 	-->
    <TimeAct SIGN_UP_DULATION="1800" MELEE_PVP_DULATION="300" MELEE_PVP_FREE_DUALTION="300" FREE_ELIMINATION="420" ELIMINATION_ROUND_ROUND="420" REVICE_AWARD="600" />

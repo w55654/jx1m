@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	PHỤ BẢN LÔI ĐÀI
-	- Map: Thông tin bản đồ
-		- ID: ID bản đồ
-		- PosX: Vị trí X tiến vào
-		- PosY: Vị trí Y tiến vào
+	PHU BAN LOI DAI
+	- Map: Thong tin ban do
+		- ID: ID ban do
+		- PosX: Vi tri X tien vao
+		- PosY: Vi tri Y tien vao
 -->
 <DynamicArena>
 	<Map ID="68" PosX="1602" PosY="1108" />

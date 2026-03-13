@@ -46,28 +46,28 @@ namespace Server.Data
         public int GuildID { get; set; }
 
         /// <summary>
-        /// Số sao của lãnh thổ
+        /// 领土星级
         /// </summary>
         ///
         [ProtoMember(5)]
         public int Star { get; set; }
 
         /// <summary>
-        /// Thuế
+        /// 税率
         /// </summary>
         ///
         [ProtoMember(6)]
         public int Tax { get; set; }
 
         /// <summary>
-        /// ID khu vực
+        /// 区域 ID
         /// </summary>
         ///
         [ProtoMember(7)]
         public int ZoneID { get; set; }
 
         /// <summary>
-        /// Có phải thành phố chính không
+        /// 是否主城
         /// </summary>
         ///
         [ProtoMember(8)]

@@ -12,12 +12,12 @@ using System.Text;
 namespace GameDBServer.DB
 {
     /// <summary>
-    /// Lớp này xử lý để ghi lại dữ liệu vào DB
+    /// 该类用于将数据写入 DB
     /// </summary>
     public class DBWriter
     {
         /// <summary>
-        /// Các bảng chắc chắn phải có để Game db có thể hoạt động
+        /// Game DB 正常运行所必需的表
         /// </summary>
         private static readonly string[][] ValidateDatabaseTables = new string[][]{
             new string[]{"t_login", "userid"},
@@ -26,12 +26,12 @@ namespace GameDBServer.DB
             new string[]{"t_goods_bak_1", "id"},
         };
 
-        #region Tự động set INDEXID cho ROLEID
+        #region 自动为 ROLEID 设置 INDEXID
 
         private const string RoleExtIdKey = "role_ext_auto_increment";
         private const int RoleExtIdValidStart = 1500000000;
 
-        #endregion Tự động set INDEXID cho ROLEID
+        #endregion 自动为 ROLEID 设置 INDEXID
 
         #region ，FormatUpdateSQL
 
@@ -46,7 +46,7 @@ namespace GameDBServer.DB
 
         #endregion ，FormatUpdateSQL
 
-        #region Bảng sử dụng để backup túi đồ
+        #region 用于背包备份的表
 
         private static object GoodsBakTableMutex = new object();
 
@@ -54,13 +54,13 @@ namespace GameDBServer.DB
 
         private static readonly string[] GoodsBakTableNames = { "t_goods_bak", "t_goods_bak_1" };
 
-        #endregion Bảng sử dụng để backup túi đồ
+        #endregion 用于背包备份的表
 
         #region
 
         /// <summary>
-        /// Thực thi 1 cậu lệnh truy vấn mysql trả về INT
-        /// Thường thì sẽ sử dụng để cập nhật thêm mới hoặc xóa
+        /// 执行一条返回 INT 的 MySQL 语句
+        /// 通常用于新增、更新或删除
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="sqlText"></param>
@@ -112,7 +112,7 @@ namespace GameDBServer.DB
         #endregion
 
         /// <summary>
-        /// Check xem full chưa
+        /// 检查是否已满
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <returns></returns>
@@ -174,7 +174,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Tạo nhân vật mới
+        /// 创建新角色
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -221,7 +221,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật khi người chơi đăng xuất khỏi trò chơi
+        /// 玩家下线时更新
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -246,7 +246,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật thời gian online của người chơi
+        /// 更新玩家在线时长
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -263,7 +263,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật nhiệm vụ cho người chơi
+        /// 更新玩家任务
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -280,7 +280,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Khi nhân vật nhận 1 nhiệm vụ mới
+        /// 角色接取新任务时
         /// </summary>
         public static int NewTask(DBManager dbMgr, int roleID, int npcID, int taskID, string addtime, int focus, int nStarLevel)
         {
@@ -297,7 +297,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật ví trí của người chơi
+        /// 更新玩家位置
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -314,7 +314,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhất các thông tin cấp độ,uy danh,kinh nghiệm cho nhân vật
+        /// 更新角色等级、声望与经验信息
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -333,7 +333,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật thông tin Avarta nhân vật
+        /// 更新角色头像信息
         /// </summary>
         /// <param name="roleID"></param>
         /// <param name="avartaID"></param>
@@ -350,7 +350,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật bạc khóa cho nhân vật
+        /// 更新角色绑定银两
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -367,7 +367,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật đồng khóa
+        /// 更新绑定铜钱
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -384,7 +384,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập bạc khóa
+        /// 更新绑定元宝
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -401,7 +401,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật đồng khóa ở thủ khố
+        /// 更新仓库绑定铜钱
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -418,7 +418,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật bạc khóa ở thủ khố
+        /// 更新仓库绑定银两
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -435,7 +435,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật đồng cho nhân vật
+        /// 更新角色铜钱
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -453,8 +453,8 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật số tiền đã nạp cho nhân vật
-        /// Cập nhật thêm roleID để tính tích lũy theo nhân vật
+        /// 更新角色充值金额
+        /// 同时更新 roleID 以按角色做累计统计
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="UserID"></param>
@@ -479,7 +479,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật thông tin nạp thẻ
+        /// 更新充值卡信息
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="userID"></param>
@@ -500,7 +500,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Chuyển vật phẩm từ thằng này sang thằng khác
+        /// 在角色之间转移物品
         /// </summary>
         public static int MoveGoods(DBManager dbMgr, int roleID, int goodsDbID)
         {
@@ -515,7 +515,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Di chuyển vật phẩm của chủ nhân cũ sang chủ nhân mới
+        /// 将物品从旧主人转移到新主人
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="roleID"></param>
@@ -544,7 +544,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Tạo ra 1 vật phẩm mới
+        /// 创建一个新物品
         /// </summary>
         public static int NewGoods(DBManager dbMgr, int roleID, int goodsID, int goodsNum, string props, int forgeLevel, int binding, int site, int bagindex, string startTime, string endTime, int strong, int series, string otherpramer)
         {
@@ -569,7 +569,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Thực hiện xây 1 truy vấn SQL dựa trên các pram truyền vào
+        /// 根据传入参数构建 SQL 查询
         /// </summary>
         /// <param name="fields"></param>
         /// <param name="startIndex"></param>
@@ -590,12 +590,12 @@ namespace GameDBServer.DB
                     continue;
                 }
 
-                if (fieldTypes[i] == 0) //Kiểu số
+                if (fieldTypes[i] == 0) // 数值类型
                 {
                     sb.AppendFormat("{0}={1}", fieldNames[i], fields[startIndex + i]).Append(',');
                     //sql += string.Format("{0}={1}", fieldNames[i], fields[startIndex + i]);
                 }
-                else if (fieldTypes[i] == 1)//Kiểu chuỗi
+                else if (fieldTypes[i] == 1)// 字符串类型
                 {
                     if (fieldNames[i] == "otherpramer" && fields[startIndex + i].Length < 10)
                     {
@@ -608,12 +608,12 @@ namespace GameDBServer.DB
 
                     //sql += string.Format("{0}='{1}'", fieldNames[i], fields[startIndex + i]);
                 }
-                else if (fieldTypes[i] == 2)//Kiểu cộng với 1 giá trị
+                else if (fieldTypes[i] == 2)// 在原值基础上增加
                 {
                     sb.AppendFormat("{0}={1}+{2}", fieldNames[i], fieldNames[i], fields[startIndex + i]).Append(',');
                     //sql += string.Format("{0}={1}+{2}", fieldNames[i], fieldNames[i], fields[startIndex + i]);
                 }
-                else if (fieldTypes[i] == 3)// Kiểu thời gian
+                else if (fieldTypes[i] == 3)// 时间类型
                 {
                     sb.AppendFormat("{0}='{1}'", fieldNames[i], fields[startIndex + i].Replace('$', ':')).Append(',');
                     //sql += string.Format("{0}='{1}'", fieldNames[i], fields[startIndex + i].Replace('$', ':'));
@@ -634,7 +634,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật thông tin vật phẩm
+        /// 更新物品信息
         /// </summary>
         public static int UpdateGoods(DBManager dbMgr, int id, string[] fields, int startIndex)
         {
@@ -650,7 +650,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Move 1 vật phẩm sang ô đồ backup
+        /// 将 1 个物品移动到备份栏
         /// </summary>
         public static int DeleteItemInDb(DBManager dbMgr, int id)
         {
@@ -667,7 +667,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Backup lại cái đồ này
+        /// 备份该物品
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="id"></param>
@@ -690,8 +690,8 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Chuyển đồ từ backup sang đồ chính của nhân vật
-        /// Cái này để GM khôi phục vật phẩm cho nhân vạt đã backup
+        /// 将备份物品转回角色主背包
+        /// 供 GM 恢复已备份物品
         /// </summary>
         public static int SwitchGoodsBackupTable(DBManager dbMgr)
         {
@@ -744,7 +744,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật thôn tin nhiệm vụ
+        /// 更新任务信息
         /// </summary>
         public static int UpdateTask(DBManager dbMgr, int dbID, string[] fields, int startIndex)
         {
@@ -756,7 +756,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Đánh dấu đã hoàn thành nhiệm vụ
+        /// 标记任务已完成
         /// </summary>
         public static bool CompleteTask(DBManager dbMgr, int roleID, int npcID, int taskID, int dbID, int TaskClass)
         {
@@ -776,7 +776,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa bỏ nhiệm vụ--> Từ bỏ nhiệm vụ
+        /// 删除任务 --> 放弃任务
         /// </summary>
         public static bool DeleteTask(DBManager dbMgr, int roleID, int taskID, int dbID)
         {
@@ -791,7 +791,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Thêm 1 bạn
+        /// 添加一位好友
         /// </summary>
         public static int AddFriend(DBManager dbMgr, int dbID, int roleID, int otherID, int friendType, int relationship)
         {
@@ -818,7 +818,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa bạn
+        /// 删除好友
         /// </summary>
         public static bool RemoveFriend(DBManager dbMgr, int dbID, int roleID)
         {
@@ -833,7 +833,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Update chế độ PK
+        /// 更新 PK 模式
         /// </summary>
         public static bool UpdatePKMode(DBManager dbMgr, int roleID, int pkMode)
         {
@@ -848,7 +848,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật giá trị PK của nhân vật
+        /// 更新角色 PK 值
         /// </summary>
         public static bool UpdatePKValues(DBManager dbMgr, int roleID, int pkValue, int pkPoint)
         {
@@ -863,7 +863,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Lưu giá trị mật khẩu cấp 2 của nhân vật vào DB
+        /// 将角色二级密码保存到 DB
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -880,7 +880,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Lưu giá trị QuickKey của nhân vật vào DB
+        /// 将角色快捷键保存到 DB
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -909,8 +909,8 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật thiết lập của trò chơi
-        /// Thường thì được set từ lệnh GM từ GS
+        /// 更新游戏配置
+        /// 通常由 GS 的 GM 指令设置
         /// </summary>
         public static int UpdateGameConfig(DBManager dbMgr, string paramName, string paramValue)
         {
@@ -925,7 +925,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Lưu kỹ năng vào DB
+        /// 将技能保存到 DB
         /// </summary>
         public static int AddSkill(DBManager dbMgr, int roleID, int skillID)
         {
@@ -951,7 +951,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa kỹ năng khỏi DB
+        /// 从 DB 删除技能
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="roleID"></param>
@@ -974,7 +974,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Làm mới thông tin kỹ năng trong DB
+        /// 刷新 DB 中的技能信息
         /// </summary>
         /// <param name="roleID"></param>
         /// <param name="skillID"></param>
@@ -993,7 +993,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật danh sách buff của nhân vật
+        /// 更新角色 Buff 列表
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1011,7 +1011,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa buff của nhân vật
+        /// 删除角色 Buff
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="roleID"></param>
@@ -1030,7 +1030,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật nhiệm vụ chính của nhân vật
+        /// 更新角色主线任务
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1047,11 +1047,11 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Ghi lại thông tin tích lũy của nhân vật
+        /// 记录角色累计信息
         /// </summary>
         public static int CreateWelfare(DBManager dbMgr, RoleWelfare CmdData)
         {
-            // Lấy ra ngày của năm
+            // 获取一年中的天数
 
             using (MySqlUnity conn = new MySqlUnity())
             {
@@ -1063,7 +1063,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật thông tin tích lũy của nhân vật
+        /// 更新角色累计信息
         /// </summary>
         public static int UpdateWelfare(DBManager dbMgr, RoleWelfare CmdData)
         {
@@ -1087,7 +1087,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Update xếp hạng cho người chơi
+        /// 更新玩家排行榜
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="roleID"></param>
@@ -1115,10 +1115,10 @@ namespace GameDBServer.DB
             return ret;
         }
 
-        #region Xử lý liên quan tới thư
+        #region 处理邮件相关逻辑
 
         /// <summary>
-        /// Cập nhật thư đã đọc
+        /// 更新邮件已读状态
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1132,7 +1132,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật trạng thái có thể nhận quà hay không
+        /// 更新是否可领取附件状态
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1142,7 +1142,7 @@ namespace GameDBServer.DB
             using (MySqlUnity conn = new MySqlUnity())
             {
                 string cmdText;
-                /// Nếu là khóa thao tác nhận
+                /// 若为领取锁定操作
                 if (hasFetchAttachment == 0)
                 {
                     cmdText = string.Format("UPDATE t_mail SET hasfetchattachment={0}, bound_money={1}, bound_token={2} where mailid={3} and receiverrid={4}", hasFetchAttachment, 0, 0, mailID, rid);
@@ -1158,7 +1158,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa thư không có vật phẩm
+        /// 删除无附件邮件
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1175,7 +1175,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa vật phẩm trong thư
+        /// 删除邮件中的物品
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1189,7 +1189,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Tạo thư mới
+        /// 创建新邮件
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1226,7 +1226,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Thêm vật phẩm vào trong thư
+        /// 向邮件添加物品
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1245,7 +1245,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật số lần scan cuối cùng
+        /// 更新最后扫描邮件 ID
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1260,7 +1260,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa toàn bộ thư quá hạn
+        /// 删除全部过期邮件
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1277,7 +1277,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa lần cuối cập nhật Thư
+        /// 清除上次邮件更新记录
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1306,7 +1306,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Xóa thư trong tmp
+        /// 从临时表删除邮件
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1320,7 +1320,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Cập nhật lần meial cuối cùng
+        /// 更新最后邮件 ID
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1339,7 +1339,7 @@ namespace GameDBServer.DB
         #endregion
 
         /// <summary>
-        /// Thêm vào đánh dấu vật phẩm đã mua được bao nhiêu lần theo ngày
+        /// 记录物品按天购买次数
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1356,7 +1356,7 @@ namespace GameDBServer.DB
             return ret;
         }
 
-        #region Tăng giới hạn ID từ DB
+        #region 从 DB 提升 ID 上限
 
         public static int ChangeTablesAutoIncrementValue(DBManager dbMgr, string sTableName, int nAutoIncrementValue)
         {
@@ -1371,7 +1371,7 @@ namespace GameDBServer.DB
         #endregion
 
         /// <summary>
-        /// Update role prams của nhân vật
+        /// 更新角色参数
         /// </summary>
         /// <param name="sex"></param>
         /// <param name="roleName"></param>
@@ -1411,7 +1411,7 @@ namespace GameDBServer.DB
             bool ret = false;
             using (MySqlUnity conn = new MySqlUnity())
             {
-                // Xoas logs đi này
+                // 把日志清掉
                 string DelteFirst = "Delete from t_taskslog where rid = " + roleID;
                 string DelteSecon = "Delete from t_tasks where rid = " + roleID;
                 conn.ExecuteNonQuery(DelteFirst);
@@ -1431,11 +1431,11 @@ namespace GameDBServer.DB
             return ret;
         }
 
-        #region Ghi lại lịch sử giao dịch
+        #region 记录交易历史
 
         /// <summary>
-        /// Ghi lại lịch sử giao dịch
-        /// Khả năng cũng không cần vì logs server đã đảm nhận viện này rồi
+        /// 记录交易历史
+        /// 可能不需要，服务器日志已覆盖该功能
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="rid"></param>
@@ -1463,7 +1463,7 @@ namespace GameDBServer.DB
         #endregion
 
         /// <summary>
-        /// Lưu thông tin môn phái và nhánh của người chơi
+        /// 保存玩家门派与路线信息
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="roleID"></param>
@@ -1483,7 +1483,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Ghi lại đánh sự kiện nào đó theo mark ID
+        /// 按 mark ID 记录某个事件
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="nRoleID"></param>
@@ -1501,7 +1501,7 @@ namespace GameDBServer.DB
                 int Value = conn.GetSingleInt(cmdText);
                 if (Value > 0)
                 {
-                    // Update giá trị của MarkValue
+                    // 更新 MarkValue 的值
                     cmdText = "Update t_mark set MarkValue = " + MarkValue + " where TimeRanger= '" + TimeRager + "' and RoleID= " + nRoleID + " and MarkType = " + MarkType + "";
                 }
                 else
@@ -1516,7 +1516,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Ghi vào recore
+        /// 写入记录
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="nRoleID"></param>
@@ -1538,7 +1538,7 @@ namespace GameDBServer.DB
             return bRet;
         }
 
-        #region Lưu lại tích tiêu
+        #region 记录消费累计
 
         public static int SaveConsumeLog(DBManager dbMgr, int roleid, string cdate, int ctype, int amount)
         {
@@ -1558,7 +1558,7 @@ namespace GameDBServer.DB
         #region
 
         /// <summary>
-        /// Đọc giá trị INT trong bản ghi
+        /// 读取记录中的 INT 值
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <param name="sqlText"></param>
@@ -1613,7 +1613,7 @@ namespace GameDBServer.DB
         }
 
         /// <summary>
-        /// Thực hiện validate lại dữ liệu trong database
+        /// 执行数据库数据校验
         /// </summary>
         /// <param name="dbMgr"></param>
         /// <returns></returns>
@@ -1627,7 +1627,7 @@ namespace GameDBServer.DB
             {
                 conn = dbMgr.DBConns.PopDBConnection();
 
-                #region Tự động tăng
+                #region 自动增长
 
                 int flag_t_roles_auto_increment = GameDBManager.GameConfigMgr.GetGameConfigItemInt("flag_t_roles_auto_increment", 0);
 
@@ -1706,7 +1706,7 @@ namespace GameDBServer.DB
         #region Clear Name Check
 
         /// <summary>
-        /// Clear danh sách name check
+        /// 清空 name check 列表
         /// </summary>
         /// <param name="data"></param>
         /// <returns></returns>
@@ -1727,7 +1727,7 @@ namespace GameDBServer.DB
         #region
 
         /// <summary>
-        /// Ghi lại lịch sử login vào liên máy chủ
+        /// 记录跨服登录历史
         /// </summary>
         /// <param name="data"></param>
         /// <returns></returns>
@@ -1748,7 +1748,7 @@ namespace GameDBServer.DB
 
         #endregion
 
-        #region Sửa lại thư của người chơi
+        #region 修复玩家邮件
 
         public static int ModifyGMailRecord(DBManager dbMgr, int roleID, int gmailID, int mailID)
         {

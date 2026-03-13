@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- hướng dẫn
-OtherRequiration: yêu cầu thêm
-OtherRewards: phần thưởng thêm
-Description: mô tả sự kiện
-TypeDesc: loại hình
+<!-- huong dan
+OtherRequiration: yeu cau them
+OtherRewards: phan thuong them
+Description: mo ta su kien
+TypeDesc: loai hinh
 -->
 <ActivityList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Activity ID="1" DayOfWeek="3;5;7" ActivityName="Tống_Kim" MapCode="-2" NPCID="55" LevelJoin="60" OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Chiến trường Tống – Kim là nơi mà tất cả nhân sĩ võ lâm có thể thoải mái PK, so tài cao thấp cùng nhau mà không sợ mất đi trang bị, điểm kinh nghiệm. Bởi vậy mỗi khi sự kiện chiến trường Tống – Kim diễn ra trong server đều thu hút rất đông các game thủ Võ Kiếm tìm đến để khẳng định đẳng cấp, bản lĩnh PK của mình." TypeDesc="Phe" State="CANJOIN" MsgTips="Đến chiêu mộ sứ tống, kim ở các thành thị để báo danh">
+  <Activity ID="1" DayOfWeek="3;5;7" ActivityName="Tong_Kim" MapCode="-2" NPCID="55" LevelJoin="60" OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Chien truong Tong – Kim la noi ma tat ca nhan si vo lam co the thoai mai PK, so tai cao thap cung nhau ma khong so mat di trang bi, diem kinh nghiem. Boi vay moi khi su kien chien truong Tong – Kim dien ra trong server deu thu hut rat dong cac game thu Vo Kiem tim den de khang dinh dang cap, ban linh PK cua minh." TypeDesc="Phe" State="CANJOIN" MsgTips="Den chieu mo su tong, kim o cac thanh thi de bao danh">
     <ItemReward>379</ItemReward>
     <ItemReward>380</ItemReward>
     <ItemReward>381</ItemReward>
@@ -18,7 +18,7 @@ TypeDesc: loại hình
     <Time Hours="17" Minute="0" />
     <Time Hours="22" Minute="0" />
   </Activity>
-  <Activity ID="2" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Bạch Hổ Đường" MapCode="-2" NPCID="20028" LevelJoin="80"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Bạch Hổ Đường là một trong những tính năng mới lạ trong Võ Kiếm. Khi tham gia vào tính năng này nhân sĩ sẽ được thể hiện tài chiến đấu cùng bang hội của mình. Ngoài ra phần thưởng sau khi tham gia tính năng này cũng rất hấp dẫn." TypeDesc="Bang Hội" State="CANJOIN" MsgTips="Đến Sứ Giả Bạch Hổ Đường ở các thành thị để báo danh">
+  <Activity ID="2" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Bach Ho Duong" MapCode="-2" NPCID="20028" LevelJoin="80"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Bach Ho Duong la mot trong nhung tinh nang moi la trong Vo Kiem. Khi tham gia vao tinh nang nay nhan si se duoc the hien tai chien dau cung bang hoi cua minh. Ngoai ra phan thuong sau khi tham gia tinh nang nay cung rat hap dan." TypeDesc="Bang Hoi" State="CANJOIN" MsgTips="Den Su Gia Bach Ho Duong o cac thanh thi de bao danh">
 	<ItemReward>376</ItemReward>
     <ItemReward>377</ItemReward>
     <ItemReward>378</ItemReward>
@@ -29,7 +29,7 @@ TypeDesc: loại hình
     <Time Hours="15" Minute="0" />
     <Time Hours="20" Minute="0" />
   </Activity>
-  <Activity ID="3" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Vận Tiêu Hoàng Kim" MapCode="-2" NPCID="3100" LevelJoin="80"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Long Môn Tiêu Cục nổi danh võ kiếm, đã từng áp tiêu thành công cho rất nhiều bảo vật giá trị liên thành nên rất được nhân sĩ giang hồ kính trọng. Tuy nhiên, nghe nói gần đây việc làm ăn của tiêu cục ngày càng phát triển nhưng nhân lực lại chưa thể đáp ứng, vì thế để đảm bảo an toàn cho các chuyến tiêu, ông chủ Lục Tam Cân quyết định tuyển mộ các hiệp khách chung tay bảo vệ tiêu xa." TypeDesc="Cá Nhân" State="CANJOIN" MsgTips="Đến Ông Chủ Tiêu Cục ở các thành thị để nhận nhiệm vụ">
+  <Activity ID="3" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Van Tieu Hoang Kim" MapCode="-2" NPCID="3100" LevelJoin="80"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Long Mon Tieu Cuc noi danh vo kiem, da tung ap tieu thanh cong cho rat nhieu bao vat gia tri lien thanh nen rat duoc nhan si giang ho kinh trong. Tuy nhien, nghe noi gan day viec lam an cua tieu cuc ngay cang phat trien nhung nhan luc lai chua the dap ung, vi the de dam bao an toan cho cac chuyen tieu, ong chu Luc Tam Can quyet dinh tuyen mo cac hiep khach chung tay bao ve tieu xa." TypeDesc="Ca Nhan" State="CANJOIN" MsgTips="Den Ong Chu Tieu Cuc o cac thanh thi de nhan nhiem vu">
     <ItemReward>8483</ItemReward>
 	<ItemReward>8488</ItemReward>
     <ItemReward>184</ItemReward>
@@ -47,7 +47,7 @@ TypeDesc: loại hình
     <Time Hours="22" Minute="0" />
     <Time Hours="23" Minute="0" />
   </Activity>
-  <Activity ID="4" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Quân Doanh" MapCode="-2" NPCID="2019" LevelJoin="90"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Hiện tại trong quân doanh trên dưới chí vững như thành, đồng lòng góp sức giúp Hàn Đại Nhân chuẩn bị chiến đấu, ngươi có rảnh rỗi thì đi dò thám xem. Hoàn thành Hậu Phục Ngưu Sơn, Bách Man Sơn, Hải Lăng Vương Mộ mỗi phó bản 1 lần khảo sát tình hình nghĩa quân tướng sĩ." TypeDesc="Tổ Đội" State="CANJOIN" MsgTips="Đến Thống Lĩnh thành thị để nhận nhiệm vụ">
+  <Activity ID="4" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Quan Doanh" MapCode="-2" NPCID="2019" LevelJoin="90"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Hien tai trong quan doanh tren duoi chi vung nhu thanh, dong long gop suc giup Han Dai Nhan chuan bi chien dau, nguoi co ranh roi thi di do tham xem. Hoan thanh Hau Phuc Nguu Son, Bach Man Son, Hai Lang Vuong Mo moi pho ban 1 lan khao sat tinh hinh nghia quan tuong si." TypeDesc="To Doi" State="CANJOIN" MsgTips="Den Thong Linh thanh thi de nhan nhiem vu">
     <ItemReward>770</ItemReward>
 	<ItemReward>184</ItemReward>
     <ItemReward>185</ItemReward>
@@ -66,7 +66,7 @@ TypeDesc: loại hình
     <Time Hours="22" Minute="0" />
     <Time Hours="23" Minute="0" />
   </Activity>
-  <Activity ID="5" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Thủy Hoàng Địa Cung" MapCode="-2" NPCID="20026" LevelJoin="120"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Tương truyền,Thủy Hoàng Địa Cung là nơi chôn cất vô số báu vật cùng binh khí có một không hai trên giang hồ. Không ít kẻ vì tham bảo vật đã phải vĩnh viễn trở thành kẻ canh gác lăng mộ vì ám khí muôn trùng và vô số cạm bẫy nguy hiểm mà Tần Thủy Hoàng đã sắp đặt từ khi ông ta còn sống." TypeDesc="Tự Do" State="CANJOIN" MsgTips="Đến Sứ Giả ở các thành thị để nhận nhiệm vụ">
+  <Activity ID="5" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Thuy Hoang Dia Cung" MapCode="-2" NPCID="20026" LevelJoin="120"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Tuong truyen,Thuy Hoang Dia Cung la noi chon cat vo so bau vat cung binh khi co mot khong hai tren giang ho. Khong it ke vi tham bao vat da phai vinh vien tro thanh ke canh gac lang mo vi am khi muon trung va vo so cam bay nguy hiem ma Tan Thuy Hoang da sap dat tu khi ong ta con song." TypeDesc="Tu Do" State="CANJOIN" MsgTips="Den Su Gia o cac thanh thi de nhan nhiem vu">
 	<ItemReward>2445</ItemReward>
     <ItemReward>188</ItemReward>
     <ItemReward>187</ItemReward>
@@ -84,7 +84,7 @@ TypeDesc: loại hình
     <Time Hours="22" Minute="0" />
     <Time Hours="23" Minute="0" />
   </Activity>
-  <Activity ID="6" DayOfWeek="2;4;6" ActivityName="Phong Hỏa Liên Thành" MapCode="-2" NPCID="63" LevelJoin="60"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Công nguyên năm 1160, vua nhà Kim Hải Lăng Vương Hoàn Nhan Lượng xua quân nam hạ, mưu đồ chiếm đoạt Trung Nguyên màu mỡ. Nhận được hung tin, Tống Quân cũng chuẩn bị nghênh địch. Thế giới Võ Lâm lại chuyển mình nổi giận - Một thời kỳ binh đao khói lửa không thể nào tránh khỏi." TypeDesc="Phe" State="CANJOIN" MsgTips="Đến Vệ Binh Thành Môn ở các thành thị để nhận nhiệm vụ">
+  <Activity ID="6" DayOfWeek="2;4;6" ActivityName="Phong Hoa Lien Thanh" MapCode="-2" NPCID="63" LevelJoin="60"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Cong nguyen nam 1160, vua nha Kim Hai Lang Vuong Hoan Nhan Luong xua quan nam ha, muu do chiem doat Trung Nguyen mau mo. Nhan duoc hung tin, Tong Quan cung chuan bi nghenh dich. The gioi Vo Lam lai chuyen minh noi gian - Mot thoi ky binh dao khoi lua khong the nao tranh khoi." TypeDesc="Phe" State="CANJOIN" MsgTips="Den Ve Binh Thanh Mon o cac thanh thi de nhan nhiem vu">
     <ItemReward>8799</ItemReward>
     <ItemReward>8794</ItemReward>
     <ItemReward>8468</ItemReward>
@@ -96,7 +96,7 @@ TypeDesc: loại hình
     <ItemReward>187</ItemReward>
     <Time Hours="20" Minute="50" />
   </Activity>
-  <Activity ID="7" DayOfWeek="2;4;6" ActivityName="Hạt Hoàng Kim" MapCode="64" NPCID="2013" LevelJoin="80"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Hạt Huy Hoàng và Hạt Hoàng Kim – loại bảo dược hiếm có trong tự nhiên, hấp thụ linh khí của đất trời mấy nghìn năm mới vươn lên khỏi lòng đất, đơm hoa kết trái. Phàm là người tu luyện võ công, bất kể theo trường phái nào, khi sử dụng loại quả này đều có thể gia tăng công lực bội phần." TypeDesc="Tự Do" State="CANJOIN" MsgTips="Đến Sứ Giả Hoạt Động ở các thành thị để nhận nhiệm vụ">
+  <Activity ID="7" DayOfWeek="2;4;6" ActivityName="Hat Hoang Kim" MapCode="64" NPCID="2013" LevelJoin="80"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Hat Huy Hoang va Hat Hoang Kim – loai bao duoc hiem co trong tu nhien, hap thu linh khi cua dat troi may nghin nam moi vuon len khoi long dat, dom hoa ket trai. Pham la nguoi tu luyen vo cong, bat ke theo truong phai nao, khi su dung loai qua nay deu co the gia tang cong luc boi phan." TypeDesc="Tu Do" State="CANJOIN" MsgTips="Den Su Gia Hoat Dong o cac thanh thi de nhan nhiem vu">
     <ItemReward>8487</ItemReward>
 	<ItemReward>8488</ItemReward>
     <ItemReward>185</ItemReward>
@@ -104,7 +104,7 @@ TypeDesc: loại hình
     <ItemReward>187</ItemReward>
     <Time Hours="20" Minute="0" />
   </Activity>
-  <Activity ID="8" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Thần Bí Bảo Khố" MapCode="-2" NPCID="20027" LevelJoin="80"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Thần Bí Bảo Khố - Mật thất tọa lạc nơi Trường Ca Môn, nơi học phủ ngàn năm lịch sử, cất giữ biết bao bí mật kinh thiên mà người đời luôn khao khát tìm đến. Do không tâm phục trước triều đình, lại bị nội gián Kim quốc kích động, một nhóm đệ tử ưu tú Trường Ca Môn đã chiếm giữ nơi đây, chờ ngày lật đổ Đại Tống, xây dựng một xã hội lý tưởng." TypeDesc="Bang Hội" State="CANJOIN" MsgTips="Đến Mã Xuyên Sơn ở các thành thị để nhận nhiệm vụ">
+  <Activity ID="8" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Than Bi Bao Kho" MapCode="-2" NPCID="20027" LevelJoin="80"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Than Bi Bao Kho - Mat that toa lac noi Truong Ca Mon, noi hoc phu ngan nam lich su, cat giu biet bao bi mat kinh thien ma nguoi doi luon khao khat tim den. Do khong tam phuc truoc trieu dinh, lai bi noi gian Kim quoc kich dong, mot nhom de tu uu tu Truong Ca Mon da chiem giu noi day, cho ngay lat do Dai Tong, xay dung mot xa hoi ly tuong." TypeDesc="Bang Hoi" State="CANJOIN" MsgTips="Den Ma Xuyen Son o cac thanh thi de nhan nhiem vu">
     <ItemReward>431</ItemReward>
     <ItemReward>432</ItemReward>
 	<ItemReward>183</ItemReward>
@@ -135,7 +135,7 @@ TypeDesc: loại hình
     <Time Hours="22" Minute="0" />
     <Time Hours="23" Minute="0" />
   </Activity>
-  <Activity ID="9" DayOfWeek="3" ActivityName="Thi Đấu Môn Phái" MapCode="-1" NPCID="-1" LevelJoin="60"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Thi đấu môn phái là hoạt động đặc sắc chỉ có riêng tại Võ Kiếm. Đây là nơi cao thủ các phái tranh tài với đồng môn để giành lấy danh hiệu Tân Nhân Vương môn phái, được Chưởng môn trao quyền Đại sư huynh - Đại sư tỷ uy danh khắp thiên hạ." TypeDesc="Tự Do" State="CANJOIN" MsgTips="Đến chưởng môn để tham gia báo danh">
+  <Activity ID="9" DayOfWeek="3" ActivityName="Thi Dau Mon Phai" MapCode="-1" NPCID="-1" LevelJoin="60"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Thi dau mon phai la hoat dong dac sac chi co rieng tai Vo Kiem. Day la noi cao thu cac phai tranh tai voi dong mon de gianh lay danh hieu Tan Nhan Vuong mon phai, duoc Chuong mon trao quyen Dai su huynh - Dai su ty uy danh khap thien ha." TypeDesc="Tu Do" State="CANJOIN" MsgTips="Den chuong mon de tham gia bao danh">
     <ItemReward>335</ItemReward>
 	<ItemReward>338</ItemReward>
     <ItemReward>339</ItemReward>
@@ -146,7 +146,7 @@ TypeDesc: loại hình
     <Time Hours="20" Minute="0" />
   </Activity>
   
-  <Activity ID="10" DayOfWeek="8" ActivityName="Công Thành Chiến" MapCode="-2" NPCID="-1" LevelJoin="60"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Công Thành Chiến là chiến trường phân định thắng thua giữa các đại hùng bang trong thiên hạ nhằm chiếm lấy quyền thống trị và áp đặt thuế suất lên thất đại thành thị vì quyền lợi của bang hội." TypeDesc="Bang Hội" State="CANJOIN" MsgTips="Đến NPC Tiếp Đầu Công Thành Chiến để tham gia báo danh">
+  <Activity ID="10" DayOfWeek="8" ActivityName="Cong Thanh Chien" MapCode="-2" NPCID="-1" LevelJoin="60"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Cong Thanh Chien la chien truong phan dinh thang thua giua cac dai hung bang trong thien ha nham chiem lay quyen thong tri va ap dat thue suat len that dai thanh thi vi quyen loi cua bang hoi." TypeDesc="Bang Hoi" State="CANJOIN" MsgTips="Den NPC Tiep Dau Cong Thanh Chien de tham gia bao danh">
     <ItemReward>10798</ItemReward>
 	<ItemReward>8487</ItemReward>
 	<ItemReward>185</ItemReward>
@@ -154,7 +154,7 @@ TypeDesc: loại hình
 	<ItemReward>20800</ItemReward>
     <Time Hours="20" Minute="00" />
   </Activity>
-  <Activity ID="11" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Tống Kim Liên Server" MapCode="76" NPCID="-1" LevelJoin="120"  OtherRequiration="" OtherRewards="Kinh Nghiệm" Description="Chiến trường Tống – Kim liên máy chủ là nơi mà tất cả nhân sĩ võ lâm có thể thoải mái PK, so tài cao thấp cùng nhau mà không sợ mất đi trang bị, điểm kinh nghiệm. Bởi vậy mỗi khi sự kiện chiến trường Tống – Kim diễn ra trong server đều thu hút rất đông các game thủ Võ Kiếm tìm đến để khẳng định đẳng cấp, bản lĩnh PK của mình." TypeDesc="Phe" State="CANJOIN" MsgTips="Đến chiêu mộ sứ tống, kim ở Hoàng Thành để báo danh">
+  <Activity ID="11" DayOfWeek="2;3;4;5;6;7;8" ActivityName="Tong Kim Lien Server" MapCode="76" NPCID="-1" LevelJoin="120"  OtherRequiration="" OtherRewards="Kinh Nghiem" Description="Chien truong Tong – Kim lien may chu la noi ma tat ca nhan si vo lam co the thoai mai PK, so tai cao thap cung nhau ma khong so mat di trang bi, diem kinh nghiem. Boi vay moi khi su kien chien truong Tong – Kim dien ra trong server deu thu hut rat dong cac game thu Vo Kiem tim den de khang dinh dang cap, ban linh PK cua minh." TypeDesc="Phe" State="CANJOIN" MsgTips="Den chieu mo su tong, kim o Hoang Thanh de bao danh">
     <ItemReward>381</ItemReward>
 	<ItemReward>380</ItemReward>
 	<ItemReward>379</ItemReward>

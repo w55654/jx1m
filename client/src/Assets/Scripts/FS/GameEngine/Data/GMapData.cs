@@ -1,4 +1,4 @@
-﻿//#define USE_AS3_COMPAITABLE_ASTAR
+﻿﻿//#define USE_AS3_COMPAITABLE_ASTAR
 
 using System;
 using System.Net;
@@ -12,20 +12,20 @@ using FS.VLTK.Entities.Config;
 namespace FS.GameEngine.Data
 {
     /// <summary>
-    /// Dữ liệu bản đồ
+    /// 地图数据
     /// </summary>
     public class GMapData : IDisposable
     {
         /// <summary>
-        /// Dữ liệu bản đồ
+        /// 地图数据
         /// </summary>
         public GMapData()
         {
         }
 
-        #region Các thành phần của bản đồ
+        #region 地图的组成部分
         /// <summary>
-        /// Kích thước bản đồ hiện tại (theo hình vuông, không phải kích thước thật)
+        /// 当前地图大小（以正方形为单位，不是实际大小）
         /// </summary>
         public Vector2 MapSize
         {
@@ -36,139 +36,139 @@ namespace FS.GameEngine.Data
         }
 
         /// <summary>
-        /// Kích thước thật của map
+        /// 地图的实际尺寸
         /// </summary>
         public Vector2 RealMapSize { get; set; }
 
         /// <summary>
-        /// Danh sách NPC sẽ hiện trên Minimap
+        /// NPC 列表将出现在小地图上
         /// </summary>
         public List<KeyValuePair<string, Point>> MinimapNPCList { get; set; }
 
         /// <summary>
-        /// Danh sách quái sẽ hiện trên Minimap
+        /// 怪物列表将出现在小地图上
         /// </summary>
         public List<KeyValuePair<string, Point>> MinimapMonsterList { get; set; }
 
         /// <summary>
-        /// Danh sách điểm thu thập sẽ hiện trên Minimap
+        /// 收集点列表将出现在小地图上
         /// </summary>
         public List<KeyValuePair<string, Point>> MinimapGrowPointList { get; set; }
 
         /// <summary>
-        /// Danh sách các điểm truyền tống
+        /// 传输点列表
         /// </summary>
         public List<KeyValuePair<string, Point>> Teleport { get; set; }
 
         /// <summary>
-        /// Danh sách NPC hiện trên bản đồ nhỏ theo tên
+        /// NPC 列表按名称显示在小地图上
         /// </summary>
         public List<KeyValuePair<string, Point>> NpcList { get; set; }
 
         /// <summary>
-        /// Danh sách NPC hiện trên bản đồ nhỏ theo ID
+        /// NPC 列表按 ID 显示在小地图上
         /// </summary>
         public Dictionary<int, List<Point>> NpcListByID { get; set; }
 
         /// <summary>
-        /// Danh sách Monster hiện trên bản đồ nhỏ
+        /// 小地图上出现怪物列表
         /// </summary>
         public List<KeyValuePair<string, Point>> MonsterList { get; set; }
 
         /// <summary>
-        /// Danh sách quái hiện trên bản đồ nhỏ theo ID
+        /// 怪物列表按 ID 显示在小地图上
         /// </summary>
         public Dictionary<int, List<Point>> MonsterListByID { get; set; }
 
         /// <summary>
-        /// Danh sách điểm thu thập hiện trên bản đồ nhỏ
+        /// 小地图上会显示收集点列表
         /// </summary>
         public List<KeyValuePair<string, Point>> GrowPointList { get; set; }
 
         /// <summary>
-        /// Danh sách điểm thu thập hiện trên bản đồ nhỏ theo ID
+        /// 收集点列表按 ID 显示在小地图上
         /// </summary>
         public Dictionary<int, List<Point>> GrowPointListByID { get; set; }
 
         /// <summary>
-        /// Danh sách các vùng hiện trên bản đồ nhỏ
+        /// 区域列表出现在小地图上
         /// </summary>
         public List<KeyValuePair<string, Point>> Zone { get; set; }
 
         /// <summary>
-        /// Thiết lập bản đồ
+        /// 设置地图
         /// </summary>
         public MapSetting Setting { get; set; }
 
         /// <summary>
-        /// Chiều rộng bản đồ
+        /// 地图宽度
         /// </summary>
         public int MapWidth { get; set; }
 
         /// <summary>
-        /// Chiều cao bản đồ
+        /// 地图高度
         /// </summary>
         public int MapHeight { get; set; }
 
         /// <summary>
-        /// Kích thước lưới X (POT)
+        /// 网孔尺寸X（POT）
         /// </summary>
         public int GridSizeX { get; set; } = 10;
 
         /// <summary>
-        /// Kích thước lưới Y (POT)
+        /// Y网格尺寸（POT）
         /// </summary>
         public int GridSizeY { get; set; } = 10;
 
         /// <summary>
-        /// Tổng số ô lưới theo chiều ngang
+        /// 水平网格单元总数
         /// </summary>
         public int GridSizeXNum { get; set; } = 0;
 
         /// <summary>
-        /// Tổng số ô lưới theo chiều dọc
+        /// 垂直网格单元总数
         /// </summary>
         public int GridSizeYNum { get; set; } = 0;
 
         /// <summary>
-        /// Kích thước lưới X gốc
+        /// 原始X网格尺寸
         /// </summary>
         public int OriginGridSizeXNum { get; set; }
 
         /// <summary>
-        /// Kích thước lưới Y gốc
+        /// 原始Y网格尺寸
         /// </summary>
         public int OriginGridSizeYNum { get; set; }
 
         /// <summary>
-        /// Vùng Block không đi được
+        /// 无法访问块区域
         /// </summary>
         public byte[,] Obstructions { get; set; }
 
         /// <summary>
-        /// Vùng làm mờ
+        /// 模糊区域
         /// </summary>
         public byte[,] BlurPositions { get; set; }
 
         /// <summary>
-        /// Vùng Block động được đóng mở tù ý
+        /// 动态块区域可任意打开和关闭
         /// </summary>
         public byte[,] DynamicObstructions { get; set; }
 
         /// <summary>
-        /// Khu vực an toàn
+        /// 安全区
         /// </summary>
         public byte[,] SafeAreas { get; set; }
 
         /// <summary>
-        /// Danh sách các nhãn Obs động được mở
+        /// 动态 Obs 标签列表已打开
         /// </summary>
         public HashSet<byte> OpenedDynamicObsLabels { get; } = new HashSet<byte>();
 
         #endregion
 
         /// <summary>
-        /// Hủy đối tượng
+        /// 摧毁物体
         /// </summary>
         public void Dispose()
         {

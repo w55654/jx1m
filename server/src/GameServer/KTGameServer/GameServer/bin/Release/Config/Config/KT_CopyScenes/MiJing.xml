@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	BÍ CẢNH
-	Duration: Thời gian duy trì (mili-giây)
-	RequireLevel: Cấp độ yêu cầu
-	LimitRoundPerDay: Số lượt vào tối đa trong ngày
-	MapInfo: Thông tin bản đồ
-		- ID: ID bản đồ
-		- EnterPosX: Vị trí tiến vào X
-		- EnterPosY: Vị trí tiến vào Y
-	MapItem: Thông tin vật phẩm Bản Đồ Bí Cảnh
-		- ID: ID vật phẩm
-	DoubleExpBuff: Thông tin Buff x2 kinh nghiệm bí cảnh
+	BI CANH
+	Duration: Thoi gian duy tri (mili-giay)
+	RequireLevel: Cap do yeu cau
+	LimitRoundPerDay: So luot vao toi da trong ngay
+	MapInfo: Thong tin ban do
+		- ID: ID ban do
+		- EnterPosX: Vi tri tien vao X
+		- EnterPosY: Vi tri tien vao Y
+	MapItem: Thong tin vat pham Ban Do Bi Canh
+		- ID: ID vat pham
+	DoubleExpBuff: Thong tin Buff x2 kinh nghiem bi canh
 		- ID: ID Buff
-	Monster: Thông tin quái
-		- ID: ID quái
-		- Name: Tên quái, bỏ trống sẽ lấy thông tin ở File cấu hình
-		- Title: Danh hiệu quái, bỏ trống sẽ lấy thông tin ở File cấu hình
-		- PosX: Vị trí X
-		- PosY: Vị trí Y
-		- BaseHP: Sinh lực cơ bản
-		- HPIncreaseEachLevel: Sinh lực tăng thêm với mỗi cấp
-		- AIType: Loại AI (0: Quái thường, 1: Quái tinh anh, 2: Quái thủ lĩnh, 3: Boss, 4: Hải tặc)
-		- AIScriptID: IDScriptAI điều khiển
-			- Nếu có sử dụng các Skill đánh thì AIScriptID để bằng 100001, sẽ không sử dụng kỹ năng đánh thường của quái như ngoài Map mà thay vào bằng kỹ năng trong danh sách thiết lập (buộc phải thiết lập kỹ năng đánh, nếu không sẽ lỗi)
-		- SpawnAfter: Xuất hiện sau khoảng thời gian (-1 nếu ngay lập tức)
+	Monster: Thong tin quai
+		- ID: ID quai
+		- Name: Ten quai, bo trong se lay thong tin o File cau hinh
+		- Title: Danh hieu quai, bo trong se lay thong tin o File cau hinh
+		- PosX: Vi tri X
+		- PosY: Vi tri Y
+		- BaseHP: Sinh luc co ban
+		- HPIncreaseEachLevel: Sinh luc tang them voi moi cap
+		- AIType: Loai AI (0: Quai thuong, 1: Quai tinh anh, 2: Quai thu linh, 3: Boss, 4: Hai tac)
+		- AIScriptID: IDScriptAI dieu khien
+			- Neu co su dung cac Skill danh thi AIScriptID de bang 100001, se khong su dung ky nang danh thuong cua quai nhu ngoai Map ma thay vao bang ky nang trong danh sach thiet lap (buoc phai thiet lap ky nang danh, neu khong se loi)
+		- SpawnAfter: Xuat hien sau khoang thoi gian (-1 neu ngay lap tuc)
 -->
 
 <MiJing EventID="12" Duration="7200000" RequireLevel="80" LimitRoundPerDay="1">
-	<!-- Thông tin bản đồ -->
+	<!-- Thong tin ban do -->
 	<MapInfo ID="343" EnterPosX="1225" EnterPosY="1239" />
-	<!-- Vật phẩm Bản Đồ Bí Cảnh -->
+	<!-- Vat pham Ban Do Bi Canh -->
 	<MapItem ID="590" />
-	<!-- Buff tăng kinh nghiệm gấp đôi -->
+	<!-- Buff tang kinh nghiem gap doi -->
 	<DoubleExpBuff ID="1997" />
-	<!-- Danh sách quái -->
+	<!-- Danh sach quai -->
 	<Monsters>
 		<Monster ID="2038" Name="" Title="" PosX="935" PosY="1432" BaseHP="1675" HPIncreaseEachLevel="132" AIType="0" AIScriptID="100000" RespawnTicks="10000" /> 
 		<Monster ID="2038" Name="" Title="" PosX="739" PosY="1312" BaseHP="1675" HPIncreaseEachLevel="132" AIType="0" AIScriptID="100000" RespawnTicks="11000" /> 
@@ -70,7 +70,7 @@
 		<Monster ID="2038" Name="" Title="" PosX="1250" PosY="1397" BaseHP="1675" HPIncreaseEachLevel="132" AIType="0" AIScriptID="100000" RespawnTicks="10000" /> 
 		<Monster ID="2038" Name="" Title="" PosX="1038" PosY="1402" BaseHP="1675" HPIncreaseEachLevel="132" AIType="0" AIScriptID="100000" RespawnTicks="13000" /> 
 		
-		<!-- Tinh Anh - Thủ Lĩnh -->			
+		<!-- Tinh Anh - Thu Linh -->			
 		<Monster ID="21048" Name="" Title="" PosX="726" PosY="1065" BaseHP="134000" HPIncreaseEachLevel="10520" AIType="1" AIScriptID="100000"  RespawnTicks="30000" /> 
 		<Monster ID="21049" Name="" Title="" PosX="937" PosY="719" BaseHP="251250" HPIncreaseEachLevel="19725" AIType="2" AIScriptID="100000"  RespawnTicks="36000" />
 	</Monsters>

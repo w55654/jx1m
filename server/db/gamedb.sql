@@ -22,11 +22,11 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 DROP TABLE IF EXISTS `t_ban`;
 CREATE TABLE `t_ban`  (
-  `role_id` int NOT NULL COMMENT 'ID nhân vật',
-  `start_time` bigint NULL DEFAULT NULL COMMENT 'Thời điểm bắt đầu Ban',
-  `duration` bigint NULL DEFAULT NULL COMMENT 'Duy trì',
-  `ban_type` tinyint NULL DEFAULT NULL COMMENT 'Loại Ban',
-  `banned_by` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Bị Ban bởi ai',
+  `role_id` int NOT NULL COMMENT 'ID nhan vat',
+  `start_time` bigint NULL DEFAULT NULL COMMENT 'Thoi diem bat dau Ban',
+  `duration` bigint NULL DEFAULT NULL COMMENT 'Duy tri',
+  `ban_type` tinyint NULL DEFAULT NULL COMMENT 'Loai Ban',
+  `banned_by` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Bi Ban boi ai',
   PRIMARY KEY (`role_id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci ROW_FORMAT = DYNAMIC;
 
@@ -35,11 +35,11 @@ CREATE TABLE `t_ban`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `t_ban_chat`;
 CREATE TABLE `t_ban_chat`  (
-  `role_id` int NOT NULL COMMENT 'ID người chơi',
-  `start_time` bigint NULL DEFAULT NULL COMMENT 'Thời điểm bị Ban',
-  `duration` bigint NULL DEFAULT NULL COMMENT 'Thời gian Ban',
-  `reason` varchar(1000) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Lý do',
-  `banned_by` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Người Ban',
+  `role_id` int NOT NULL COMMENT 'ID nguoi choi',
+  `start_time` bigint NULL DEFAULT NULL COMMENT 'Thoi diem bi Ban',
+  `duration` bigint NULL DEFAULT NULL COMMENT 'Thoi gian Ban',
+  `reason` varchar(1000) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ly do',
+  `banned_by` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Nguoi Ban',
   PRIMARY KEY (`role_id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci ROW_FORMAT = DYNAMIC;
 
@@ -48,11 +48,11 @@ CREATE TABLE `t_ban_chat`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `t_ban_user`;
 CREATE TABLE `t_ban_user`  (
-  `role_id` int NOT NULL COMMENT 'ID nhân vật',
-  `start_time` bigint NULL DEFAULT NULL COMMENT 'Thời điểm Tick bắt đầu bị Ban',
-  `duration` bigint NULL DEFAULT NULL COMMENT 'Thời gian Ban (-1 là mãi mãi)',
-  `reason` varchar(1000) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Lý do Ban',
-  `banned_by` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Người Ban',
+  `role_id` int NOT NULL COMMENT 'ID nhan vat',
+  `start_time` bigint NULL DEFAULT NULL COMMENT 'Thoi diem Tick bat dau bi Ban',
+  `duration` bigint NULL DEFAULT NULL COMMENT 'Thoi gian Ban (-1 la mai mai)',
+  `reason` varchar(1000) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ly do Ban',
+  `banned_by` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Nguoi Ban',
   PRIMARY KEY (`role_id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci ROW_FORMAT = DYNAMIC;
 
@@ -254,25 +254,25 @@ CREATE TABLE `t_groupmail`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `t_guild`;
 CREATE TABLE `t_guild`  (
-  `GuildID` int NOT NULL AUTO_INCREMENT COMMENT 'GuilID khóa chính liên kết với t_roles để xác định người nào ở bang nào',
-  `GuildName` varchar(32) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Tên bang hội',
-  `MoneyBound` int NULL DEFAULT NULL COMMENT 'Quỹ thưởng bang hội',
-  `MoneyStore` int NULL DEFAULT NULL COMMENT 'Quy bang hội',
-  `ZoneID` int NULL DEFAULT NULL COMMENT 'ZoneID của bang hội',
-  `Notify` varchar(1000) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Thông báo bang',
-  `IsMainCity` int NULL DEFAULT NULL COMMENT 'Có đang là chủ thành hay không',
-  `MaxWithDraw` int NULL DEFAULT NULL COMMENT 'Số lượng % tối đa quỹ bang sẽ đem phát thưởng',
-  `Leader` int NULL DEFAULT NULL COMMENT 'Thằng nào là chủ bang hội',
-  `DateCreate` datetime(0) NULL DEFAULT NULL COMMENT 'Ngày Tạo Bang',
-  `GuildLevel` int NULL DEFAULT NULL COMMENT 'Cấp độ của bang',
-  `GuildExp` int NULL DEFAULT NULL COMMENT 'Kinh nghiệm của cấp độ hiện tại',
-  `AutoAccept` int NULL DEFAULT NULL COMMENT 'Tự động cho phép gia nhập bang',
-  `RuleAccept` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Duyệt người chơi',
-  `ItemStore` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Vật phẩm người chơi cống hiến vào để thăng cấp bang hội',
-  `CurQuestID` int NULL DEFAULT NULL COMMENT 'Nhiệm vụ hiện tại của bang',
-  `SkillNote` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Lưu lại thong tin kỹ năng của bang hội khả năng phải mã hóa j đó lưu lại',
-  `PreDelete` int NULL DEFAULT NULL COMMENT 'Bang này có đang ấn giải tán hay không',
-  `DeleteStartDay` datetime(0) NULL DEFAULT NULL COMMENT 'Ngày bắt đầu xóa là ngày nào',
+  `GuildID` int NOT NULL AUTO_INCREMENT COMMENT 'GuilID khoa chinh lien ket voi t_roles de xac dinh nguoi nao o bang nao',
+  `GuildName` varchar(32) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ten bang hoi',
+  `MoneyBound` int NULL DEFAULT NULL COMMENT 'Quy thuong bang hoi',
+  `MoneyStore` int NULL DEFAULT NULL COMMENT 'Quy bang hoi',
+  `ZoneID` int NULL DEFAULT NULL COMMENT 'ZoneID cua bang hoi',
+  `Notify` varchar(1000) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Thong bao bang',
+  `IsMainCity` int NULL DEFAULT NULL COMMENT 'Co dang la chu thanh hay khong',
+  `MaxWithDraw` int NULL DEFAULT NULL COMMENT 'So luong % toi da quy bang se dem phat thuong',
+  `Leader` int NULL DEFAULT NULL COMMENT 'Thang nao la chu bang hoi',
+  `DateCreate` datetime(0) NULL DEFAULT NULL COMMENT 'Ngay Tao Bang',
+  `GuildLevel` int NULL DEFAULT NULL COMMENT 'Cap do cua bang',
+  `GuildExp` int NULL DEFAULT NULL COMMENT 'Kinh nghiem cua cap do hien tai',
+  `AutoAccept` int NULL DEFAULT NULL COMMENT 'Tu dong cho phep gia nhap bang',
+  `RuleAccept` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Duyet nguoi choi',
+  `ItemStore` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Vat pham nguoi choi cong hien vao de thang cap bang hoi',
+  `CurQuestID` int NULL DEFAULT NULL COMMENT 'Nhiem vu hien tai cua bang',
+  `SkillNote` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Luu lai thong tin ky nang cua bang hoi kha nang phai ma hoa j do luu lai',
+  `PreDelete` int NULL DEFAULT NULL COMMENT 'Bang nay co dang an giai tan hay khong',
+  `DeleteStartDay` datetime(0) NULL DEFAULT NULL COMMENT 'Ngay bat dau xoa la ngay nao',
   `Total_Copy_Scenes_This_Week` tinyint NULL DEFAULT 0 COMMENT 'So luot di phu ban',
   PRIMARY KEY (`GuildID`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 200002 CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci ROW_FORMAT = DYNAMIC;
@@ -282,10 +282,10 @@ CREATE TABLE `t_guild`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `t_guild_point`;
 CREATE TABLE `t_guild_point`  (
-  `RoleID` int NOT NULL COMMENT 'RoleID là khóa chính',
-  `WeekID` int NULL DEFAULT NULL COMMENT 'ID của tuần ',
-  `WeekPoint` int NULL DEFAULT NULL COMMENT 'Điểm cống hiến tuần',
-  `GuildID` int NULL DEFAULT NULL COMMENT 'Của bang nào',
+  `RoleID` int NOT NULL COMMENT 'RoleID la khoa chinh',
+  `WeekID` int NULL DEFAULT NULL COMMENT 'ID cua tuan ',
+  `WeekPoint` int NULL DEFAULT NULL COMMENT 'Diem cong hien tuan',
+  `GuildID` int NULL DEFAULT NULL COMMENT 'Cua bang nao',
   PRIMARY KEY (`RoleID`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci ROW_FORMAT = DYNAMIC;
 
@@ -294,13 +294,13 @@ CREATE TABLE `t_guild_point`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `t_guild_request_join`;
 CREATE TABLE `t_guild_request_join`  (
-  `ID` int NOT NULL AUTO_INCREMENT COMMENT 'Khóa chính',
+  `ID` int NOT NULL AUTO_INCREMENT COMMENT 'Khoa chinh',
   `RoleID` int NULL DEFAULT NULL,
   `RoleName` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL,
-  `RoleFactionID` int NULL DEFAULT NULL COMMENT 'ID phái của thằng xin vào',
-  `RoleValue` bigint NULL DEFAULT NULL COMMENT 'Tài phú của thằng xin vào',
-  `TimeRequest` datetime(0) NULL DEFAULT NULL COMMENT 'Thời gian nó xin vào',
-  `GuildID` int NULL DEFAULT NULL COMMENT 'ID bang nos xin và',
+  `RoleFactionID` int NULL DEFAULT NULL COMMENT 'ID phai cua thang xin vao',
+  `RoleValue` bigint NULL DEFAULT NULL COMMENT 'Tai phu cua thang xin vao',
+  `TimeRequest` datetime(0) NULL DEFAULT NULL COMMENT 'Thoi gian no xin vao',
+  `GuildID` int NULL DEFAULT NULL COMMENT 'ID bang nos xin va',
   `RoleLevel` int NULL DEFAULT NULL,
   PRIMARY KEY (`ID`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 930 CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci ROW_FORMAT = DYNAMIC;
@@ -311,10 +311,10 @@ CREATE TABLE `t_guild_request_join`  (
 DROP TABLE IF EXISTS `t_guild_task`;
 CREATE TABLE `t_guild_task`  (
   `GuildID` int NOT NULL,
-  `TaskID` int NULL DEFAULT NULL COMMENT 'ID nhiệm vụ của bang này',
+  `TaskID` int NULL DEFAULT NULL COMMENT 'ID nhiem vu cua bang nay',
   `TaskValue` int NULL DEFAULT NULL,
   `DayCreate` int NULL DEFAULT NULL,
-  `TaskCountInDay` int NULL DEFAULT NULL COMMENT 'Nhiệm Vụ thứ mấy trong ngày',
+  `TaskCountInDay` int NULL DEFAULT NULL COMMENT 'Nhiem Vu thu may trong ngay',
   PRIMARY KEY (`GuildID`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = DYNAMIC;
 
@@ -518,10 +518,10 @@ CREATE TABLE `t_ranking`  (
   `volam` int NULL DEFAULT NULL,
   `liendau` int NULL DEFAULT NULL,
   `uydanh` int NULL DEFAULT NULL,
-  `RankingEventType0Value` int NULL DEFAULT -1 COMMENT 'Sự kiện đua top 0 lưu lại',
-  `RankingEventType0Status` int NULL DEFAULT -1 COMMENT 'Sự kiện đua top 0 status',
-  `RankingEventType1Value` int NULL DEFAULT -1 COMMENT 'Sự kiện đua top 1 lưu lại ',
-  `RankingEventType1Status` int NULL DEFAULT -1 COMMENT 'Sự kiện đua top 1 status',
+  `RankingEventType0Value` int NULL DEFAULT -1 COMMENT 'Su kien dua top 0 luu lai',
+  `RankingEventType0Status` int NULL DEFAULT -1 COMMENT 'Su kien dua top 0 status',
+  `RankingEventType1Value` int NULL DEFAULT -1 COMMENT 'Su kien dua top 1 luu lai ',
+  `RankingEventType1Status` int NULL DEFAULT -1 COMMENT 'Su kien dua top 1 status',
   `CurentRank0Value` int NULL DEFAULT -1,
   `CurentRank1Value` int NULL DEFAULT -1,
   PRIMARY KEY (`rid`) USING BTREE
@@ -650,50 +650,50 @@ CREATE TABLE `t_roleparams_long`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `t_roles`;
 CREATE TABLE `t_roles`  (
-  `rid` int NOT NULL AUTO_INCREMENT COMMENT 'Id của nhân vât',
-  `userid` char(64) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL COMMENT 'Id Tài khoản',
-  `rname` char(32) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Tên nhân vật',
-  `sex` tinyint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Giới tính',
-  `occupation` tinyint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Phái nào',
-  `sub_id` tinyint NOT NULL COMMENT 'Nhánh của phái',
-  `level` smallint UNSIGNED NOT NULL DEFAULT 1 COMMENT 'Cấp độ',
-  `pic` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'hình đại diện',
-  `money1` int NOT NULL DEFAULT 0 COMMENT 'Bạc',
-  `money2` int NOT NULL DEFAULT 0 COMMENT 'Bạc khóa',
-  `experience` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'kinh nghiệm',
-  `pkmode` tinyint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Chế độ pk hiện tại',
-  `pkvalue` int NOT NULL DEFAULT 0 COMMENT 'giá trị pk hiện tại',
-  `position` char(32) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL DEFAULT '-1:0:-1:-1' COMMENT 'vị trí nhân vật',
-  `regtime` datetime(0) NOT NULL DEFAULT '1900-01-01 12:00:00' COMMENT 'Thời gian đăng ký',
-  `lasttime` datetime(0) NOT NULL DEFAULT '1900-01-01 12:00:00' COMMENT 'Thời gian đăng nhập gần đây',
-  `isdel` tinyint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Đã bị xóa chưa',
-  `deltime` datetime(0) NOT NULL DEFAULT '1900-01-01 12:00:00' COMMENT 'Thời gian bắt đầu xóa',
-  `predeltime` datetime(0) NULL DEFAULT NULL COMMENT 'Thười gian sẽ xóa',
-  `bagnum` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Số ô trong túi đồ',
+  `rid` int NOT NULL AUTO_INCREMENT COMMENT 'Id cua nhan vat',
+  `userid` char(64) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL COMMENT 'Id Tai khoan',
+  `rname` char(32) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ten nhan vat',
+  `sex` tinyint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Gioi tinh',
+  `occupation` tinyint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Phai nao',
+  `sub_id` tinyint NOT NULL COMMENT 'Nhanh cua phai',
+  `level` smallint UNSIGNED NOT NULL DEFAULT 1 COMMENT 'Cap do',
+  `pic` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'hinh dai dien',
+  `money1` int NOT NULL DEFAULT 0 COMMENT 'Bac',
+  `money2` int NOT NULL DEFAULT 0 COMMENT 'Bac khoa',
+  `experience` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'kinh nghiem',
+  `pkmode` tinyint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Che do pk hien tai',
+  `pkvalue` int NOT NULL DEFAULT 0 COMMENT 'gia tri pk hien tai',
+  `position` char(32) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL DEFAULT '-1:0:-1:-1' COMMENT 'vi tri nhan vat',
+  `regtime` datetime(0) NOT NULL DEFAULT '1900-01-01 12:00:00' COMMENT 'Thoi gian dang ky',
+  `lasttime` datetime(0) NOT NULL DEFAULT '1900-01-01 12:00:00' COMMENT 'Thoi gian dang nhap gan day',
+  `isdel` tinyint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Da bi xoa chua',
+  `deltime` datetime(0) NOT NULL DEFAULT '1900-01-01 12:00:00' COMMENT 'Thoi gian bat dau xoa',
+  `predeltime` datetime(0) NULL DEFAULT NULL COMMENT 'Thuoi gian se xoa',
+  `bagnum` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'So o trong tui do',
   `main_quick_keys` char(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL DEFAULT '' COMMENT 'Main Skill',
-  `other_quick_keys` char(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL DEFAULT '' COMMENT 'Vòng sáng',
-  `loginnum` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Số lần đăng nhập',
-  `leftfightsecs` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Số giây thách đầu con lại',
-  `totalonlinesecs` int NOT NULL DEFAULT 0 COMMENT 'tổng thời gian online',
-  `antiaddictionsecs` int NOT NULL DEFAULT 0 COMMENT 'Thời gian có hại đăng nhập',
-  `logofftime` datetime(0) NOT NULL DEFAULT '1900-01-01 12:00:00' COMMENT 'Thời gian đăng xuất',
-  `yinliang` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'ĐỒng khóa',
-  `maintaskid` int NOT NULL DEFAULT 0 COMMENT 'Nhiệm vụ chính tuyến ID',
-  `pkpoint` int NOT NULL DEFAULT 0 COMMENT 'Điểm PK',
-  `killboss` int NOT NULL DEFAULT 0 COMMENT 'Số lần giết boss',
-  `cztaskid` int NOT NULL DEFAULT 0 COMMENT 'giữ liệu nạp thẻ',
-  `logindayid` int NOT NULL DEFAULT 0 COMMENT 'đăng nhập ngày bao nhiêu',
-  `logindaynum` int NOT NULL DEFAULT 0 COMMENT 'Đăng nhập ngày nàop',
+  `other_quick_keys` char(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL DEFAULT '' COMMENT 'Vong sang',
+  `loginnum` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'So lan dang nhap',
+  `leftfightsecs` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'So giay thach dau con lai',
+  `totalonlinesecs` int NOT NULL DEFAULT 0 COMMENT 'tong thoi gian online',
+  `antiaddictionsecs` int NOT NULL DEFAULT 0 COMMENT 'Thoi gian co hai dang nhap',
+  `logofftime` datetime(0) NOT NULL DEFAULT '1900-01-01 12:00:00' COMMENT 'Thoi gian dang xuat',
+  `yinliang` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'DOng khoa',
+  `maintaskid` int NOT NULL DEFAULT 0 COMMENT 'Nhiem vu chinh tuyen ID',
+  `pkpoint` int NOT NULL DEFAULT 0 COMMENT 'Diem PK',
+  `killboss` int NOT NULL DEFAULT 0 COMMENT 'So lan giet boss',
+  `cztaskid` int NOT NULL DEFAULT 0 COMMENT 'giu lieu nap the',
+  `logindayid` int NOT NULL DEFAULT 0 COMMENT 'dang nhap ngay bao nhieu',
+  `logindaynum` int NOT NULL DEFAULT 0 COMMENT 'Dang nhap ngay naop',
   `zoneid` int NOT NULL DEFAULT 0,
   `username` char(64) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
   `lastmailid` int UNSIGNED NOT NULL DEFAULT 0,
-  `onceawardflag` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Đánh dấu sự kiện nhận thưởng',
-  `banchat` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Band chát',
+  `onceawardflag` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Danh dau su kien nhan thuong',
+  `banchat` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Band chat',
   `banlogin` int UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Badn login',
-  `isflashplayer` int NOT NULL DEFAULT 0 COMMENT 'Có phải người chơi mới',
-  `admiredcount` int NOT NULL DEFAULT 0 COMMENT 'thời gian bảo vệ',
-  `store_yinliang` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Kho chứa đồng',
-  `store_money` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Kho chứa bạc',
+  `isflashplayer` int NOT NULL DEFAULT 0 COMMENT 'Co phai nguoi choi moi',
+  `admiredcount` int NOT NULL DEFAULT 0 COMMENT 'thoi gian bao ve',
+  `store_yinliang` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Kho chua dong',
+  `store_money` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Kho chua bac',
   `ban_trade_to_ticks` bigint NOT NULL DEFAULT 0,
   `familyid` int NOT NULL DEFAULT 0,
   `familyname` varchar(100) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL,
@@ -703,8 +703,8 @@ CREATE TABLE `t_roles`  (
   `guildrank` int NOT NULL DEFAULT 0,
   `roleprestige` int NOT NULL DEFAULT 0,
   `guildmoney` int NOT NULL DEFAULT 0,
-  `quick_items` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Danh sách vật phẩm dùng nhanh',
-  `second_password` varchar(8) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Mật khẩu cấp 2',
+  `quick_items` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Danh sach vat pham dung nhanh',
+  `second_password` varchar(8) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Mat khau cap 2',
   UNIQUE INDEX `rid`(`rid`) USING BTREE,
   UNIQUE INDEX `rname_zoneid`(`rname`, `zoneid`) USING BTREE,
   INDEX `userid`(`userid`) USING BTREE,
@@ -870,24 +870,24 @@ CREATE TABLE `t_voteguild`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `t_welfare`;
 CREATE TABLE `t_welfare`  (
-  `rid` int NOT NULL COMMENT 'RoleID là khóa chính luôn',
-  `lastdaylogin` int NULL DEFAULT NULL COMMENT 'Ngày gần đây nhất đã đăng nhập là ngày nào sử dụng để tính toán đăng nhập liên tục',
-  `logincontinus` int NULL DEFAULT NULL COMMENT 'Đăng nhập liên tục trong bao lâu',
-  `sevenday_continus_step` int NULL DEFAULT NULL COMMENT 'Đã nhận mốc nào rồi trong cái đăng nhập 7 ngày liên tục | Cái này sẽ ko reset suốt đời',
-  `sevenday_continus_note` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Quà đã nhận khi đăng nhập liên tiếp trong 7 ngày | Cái này sẽ ko reset suốt đời',
-  `sevendaylogin_note` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Quà đã nhận khi đăng nhập 7 ngày DAYID|ITEMID|COUNT_DAYID|ITEMID|COUNT',
-  `sevendaylogin_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Đã nhận mốc nào rồi trong cái đăng nhập 7 ngày  VD : 1|2|3|4',
-  `createdayid` int NULL DEFAULT NULL COMMENT 'Ghi lại ngày đầu tiên nhân vật được tạo và kích hoạt chuỗi sự kiện 7 ngày',
-  `logindayid` int NULL DEFAULT NULL COMMENT 'Ghi lại ngày đăng nhập vào là ngày nào | để tính toán cái online nhận thưởng=> sang ngày mới là clear chuỗi nhận',
-  `loginweekid` int NULL DEFAULT NULL COMMENT 'Ghi lại tuần đăng nhập là tuần nào',
-  `online_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lại DayLoginID và STEP nào ví dụ 254_1|2 tức là vào ngày 254 người này đã online nhận 2 mốc thưởng | Sang ngày mới thì tự động reset',
-  `levelup_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lại xem thằng nhân vật này đã nhận quà thăng cấp mốc nào rồi ghi theo chuỗi 1_2_3 tức là đã nhận mốc 1 2 3 nếu mà chuỗi là 2_3 thì tức là chỉ nhận mốc 2 và 3',
-  `monthid` int NULL DEFAULT NULL COMMENT 'Ghi lại xem tháng đăng nhập này là tháng nào để xử lý quà điểm danh 30 ngày',
-  `checkpoint` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lại xem đã điểm danh ngày nào trong tháng | Nếu tháng này mà khác tháng cũ thì sẽ reset checkpoint đánh dấu 2_3_4 tức là đã nhận ngày 2 3 4',
-  `fist_recharge_step` int NULL DEFAULT NULL COMMENT 'Ghi lại xem đã nhận quà nạp lần đầu hay chưa | 0 là chưa nhận | 1 là đã nhận',
-  `totarechage_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lại xem đã hốc mốc quà tích nạp nào rồi 2_3_4 tức là đã nhận mốc 2 3 4',
-  `totalconsume_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lại xem đã hốc mốc quà tích tiêu nào rồi nào rồi 2_3_4 tức là đã nhận mốc 2 3 4',
-  `day_rechage_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lại tích lũy nạp ngày bao gồm ngày ID và STEP nào ví dụ 254_1_2_3 tức là vào ngày 254 người này đã nhận mốc 1 2 3 | Sang ngày mới bản ghi này tự động reset ',
+  `rid` int NOT NULL COMMENT 'RoleID la khoa chinh luon',
+  `lastdaylogin` int NULL DEFAULT NULL COMMENT 'Ngay gan day nhat da dang nhap la ngay nao su dung de tinh toan dang nhap lien tuc',
+  `logincontinus` int NULL DEFAULT NULL COMMENT 'Dang nhap lien tuc trong bao lau',
+  `sevenday_continus_step` int NULL DEFAULT NULL COMMENT 'Da nhan moc nao roi trong cai dang nhap 7 ngay lien tuc | Cai nay se ko reset suot doi',
+  `sevenday_continus_note` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Qua da nhan khi dang nhap lien tiep trong 7 ngay | Cai nay se ko reset suot doi',
+  `sevendaylogin_note` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Qua da nhan khi dang nhap 7 ngay DAYID|ITEMID|COUNT_DAYID|ITEMID|COUNT',
+  `sevendaylogin_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Da nhan moc nao roi trong cai dang nhap 7 ngay  VD : 1|2|3|4',
+  `createdayid` int NULL DEFAULT NULL COMMENT 'Ghi lai ngay dau tien nhan vat duoc tao va kich hoat chuoi su kien 7 ngay',
+  `logindayid` int NULL DEFAULT NULL COMMENT 'Ghi lai ngay dang nhap vao la ngay nao | de tinh toan cai online nhan thuong=> sang ngay moi la clear chuoi nhan',
+  `loginweekid` int NULL DEFAULT NULL COMMENT 'Ghi lai tuan dang nhap la tuan nao',
+  `online_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lai DayLoginID va STEP nao vi du 254_1|2 tuc la vao ngay 254 nguoi nay da online nhan 2 moc thuong | Sang ngay moi thi tu dong reset',
+  `levelup_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lai xem thang nhan vat nay da nhan qua thang cap moc nao roi ghi theo chuoi 1_2_3 tuc la da nhan moc 1 2 3 neu ma chuoi la 2_3 thi tuc la chi nhan moc 2 va 3',
+  `monthid` int NULL DEFAULT NULL COMMENT 'Ghi lai xem thang dang nhap nay la thang nao de xu ly qua diem danh 30 ngay',
+  `checkpoint` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lai xem da diem danh ngay nao trong thang | Neu thang nay ma khac thang cu thi se reset checkpoint danh dau 2_3_4 tuc la da nhan ngay 2 3 4',
+  `fist_recharge_step` int NULL DEFAULT NULL COMMENT 'Ghi lai xem da nhan qua nap lan dau hay chua | 0 la chua nhan | 1 la da nhan',
+  `totarechage_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lai xem da hoc moc qua tich nap nao roi 2_3_4 tuc la da nhan moc 2 3 4',
+  `totalconsume_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lai xem da hoc moc qua tich tieu nao roi nao roi 2_3_4 tuc la da nhan moc 2 3 4',
+  `day_rechage_step` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NULL DEFAULT NULL COMMENT 'Ghi lai tich luy nap ngay bao gom ngay ID va STEP nao vi du 254_1_2_3 tuc la vao ngay 254 nguoi nay da nhan moc 1 2 3 | Sang ngay moi ban ghi nay tu dong reset ',
   PRIMARY KEY (`rid`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb3 COLLATE = utf8mb3_general_ci ROW_FORMAT = DYNAMIC;
 

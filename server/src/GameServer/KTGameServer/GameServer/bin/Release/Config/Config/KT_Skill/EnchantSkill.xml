@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EnchantSkill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Skill ID="1" Name="Thần Quang Toàn Nhiễu">
+	<Skill ID="1" Name="Than Quang Toan Nhieu">
 		<RelatedSkill ID="11376">
 			<Symbol Name="seriesdamage_r">
 			  <Value ID="1" Type="1">
@@ -38,7 +38,7 @@
 			</Symbol>
 		</RelatedSkill>
 	</Skill>
-	<Skill ID="35" Name="Binh Phong Trực Chỉ">
+	<Skill ID="35" Name="Binh Phong Truc Chi">
 		<RelatedSkill ID="1506">
 			<Symbol Name="missile_range">
 				<Value ID="1" Type="1">
@@ -62,7 +62,7 @@
 			</Symbol>
 		</RelatedSkill>
 	</Skill>
-	<Skill ID="36" Name="Hiệp Sơn Siêu Hải">
+	<Skill ID="36" Name="Hiep Son Sieu Hai">
 		<RelatedSkill ID="1511">
 			<Symbol Name="missile_ablility">
 				<Value ID="1" Type="1">
@@ -88,7 +88,7 @@
 			</Symbol>
 		</RelatedSkill>
 	</Skill>
-	<Skill ID="37" Name="Lôi Tự Kim Bình">
+	<Skill ID="37" Name="Loi Tu Kim Binh">
 		<RelatedSkill ID="1557">
 			<Symbol Name="appenddamage_p">
 				<Value ID="1" Type="1">
@@ -99,7 +99,7 @@
 			</Symbol>
 		</RelatedSkill>
 	</Skill>
-	<Skill ID="38" Name="Nghịch Huyết Tiệt Mạch">
+	<Skill ID="38" Name="Nghich Huyet Tiet Mach">
 		<RelatedSkill ID="1556">
 			<Symbol Name="staticmagicshield_v">
 				<Value ID="1" Type="1">

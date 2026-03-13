@@ -28,21 +28,21 @@
             Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute"/>
             </summary>
             <param name="path">Względna lub bezwzględna ścieżka do pliku lub katalogu do wdrożenia. Ścieżka jest określana względem katalogu wyjściowego kompilacji. Element zostanie skopiowany do tego samego katalogu co wdrożone zestawy testowe.</param>
-            <param name="outputDirectory">Ścieżka katalogu, do którego mają być kopiowane elementy. Może być bezwzględna lub określana względem katalogu wdrażania. Wszystkie pliki i katalogi określone przez <paramref name="path"/> zostaną skopiowane do tego katalogu.</param>
+            <param name="outputDirectory">Ścieżka katalogu, do kt中rego mają być kopiowane elementy. Może być bezwzględna lub określana względem katalogu wdrażania. Wszystkie pliki i katalogi określone przez <paramref name="path"/> zostaną skopiowane do tego katalogu.</param>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.Path">
             <summary>
-            Pobiera ścieżkę źródłowego pliku lub folderu do skopiowania.
+            Pobiera ścieżkę źr中dłowego pliku lub folderu do skopiowania.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute.OutputDirectory">
             <summary>
-            Pobiera ścieżkę katalogu, do którego element jest kopiowany.
+            Pobiera ścieżkę katalogu, do kt中rego element jest kopiowany.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames">
             <summary>
-            Zawiera literały nazw sekcji, właściwości, atrybutów.
+            Zawiera literały nazw sekcji, właściwości, atrybut中w.
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.SectionName">
@@ -57,7 +57,7 @@
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.DataSourcesSectionName">
             <summary>
-            Nazwa sekcji dla źródła danych.
+            Nazwa sekcji dla źr中dła danych.
             </summary>
         </member>
         <member name="F:Microsoft.VisualStudio.TestTools.UnitTesting.ConfigurationNames.NameAttributeName">
@@ -82,7 +82,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement">
             <summary>
-            Element źródła danych.
+            Element źr中dła danych.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement.Name">
@@ -117,7 +117,7 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection">
             <summary>
-            Kolekcja elementów źródła danych.
+            Kolekcja element中w źr中dła danych.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.#ctor">
@@ -129,18 +129,18 @@
             <summary>
             Zwraca element konfiguracji z określonym kluczem.
             </summary>
-            <param name="name">Klucz elementu do zwrócenia.</param>
+            <param name="name">Klucz elementu do zwr中cenia.</param>
             <returns>Element System.Configuration.ConfigurationElement z określonym kluczem; w przeciwnym razie wartość null.</returns>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Item(System.Int32)">
             <summary>
             Pobiera element konfiguracji pod określoną lokalizacją w indeksie.
             </summary>
-            <param name="index">Lokalizacja w indeksie elementu System.Configuration.ConfigurationElement do zwrócenia.</param>
+            <param name="index">Lokalizacja w indeksie elementu System.Configuration.ConfigurationElement do zwr中cenia.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Add(Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement)">
             <summary>
-            Dodaje element konfiguracji do kolekcji elementów konfiguracji.
+            Dodaje element konfiguracji do kolekcji element中w konfiguracji.
             </summary>
             <param name="element">Element System.Configuration.ConfigurationElement do dodania.</param>
         </member>
@@ -158,7 +158,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.Clear">
             <summary>
-            Usuwa wszystkie obiekty elementów konfiguracji z kolekcji.
+            Usuwa wszystkie obiekty element中w konfiguracji z kolekcji.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.CreateNewElement">
@@ -171,40 +171,40 @@
             <summary>
             Pobiera klucz elementu dla określnego elementu konfiguracji.
             </summary>
-            <param name="element">Element System.Configuration.ConfigurationElement, dla którego ma zostać zwrócony klucz.</param>
+            <param name="element">Element System.Configuration.ConfigurationElement, dla kt中rego ma zostać zwr中cony klucz.</param>
             <returns>Element System.Object działający jako klucz dla określonego elementu System.Configuration.ConfigurationElement.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.BaseAdd(System.Configuration.ConfigurationElement)">
             <summary>
-            Dodaje element konfiguracji do kolekcji elementów konfiguracji.
+            Dodaje element konfiguracji do kolekcji element中w konfiguracji.
             </summary>
             <param name="element">Element System.Configuration.ConfigurationElement do dodania.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection.BaseAdd(System.Int32,System.Configuration.ConfigurationElement)">
             <summary>
-            Dodaje element konfiguracji do kolekcji elementów konfiguracji.
+            Dodaje element konfiguracji do kolekcji element中w konfiguracji.
             </summary>
-            <param name="index">Lokalizacja w indeksie, pod którą ma zostać dodany określony element System.Configuration.ConfigurationElement.</param>
+            <param name="index">Lokalizacja w indeksie, pod kt中rą ma zostać dodany określony element System.Configuration.ConfigurationElement.</param>
             <param name="element">Element System.Configuration.ConfigurationElement do dodania.</param>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfiguration">
             <summary>
-            Obsługa ustawień konfiguracji na potrzeby testów.
+            Obsługa ustawień konfiguracji na potrzeby test中w.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfiguration.ConfigurationSection">
             <summary>
-            Pobiera sekcję konfiguracji dla testów.
+            Pobiera sekcję konfiguracji dla test中w.
             </summary>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection">
             <summary>
-            Sekcja konfiguracji dla testów.
+            Sekcja konfiguracji dla test中w.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection.DataSources">
             <summary>
-            Pobiera źródła danych dla tej sekcji konfiguracji.
+            Pobiera źr中dła danych dla tej sekcji konfiguracji.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection.Properties">
@@ -222,15 +222,15 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,System.String)">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, które zawiera
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kt中re zawiera
             już istniejący obiekt klasy prywatnej
             </summary>
-            <param name="obj"> obiekt służący jako punkt początkowy na potrzeby dostępu do prywatnych elementów członkowskich</param>
+            <param name="obj"> obiekt służący jako punkt początkowy na potrzeby dostępu do prywatnych element中w członkowskich</param>
             <param name="memberToAccess">ciąg wyłuskujący używający elementu . wskazującego obiekt do pobrania, jak w wyrażeniu m_X.m_Y.m_Z</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Object[])">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, które opakowuje
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kt中re opakowuje
             określony typ.
             </summary>
             <param name="assemblyName">Nazwa zestawu</param>
@@ -239,17 +239,17 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.String,System.String,System.Type[],System.Object[])">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, które opakowuje
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kt中re opakowuje
             określony typ.
             </summary>
             <param name="assemblyName">Nazwa zestawu</param>
             <param name="typeName">w pełni kwalifikowana nazwa</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla konstruktora do pobrania</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla konstruktora do pobrania</param>
             <param name="args">Argumenty do przekazania do konstruktora</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Object[])">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, które opakowuje
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kt中re opakowuje
             określony typ.
             </summary>
             <param name="type">typ obiektu do utworzenia</param>
@@ -257,23 +257,23 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Type,System.Type[],System.Object[])">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, które opakowuje
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kt中re opakowuje
             określony typ.
             </summary>
             <param name="type">typ obiektu do utworzenia</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla konstruktora do pobrania</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla konstruktora do pobrania</param>
             <param name="args">Argumenty do przekazania do konstruktora</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object)">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, które opakowuje
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kt中re opakowuje
             określony obiekt.
             </summary>
             <param name="obj">obiekt do opakowania</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.#ctor(System.Object,Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType)">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, które opakowuje
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject"/>, kt中re opakowuje
             określony obiekt.
             </summary>
             <param name="obj">obiekt do opakowania</param>
@@ -291,16 +291,16 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetHashCode">
             <summary>
-            zwraca wartość skrótu docelowego obiektu
+            zwraca wartość skr中tu docelowego obiektu
             </summary>
-            <returns>wartość typu int reprezentująca wartość skrótu docelowego obiektu</returns>
+            <returns>wartość typu int reprezentująca wartość skr中tu docelowego obiektu</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Equals(System.Object)">
             <summary>
-            Jest równe
+            Jest r中wne
             </summary>
-            <param name="obj">Obiekt, z którym ma zostać wykonane porównanie</param>
-            <returns>zwraca wartość true, jeśli obiekty są równe.</returns>
+            <param name="obj">Obiekt, z kt中rym ma zostać wykonane por中wnanie</param>
+            <returns>zwraca wartość true, jeśli obiekty są r中wne.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Object[])">
             <summary>
@@ -315,7 +315,7 @@
             Wywołuje określoną metodę
             </summary>
             <param name="name">Nazwa metody</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do pobrania.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do pobrania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <returns>Wynik wywołania metody</returns>
         </member>
@@ -324,9 +324,9 @@
             Wywołuje określoną metodę
             </summary>
             <param name="name">Nazwa metody</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do pobrania.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do pobrania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
-            <param name="typeArguments">Tablica typów odpowiadających typom argumentów ogólnych.</param>
+            <param name="typeArguments">Tablica typ中w odpowiadających typom argument中w og中lnych.</param>
             <returns>Wynik wywołania metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.Invoke(System.String,System.Object[],System.Globalization.CultureInfo)">
@@ -343,7 +343,7 @@
             Wywołuje określoną metodę
             </summary>
             <param name="name">Nazwa metody</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do pobrania.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do pobrania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <param name="culture">Informacje o kulturze</param>
             <returns>Wynik wywołania metody</returns>
@@ -353,7 +353,7 @@
             Wywołuje określoną metodę
             </summary>
             <param name="name">Nazwa metody</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <returns>Wynik wywołania metody</returns>
         </member>
@@ -362,8 +362,8 @@
             Wywołuje określoną metodę
             </summary>
             <param name="name">Nazwa metody</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do pobrania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do pobrania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <returns>Wynik wywołania metody</returns>
         </member>
@@ -372,7 +372,7 @@
             Wywołuje określoną metodę
             </summary>
             <param name="name">Nazwa metody</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <param name="culture">Informacje o kulturze</param>
             <returns>Wynik wywołania metody</returns>
@@ -382,8 +382,8 @@
             Wywołuje określoną metodę
             </summary>
             <param name="name">Nazwa metody</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do pobrania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do pobrania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <param name="culture">Informacje o kulturze</param>
             <returns>Wynik wywołania metody</returns>
@@ -393,24 +393,24 @@
             Wywołuje określoną metodę
             </summary>
             <param name="name">Nazwa metody</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do pobrania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do pobrania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <param name="culture">Informacje o kulturze</param>
-            <param name="typeArguments">Tablica typów odpowiadających typom argumentów ogólnych.</param>
+            <param name="typeArguments">Tablica typ中w odpowiadających typom argument中w og中lnych.</param>
             <returns>Wynik wywołania metody</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetArrayElement(System.String,System.Int32[])">
             <summary>
-            Pobiera element tablicy przy użyciu tablicy indeksów dla każdego wymiaru
+            Pobiera element tablicy przy użyciu tablicy indeks中w dla każdego wymiaru
             </summary>
             <param name="name">Nazwa elementu członkowskiego</param>
             <param name="indices">indeksy tablicy</param>
-            <returns>Tablica elementów.</returns>
+            <returns>Tablica element中w.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetArrayElement(System.String,System.Object,System.Int32[])">
             <summary>
-            Ustawia element tablicy przy użyciu tablicy indeksów dla każdego wymiaru
+            Ustawia element tablicy przy użyciu tablicy indeks中w dla każdego wymiaru
             </summary>
             <param name="name">Nazwa elementu członkowskiego</param>
             <param name="value">Wartość do ustawienia</param>
@@ -418,19 +418,19 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetArrayElement(System.String,System.Reflection.BindingFlags,System.Int32[])">
             <summary>
-            Pobiera element tablicy przy użyciu tablicy indeksów dla każdego wymiaru
+            Pobiera element tablicy przy użyciu tablicy indeks中w dla każdego wymiaru
             </summary>
             <param name="name">Nazwa elementu członkowskiego</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="indices">indeksy tablicy</param>
-            <returns>Tablica elementów.</returns>
+            <returns>Tablica element中w.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetArrayElement(System.String,System.Reflection.BindingFlags,System.Object,System.Int32[])">
             <summary>
-            Ustawia element tablicy przy użyciu tablicy indeksów dla każdego wymiaru
+            Ustawia element tablicy przy użyciu tablicy indeks中w dla każdego wymiaru
             </summary>
             <param name="name">Nazwa elementu członkowskiego</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="value">Wartość do ustawienia</param>
             <param name="indices">indeksy tablicy</param>
         </member>
@@ -453,7 +453,7 @@
             Pobiera pole
             </summary>
             <param name="name">Nazwa pola</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <returns>Pole.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetField(System.String,System.Reflection.BindingFlags,System.Object)">
@@ -461,7 +461,7 @@
             Ustawia pole
             </summary>
             <param name="name">Nazwa pola</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="value">wartość do ustawienia</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetFieldOrProperty(System.String)">
@@ -483,7 +483,7 @@
             Pobiera pole lub właściwość
             </summary>
             <param name="name">Nazwa pola lub właściwości</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <returns>Pole lub właściwość.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.SetFieldOrProperty(System.String,System.Reflection.BindingFlags,System.Object)">
@@ -491,7 +491,7 @@
             Ustawia pole lub właściwość
             </summary>
             <param name="name">Nazwa pola lub właściwości</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="value">wartość do ustawienia</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetProperty(System.String,System.Object[])">
@@ -507,7 +507,7 @@
             Pobiera właściwość
             </summary>
             <param name="name">Nazwa właściwości</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów właściwości indeksowanej.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w właściwości indeksowanej.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <returns>Właściwość.</returns>
         </member>
@@ -524,7 +524,7 @@
             Ustaw właściwość
             </summary>
             <param name="name">Nazwa właściwości</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów właściwości indeksowanej.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w właściwości indeksowanej.</param>
             <param name="value">wartość do ustawienia</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
         </member>
@@ -533,7 +533,7 @@
             Pobiera właściwość
             </summary>
             <param name="name">Nazwa właściwości</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <returns>Właściwość.</returns>
         </member>
@@ -542,8 +542,8 @@
             Pobiera właściwość
             </summary>
             <param name="name">Nazwa właściwości</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów właściwości indeksowanej.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w właściwości indeksowanej.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <returns>Właściwość.</returns>
         </member>
@@ -552,7 +552,7 @@
             Ustawia właściwość
             </summary>
             <param name="name">Nazwa właściwości</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="value">wartość do ustawienia</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
         </member>
@@ -561,9 +561,9 @@
             Ustawia właściwość
             </summary>
             <param name="name">Nazwa właściwości</param>
-            <param name="bindingFlags">Maska bitów składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający sposób wykonania wyszukiwania.</param>
+            <param name="bindingFlags">Maska bit中w składająca się z co najmniej jednego <see cref="T:System.Reflection.BindingFlags"/> określający spos中b wykonania wyszukiwania.</param>
             <param name="value">wartość do ustawienia</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów właściwości indeksowanej.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w właściwości indeksowanej.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.ValidateAccessString(System.String)">
@@ -584,13 +584,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject.GetGenericMethodFromCache(System.String,System.Type[],System.Type[],System.Reflection.BindingFlags,System.Reflection.ParameterModifier[])">
             <summary>
-            Wyodrębnia najbardziej odpowiednią sygnaturę metody ogólnej z bieżącego typu prywatnego.
+            Wyodrębnia najbardziej odpowiednią sygnaturę metody og中lnej z bieżącego typu prywatnego.
             </summary>
             <param name="methodName">Nazwa metody przeszukującej pamięć podręczną sygnatur.</param>
-            <param name="parameterTypes">Tablica typów odpowiadających typom przeszukiwanych parametrów.</param>
-            <param name="typeArguments">Tablica typów odpowiadających typom argumentów ogólnych.</param>
-            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags"/>, aby bardziej szczegółowo filtrować sygnatury metod.</param>
-            <param name="modifiers">Modyfikatory dla parametrów.</param>
+            <param name="parameterTypes">Tablica typ中w odpowiadających typom przeszukiwanych parametr中w.</param>
+            <param name="typeArguments">Tablica typ中w odpowiadających typom argument中w og中lnych.</param>
+            <param name="bindingFlags"><see cref="T:System.Reflection.BindingFlags"/>, aby bardziej szczeg中łowo filtrować sygnatury metod.</param>
+            <param name="modifiers">Modyfikatory dla parametr中w.</param>
             <returns>Wystąpienie elementu methodinfo.</returns>
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType">
@@ -610,14 +610,14 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.String,System.String)">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, które zawiera typ prywatny.
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, kt中re zawiera typ prywatny.
             </summary>
             <param name="assemblyName">Nazwa zestawu</param>
             <param name="typeName">w pełni kwalifikowana nazwa </param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.#ctor(System.Type)">
             <summary>
-            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, które zawiera
+            Inicjuje nowe wystąpienie klasy <see cref="T:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType"/>, kt中re zawiera
             typ prywatny z obiektu typu
             </summary>
             <param name="type">Opakowany typ do utworzenia.</param>
@@ -640,7 +640,7 @@
             Wywołuje statyczny element członkowski
             </summary>
             <param name="name">Nazwa elementu członkowskiego dla elementu InvokeHelper</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do wywołania</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do wywołania</param>
             <param name="args">Argumenty wywołania</param>
             <returns>Wynik wywołania</returns>
         </member>
@@ -649,9 +649,9 @@
             Wywołuje statyczny element członkowski
             </summary>
             <param name="name">Nazwa elementu członkowskiego dla elementu InvokeHelper</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do wywołania</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do wywołania</param>
             <param name="args">Argumenty wywołania</param>
-            <param name="typeArguments">Tablica typów odpowiadających typom argumentów ogólnych.</param>
+            <param name="typeArguments">Tablica typ中w odpowiadających typom argument中w og中lnych.</param>
             <returns>Wynik wywołania</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeStatic(System.String,System.Object[],System.Globalization.CultureInfo)">
@@ -668,7 +668,7 @@
             Wywołuje metodę statyczną
             </summary>
             <param name="name">Nazwa elementu członkowskiego</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do wywołania</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do wywołania</param>
             <param name="args">Argumenty wywołania</param>
             <param name="culture">Informacje o kulturze</param>
             <returns>Wynik wywołania</returns>
@@ -688,7 +688,7 @@
             </summary>
             <param name="name">Nazwa elementu członkowskiego</param>
             <param name="bindingFlags">Dodatkowe atrybuty wywołania</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do wywołania</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do wywołania</param>
             <param name="args">Argumenty wywołania</param>
             <returns>Wynik wywołania</returns>
         </member>
@@ -708,7 +708,7 @@
             </summary>
             <param name="name">Nazwa elementu członkowskiego</param>
             <param name="bindingFlags">Dodatkowe atrybuty wywołania</param>
-            /// <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do wywołania</param>
+            /// <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do wywołania</param>
             <param name="args">Argumenty wywołania</param>
             <param name="culture">Kultura</param>
             <returns>Wynik wywołania</returns>
@@ -719,10 +719,10 @@
             </summary>
             <param name="name">Nazwa elementu członkowskiego</param>
             <param name="bindingFlags">Dodatkowe atrybuty wywołania</param>
-            /// <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów dla metody do wywołania</param>
+            /// <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w dla metody do wywołania</param>
             <param name="args">Argumenty wywołania</param>
             <param name="culture">Kultura</param>
-            <param name="typeArguments">Tablica typów odpowiadających typom argumentów ogólnych.</param>
+            <param name="typeArguments">Tablica typ中w odpowiadających typom argument中w og中lnych.</param>
             <returns>Wynik wywołania</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticArrayElement(System.String,System.Int32[])">
@@ -787,7 +787,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticField(System.String,System.Reflection.BindingFlags)">
             <summary>
-            Pobiera pole statyczne za pomocą określonych atrybutów elementu InvokeHelper
+            Pobiera pole statyczne za pomocą określonych atrybut中w elementu InvokeHelper
             </summary>
             <param name="name">Nazwa pola</param>
             <param name="bindingFlags">Dodatkowe atrybuty wywołania</param>
@@ -795,7 +795,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticField(System.String,System.Reflection.BindingFlags,System.Object)">
             <summary>
-            Ustawia pole statyczne za pomocą atrybutów powiązania
+            Ustawia pole statyczne za pomocą atrybut中w powiązania
             </summary>
             <param name="name">Nazwa pola</param>
             <param name="bindingFlags">Dodatkowe atrybuty elementu InvokeHelper</param>
@@ -817,7 +817,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticFieldOrProperty(System.String,System.Reflection.BindingFlags)">
             <summary>
-            Pobiera pole statyczne lub właściwość za pomocą określonych atrybutów elementu InvokeHelper
+            Pobiera pole statyczne lub właściwość za pomocą określonych atrybut中w elementu InvokeHelper
             </summary>
             <param name="name">Nazwa pola lub właściwości</param>
             <param name="bindingFlags">Dodatkowe atrybuty wywołania</param>
@@ -825,7 +825,7 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.SetStaticFieldOrProperty(System.String,System.Reflection.BindingFlags,System.Object)">
             <summary>
-            Ustawia pole statyczne lub właściwość za pomocą atrybutów powiązania
+            Ustawia pole statyczne lub właściwość za pomocą atrybut中w powiązania
             </summary>
             <param name="name">Nazwa pola lub właściwości</param>
             <param name="bindingFlags">Dodatkowe atrybuty wywołania</param>
@@ -853,7 +853,7 @@
             </summary>
             <param name="name">Nazwa właściwości</param>
             <param name="value">Wartość do ustawienia dla pola lub właściwości</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów właściwości indeksowanej.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w właściwości indeksowanej.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.GetStaticProperty(System.String,System.Reflection.BindingFlags,System.Object[])">
@@ -871,7 +871,7 @@
             </summary>
             <param name="name">Nazwa właściwości</param>
             <param name="bindingFlags">Dodatkowe atrybuty wywołania.</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów właściwości indeksowanej.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w właściwości indeksowanej.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
             <returns>Właściwość statyczna.</returns>
         </member>
@@ -891,7 +891,7 @@
             <param name="name">Nazwa właściwości</param>
             <param name="bindingFlags">Dodatkowe atrybuty wywołania.</param>
             <param name="value">Wartość do ustawienia dla pola lub właściwości</param>
-            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiektów reprezentujących liczbę, kolejność i typ parametrów właściwości indeksowanej.</param>
+            <param name="parameterTypes">Tablica <see cref="T:System.Type"/> obiekt中w reprezentujących liczbę, kolejność i typ parametr中w właściwości indeksowanej.</param>
             <param name="args">Argumenty do przekazania do elementu członkowskiego na potrzeby wywołania.</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType.InvokeHelperStatic(System.String,System.Reflection.BindingFlags,System.Object[],System.Globalization.CultureInfo)">
@@ -906,12 +906,12 @@
         </member>
         <member name="T:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper">
             <summary>
-            Udostępnia odnajdywanie podpisu metody dla metod ogólnych.
+            Udostępnia odnajdywanie podpisu metody dla metod og中lnych.
             </summary>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.CompareMethodSigAndName(System.Reflection.MethodBase,System.Reflection.MethodBase)">
             <summary>
-            Porównuje sygnatury tych dwóch metod.
+            Por中wnuje sygnatury tych dw中ch metod.
             </summary>
             <param name="m1">Method1</param>
             <param name="m2">Method2</param>
@@ -928,53 +928,53 @@
             <summary>
             Znajduje najbardziej pochodny typ z podanymi informacjami.
             </summary>
-            <param name="match">Dopasowania kandydatów.</param>
+            <param name="match">Dopasowania kandydat中w.</param>
             <param name="cMatches">Liczba dopasowań.</param>
             <returns>Najbardziej pochodna metoda.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.SelectMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Type[],System.Reflection.ParameterModifier[])">
             <summary>
-            Za pomocą podanego zbioru metod pasujących do podstawowych kryteriów wybierz metodę
-            opartą na tablicy typów. Ta metoda powinna zwracać wartość null, jeśli żadna metoda
-            nie pasuje do kryteriów.
+            Za pomocą podanego zbioru metod pasujących do podstawowych kryteri中w wybierz metodę
+            opartą na tablicy typ中w. Ta metoda powinna zwracać wartość null, jeśli żadna metoda
+            nie pasuje do kryteri中w.
             </summary>
             <param name="bindingAttr">Specyfikacja powiązania.</param>
-            <param name="match">Dopasowania kandydatów</param>
+            <param name="match">Dopasowania kandydat中w</param>
             <param name="types">Typy</param>
-            <param name="modifiers">Modyfikatory parametrów.</param>
+            <param name="modifiers">Modyfikatory parametr中w.</param>
             <returns>Zgodna metoda. Null, jeśli brak zgodności.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.FindMostSpecificMethod(System.Reflection.MethodBase,System.Int32[],System.Type,System.Reflection.MethodBase,System.Int32[],System.Type,System.Type[],System.Object[])">
             <summary>
-            Znajduje najbardziej specyficzną metodę spośród dwóch podanych metod.
+            Znajduje najbardziej specyficzną metodę spośr中d dw中ch podanych metod.
             </summary>
             <param name="m1">Metoda 1</param>
-            <param name="paramOrder1">Kolejność parametrów dla metody 1</param>
-            <param name="paramArrayType1">Typ tablicy parametrów.</param>
+            <param name="paramOrder1">Kolejność parametr中w dla metody 1</param>
+            <param name="paramArrayType1">Typ tablicy parametr中w.</param>
             <param name="m2">Metoda 2</param>
-            <param name="paramOrder2">Kolejność parametrów dla metody 2</param>
-            <param name="paramArrayType2">&gt;Typ tablicy parametrów.</param>
+            <param name="paramOrder2">Kolejność parametr中w dla metody 2</param>
+            <param name="paramArrayType2">&gt;Typ tablicy parametr中w.</param>
             <param name="types">Typy do przeszukania.</param>
             <param name="args">Argumenty.</param>
             <returns>Wartość int reprezentująca dopasowanie.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.FindMostSpecific(System.Reflection.ParameterInfo[],System.Int32[],System.Type,System.Reflection.ParameterInfo[],System.Int32[],System.Type,System.Type[],System.Object[])">
             <summary>
-            Znajduje najbardziej specyficzną metodę spośród dwóch podanych metod.
+            Znajduje najbardziej specyficzną metodę spośr中d dw中ch podanych metod.
             </summary>
             <param name="p1">Metoda 1</param>
-            <param name="paramOrder1">Kolejność parametrów dla metody 1</param>
-            <param name="paramArrayType1">Typ tablicy parametrów.</param>
+            <param name="paramOrder1">Kolejność parametr中w dla metody 1</param>
+            <param name="paramArrayType1">Typ tablicy parametr中w.</param>
             <param name="p2">Metoda 2</param>
-            <param name="paramOrder2">Kolejność parametrów dla metody 2</param>
-            <param name="paramArrayType2">&gt;Typ tablicy parametrów.</param>
+            <param name="paramOrder2">Kolejność parametr中w dla metody 2</param>
+            <param name="paramArrayType2">&gt;Typ tablicy parametr中w.</param>
             <param name="types">Typy do przeszukania.</param>
             <param name="args">Argumenty.</param>
             <returns>Wartość int reprezentująca dopasowanie.</returns>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.RuntimeTypeHelper.FindMostSpecificType(System.Type,System.Type,System.Type)">
             <summary>
-            Znajduje najbardziej specyficzny typ spośród dwóch podanych.
+            Znajduje najbardziej specyficzny typ spośr中d dw中ch podanych.
             </summary>
             <param name="c1">Typ 1</param>
             <param name="c2">Typ 2</param>
@@ -1003,51 +1003,51 @@
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory">
             <summary>
-            Pobiera katalog podstawowy dla uruchomienia testu, w którym są przechowywane wdrożone pliki i pliki wyników.
+            Pobiera katalog podstawowy dla uruchomienia testu, w kt中rym są przechowywane wdrożone pliki i pliki wynik中w.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory">
             <summary>
-            Pobiera katalog dla plików wdrożonych na potrzeby uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Pobiera katalog dla plik中w wdrożonych na potrzeby uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory">
             <summary>
-            Pobiera katalog podstawowy dla wyników uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Pobiera katalog podstawowy dla wynik中w uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory">
             <summary>
-            Pobiera katalog dla plików wyników uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
+            Pobiera katalog dla plik中w wynik中w uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory">
             <summary>
-            Pobiera katalog dla plików wyników testu.
+            Pobiera katalog dla plik中w wynik中w testu.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDir">
             <summary>
-            Pobiera katalog podstawowy dla uruchomienia testu, w którym są przechowywane wdrożone pliki i pliki wyników.
+            Pobiera katalog podstawowy dla uruchomienia testu, w kt中rym są przechowywane wdrożone pliki i pliki wynik中w.
             Taki sam jak <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>. Zamiast tego użyj tej właściwości.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDeploymentDir">
             <summary>
-            Pobiera katalog dla plików wdrożonych na potrzeby uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
+            Pobiera katalog dla plik中w wdrożonych na potrzeby uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory"/>.
             Taki sam jak <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory"/>. Zamiast tego użyj tej właściwości.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestLogsDir">
             <summary>
-            Pobiera katalog dla plików wyników uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
-            Taki sam jak <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory"/>. Użyj tej właściwości dla plików wyników uruchomienia testu lub zamiast tego użyj katalogu
-            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory"/> dla plików wyników specyficznych dla testu.
+            Pobiera katalog dla plik中w wynik中w uruchomienia testu. Zazwyczaj jest to podkatalog <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory"/>.
+            Taki sam jak <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory"/>. Użyj tej właściwości dla plik中w wynik中w uruchomienia testu lub zamiast tego użyj katalogu
+            <see cref="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory"/> dla plik中w wynik中w specyficznych dla testu.
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName">
             <summary>
-            Pobiera w pełni kwalifikowaną nazwę klasy zawierającej metodę testowania, która jest obecnie wykonywana
+            Pobiera w pełni kwalifikowaną nazwę klasy zawierającej metodę testowania, kt中ra jest obecnie wykonywana
             </summary>
         </member>
         <member name="P:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestName">
@@ -1062,13 +1062,13 @@
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.WriteLine(System.String)">
             <summary>
-            Używane do zapisywania komunikatów śledzenia podczas działania testu
+            Używane do zapisywania komunikat中w śledzenia podczas działania testu
             </summary>
             <param name="message">ciąg sformatowanego komunikatu</param>
         </member>
         <member name="M:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.WriteLine(System.String,System.Object[])">
             <summary>
-            Używane do zapisywania komunikatów śledzenia podczas działania testu
+            Używane do zapisywania komunikat中w śledzenia podczas działania testu
             </summary>
             <param name="format">ciąg formatu</param>
             <param name="args">argumenty</param>

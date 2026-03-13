@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
 <Config>
 
   <Server EventLevel="0" LogType="0" />
@@ -9,6 +9,6 @@
   </GameServer>
   <DBLog DBLogEnable="0" Path="log" />
   <Zone ID="1" />
-   <!--Xóa bảng ghi sau 30 ngày|Tự tạo trước 3 bản ghi mỗi next DAY-->
+   <!--Xoa bang ghi sau 30 ngay|Tu tao truoc 3 ban ghi moi next DAY-->
   <Table DeleteTableAfter="30"  CreateTable="3"/>
 </Config>

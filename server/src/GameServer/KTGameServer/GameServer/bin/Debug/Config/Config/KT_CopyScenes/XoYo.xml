@@ -1,114 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	EventID: ID sự kiện (mặc định)
-	LimitMember: Số thành viên đội tối thiểu
-	RequireLevel: Yêu cầu cấp độ
-	LimitRoundEachDay: Giới hạn số vòng tham gia mỗi ngày
-	MaxStage: Tổng số ải tối đa mỗi vòng
+	EventID: ID su kien (mac dinh)
+	LimitMember: So thanh vien doi toi thieu
+	RequireLevel: Yeu cau cap do
+	LimitRoundEachDay: Gioi han so vong tham gia moi ngay
+	MaxStage: Tong so ai toi da moi vong
 	
-	MontlyStorageAward: Thông tin phần thưởng tích lũy tháng
-		- RankInfo: Thông tin phần thưởng theo thứ hạng
-			- FromRank: Từ thứ hạng
-			- ToRank: Đến thứ hạng
-			- Awards: Danh sách quà thưởng, gồm 3 tham biến ngăn cách nhau bởi dấu ; mỗi loại vật phẩm
-				- ItemID_Số lượng_Khóa hay không (1: Khóa, 0: Không khóa)
+	MontlyStorageAward: Thong tin phan thuong tich luy thang
+		- RankInfo: Thong tin phan thuong theo thu hang
+			- FromRank: Tu thu hang
+			- ToRank: Den thu hang
+			- Awards: Danh sach qua thuong, gom 3 tham bien ngan cach nhau boi dau ; moi loai vat pham
+				- ItemID_So luong_Khoa hay khong (1: Khoa, 0: Khong khoa)
 	
-	Repute: Thông tin danh vọng khi vượt ải
-		- Stage: Tương ứng một loại độ khó
-			- Difficulty: Độ khó
-			- OneRound: Vượt qua 1 ải
-			- TwoRound: Vượt qua 2 ải
-			- ThreeRound: Vượt qua 3 ải
-			- FourRound: Vượt qua 4 ải
-			- FiveRound: Vượt qua 5 ải
-			- LossRound: Thua ải
-	RegisterMap: Thông tin bản đồ báo danh
-	WaitingMap: Thông tin bản đồ chờ
-		- ID: ID bản đồ
-		- EnterPosX: Vị trí tiến vào X
-		- EnterPosY: Vị trí tiến vào Y
+	Repute: Thong tin danh vong khi vuot ai
+		- Stage: Tuong ung mot loai do kho
+			- Difficulty: Do kho
+			- OneRound: Vuot qua 1 ai
+			- TwoRound: Vuot qua 2 ai
+			- ThreeRound: Vuot qua 3 ai
+			- FourRound: Vuot qua 4 ai
+			- FiveRound: Vuot qua 5 ai
+			- LossRound: Thua ai
+	RegisterMap: Thong tin ban do bao danh
+	WaitingMap: Thong tin ban do cho
+		- ID: ID ban do
+		- EnterPosX: Vi tri tien vao X
+		- EnterPosY: Vi tri tien vao Y
 
-	Event: Ải
-	Type: Loại ải 
-		- KillMonster: Giết quái, Boss, ...
-		- HideTrapAndKillMonster: Tránh bẫy và giết quái
+	Event: Ai
+	Type: Loai ai 
+		- KillMonster: Giet quai, Boss, ...
+		- HideTrapAndKillMonster: Tranh bay va giet quai
 	Map:
-		- ID bản đồ ải
-		- Duration: Thời gian tồn tại ải (đơn vị Mili-giây)
-		- Difficulty: Độ khó của ải (đánh số từ 1 đến 3)
-	Monster: Thông tin quái
-		- ID: ID quái
-		- Name: Tên quái, bỏ trống sẽ lấy thông tin ở File cấu hình
-		- Title: Danh hiệu quái, bỏ trống sẽ lấy thông tin ở File cấu hình
-		- PosX: Vị trí X
-		- PosY: Vị trí Y
-		- BaseHP: Sinh lực cơ bản
-		- HPIncreaseEachLevel: Sinh lực tăng thêm với mỗi cấp
-		- AIType: Loại AI (0: Quái thường, 1: Quái tinh anh, 2: Quái thủ lĩnh, 3: Boss, 4: Hải tặc, 5: Quái chữ đỏ)
-		- AIScriptID: IDScriptAI điều khiển
-			- Nếu có sử dụng các Skill đánh thì AIScriptID để bằng 100001, sẽ không sử dụng kỹ năng đánh thường của quái như ngoài Map mà thay vào bằng kỹ năng trong danh sách thiết lập (buộc phải thiết lập kỹ năng đánh, nếu không sẽ lỗi)
-		- SpawnAfter: Xuất hiện sau khoảng thời gian (-1 nếu ngay lập tức)
+		- ID ban do ai
+		- Duration: Thoi gian ton tai ai (don vi Mili-giay)
+		- Difficulty: Do kho cua ai (danh so tu 1 den 3)
+	Monster: Thong tin quai
+		- ID: ID quai
+		- Name: Ten quai, bo trong se lay thong tin o File cau hinh
+		- Title: Danh hieu quai, bo trong se lay thong tin o File cau hinh
+		- PosX: Vi tri X
+		- PosY: Vi tri Y
+		- BaseHP: Sinh luc co ban
+		- HPIncreaseEachLevel: Sinh luc tang them voi moi cap
+		- AIType: Loai AI (0: Quai thuong, 1: Quai tinh anh, 2: Quai thu linh, 3: Boss, 4: Hai tac, 5: Quai chu do)
+		- AIScriptID: IDScriptAI dieu khien
+			- Neu co su dung cac Skill danh thi AIScriptID de bang 100001, se khong su dung ky nang danh thuong cua quai nhu ngoai Map ma thay vao bang ky nang trong danh sach thiet lap (buoc phai thiet lap ky nang danh, neu khong se loi)
+		- SpawnAfter: Xuat hien sau khoang thoi gian (-1 neu ngay lap tuc)
   
-  - ID_Cấp_Giãn cách mỗi lần dùng (-1) nếu chỉ dùng một lần
-		- Auras: Danh sách vòng sáng kích hoạt, gồm 2 tham biến, ngăn cách nhau bởi dấu ; giữa các loại vòng sáng
-			- ID_Cấp
-			- Tất cả quái xung quanh sẽ được vòng sáng tương ứng cho đến khi bản thân quái mang vòng sáng bị giết chết
-	Boss: Tương tự quái, nhưng nếu SpawnAfter = -1 thì Boss sẽ xuất hiện sau khi toàn bộ quái trong ải bị giết chết
-	Trap: Bẫy
-		- ID: ID Res (xem ở File Monster)
-		- PosX: Vị trí X
-		- PosY: Vị trí Y
-		- SpawnAfter: Xuất hiện sau khoảng thời gian (-1 nếu ngay lập tức)
-		- DestroyAfter: Tự hủy sau khoảng thời gian (-1 nếu tồn tại vĩnh viễn)
-		- Auras: Danh sách vòng sáng kích hoạt, gồm 2 tham biến, ngăn cách nhau bởi dấu ; giữa các loại vòng sáng
-			- ID_Cấp
-			- Tất cả quái xung quanh sẽ được vòng sáng tương ứng cho đến khi bản thân quái mang vòng sáng bị giết chết
-	Trigger: Cơ quan
-		- ID: ID Res (xem ở File Npc)
-		- Name: Tên cơ quan
-		- CollectTick: Thời gian mở (mili-giây)
-		- PosX: Vị trí X
-		- PosY: Vị trí Y
-		- Index: Thứ tự xuất hiện của cơ quan
-	Guardian: Quái bảo vệ cơ quan
-		- Các thuộc tính giống quái thường, không có SpawnAfter
-		- TriggerIndex: Bảo vệ cơ quan có thứ tự tương ứng
+  - ID_Cap_Gian cach moi lan dung (-1) neu chi dung mot lan
+		- Auras: Danh sach vong sang kich hoat, gom 2 tham bien, ngan cach nhau boi dau ; giua cac loai vong sang
+			- ID_Cap
+			- Tat ca quai xung quanh se duoc vong sang tuong ung cho den khi ban than quai mang vong sang bi giet chet
+	Boss: Tuong tu quai, nhung neu SpawnAfter = -1 thi Boss se xuat hien sau khi toan bo quai trong ai bi giet chet
+	Trap: Bay
+		- ID: ID Res (xem o File Monster)
+		- PosX: Vi tri X
+		- PosY: Vi tri Y
+		- SpawnAfter: Xuat hien sau khoang thoi gian (-1 neu ngay lap tuc)
+		- DestroyAfter: Tu huy sau khoang thoi gian (-1 neu ton tai vinh vien)
+		- Auras: Danh sach vong sang kich hoat, gom 2 tham bien, ngan cach nhau boi dau ; giua cac loai vong sang
+			- ID_Cap
+			- Tat ca quai xung quanh se duoc vong sang tuong ung cho den khi ban than quai mang vong sang bi giet chet
+	Trigger: Co quan
+		- ID: ID Res (xem o File Npc)
+		- Name: Ten co quan
+		- CollectTick: Thoi gian mo (mili-giay)
+		- PosX: Vi tri X
+		- PosY: Vi tri Y
+		- Index: Thu tu xuat hien cua co quan
+	Guardian: Quai bao ve co quan
+		- Cac thuoc tinh giong quai thuong, khong co SpawnAfter
+		- TriggerIndex: Bao ve co quan co thu tu tuong ung
 		
-	CHÚ THÍCH ẢI:
-		- KillMonster: Ải này yêu cầu người chơi giết hết quái và sau đó là Boss
-			- Với ải chứa quái và Boss xuất hiện theo thời gian thì chờ hết thời gian xuất hiện và giết hết toàn bộ Boss và quái theo thời gian là hoàn thành ải
-			- Với ải chứa quái và Boss xuất hiện ngay lập tức không theo thời gian thì Boss chỉ xuất hiện sau khi giết toàn bộ quái
-			- Có thể có nhiều Boss
-		- HideTrapAndKillMonster: Ải này yêu cầu người chơi giết hết quái và sau đó là Boss, đồng thời phải tránh các cơ quan
-			- Tương tự ải trên
-			- Cơ quan có thể xuất hiện theo thời gian, tồn tại trong khoảng hoặc vĩnh viễn
-			- Cơ quan sẽ tự hủy sau khi hoàn thành ải
-		- UnlockTriggerAndKillMonster: Ải này yêu cầu người chơi mở cơ quan, sau đó đánh hộ vệ (nếu có) và tương tự như ải giết quái, cuối cùng là Boss
-			- Tương tự như ải đánh quái và Boss
-			- Cơ quan sẽ xuất hiện ngay lập tức từ đầu, và theo một chuỗi thứ tự yêu cầu phải mở cơ quan trước, đánh bại toàn bộ hộ vệ thì cơ quan sau sẽ tự mở
-			- Boss (nếu có) chỉ xuất hiện sau khi toàn bộ cơ quan được khai mở
+	CHU THICH AI:
+		- KillMonster: Ai nay yeu cau nguoi choi giet het quai va sau do la Boss
+			- Voi ai chua quai va Boss xuat hien theo thoi gian thi cho het thoi gian xuat hien va giet het toan bo Boss va quai theo thoi gian la hoan thanh ai
+			- Voi ai chua quai va Boss xuat hien ngay lap tuc khong theo thoi gian thi Boss chi xuat hien sau khi giet toan bo quai
+			- Co the co nhieu Boss
+		- HideTrapAndKillMonster: Ai nay yeu cau nguoi choi giet het quai va sau do la Boss, dong thoi phai tranh cac co quan
+			- Tuong tu ai tren
+			- Co quan co the xuat hien theo thoi gian, ton tai trong khoang hoac vinh vien
+			- Co quan se tu huy sau khi hoan thanh ai
+		- UnlockTriggerAndKillMonster: Ai nay yeu cau nguoi choi mo co quan, sau do danh ho ve (neu co) va tuong tu nhu ai giet quai, cuoi cung la Boss
+			- Tuong tu nhu ai danh quai va Boss
+			- Co quan se xuat hien ngay lap tuc tu dau, va theo mot chuoi thu tu yeu cau phai mo co quan truoc, danh bai toan bo ho ve thi co quan sau se tu mo
+			- Boss (neu co) chi xuat hien sau khi toan bo co quan duoc khai mo
 -->
 <XoYo EventID="11" LimitMember="1" RequireLevel="50" LimitRoundEachDay="1" MaxStage="5">
-	<!-- Phần thưởng tích lũy danh vọng tháng -->
+	<!-- Phan thuong tich luy danh vong thang -->
 	<MontlyStorageAward>
 		<RankInfo FromRank="1" ToRank="100" Awards="132_100_0;496_1_1" />
 		<RankInfo FromRank="101" ToRank="200" Awards="132_50_1" />
 	</MontlyStorageAward>
 
-	<!-- Phần thưởng danh vọng vượt ải -->
+	<!-- Phan thuong danh vong vuot ai -->
 	<Repute>
 		<Stage Difficulty="1" OneRound="1" TwoRound="1" ThreeRound="1" FourRound="1" FiveRound="2" LossRound="1" />
 		<Stage Difficulty="2" OneRound="1" TwoRound="1" ThreeRound="2" FourRound="2" FiveRound="3" LossRound="1" />
 		<Stage Difficulty="3" OneRound="1" TwoRound="2" ThreeRound="3" FourRound="3" FiveRound="4" LossRound="1" />
 	</Repute>
 
-	<!-- Bản đồ báo danh -->
+	<!-- Ban do bao danh -->
 	<RegisterMap ID="341" EnterPosX="1869" EnterPosY="817" />
 
-	<!-- Bản đồ chờ -->
+	<!-- Ban do cho -->
 	<WaitingMap ID="304" EnterPosX="2044" EnterPosY="1259" />
 
-	<!-- Ải giết quái, Boss -->
+	<!-- Ai giet quai, Boss -->
 
 	<Map ID="301" Type="KillMonster" Duration="300000" EnterPosX="2296" EnterPosY="1870" Difficulty="1">
 		<Monster ID="2009" Name="" Title="" PosX="1485" PosY="1348" BaseHP="5770" HPIncreaseEachLevel="225" AIType="5" AIScriptID="100000" SpawnAfter="-1" Auras="106_10" Skills="" />
@@ -564,13 +564,13 @@
 	</Map>
 	
 		
-	<!-- Ải này Boss trâu, sử dụng Huyễn Ảnh Truy Hồn Thương cấp 20, Vân Long Kích cấp 40, Phi Hồng Vô Tích cấp 20, Ma Âm Phệ Phách cấp 20 -->
+	<!-- Ai nay Boss trau, su dung Huyen Anh Truy Hon Thuong cap 20, Van Long Kich cap 40, Phi Hong Vo Tich cap 20, Ma Am Phe Phach cap 20 -->
 	<Map ID="312" Type="KillMonster" Duration="600000" EnterPosX="2445" EnterPosY="1675" Difficulty="2">
 		<Boss ID="3250" Name="" Title="" PosX="1882" PosY="1963" BaseHP="2622000" HPIncreaseEachLevel="8100" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="148_15_15000;492_15_5000;847_15_10000;149_20_-1" />		
 	</Map>
 	
 		
-	<!-- Ải này Boss rất trâu, dùng Sư Tử Hống cấp 20, Thất Tinh La Sát Côn cấp 40, Túy Bát Tiên Côn cấp 20 -->
+	<!-- Ai nay Boss rat trau, dung Su Tu Hong cap 20, That Tinh La Sat Con cap 40, Tuy Bat Tien Con cap 20 -->
 	
 	<Map ID="314" Type="KillMonster" Duration="600000" EnterPosX="336" EnterPosY="761" Difficulty="3">
 	
@@ -653,7 +653,7 @@
 	</Map>
 	
 	
-	<!-- Ải này Boss rất trâu dùng Đoạn Hồn Thích, Truy Tinh Trục Nguyệt, Thiên Vương Chiến Ý, Kim Chung Tráo cấp 40 -->
+	<!-- Ai nay Boss rat trau dung Doan Hon Thich, Truy Tinh Truc Nguyet, Thien Vuong Chien Y, Kim Chung Trao cap 40 -->
 	
 	<Map ID="317" Type="KillMonster" Duration="420000" EnterPosX="1763" EnterPosY="2894" Difficulty="3">
 	
@@ -799,7 +799,7 @@
 	
 	
 	
-	<!-- Ải tránh bẫy, giết quái và Boss, quái dùng Thiên Trúc Tuyệt Đao cấp 10, Boss dùng Sư Tử Hống cấp 10, Thiên Trúc Tuyệt Đao cấp 40 -->
+	<!-- Ai tranh bay, giet quai va Boss, quai dung Thien Truc Tuyet Dao cap 10, Boss dung Su Tu Hong cap 10, Thien Truc Tuyet Dao cap 40 -->
 	<Map ID="305" Type="KillMonster" Duration="480000" EnterPosX="5035" EnterPosY="1934" Difficulty="2">
 		
 		<Monster ID="3157" Name="" Title="Tinh Anh" PosX="4569" PosY="1966" BaseHP="3000" HPIncreaseEachLevel="225" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="1091_15" Skills="27_15_-1" />
@@ -870,7 +870,7 @@
 		<Boss ID="3264" Name="" Title="" PosX="911" PosY="2340" BaseHP="3222000" HPIncreaseEachLevel="3100" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="31_10_5000;27_20_-1" />
 	</Map>
 	
-	<!-- Ải này tránh bẫy và đánh Boss, quái dùng Tứ Tượng Đồng Quy cấp 10, Boss có Mộng Điệp cấp 40, dùng Phong Sương Toái Ảnh cấp 20 -->
+	<!-- Ai nay tranh bay va danh Boss, quai dung Tu Tuong Dong Quy cap 10, Boss co Mong Diep cap 40, dung Phong Suong Toai Anh cap 20 -->
 	<Map ID="306" Type="KillMonster" Duration="480000" EnterPosX="339" EnterPosY="1295" Difficulty="2">
 		
 		<Monster ID="3291" Name="" Title="" PosX="1163" PosY="770" BaseHP="15770" HPIncreaseEachLevel="225" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="106_20" Skills="99_15_-1" />
@@ -955,7 +955,7 @@
 		
 	</Map>
 	
-	<!-- Ải tránh bẫy và giết quái, ải này quái sẽ có A La Hán Thần Công cấp 20, Boss sẽ có Lưu Tinh Chùy cấp 40, Long Thôn Thức cấp 20, Kim Qua Thiết Mã cấp 20, Khốn Hổ Vân Tiếu cấp 20 -->
+	<!-- Ai tranh bay va giet quai, ai nay quai se co A La Han Than Cong cap 20, Boss se co Luu Tinh Chuy cap 40, Long Thon Thuc cap 20, Kim Qua Thiet Ma cap 20, Khon Ho Van Tieu cap 20 -->
 	<Map ID="307" Type="KillMonster" Duration="600000" EnterPosX="1763" EnterPosY="2894" Difficulty="2">
 		
 		<Monster ID="3174" Name="" Title="Tinh Anh" PosX="3377" PosY="3083" BaseHP="15770" HPIncreaseEachLevel="325" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="1091_15" Skills="199_10_2000;194_20_-1" />
@@ -1096,7 +1096,7 @@
 		<Boss ID="3263" Name="" Title="" PosX="2570" PosY="1977" BaseHP="322000" HPIncreaseEachLevel="12225" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="201_40" Skills="198_20_5000;199_20_2000;202_25_-1" />
 	</Map>
 	
-	<!-- Ải này tránh bẫy và đánh Boss, quái có A La Hán Thần Công cấp 20, Boss có Lăng Ba Vi Bộ cấp 20, Phong Sương Toái Ảnh cấp 20 -->
+	<!-- Ai nay tranh bay va danh Boss, quai co A La Han Than Cong cap 20, Boss co Lang Ba Vi Bo cap 20, Phong Suong Toai Anh cap 20 -->
 	<Map ID="308" Type="KillMonster" Duration="480000" EnterPosX="2404" EnterPosY="1737" Difficulty="2">
 		
 		<Monster ID="2006" Name="" Title="Tinh Anh" PosX="2693" PosY="570" BaseHP="15770" HPIncreaseEachLevel="500" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="116_20" Skills="114_20_-1" />
@@ -1177,7 +1177,7 @@
 		<Boss ID="3221" Name="" Title="" PosX="2651" PosY="2037" BaseHP="2322000" HPIncreaseEachLevel="43100" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="103_15_-1;1095_15_30000" />
 	</Map>
 
-	<!-- Ải này tránh bẫy và đánh Boss, quái dùng Kim Ngọc Mãn Đường cấp 10, Boss dùng Lục Mạch Thần Kiếm cấp 10 -->
+	<!-- Ai nay tranh bay va danh Boss, quai dung Kim Ngoc Man Duong cap 10, Boss dung Luc Mach Than Kiem cap 10 -->
 	<Map ID="309" Type="KillMonster" Duration="480000" EnterPosX="1477" EnterPosY="2032" Difficulty="2">
 		
 		<Monster ID="2212" Name="" Title="" PosX="1595" PosY="2273" BaseHP="15770" HPIncreaseEachLevel="500" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="229_25_-1" />
@@ -1213,7 +1213,7 @@
 		<Boss ID="4666" Name="" Title="" PosX="2680" PosY="2581" BaseHP="1822000" HPIncreaseEachLevel="3100" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="232_20_-1" />	
 	</Map>
 	
-	<!-- đoàn thị chỉ 5x -->
+	<!-- doan thi chi 5x -->
 	
 	<Map ID="309" Type="KillMonster" Duration="480000" EnterPosX="1477" EnterPosY="2032" Difficulty="2">
 		
@@ -1250,7 +1250,7 @@
 		<Boss ID="4666" Name="" Title="" PosX="2680" PosY="2581" BaseHP="1822000" HPIncreaseEachLevel="3100" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="223_20_-1" />	
 	</Map>
 	
-	<!-- Ải này giết quái và đánh Boss, quái sẽ có Phật Âm Chiến Ý cấp 15, Boss sẽ có Phật Quang Chiến Khí cấp 20, Mộng Điệp cấp 40, Bắc Minh Thần Công cấp 40 -->
+	<!-- Ai nay giet quai va danh Boss, quai se co Phat Am Chien Y cap 15, Boss se co Phat Quang Chien Khi cap 20, Mong Diep cap 40, Bac Minh Than Cong cap 40 -->
 	<Map ID="311" Type="KillMonster" Duration="600000" EnterPosX="2315" EnterPosY="2259" Difficulty="2">
 		<Monster ID="2056" Name="" Title="" PosX="2782" PosY="2097" BaseHP="15770" HPIncreaseEachLevel="500" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="107_15_-1" />
 		<Monster ID="2056" Name="" Title="" PosX="2788" PosY="2305" BaseHP="15770" HPIncreaseEachLevel="500" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="107_15_-1" />
@@ -1309,7 +1309,7 @@
 		<Boss ID="3244" Name="" Title="" PosX="2527" PosY="2200" BaseHP="1622000" HPIncreaseEachLevel="41000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="106_20;228_20" Skills="837_12_-1" />
 	</Map>
 	
-	<!-- ma nhẫn 5x -->
+	<!-- ma nhan 5x -->
 	
 	<Map ID="311" Type="KillMonster" Duration="600000" EnterPosX="2315" EnterPosY="2259" Difficulty="2">
 		<Monster ID="2056" Name="" Title="" PosX="2782" PosY="2097" BaseHP="15770" HPIncreaseEachLevel="500" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="153_15_-1" />
@@ -1371,12 +1371,12 @@
 
 	
 	
-	<!-- Ải mở cơ quan và giết quái, quái có Vô Hình Cổ cấp 20, Boss dùng Âm Phong Thực Cốt cấp 20 -->
+	<!-- Ai mo co quan va giet quai, quai co Vo Hinh Co cap 20, Boss dung Am Phong Thuc Cot cap 20 -->
 	
 	<Map ID="298" Type="UnlockTriggerAndKillMonster" Duration="600000" EnterPosX="2316" EnterPosY="2257" Difficulty="3">
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="4585" PosY="1789" Index="1" />
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="5659" PosY="2920" Index="2" />
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="4639" PosY="3751" Index="3" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="4585" PosY="1789" Index="1" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="5659" PosY="2920" Index="2" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="4639" PosY="3751" Index="3" />
 		
 		<Guardian ID="6156" Name="" Title="" PosX="2782" PosY="2097" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="1092_30" Skills="90_20_-1" />
 		<Guardian ID="6156" Name="" Title="" PosX="2788" PosY="2305" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="1092_30" Skills="90_20_-1" />
@@ -1435,12 +1435,12 @@
 		<Boss ID="3229" Name="" Title="" PosX="4602" PosY="3579" BaseHP="3220000" HPIncreaseEachLevel="50000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="1092_40" Skills="93_25_-1" />
 	</Map>
 	
-	<!-- 5 độc chưởng 9x -->
+	<!-- 5 doc chuong 9x -->
 	
 	<Map ID="298" Type="UnlockTriggerAndKillMonster" Duration="600000" EnterPosX="2316" EnterPosY="2257" Difficulty="3">
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="4585" PosY="1789" Index="1" />
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="5659" PosY="2920" Index="2" />
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="4639" PosY="3751" Index="3" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="4585" PosY="1789" Index="1" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="5659" PosY="2920" Index="2" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="4639" PosY="3751" Index="3" />
 		
 		<Guardian ID="6156" Name="" Title="" PosX="2782" PosY="2097" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="" Skills="93_15_-1" />
 		<Guardian ID="6156" Name="" Title="" PosX="2788" PosY="2305" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="" Skills="93_15_-1" />
@@ -1499,12 +1499,12 @@
 		<Boss ID="3229" Name="" Title="" PosX="4602" PosY="3579" BaseHP="3220000" HPIncreaseEachLevel="50000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="1092_40" Skills="93_25_-1" />
 	</Map>
 	
-	<!-- Ải mở cơ quan và giết toàn bộ hộ vệ, hộ vệ sẽ dùng kỹ năng Mộng Điệp, Kim Ngọc Mãn Đường cấp 20 liên tục, Boss sẽ dùng Kinh Thiên Nhất Kiếm (Cấp 10), Lục Mạch Thần Kiếm (cấp 40) -->
+	<!-- Ai mo co quan va giet toan bo ho ve, ho ve se dung ky nang Mong Diep, Kim Ngoc Man Duong cap 20 lien tuc, Boss se dung Kinh Thien Nhat Kiem (Cap 10), Luc Mach Than Kiem (cap 40) -->
 	
 	<Map ID="310" Type="UnlockTriggerAndKillMonster" Duration="600000" EnterPosX="339" EnterPosY="1295" Difficulty="3">
 	
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="1006" PosY="714" Index="1" />
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="2270" PosY="2240" Index="2" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="1006" PosY="714" Index="1" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="2270" PosY="2240" Index="2" />
 		
 		<Guardian ID="6156" Name="" Title="" PosX="1163" PosY="770" BaseHP="18770" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="106_40" Skills="229_25_-1" />		
 		<Guardian ID="3291" Name="" Title="" PosX="925" PosY="746" BaseHP="18770" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="106_40" Skills="229_25_-1" />
@@ -1540,12 +1540,12 @@
 		<Boss ID="4665" Name="" Title="" PosX="2356" PosY="743" BaseHP="28220000" HPIncreaseEachLevel="12000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="106_40" Skills="865_10_10000;232_25_-1" />
 	</Map>
 	
-	<!-- đoàn thị kiếm 9x -->
+	<!-- doan thi kiem 9x -->
 	
 	<Map ID="310" Type="UnlockTriggerAndKillMonster" Duration="600000" EnterPosX="339" EnterPosY="1295" Difficulty="3">
 	
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="1006" PosY="714" Index="1" />
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="2270" PosY="2240" Index="2" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="1006" PosY="714" Index="1" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="2270" PosY="2240" Index="2" />
 		
 		<Guardian ID="6156" Name="" Title="" PosX="1163" PosY="770" BaseHP="18770" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="106_40" Skills="232_15_-1" />		
 		<Guardian ID="3291" Name="" Title="" PosX="925" PosY="746" BaseHP="18770" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="106_40" Skills="232_15_-1" />
@@ -1581,7 +1581,7 @@
 		<Boss ID="4665" Name="" Title="" PosX="2356" PosY="743" BaseHP="28220000" HPIncreaseEachLevel="12000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="106_40" Skills="865_10_10000;232_25_-1" />
 	</Map>
 	
-	<!-- Ải mở cơ quan và giết toàn bộ hộ vệ, hộ vệ sẽ có vòng sáng A La Hán Thần Công cấp 40 (1 con duy nhất 1 bãi), Boss sẽ sử dụng các kỹ năng Lôi Đình Quyết, Cuồng Lôi Chấn Địa, Thiên Tế Tấn Lôi, Lôi Động Cửu Thiên cấp 40 -->
+	<!-- Ai mo co quan va giet toan bo ho ve, ho ve se co vong sang A La Han Than Cong cap 40 (1 con duy nhat 1 bai), Boss se su dung cac ky nang Loi Dinh Quyet, Cuong Loi Chan Dia, Thien Te Tan Loi, Loi Dong Cuu Thien cap 40 -->
 
 	<Map ID="315" Type="KillMonster" Duration="480000" EnterPosX="5035" EnterPosY="1934" Difficulty="3">
 		
@@ -1633,7 +1633,7 @@
 		<Boss ID="6203" Name="" Title="" PosX="862" PosY="2324" BaseHP="5220000" HPIncreaseEachLevel="52000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="61_30" Skills="64_25_3000;74_40_2000;72_40_-1" />
 	</Map>
 	
-	<!-- côn lôn đao 5x -->
+	<!-- con lon dao 5x -->
 	
 	<Map ID="315" Type="KillMonster" Duration="480000" EnterPosX="5035" EnterPosY="1934" Difficulty="3">
 		
@@ -1687,11 +1687,11 @@
 	</Map>
 	
 	
-	<!-- Ải này mở cơ quan và giết Boss, hộ vệ cơ quan toàn bộ sẽ có Vô Hình Cổ cấp 20 dưới chân, riêng Boss sẽ dùng kỹ năng Thánh Hỏa Phần Tâm, Vạn Vật Câu Phần, Thánh Hỏa Liêu Nguyên, Thâu Thiên Hoán Nhật cấp 40 -->
+	<!-- Ai nay mo co quan va giet Boss, ho ve co quan toan bo se co Vo Hinh Co cap 20 duoi chan, rieng Boss se dung ky nang Thanh Hoa Phan Tam, Van Vat Cau Phan, Thanh Hoa Lieu Nguyen, Thau Thien Hoan Nhat cap 40 -->
 	
 	<Map ID="318" Type="UnlockTriggerAndKillMonster" Duration="480000" EnterPosX="1207" EnterPosY="1263" Difficulty="3">
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="1240" PosY="1989" Index="1" />
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="2578" PosY="1997" Index="2" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="1240" PosY="1989" Index="1" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="2578" PosY="1997" Index="2" />
 		
 		<Guardian ID="6156" Name="" Title="" PosX="1178" PosY="2189" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="1092_30" Skills="208_20_-1" />
 		<Guardian ID="6156" Name="" Title="" PosX="1317" PosY="2006" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="1092_30" Skills="208_20_-1" />
@@ -1723,8 +1723,8 @@
 	<!-- mgk 9x -->
 	
 	<Map ID="318" Type="UnlockTriggerAndKillMonster" Duration="480000" EnterPosX="1207" EnterPosY="1263" Difficulty="3">
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="1240" PosY="1989" Index="1" />
-		<Trigger ID="4234" Name="Cơ Quan" CollectTick="8000" PosX="2578" PosY="1997" Index="2" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="1240" PosY="1989" Index="1" />
+		<Trigger ID="4234" Name="Co Quan" CollectTick="8000" PosX="2578" PosY="1997" Index="2" />
 		
 		<Guardian ID="6156" Name="" Title="" PosX="1178" PosY="2189" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="1092_30" Skills="211_10_-1" />
 		<Guardian ID="6156" Name="" Title="" PosX="1317" PosY="2006" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" TriggerIndex="1" Auras="1092_30" Skills="211_10_-1" />
@@ -1753,7 +1753,7 @@
 		<Boss ID="6201" Name="" Title="" PosX="2843" PosY="1482" BaseHP="7220000" HPIncreaseEachLevel="32000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="1093_20_20000;205_25_700;208_25_1500;211_20_5000" />
 	</Map>
 	
-	<!-- Ải này chỉ có Boss, rất trâu, dùng kỹ năng Hỏa Liên Phần Hoa, Đạn Chỉ Liệt Diệm, Thôi Sơn Điền Hải, Thiên Ngoại Lưu Tinh cấp 40 -->
+	<!-- Ai nay chi co Boss, rat trau, dung ky nang Hoa Lien Phan Hoa, Dan Chi Liet Diem, Thoi Son Dien Hai, Thien Ngoai Luu Tinh cap 40 -->
 	
 	<Map ID="320" Type="KillMonster" Duration="480000" EnterPosX="2319" EnterPosY="2252" Difficulty="3">
 	
@@ -1814,7 +1814,7 @@
 		<Boss ID="2215" Name="" Title="" PosX="2527" PosY="2200" BaseHP="4822000" HPIncreaseEachLevel="131000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="494_20_15000;151_25_1500;153_25_2500;156_25_-1" />
 	</Map>
 	
-	<!-- 5 ĐỘC ĐAO 5X -->
+	<!-- 5 DOC DAO 5X -->
 	
 	<Map ID="320" Type="KillMonster" Duration="480000" EnterPosX="2319" EnterPosY="2252" Difficulty="3">
 	
@@ -1875,7 +1875,7 @@
 		<Boss ID="2215" Name="" Title="" PosX="2527" PosY="2200" BaseHP="4822000" HPIncreaseEachLevel="131000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="494_20_15000;151_25_1500;153_25_2500;156_25_-1" />
 	</Map>
 	
-	<!-- Ải này chỉ có Boss, rất trâu, dùng kỹ năng Vô Hình Cổ, Chu Cáp Thanh Minh, Huyền Âm Trảm cấp 40 -->
+	<!-- Ai nay chi co Boss, rat trau, dung ky nang Vo Hinh Co, Chu Cap Thanh Minh, Huyen Am Tram cap 40 -->
 	
 	<Map ID="319" Type="KillMonster" Duration="420000" EnterPosX="1176" EnterPosY="2216" Difficulty="3">
 		<Monster ID="2212" Name="" Title="" PosX="1595" PosY="2273" BaseHP="15770" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="1092_30" Skills="83_25_-1" />
@@ -1911,7 +1911,7 @@
 		<Boss ID="7334" Name="" Title="" PosX="2897" PosY="1497" BaseHP="3722000" HPIncreaseEachLevel="110000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="1092_40" Skills="831_20_15000;83_25_-1" />
 	</Map>
 	
-	<!-- đao độc 5x -->
+	<!-- dao doc 5x -->
 	
 	<Map ID="319" Type="KillMonster" Duration="420000" EnterPosX="1176" EnterPosY="2216" Difficulty="3">
 		<Monster ID="2212" Name="" Title="" PosX="1595" PosY="2273" BaseHP="15770" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="1092_30" Skills="80_25_-1" />
@@ -1947,7 +1947,7 @@
 		<Boss ID="7334" Name="" Title="" PosX="2897" PosY="1497" BaseHP="3722000" HPIncreaseEachLevel="110000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="1092_40" Skills="831_20_15000;83_25_-1" />
 	</Map>
 	
-	<!-- Ải này chỉ có Boss, rất trâu, dùng kỹ năng Tôi Độc Thuật, Bạo Vũ Lê Hoa và Đoạn Cân Nhãn cấp 40 -->
+	<!-- Ai nay chi co Boss, rat trau, dung ky nang Toi Doc Thuat, Bao Vu Le Hoa va Doan Can Nhan cap 40 -->
 	
 	<Map ID="321" Type="KillMonster" Duration="480000" EnterPosX="726" EnterPosY="2124" Difficulty="3">
 		<Monster ID="2010" Name="" Title="" PosX="1220" PosY="1871" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="61_30" Skills="66_40_-1" />
@@ -1991,7 +1991,7 @@
 		<Boss ID="6737" Name="" Title="" PosX="1166" PosY="2065" BaseHP="5122000" HPIncreaseEachLevel="120000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="61_40" Skills="266_10_10000;66_30_-1" />
 	</Map>
 	
-	<!-- côn lôn đao 9x -->
+	<!-- con lon dao 9x -->
 	
 	<Map ID="321" Type="KillMonster" Duration="480000" EnterPosX="726" EnterPosY="2124" Difficulty="3">
 		<Monster ID="2010" Name="" Title="" PosX="1220" PosY="1871" BaseHP="22000" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="181_20_-1" />
@@ -2035,7 +2035,7 @@
 		<Boss ID="6737" Name="" Title="" PosX="1166" PosY="2065" BaseHP="5122000" HPIncreaseEachLevel="120000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="61_40" Skills="180_10_10000;181_20_-1" />
 	</Map>
 	
-	<!-- Ải này quái dùng Băng Tâm Tiên Tử, có 2 con skill cấp 40, còn lại cấp 20, vòng sáng A La Hán Thần Công cấp 40 1 con duy nhất, Boss dùng Phong Sương Toái Ảnh, mộng điệp -->
+	<!-- Ai nay quai dung Bang Tam Tien Tu, co 2 con skill cap 40, con lai cap 20, vong sang A La Han Than Cong cap 40 1 con duy nhat, Boss dung Phong Suong Toai Anh, mong diep -->
 	
 	<Map ID="313" Type="KillMonster" Duration="600000" EnterPosX="2296" EnterPosY="1870" Difficulty="3">
 		<Monster ID="2278" Name="" Title="Tinh Anh" PosX="1485" PosY="1348" BaseHP="15770" HPIncreaseEachLevel="0" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="106_40" Skills="103_25_-1" />
@@ -2075,7 +2075,7 @@
 		<Boss ID="3316" Name="" Title="" PosX="2250" PosY="1980" BaseHP="5222000" HPIncreaseEachLevel="70000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="1092_40" Skills="103_25_-1" />		
 	</Map>
 	
-	<!-- chiến nhẫn 9x -->
+	<!-- chien nhan 9x -->
 	
 	<Map ID="313" Type="KillMonster" Duration="600000" EnterPosX="2296" EnterPosY="1870" Difficulty="3">
 		<Monster ID="2278" Name="" Title="Tinh Anh" PosX="1485" PosY="1348" BaseHP="15770" HPIncreaseEachLevel="0" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="156_10_-1" />
@@ -2115,7 +2115,7 @@
 		<Boss ID="3316" Name="" Title="" PosX="2250" PosY="1980" BaseHP="5222000" HPIncreaseEachLevel="70000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="148_20_10000;149_25_-1" />		
 	</Map>
 	
-	<!-- Ải này quái sẽ dùng kỹ năng Kháng Long Hữu Hối cấp 40 (2 con) và còn lại là cấp 20, Boss sẽ có 2 con và sẽ sử dụng Thời Thừa Lục Long và Phi Long Tại Thiên -->
+	<!-- Ai nay quai se dung ky nang Khang Long Huu Hoi cap 40 (2 con) va con lai la cap 20, Boss se co 2 con va se su dung Thoi Thua Luc Long va Phi Long Tai Thien -->
 	
 	<Map ID="316" Type="KillMonster" Duration="420000" EnterPosX="339" EnterPosY="1295" Difficulty="3">
 		<Monster ID="3291" Name="" Title="" PosX="1163" PosY="770" BaseHP="15770" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="106_40" Skills="134_25_-1" />
@@ -2156,7 +2156,7 @@
 		<Boss ID="3267" Name="" Title="" PosX="2077" PosY="2260" BaseHP="4822000" HPIncreaseEachLevel="30000" AIType="3" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="489_20_20000;134_30_-1" />
 	</Map>
 	
-	<!-- cái bang bổng 9x -->
+	<!-- cai bang bong 9x -->
 	
 	<Map ID="316" Type="KillMonster" Duration="420000" EnterPosX="339" EnterPosY="1295" Difficulty="3">
 		<Monster ID="3291" Name="" Title="" PosX="1163" PosY="770" BaseHP="15770" HPIncreaseEachLevel="12225" AIType="5" AIScriptID="100001" SpawnAfter="-1" Auras="" Skills="141_25_-1" />
